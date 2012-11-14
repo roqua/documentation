@@ -28,5 +28,5 @@ prepared for a given token.
          "short_description":"Klachtenlijst"
       }
    ]
-}                                                                                                                           }
+}
 ```
