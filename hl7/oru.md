@@ -5,10 +5,10 @@ This document describes the types of ORU messages RoQua sends out. The list of
 examples when the ORUs are triggered are not exhaustive, and the given ORU-messages
 serve as examples. For details, please refer to the HL7 v2.4 specification.
 
-## Empty answer
+## Empty survey
 
-Upon creation of an answer, an ORU message will be sent with status `S`. This status
-will also be sent when an incompletable answer becomes completable again.
+Upon creation of an survey, an ORU message will be sent with status `S`. This status
+will also be sent when an incompletable survey becomes completable again.
 
 ```
 MSH|^~\&|Roqua|RGOc|||20121120113522||ORU^R01|8da2b665b7|P|2.4|||||||
@@ -39,15 +39,15 @@ OBX|22|ST|mansa_19^MANSA v_19^L||||||||S|||201211201139
 OBX|23|ST|mansa_20^MANSA v_20^L||||||||S|||201211201139
 ```
 
-## Completed answer
+## Completed survey
 
 TODO
 
-## Answers that can no longer be completed
+## Surveys that can no longer be completed
 
-When an uncompleted invitation gets closed or expires, the answers that were created
+When an uncompleted invitation gets closed or expires, the surveys that were created
 for it can no longer be completed. In this case, RoQua sends out ORUs with status `X`
-for those answers.
+for those surveys.
 
 ```
 MSH|^~\&|Roqua|RGOc|||20121120113543||ORU^R01|bef30795c0|P|2.4|||||||
@@ -78,11 +78,11 @@ OBX|22|ST|mansa_19^MANSA v_19^L||||||||X|||201211201139
 OBX|23|ST|mansa_20^MANSA v_20^L||||||||X|||201211201139
 ```
 
-## Answers that are deleted
+## Surveys that are deleted
 
-When a measurement is deleted, the answers that were recorded under it are
+When a measurement is deleted, the surveys that were recorded under it are
 also deleted. When this happens, ORU messages with status `D` are triggered
-for these answers.
+for these surveys.
 
 ```
 MSH|^~\&|Roqua|RGOc|||20121120122117||ORU^R01|5e771beaed|P|2.4|||||||
