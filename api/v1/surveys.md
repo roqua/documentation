@@ -8,6 +8,7 @@ Requests for surveys are namespaced under the `/api/v1/dossiers/DOSSIER_ID` path
 ## Attributes
 
   * `name`      - The name of the survey.
+
   * `status`    - One of the following values:
 
       * `scheduled` - This survey is scheduled to be completed at a later time.
@@ -21,15 +22,19 @@ Requests for surveys are namespaced under the `/api/v1/dossiers/DOSSIER_ID` path
   * `open_from` - An ISO 8601 formatted string that indicates when the survey becomes
                   completable, or `null` if this survey is not only completable within a
                   specific time window.
+
   * `open_till` - An ISO 8601 formatted string that indicates when the survey expires and is
                   no longer completable, or `null` if this survey is not only completable
                   within a specific time window.
+
   * `completer_type` - Describes for whom this survey is intended. Can be `patient`,
                        `professional`, `parent`, `second_parent` or `teacher`. More types
                        might be added later, therefore it is advised that API consumers
                        select the desired types, and not reject the undesired types.
+
   * `completed_at` - An ISO 8601 formatted string that indicates when the survey,
                      or `null` if this survey is not yet completed.
+
   * `completing_url` - The URL that can be visited to complete this (and possibly
                        other) survey(s). Will be `null` if survey is already completed.
 
