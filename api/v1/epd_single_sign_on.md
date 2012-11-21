@@ -57,3 +57,5 @@ https://api.#(GGZ_NAME).roqua.nl/session/create_from_epd?timestamp=1997-07-16T19
 #### Never communicated over the wire:
 
   * `SHARED_SECRET` - "zeer_geheime_frase" (hex-string van 64 tekens). (alleen bekend bij RGOc/Roqua en EPD-leverancier: GPR, McKesson, ...). Dient bij voorkeur als configureerbare parameter te worden geimplementeerd in verband met mogelijkheid tot wijzigen bij vermoeden van corrumpering.
+
+Voor iedere string geldt lowercase en trimmen (een lege parameter wordt dus een empty string ‘’):GGZ_NAME=rtrim(ltrim(lowercase(GGZ_NAME)))
