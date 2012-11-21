@@ -23,8 +23,7 @@ Navigeren binnen Roqua naar een andere client-record is dan niet mogelijk.
 Navigeren dient vanuit het EPD te geschieden. Als daar een andere client wordt
 geselecteerd, verandert de URL mee en volgt Roqua.
 
-Het RGOc heeft op aanvraag een test-server beschikbaar om de URL-aanroep op uit
-te testen.
+A [reference implementation](https://github.com/roqua/urlspec/blob/master/app/controllers/generators_controller.rb) is available. It is also possible to validate your URLs against this implementation by [visiting its running instance](http://roqua-urlspec.heroku.com/generator/new).
 
 ## API Call
 
