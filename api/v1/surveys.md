@@ -26,7 +26,7 @@ Requests for surveys are namespaced under a specific [dossier](https://github.co
                        `professional`, `parent`, `second_parent` or `teacher`. More types
                        might be added later, therefore it is advised that API consumers
                        select the desired types, and not reject the undesired types.
-  * `completed_at` - An ISO 8601 formatted string that indicates when the survey,
+  * `completed_at` - An ISO 8601 formatted string that indicates when the survey was completed,
                      or `null` if this survey is not yet completed.
   * `completing_url` - The URL that can be visited to complete this (and possibly
                        other) survey(s). Will be `null` if survey is already completed.
