@@ -7,7 +7,7 @@ serve as examples. For details, please refer to the HL7 v2.4 specification.
 
 ## Empty response
 
-Upon creation of an response, an ORU message will be sent with status `S`. This status
+Upon creation of a response, an ORU message will be sent with status `S`. This status
 will also be sent when an incompletable response becomes completable again.
 
 ```
