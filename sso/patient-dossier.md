@@ -26,7 +26,7 @@ window or frame to navigate to:
   * `timestamp`     - ISO 8601 formatted date and time (YYYY-MM-DDThh:mm:ssTZD).
   * `userid`        - Nummer behandelaar; matchen in Roqua met MFN.
   * `clientid`      - Patientnummer; matchen in Roqua met A04/A08/A19.
-  * `token`         - SHA1-hash #(TOKEN)= SHA1(GGZ_NAME + ‘|’ + TIMESTAMP + ‘|’ + USERID + ‘|’ + CLIENTID + ‘|’ + ROLEID + ‘|’ + PROTOCOLID + ‘|’ + VERSION + ‘|’ + SHARED_SECRET)
+  * `hmac`          - SHA1-hash #(HMAC)= SHA1(GGZ_NAME + ‘|’ + TIMESTAMP + ‘|’ + USERID + ‘|’ + CLIENTID + ‘|’ + ROLEID + ‘|’ + PROTOCOLID + ‘|’ + VERSION + ‘|’ + SHARED_SECRET)
 
 #### Optional parameters:
 
