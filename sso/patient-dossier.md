@@ -9,10 +9,6 @@ In order to ensure URLs cannot be used more than once, a nonce must be supplied 
 
 A [reference implementation](https://github.com/roqua/urlspec/blob/master/app/controllers/generators_controller.rb) is available. It is also possible to validate your URLs against this implementation by [visiting its running instance](http://roqua-urlspec.heroku.com/generator/new).
 
-#### TODO
-
-* Does the EPD request a nonce from RoQua, or does it generate them? If it is requested, we can get rid of the timestamp parameter, and just expire the nonces. This also means we don't have any NTP differences between our servers and theirs, nor timezone issues. Having EPD request nonces means it has to do an additional request though.
-
 ## API Call
 
 To open RoQua EPD-interface as a given user for a given dossier, tell a browser
@@ -22,22 +18,40 @@ window or frame to navigate to:
 
 #### Required parameters:
 
-  * `version`       - The version this document describes is `3`.
-  * `timestamp`     - ISO 8601 formatted date and time (YYYY-MM-DDThh:mm:ssTZD).
-  * `userid`        - Nummer behandelaar; matchen in Roqua met MFN.
-  * `clientid`      - Patientnummer; matchen in Roqua met A04/A08/A19.
-  * `hmac`          - SHA1-hash #(HMAC)= SHA1(GGZ_NAME + ‘|’ + TIMESTAMP + ‘|’ + USERID + ‘|’ + CLIENTID + ‘|’ + ROLEID + ‘|’ + PROTOCOLID + ‘|’ + VERSION + ‘|’ + SHARED_SECRET)
+  * `version`       - The version this document describes is `3`, so pass that.
+  * `nonce`         - Randomly generated unique token, to be used at most once
+  * `timestamp`     - The Unix time when this request was constructed
 
-#### Optional parameters:
+These two parameters are passed in order to prevent possible replay attacks: a nonce and a timestamp.
 
-  * `roleid`        - Rechten-differentiering vanuit EPD (optioneel).
-  * `protocolid`    - Protocol sturing vanuit EPD (optioneel)
-  * `GGZ_NAME`      - "lentis" of "ggzfriesland" of "ucp" of … (aangeleverd door RGOc).
+Nonces should be unique for each request, and are used to determine whether requests have been submitted multiple times. In our reference application we generate nonces by generating a string of 32 hexadecimal randomly chosen characters, but any approach that produces relatively random alphanumeric strings should suffice.
 
-#### Never communicated over the wire:
+Timestamps are supplied as the number of seconds since the Unix epoch at the moment the request was generated, which should be easily generated in all programming languages. Note that we reject requests with timestamps that are too far in the past or future, and that it is therefore important to keep the clock of the system generating requests in sync with NTP. Additionally, in the beginning of the year 2038 you might wish for this to be generated as a 64-bit signed integer.
 
-  * `SHARED_SECRET` - A String of at least 64 characters.
+Because we reject requests with old timestamps, it is safe to assume that the uniqueness of a nonce only has to be guaranteed for up to 24 hours, if you desire to make sure you generate unique nonces. After all, it is reasonable to say that the chance of a collision between to randomly generated nonces is slim, and the consequences of it are minor (the sign-on would fail, and the user would likely try again, which would generate a new nonce), and that such guarantees need not be made by the EPD.
 
-Alleen bekend bij RGOc/Roqua en EPD-leverancier: GPR, McKesson, ...). Dient bij voorkeur als configureerbare parameter te worden geimplementeerd in verband met mogelijkheid tot wijzigen bij vermoeden van corrumpering.
+  * `userid`        - Identifier for the professional signing into RoQua
+  * `clientid`      - Identifier for the dossier that should be opened in RoQua. This number is used in exports and HL7 communication.
 
-Voor iedere string geldt lowercase en trimmen (een lege parameter wordt dus een empty string ‘’):GGZ_NAME=rtrim(ltrim(lowercase(GGZ_NAME)))
+Identifiers must be completely unique; if you're using multiple datastores on your end, for example, make sure there cannot be any collisions when passing them to RoQua as that will result in account conflicts.
+
+  * `hmac`          - HMAC-SHA256-hash.
+
+In order to make sure that requests cannot be tampered with, we require that all requests are signed with an HMAC. The mechanism behind HMAC is described in [RFC 2104](http://www.ietf.org/rfc/rfc2104.txt), although as with all crypto-related things, please do not go implement them yourself. OpenSSL has an implementation that can be used in most programming languages that can interface with a C-library, so it's doubtful there is not already a library that can take care of the HMAC algorithm for you.
+
+The HMAC algorithm can be used with any cryptographic hashing function, and we decided that SHA256 should be safe enough for the forseeable future.
+
+HMACs then are calculated using three parameters: the hashing function, a secret key and a message. The secret key is a 64 character long string which will be exchanged in some manner.
+
+The message is generated by taking all parameter values, sorting them by their parameter keys, and joining them with a pipe character `|`.
+
+# TODO
+
+* Explain the sorting procedure for the HMAC message better. Possibly just do it like Twitter does (see references)
+* Update reference implementation to v3
+* Voor iedere string geldt lowercase en trimmen (een lege parameter wordt dus een empty string ‘’):GGZ_NAME=rtrim(ltrim(lowercase(GGZ_NAME)))
+
+# References
+
+* http://blog.jcoglan.com/2012/06/09/why-you-should-never-use-hash-functions-for-message-authentication/
+* https://dev.twitter.com/docs/auth/creating-signature
