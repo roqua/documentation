@@ -16,26 +16,35 @@ window or frame to navigate to:
 
 `https://epd.#(GGZ_NAME).roqua.nl/epd/session/create`
 
-#### Required parameters:
+The following query parameters are required:
 
-  * `version`       - The version this document describes is `3`, so pass that.
-  * `nonce`         - Randomly generated unique token, to be used at most once
-  * `timestamp`     - The Unix time when this request was constructed
+### `version`
 
-These two parameters are passed in order to prevent possible replay attacks: a nonce and a timestamp.
+The value of this parameter should be `3` if you are implementing the specification you are currently reading.
+
+### `nonce` - Randomly generated unique token
 
 Nonces should be unique for each request, and are used to determine whether requests have been submitted multiple times. In our reference application we generate nonces by generating a string of 32 hexadecimal randomly chosen characters, but any approach that produces relatively random alphanumeric strings should suffice.
+
+### `timestamp` - The Unix time when this request was constructed
 
 Timestamps are supplied as the number of seconds since the Unix epoch at the moment the request was generated, which should be easily generated in all programming languages. Note that we reject requests with timestamps that are too far in the past or future, and that it is therefore important to keep the clock of the system generating requests in sync with NTP. Additionally, in the beginning of the year 2038 you might wish for this to be generated as a 64-bit signed integer.
 
 Because we reject requests with old timestamps, it is safe to assume that the uniqueness of a nonce only has to be guaranteed for up to 24 hours, if you desire to make sure you generate unique nonces. After all, it is reasonable to say that the chance of a collision between to randomly generated nonces is slim, and the consequences of it are minor (the sign-on would fail, and the user would likely try again, which would generate a new nonce), and that such guarantees need not be made by the EPD.
 
-  * `userid`        - Identifier for the professional signing into RoQua
-  * `clientid`      - Identifier for the dossier that should be opened in RoQua. This number is used in exports and HL7 communication.
+### `userid` - Identifier for the professional
+
+This identifies the employee being signed in.
 
 Identifiers must be completely unique; if you're using multiple datastores on your end, for example, make sure there cannot be any collisions when passing them to RoQua as that will result in account conflicts.
 
-  * `hmac`          - HMAC-SHA256-hash.
+### `clientid` - Identifier for the dossier
+
+This identifies patient dossiers in RoQua. The value given here will also be used in our data exports and in HL7 communication for data associated with this dossier.
+
+Identifiers must be completely unique; if you're using multiple datastores on your end, for example, make sure there cannot be any collisions when passing them to RoQua as that will result in account conflicts.
+
+### `hmac` - HMAC-SHA256 hash.
 
 In order to make sure that requests cannot be tampered with, we require that all requests are signed with an HMAC. The mechanism behind HMAC is described in [RFC 2104](http://www.ietf.org/rfc/rfc2104.txt), although as with all crypto-related things, please do not go implement them yourself. OpenSSL has an implementation that can be used in most programming languages that can interface with a C-library, so it's doubtful there is not already a library that can take care of the HMAC algorithm for you.
 
