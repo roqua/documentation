@@ -28,7 +28,7 @@ Nonces should be unique for each request, and are used to determine whether requ
 
 ### `timestamp` - The Unix time when this request was constructed
 
-Timestamps are supplied as the number of seconds since the Unix epoch at the moment the request was generated, which should be easily generated in all programming languages. Note that we reject requests with timestamps that are too far in the past or future, and that it is therefore important to keep the clock of the system generating requests in sync with NTP. Additionally, in the beginning of the year 2038 you might wish for this to be generated as a 64-bit signed integer.
+Timestamps are supplied as [the number of seconds since the Unix epoch](http://en.wikipedia.org/wiki/Unix_time) at the moment the request was generated, which should be easily generated in all programming languages. Note that we reject requests with timestamps that are too far in the past or future, and that it is therefore important to keep the clock of the system generating requests in sync with NTP. Additionally, in the beginning of the year 2038 you might wish for this to be generated as a 64-bit signed integer.
 
 Because we reject requests with old timestamps, it is safe to assume that the uniqueness of a nonce only has to be guaranteed for up to 24 hours, if you desire to make sure you generate unique nonces. After all, it is reasonable to say that the chance of a collision between to randomly generated nonces is slim, and the consequences of it are minor (the sign-on would fail, and the user would likely try again, which would generate a new nonce), and that such guarantees need not be made by the EPD.
 
