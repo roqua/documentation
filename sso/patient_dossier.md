@@ -26,7 +26,7 @@ The value of this parameter should be `3` if you are implementing the specificat
 
 ### `consumer_key` - The API consumer key you were issued.
 
-All parties that should be able to generate valid SSO requests are issued two strings: a `consumer_key` and a `consumer_secret`. The consumer key is sent as a parameter, so that we know which secret to use while validating the HMAC for the request.
+All parties that should be able to generate valid SSO requests are issued two strings: a `consumer_key` and a `consumer_secret`. The consumer key is sent as a parameter, so that we know which secret to use while validating the HMAC for the request. These pairs of keys can be generated in the RoQua Admin. The `consumer_secret` is only shown once after generating, if you forget the key or secret you must invalide the old pair and generate a new pair.
 
 ### `nonce` - Randomly generated unique token
 
