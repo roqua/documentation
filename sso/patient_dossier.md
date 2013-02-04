@@ -16,11 +16,13 @@ window or frame to navigate to:
 
 `https://epd.#(GGZ_NAME).roqua.nl/epd/session/create`
 
-The following query parameters are required:
+To this URL, you must add a number of query parameters (i.e. `?key=value&foo=bar&baz=quux`). These parameters are used for specifying the user to be logged in, the dossier to be shown, and authenticating that the request is signed by a valid authority.
 
-### `version`
+The following query parameters are **required**:
 
-The value of this parameter should be `3` if you are implementing the specification you are currently reading.
+### `version` - Version of the SSO specification implemented
+
+The value of this parameter should be `3` if you are implementing the specification you are currently reading. This number will be increased whenever we change the specification in a manner that would break existing implementations. Older versions will remain working unless there are security issues with that version of the spec.
 
 ### `nonce` - Randomly generated unique token
 
@@ -66,10 +68,13 @@ value-of-bar|value-of-foo|1359373315
 
 Given a secret `very-secret`, this message would result in the following HMAC: `7ada2feaa64e7af5665b5ad92530f64983fdb3c0`.
 
+# Example
+
+The library we use to sign and validate requests is open source and can be found [on Github](https://github.com/roqua/authmac). In that library, we have an example web server implemented in [this file](https://github.com/roqua/authmac/blob/master/example/app.rb). This web server is running [on Heroku](http://roqua-urlspec.herokuapp.com), where you can use it to validate your own requests. In that case, use `http://roqua-urlspec.herokuapp.com/auth` as base URL, instead of the one documented above.
+
 # TODO
 
 * Explain the sorting procedure for the HMAC message better. Possibly just do it like Twitter does (see references)
-* Update reference implementation to v3
 * Voor iedere string geldt lowercase en trimmen (een lege parameter wordt dus een empty string ‘’):GGZ_NAME=rtrim(ltrim(lowercase(GGZ_NAME)))
 
 # References
