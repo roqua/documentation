@@ -75,7 +75,7 @@ The library we use to sign and validate requests is open source and can be found
 # TODO
 
 * Explain the sorting procedure for the HMAC message better. Possibly just do it like Twitter does (see references)
-* Voor iedere string geldt lowercase en trimmen (een lege parameter wordt dus een empty string ‘’):GGZ_NAME=rtrim(ltrim(lowercase(GGZ_NAME)))
+* Explain the procedure for URL-encoding query parameters?
 
 # References
 
