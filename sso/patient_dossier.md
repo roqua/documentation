@@ -7,7 +7,7 @@ This signature is generated as a hash of all parameters in the URL, as well as a
 
 In order to ensure URLs cannot be used more than once, a nonce must be supplied as one of the parameters.
 
-A [reference implementation](https://github.com/roqua/authmac) is available.
+A [reference implementation](https://github.com/roqua/authmac) is available. See the *Example* section below for more information.
 
 ## API Call
 
