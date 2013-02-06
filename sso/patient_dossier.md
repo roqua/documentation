@@ -72,16 +72,16 @@ value-of-bar|value-of-foo|1359373315
 
 Given a secret `very-secret`, this message would result in the following HMAC: `7ada2feaa64e7af5665b5ad92530f64983fdb3c0`.
 
-# Example
+## Example
 
 The library we use to sign and validate requests is open source and can be found [on Github](https://github.com/roqua/authmac). In that library, we have an example web server implemented in [this file](https://github.com/roqua/authmac/blob/master/example/app.rb). This web server is running [on Heroku](http://roqua-urlspec.herokuapp.com), where you can use it to validate your own requests. In that case, use `http://roqua-urlspec.herokuapp.com/auth` as base URL, instead of the one documented above.
 
-# TODO
+## TODO
 
 * Explain the sorting procedure for the HMAC message better. Possibly just do it like Twitter does (see references)
 * Explain the procedure for URL-encoding query parameters?
 
-# References
+## References
 
 * https://dev.twitter.com/docs/auth/creating-signature
 * https://developers.facebook.com/docs/howtos/login/signed-request/#step2
