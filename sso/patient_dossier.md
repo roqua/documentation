@@ -83,7 +83,6 @@ The library we use to sign and validate requests is open source and can be found
 
 # References
 
-* http://blog.jcoglan.com/2012/06/09/why-you-should-never-use-hash-functions-for-message-authentication/
 * https://dev.twitter.com/docs/auth/creating-signature
 * https://developers.facebook.com/docs/howtos/login/signed-request/#step2
 * http://rc3.org/2011/12/02/using-hmac-to-authenticate-web-service-requests/
