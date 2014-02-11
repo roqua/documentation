@@ -5,7 +5,7 @@ Manage protocol subscriptions for individual patients
 
 ## Start a protocol subscription.
 
-  POST /api/v1/protocol_subscriptions/
+    POST /api/v1/protocol_subscriptions/
 
 Provide de following parameters:
 
