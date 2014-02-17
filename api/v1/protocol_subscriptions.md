@@ -24,7 +24,6 @@ Manage protocol subscriptions for individual patients
 
     {
       daily_start_time: 32400,
-      id: 3166,
       patient_id: 16893,
       protocol_id: 35,
       start_at: "2014-02-14T15:43:24+01:00"
