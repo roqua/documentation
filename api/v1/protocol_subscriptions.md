@@ -33,7 +33,7 @@ Manage protocol subscriptions for individual patients
 
 1. When basic HTTP authentication fails
 
-        HTTP/1.1 403 Forbidden
+        HTTP/1.1 401 Unauthorized
 
 1. When no protocol can be found for the protocol_key provided
 
