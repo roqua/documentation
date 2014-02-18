@@ -5,10 +5,10 @@ Responses are questionnaire completions, although they need not be filled out ye
 
 Requests for responses are namespaced under a specific [dossier](https://github.com/roqua/developer/blob/master/api/v1/dossiers.md), which is the `/api/v1/dossiers/DOSSIER_ID` path. In this path `DOSSIER_ID` is the external identifier used by the EPD to represent this patient.
 
-### TODO
+## Query parameters
 
-* Document query parameter `respondent_type` that filters on respondent type.
-* Document query parameter `status` that filters on status.
+  * `respondent_type` - Request only responses where the `completer_type` would equal the given value. See the `completer_type` response attribute for a list of valid values.
+  * `status`          - Request only responses where the `status` would equal the given value. See the `status` attribute for a list of valid values.
 
 ## Response Attributes
 
