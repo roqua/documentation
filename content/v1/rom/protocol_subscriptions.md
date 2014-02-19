@@ -1,5 +1,5 @@
 ---
-title: Protocol Subscriptions | RoQua API
+title: Protocol Subscriptions | RoQua ROM API
 ---
 
 # Contents
@@ -23,9 +23,9 @@ Manage protocol subscriptions for individual patients.
 
 Name | Type | Description
 -----|------|--------------
-`dossier_id`  | `string`  | **Required**. Unique identifier for the patient to be subscribed.
-`protocol_key`|`string`   | **Required**. The commit message.
-`start_at`    | `integer` | The blob SHA of the file being replaced. Defaults to the current time.
+`dossier_id`   | `string`  | **Required**. Unique identifier for the patient to be subscribed.
+`protocol_key` | `string`  | **Required**. Key uniquely identifying the protocol of interest as specified in RoQua.
+`start_at`     | `integer` | The Unix time when the first measurement should be prepared. Defaults to the current time.
 
 
 ### Success
@@ -47,4 +47,4 @@ Name | Type | Description
 ### When no protocol can be found for the protocol_key provided
 
 <%= headers 404 %>
-<%= json error: "Protocol not found" %>
+<%= json error: "Protocol with key 'protocol_key' not found" %>
