@@ -2,6 +2,9 @@
 title: Single Sign-On for Patient Dossiers
 ---
 
+* TOC
+{:toc}
+
 When used in conjunction with an EPD, RoQua has an authentication scheme that relies on the EPD to open a URL that will authenticate a user and open a given dossier number. This enables EPD vendors to build a single sign-on solution that integrates RoQua without the need for the management of users within RoQua. When the SSO-authentication is enabled, the only way for a user to open a dossier, is when the EPD generates a URL with a valid signature.
 
 This signature is generated as a hash of all parameters in the URL, as well as an organization specific secret key. RoQua can then validate the request by calculating the hash itself, and comparing it against the given hash. This protects against tampering with the URL.
@@ -73,7 +76,7 @@ value-of-bar|value-of-foo|1359373315
 
 Given a secret `very-secret`, this message would result in the following HMAC: `7ada2feaa64e7af5665b5ad92530f64983fdb3c0`.
 
-## Example
+## Example implementation, both client and server
 
 The library we use to sign and validate requests is open source and can be found [on Github](https://github.com/roqua/authmac). In that library, we have an example web server implemented in [this file](https://github.com/roqua/authmac/blob/master/example/app.rb). This web server is running [on Heroku](http://roqua-urlspec.herokuapp.com), where you can use it to validate your own requests. In that case, use `http://roqua-urlspec.herokuapp.com/auth` as base URL, instead of the one documented above.
 
@@ -84,8 +87,8 @@ The library we use to sign and validate requests is open source and can be found
 
 ## References
 
-* https://dev.twitter.com/docs/auth/creating-signature
-* https://developers.facebook.com/docs/howtos/login/signed-request/#step2
-* http://rc3.org/2011/12/02/using-hmac-to-authenticate-web-service-requests/
-* http://blog.jcoglan.com/2012/06/09/why-you-should-never-use-hash-functions-for-message-authentication/
-* http://tools.ietf.org/html/rfc4868#page-17
+* [Twitter API Authentication](https://dev.twitter.com/docs/auth/creating-signature)
+* [Facebook API Authentication](https://developers.facebook.com/docs/howtos/login/signed-request/#step2)
+* [Using HMAC to authenticate Web service requests](http://rc3.org/2011/12/02/using-hmac-to-authenticate-web-service-requests/)
+* [Why you should never ever use hash functions for message authentication](http://blog.jcoglan.com/2012/06/09/why-you-should-never-use-hash-functions-for-message-authentication/)
+* [RFC 4868 - HMAC-SHA256, SHA384, and SHA512 in IPsec](http://tools.ietf.org/html/rfc4868#page-17)
