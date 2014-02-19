@@ -8,11 +8,6 @@ title: Protocol Subscriptions
 Manage protocol subscriptions for individual patients.
 
 
-## Authentication
-
- - Basic HTTP authentication
-
-
 ## Start a protocol subscription.
 
     POST /api/v1/protocol_subscriptions/
