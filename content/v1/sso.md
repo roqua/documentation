@@ -12,5 +12,5 @@ To see the information for a given dossier.
 
 If there are questionnaires prepared, can directly log in to let the user complete them.
 
-[Dossiers]: /v1/sso/patient_dossier/
-[Completing Questionnaires]: /v1/sso/completing_questionnaires/
+[Dossiers]: /developer/v1/sso/patient_dossier/
+[Completing Questionnaires]: /developer/v1/sso/completing_questionnaires/
