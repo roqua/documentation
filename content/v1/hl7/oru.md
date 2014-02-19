@@ -1,9 +1,6 @@
 ---
-title: ORU | RoQua HL7 API
+title: HL7 2.4 ORU
 ---
-
-HL7 2.4 ORU
-===========
 
 This document describes the types of ORU messages RoQua sends out. The list of
 examples when the ORUs are triggered are not exhaustive, and the given ORU-messages

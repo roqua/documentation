@@ -1,9 +1,6 @@
 ---
-title: Professional SSO | RoQua API
+title: Single Sign-On for Patient Dossiers
 ---
-
-Single Sign-On for Patient Dossiers
-===================================
 
 When used in conjunction with an EPD, RoQua has an authentication scheme that relies on the EPD to open a URL that will authenticate a user and open a given dossier number. This enables EPD vendors to build a single sign-on solution that integrates RoQua without the need for the management of users within RoQua. When the SSO-authentication is enabled, the only way for a user to open a dossier, is when the EPD generates a URL with a valid signature.
 

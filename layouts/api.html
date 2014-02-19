@@ -4,7 +4,10 @@
 	<%= render '_header' %>
 
 	<div class="sub-nav">
-		<h2><a href="/developer/v1/">API</a></h2>
+		<h2>
+      <%= @item[:title] %>
+      <%= status_label(@item) %>
+    </h2>
 
 		<ul>
       <li><a href="/developer/v1/" class="active">Reference</a></li>

@@ -1,8 +1,6 @@
 ---
-title: Protocol Subscriptions | RoQua ROM API
+title: Protocol Subscriptions
 ---
-
-# Contents
 
 * TOC
 {:toc}

@@ -313,6 +313,27 @@ a img {
   position: relative;
 }
 
+.sub-nav .status {
+  display: inline;
+  position: relative;
+  top: -2px;
+  padding: .2em .6em .3em;
+  font-size: 60%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  background-color: #999;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: .25em;
+}
+
+.sub-nav .status-DRAFT {
+  color: #fff;
+  background-color: #f90;
+}
+
 .sub-nav li a:hover {
 	text-decoration: none;
 }

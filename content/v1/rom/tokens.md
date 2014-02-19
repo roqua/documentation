@@ -1,9 +1,6 @@
 ---
-title: Tokens | RoQua ROM API
+title: Tokens
 ---
-
-API v1: Tokens
-==============
 
 It is possible to request a JSON-hash of the questionnaires that are
 prepared for a given token.

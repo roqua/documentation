@@ -1,5 +1,5 @@
 ---
-title: Authentication | RoQua API
+title: Authentication
 ---
 
 Authentication

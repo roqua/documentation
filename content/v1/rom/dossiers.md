@@ -1,8 +1,5 @@
 ---
-title: Dossiers | RoQua ROM API
+title: Dossiers
 ---
-
-Dossiers
-========
 
 TODO

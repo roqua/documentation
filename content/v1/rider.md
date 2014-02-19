@@ -1,8 +1,7 @@
 ---
-title: Technical Rider | RoQua API
+title: Technical Rider
+status: DRAFT
 ---
-
-# RoQua Technical Rider [DRAFT]
 
 In theater and musical performances, a technical rider is often used to document
 the various requests and demands in order to ensure that the performance can
@@ -28,7 +27,7 @@ tunnel to your network.
   this, we cannot check that the VPN is not silently failing, and hence, we will
   not be able to proactively contact you about problems.
 
-## HL7 Traffic
+## Required ports on the VPN
 
 Number  | Environment | Direction          | Purpose
 --------|-------------|--------------------|----------

@@ -1,5 +1,5 @@
 ---
-title: Libraries | RoQua API
+title: Libraries
 layout: libraries
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Single Sign On | RoQua API
+title: Single Sign On
 ---
 
 There are multiple ways to automatically log a browser session into RoQua: as a patient, as a medical professional, as an admin. Several ways have a SSO option.

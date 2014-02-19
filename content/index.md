@@ -1,5 +1,6 @@
-RoQua API & Integrations
-========================
+---
+title: RoQua API & Integrations
+---
 
 This repository contains an overview of the integrations and APIs that RoQua
 provides.

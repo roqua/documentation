@@ -50,6 +50,10 @@ module GitHub
         strftime item[:created_at]
       end
 
+      def status_label(item)
+        %(<span class="status status-#{item[:status]}">#{item[:status]}</span>)
+      end
+
       def strftime(time, format = DefaultTimeFormat)
         attribute_to_time(time).strftime(format)
       end

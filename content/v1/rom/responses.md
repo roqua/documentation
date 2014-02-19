@@ -1,8 +1,6 @@
 ---
-title: Responses | RoQua ROM API
+title: Responses
 ---
-
-# Contents
 
 * TOC
 {:toc}

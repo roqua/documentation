@@ -1,9 +1,6 @@
 ---
-title: Respondent SSO | RoQua API
+title: Single Sign-On for Respondents
 ---
-
-Single Sign-On for Respondents
-==============================
 
 The login for a patient (or other respondents for a dossier) is normally done by entering a token which the person has received by e-mail or snailmail. It's also possible to open the login URL with this token prefilled as a query parameter, in which case the login will happen automatically and the person will be presented the first pending questionnaire immediately.
 
