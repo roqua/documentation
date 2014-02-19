@@ -51,7 +51,7 @@ module GitHub
       end
 
       def status_label(item)
-        %(<span class="status status-#{item[:status]}">#{item[:status]}</span>)
+        %(<span class="status status-#{item[:status]}">#{item[:status]}</span>) if item[:status]
       end
 
       def strftime(time, format = DefaultTimeFormat)
