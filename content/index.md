@@ -8,6 +8,3 @@ At some point, we might turn this into a nice website, but for now the standard
 Github interface will probably suffice. Besides, this makes it searchable and
 clearly versioned.
 
-## Client Libraries
-
-* [Ruby](https://github.com/roqua/roqua-gem/)

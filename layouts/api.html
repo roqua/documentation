@@ -1,0 +1,25 @@
+<%= render '_head' %>
+
+<body class="api">
+	<%= render '_header' %>
+
+	<div class="sub-nav">
+		<h2><a href="/v1/">API</a></h2>
+
+		<ul>
+      <li><a href="/v1/" class="active">Reference</a></li>
+      <li><a href="/libraries/">Libraries</a></li>
+		</ul>
+	</div>
+
+  <div id="wrapper">
+  	<div class="content">
+    	<%= yield %>
+    </div>
+
+		<%= render '_sidebar' %>
+  </div><!-- #wrapper -->
+
+	<%= render '_footer' %>
+</body>
+</html>
