@@ -41,6 +41,7 @@ task :publish => [:clean] do
     ENV['GIT_INDEX_FILE'] = gif = '/tmp/dev.gh.i'
     ENV['GIT_WORK_TREE'] = Dir.pwd
     File.unlink(gif) if File.file?(gif)
+    `mv developer/* .`
     `git add -A`
     tsha = `git write-tree`.strip
     puts "Created tree   #{tsha}"
