@@ -2,7 +2,4 @@
 title: Authentication
 ---
 
-Authentication
-==============
-
-To be determined.
+HTTP Basic authentication over SSL.

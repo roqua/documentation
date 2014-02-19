@@ -4,16 +4,17 @@ title: Single Sign-On for Respondents
 
 The login for a patient (or other respondents for a dossier) is normally done by entering a token which the person has received by e-mail or snailmail. It's also possible to open the login URL with this token prefilled as a query parameter, in which case the login will happen automatically and the person will be presented the first pending questionnaire immediately.
 
-## API Call
+## SSO URL
 
 To open RoQua client-interface and start filling in pending questionnaires, tell a browser
 window or frame to navigate to:
 
-`https://#(GGZ_NAME).roqua.nl/login`
+    https://:ggzname.roqua.nl/login
 
-To this URL, you may add a number of query parameters (i.e. `?key=value&foo=bar&baz=quux`). These parameters are used for specifying the token to be logged in.
 
 ## Parameters
+
+To this URL, you may add a number of query parameters. These parameters are used for specifying the token to be logged in, and specifying additional behaviour.
 
 Name | Type | Description
 ---- |------|--------------

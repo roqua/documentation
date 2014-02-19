@@ -11,14 +11,17 @@ This signature is generated as a hash of all parameters in the URL, as well as a
 
 In order to ensure URLs cannot be used more than once, a nonce must be supplied as one of the parameters.
 
-A [reference implementation](https://github.com/roqua/authmac) is available. See the *[Example](#example)* section below for more information.
+A [reference implementation](https://github.com/roqua/authmac) is available. See the *[Example](#example-implementation-both-client-and-server)* section below for more information.
 
-## API Call
+## SSO URL
 
 To open RoQua EPD-interface as a given user for a given dossier, tell a browser
 window or frame to navigate to:
 
-`https://epd.#(GGZ_NAME).roqua.nl/epd/session/create`
+    https://epd.:ggzname.roqua.nl/epd/session/create
+
+
+## Parameters
 
 To this URL, you must add a number of query parameters (i.e. `?key=value&foo=bar&baz=quux`). These parameters are used for specifying the user to be logged in, the dossier to be shown, and authenticating that the request is signed by a valid authority.
 
