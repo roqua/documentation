@@ -54,17 +54,6 @@ module GitHub
         attribute_to_time(time).strftime(format)
       end
 
-      def gravatar_for(login)
-        %(<img height="16" width="16" src="%s" alt="gravatar_for_#{login}"/>) % gravatar_url_for(login)
-      end
-
-      def gravatar_url_for(login)
-        md5 = AUTHORS[login.to_sym]
-        default = "https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"
-        "https://secure.gravatar.com/avatar/%s?s=20&d=%s" %
-          [md5, default]
-      end
-
       def headers(status, head = {})
         css_class = (status == 204 || status == 404) ? 'headers no-response' : 'headers'
         lines = ["Status: #{STATUSES[status]}"]

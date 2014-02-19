@@ -1,3 +1,7 @@
+---
+title: ORU | RoQua HL7 API
+---
+
 HL7 2.4 ORU
 ===========
 

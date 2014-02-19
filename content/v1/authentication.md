@@ -1,3 +1,7 @@
+---
+title: Authentication | RoQua API
+---
+
 Authentication
 ==============
 

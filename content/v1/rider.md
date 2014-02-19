@@ -1,3 +1,7 @@
+---
+title: Technical Rider | RoQua API
+---
+
 # RoQua Technical Rider [DRAFT]
 
 In theater and musical performances, a technical rider is often used to document
