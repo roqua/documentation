@@ -925,6 +925,8 @@ p code {
 
 #markdown-toc {
 	margin: 1em 1.5em 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #d8d8d8;
 }
 
 #markdown-toc li {
