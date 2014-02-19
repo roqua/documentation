@@ -30,7 +30,12 @@ tunnel to your network.
 
 ## HL7 Traffic
 
-TODO
+Number  | Environment | Direction          | Purpose
+--------|-------------|--------------------|----------
+`60201` | Staging     | From RoQua to you  | HL7 A19 messages
+`60202` | Staging     | From RoQua to you  | HL7 ORU messages
+`60401` | Production  | From RoQua to you  | HL7 A19 messages
+`60402` | Production  | From RoQua to you  | HL7 ORU messages
 
 ## Web Application Monitoring
 
