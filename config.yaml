@@ -47,8 +47,3 @@ data_sources:
 
 # For the atom feed.
 base_url: http://roqua.github.io/developer
-
-# Array of [version, released_at] Array tuples.
-api_versions:
-  -
-    - v1
