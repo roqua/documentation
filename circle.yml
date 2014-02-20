@@ -1,6 +1,11 @@
 machine:
   ruby:
     version: 2.1.0
+dependencies:
+  pre:
+    - git config user.email "circleci@roqua.nl"
+    - git config user.name "CircleCI"
+
 test:
   override:
     - bundle exec rake test
