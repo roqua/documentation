@@ -19,12 +19,15 @@ def commit_message
     ':sailboat:', ':gift:', ':ship:', ':shipit:', ':sparkles:', ':rainbow:']
   default_message = "P U B L I S H #{publish_emojis.sample}"
 
-  print "Enter a commit message (default: '#{default_message}'): "
-  STDOUT.flush
-  mesg = STDIN.gets.chomp.strip
-
-  mesg = default_message if mesg == ''
-  mesg.gsub(/'/, '') # Allow this to be handed off via -m '#{message}'
+  if ENV["CI"]
+    default_message
+  else
+    print "Enter a commit message (default: '#{default_message}'): "
+    STDOUT.flush
+    mesg = STDIN.gets.chomp.strip
+    mesg = default_message if mesg == ''
+    mesg.gsub(/'/, '') # Allow this to be handed off via -m '#{message}'
+  end
 end
 
 desc "Publish to http://roqua.github.io/developer"

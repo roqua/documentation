@@ -37,7 +37,7 @@ If you know the token that can be used to log in as a respondent, you can use th
 
 ## List all responses for dossier
 
-Requests for more detailed information about responses are namespaced under a specific [dossier](https://github.com/roqua/developer/blob/master/api/v1/dossiers.md), which is the `/api/v1/dossiers/DOSSIER_ID` path. In this path `DOSSIER_ID` is the external identifier used by the EPD to represent this patient.
+Requests for more detailed information about responses are namespaced under a specific [dossier](/developer/v1/dossier/dossiers/), which is the `/api/v1/dossiers/DOSSIER_ID` path. In this path `DOSSIER_ID` is the external identifier used by the EPD to represent this patient.
 
     GET /api/v1/dossiers/:dossier_id/responses.json
 
