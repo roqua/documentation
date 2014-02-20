@@ -7,8 +7,6 @@ title: Responses
 
 Responses are questionnaire completions, although they need not be filled out yet. Upon creating an invitation, responses for all selected questionnaires are created. At this point, the responses have status `new`. When the patient fills out the questionnaire for the answer, its status will change to `completed`.
 
-Requests for responses are namespaced under a specific [dossier](https://github.com/roqua/developer/blob/master/api/v1/dossiers.md), which is the `/api/v1/dossiers/DOSSIER_ID` path. In this path `DOSSIER_ID` is the external identifier used by the EPD to represent this patient.
-
 ## List open responses for given token
 
 If you know the token that can be used to log in as a respondent, you can use that to request a list of the names of the questionnaires that will be presented when logging in with that token. This can be done without any authentication.
@@ -38,6 +36,8 @@ If you know the token that can be used to log in as a respondent, you can use th
 %>
 
 ## List all responses for dossier
+
+Requests for more detailed information about responses are namespaced under a specific [dossier](https://github.com/roqua/developer/blob/master/api/v1/dossiers.md), which is the `/api/v1/dossiers/DOSSIER_ID` path. In this path `DOSSIER_ID` is the external identifier used by the EPD to represent this patient.
 
     GET /api/v1/dossiers/:dossier_id/responses.json
 

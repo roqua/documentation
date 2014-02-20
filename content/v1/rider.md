@@ -1,6 +1,6 @@
 ---
 title: Technical Rider
-status: DRAFT
+status: draft
 ---
 
 In theater and musical performances, a technical rider is often used to document

@@ -324,12 +324,13 @@ a img {
   color: #fff;
   background-color: #999;
   text-align: center;
+  text-transform: uppercase;
   white-space: nowrap;
   vertical-align: middle;
   border-radius: .25em;
 }
 
-.sub-nav .status-DRAFT {
+.sub-nav .status-draft {
   color: #fff;
   background-color: #f90;
 }
