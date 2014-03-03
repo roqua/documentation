@@ -1,5 +1,5 @@
 ---
-title: RoQua API version 1
+title: API version 1
 ---
 
 V1 documentation
