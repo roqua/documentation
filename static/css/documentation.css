@@ -279,7 +279,11 @@ a img {
   transition: color 0.2s ease-in-out 0s;
 }
 
-.overview #header .nav-overview, .api #header .nav-api, .webhooks #header .nav-webhooks, .blog #header .nav-blog {
+.overview #header .nav-overview,
+.core #header .nav-core,
+.rom #header .nav-rom,
+.webhooks #header .nav-webhooks,
+.blog #header .nav-blog {
 	color: #f90;
 	border-bottom: 3px solid #fff;
 }
