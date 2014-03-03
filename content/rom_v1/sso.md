@@ -12,5 +12,5 @@ To see the information for a given dossier. To be implemented by EPD vendors.
 
 If there are questionnaires prepared, this can directly log in to let the user complete them. Intended for patient portals.
 
-[Log in as a professional]: /developer/v1/sso/patient_dossier/
-[Log in to fill out questionnaires]: /developer/v1/sso/completing_questionnaires/
+[Log in as a professional]: /developer/rom_v1/sso/patient_dossier/
+[Log in to fill out questionnaires]: /developer/rom_v1/sso/completing_questionnaires/

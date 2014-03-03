@@ -1,0 +1,55 @@
+<%= render '_head' %>
+
+<body class="api">
+  <%= render '_header' %>
+
+  <div class="sub-nav">
+    <h2>
+      <%= @item[:title] %>
+      <%= status_label(@item) %>
+    </h2>
+
+    <ul>
+      <li><a href="/developer/core_v1/" class="active">Reference</a></li>
+      <li><a href="/developer/libraries/">Libraries</a></li>
+    </ul>
+  </div>
+
+  <div id="wrapper">
+    <div class="content">
+      <%= yield %>
+    </div>
+
+    <div id="js-sidebar" class="sidebar-shell">
+      <div class="js-toggle-list sidebar-module expandable">
+        <ul>
+          <li class="js-topic">
+            <h3><a href="#" class="js-expand-btn collapsed arrow-btn" data-proofer-ignore></a><a href="/developer/core_v1/">Overview</a></h3>
+            <ul class="js-guides">
+              <li><a href="/developer/core_v1/overview/oauth_provider/">OAuth provider</a></li>
+            </ul>
+          </li>
+          <li class="js-topic">
+            <h3><a href="#" class="js-expand-btn collapsed arrow-btn" data-proofer-ignore></a><a href="/developer/core_v1/authentication/">Authentication</a></h3>
+            <ul class="js-guides">
+              <li><a href="/developer/core_v1/authentication/http_basic/">HTTP Basic</a></li>
+              <li><a href="/developer/core_v1/authentication/oauth/">OAuth Access Token</a></li>
+            </ul>
+          </li>
+          <li class="js-topic">
+            <h3><a href="#" class="js-expand-btn collapsed arrow-btn" data-proofer-ignore></a><a href="/developer/core_v1/dossier/">Dossier-specific data</a></h3>
+            <ul class="js-guides">
+              <li><a href="/developer/core_v1/dossier/dossiers/">Dossiers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div> <!-- /sidebar-module -->
+      <div class="sidebar-module notice">
+        <p>This website is a <a href="https://github.com/roqua/developer" target="_blank">public GitHub repository</a>. Please help us by forking the project and adding to it.</p>
+      </div>
+    </div><!-- /sidebar-shell -->
+  </div><!-- #wrapper -->
+
+  <%= render '_footer' %>
+</body>
+</html>
