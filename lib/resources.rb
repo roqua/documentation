@@ -3,6 +3,7 @@ require 'yajl/json_gem'
 require 'stringio'
 require 'cgi'
 require 'securerandom'
+require 'time'
 
 module GitHub
   module Resources

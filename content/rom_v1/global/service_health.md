@@ -14,8 +14,8 @@ status: draft
 
 <%= headers 200 %>
 <%= json status: 'ok',
-         a19: {last_success: "2012-11-23T12:40:20+00:00+0200"},
-         oru: {last_success: "2012-11-23T12:40:20+00:00+0200"}
+         a19: {queue_size: 24, last_success: (Time.now - 10).iso8601},
+         oru: {queue_size: 11, last_success: (Time.now - 6012).iso8601}
 %>
 
 
