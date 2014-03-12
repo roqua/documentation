@@ -31,10 +31,14 @@ tunnel to your network.
 
 Number  | Environment | Direction          | Purpose
 --------|-------------|--------------------|----------
-`60201` | Staging     | From RoQua to you  | HL7 A19 messages
-`60202` | Staging     | From RoQua to you  | HL7 ORU messages
-`60401` | Production  | From RoQua to you  | HL7 A19 messages
-`60402` | Production  | From RoQua to you  | HL7 ORU messages
+`60201` | Staging     | From RoQua to you  | HL7 QRY^A19
+`60202` | Staging     | From RoQua to you  | HL7 ORU^R01
+`60203` | Staging     | From you to RoQua  | HL7 MFN (unused for now)
+`60204` | Staging     | From you to RoQua  | HL7 ADT^A40
+`60401` | Production  | From RoQua to you  | HL7 QRY^A19
+`60402` | Production  | From RoQua to you  | HL7 ORU^R01
+`60403` | Production  | From you to RoQua  | HL7 MFN (unused for now)
+`60404` | Production  | From you to RoQua  | HL7 ADT^A40
 
 ## Web Application Monitoring
 

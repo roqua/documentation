@@ -948,7 +948,7 @@ p code {
   color: #327fc7;
 }
 
-body.api .content table {
+body .content table {
   width: 100%;
   overflow: auto;
   display: block;
@@ -957,7 +957,7 @@ body.api .content table {
   border-spacing: 0;
 }
 
-body.api .content thead {
+body .content thead {
   margin: 0;
   padding: 0;
   border: 0;
@@ -966,25 +966,25 @@ body.api .content thead {
   vertical-align: baseline;
 }
 
-body.api .content table th {
+body .content table th {
   border: 1px solid #ddd;
   padding: 6px 13px;
   font-weight: bold;
   text-align: center;
 }
 
-body.api .content tbody {
+body .content tbody {
   vertical-align: middle;
   border-color: inherit;
 }
 
-body.api .content table tr {
+body .content table tr {
   border-top: 1px solid #ccc;
   background-color: #fff;
   vertical-align: inherit;
 }
 
-body.api .content table td {
+body .content table td {
   border: 1px solid #ddd;
   padding: 6px 13px;
 }
