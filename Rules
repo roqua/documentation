@@ -23,7 +23,7 @@ end
 
 compile '/developer/core_v1/*' do
   filter :erb
-  filter :kramdown, :toc_levels => [2], input: 'GFM'
+  filter :kramdown, :toc_levels => [2], input: 'GFM', hard_wrap: false
   filter :colorize_syntax,
     :colorizers => {:javascript => :pygmentsrb}
   layout item[:layout] || 'core_v1'
@@ -31,7 +31,7 @@ end
 
 compile '/developer/rom_v1/*' do
   filter :erb
-  filter :kramdown, :toc_levels => [2], input: 'GFM'
+  filter :kramdown, :toc_levels => [2], input: 'GFM', hard_wrap: false
   filter :colorize_syntax,
     :colorizers => {:javascript => :pygmentsrb}
   layout item[:layout] || 'rom_v1'
@@ -39,7 +39,7 @@ end
 
 compile '*' do
   filter :erb
-  filter :kramdown, :toc_levels => [2], input: 'GFM'
+  filter :kramdown, :toc_levels => [2], input: 'GFM', hard_wrap: false
   filter :colorize_syntax,
     :colorizers => {:javascript => :pygmentsrb}
   layout item[:layout] || 'default'
