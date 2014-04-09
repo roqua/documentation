@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gem 'builder'
 gem 'coderay'
-gem 'kramdown', '~> 0.13.2'
+gem 'kramdown', '~> 1.3.3'
 gem 'mime-types', '~> 1.16'
 gem 'nanoc', '~> 3.4.3'
 gem 'nokogiri', '~> 1.6.0'
