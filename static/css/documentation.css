@@ -282,6 +282,7 @@ a img {
 .overview #header .nav-overview,
 .core #header .nav-core,
 .rom #header .nav-rom,
+.quby #header .nav-quby,
 .webhooks #header .nav-webhooks,
 .blog #header .nav-blog {
 	color: #f90;
