@@ -37,6 +37,14 @@ compile '/developer/rom_v1/*' do
   layout item[:layout] || 'rom_v1'
 end
 
+compile '/developer/quby_v1/*' do
+  filter :erb
+  filter :kramdown, :toc_levels => [2], hard_wrap: false, input: 'GFM'
+  filter :colorize_syntax,
+    :colorizers => {:javascript => :pygmentsrb}
+  layout item[:layout] || 'quby_v1'
+end
+
 compile '*' do
   filter :erb
   filter :kramdown, :toc_levels => [2], input: 'GFM', hard_wrap: false
