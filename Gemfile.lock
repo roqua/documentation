@@ -21,7 +21,7 @@ GEM
       mercenary (~> 0.2.0)
       nokogiri (~> 1.6.0)
       typhoeus (~> 0.6.7)
-    kramdown (0.13.8)
+    kramdown (1.3.3)
     mercenary (0.2.1)
     mime-types (1.25.1)
     mini_portile (0.5.2)
@@ -53,7 +53,7 @@ DEPENDENCIES
   coderay
   fssm
   html-proofer (~> 0.6.0)
-  kramdown (~> 0.13.2)
+  kramdown (~> 1.3.3)
   mime-types (~> 1.16)
   nanoc (~> 3.4.3)
   nokogiri (~> 1.6.0)
