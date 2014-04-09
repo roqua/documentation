@@ -1,0 +1,49 @@
+<%= render '_head' %>
+
+<body class="quby">
+  <%= render '_header' %>
+
+  <div class="sub-nav">
+    <h2>
+      <strong>Quby:</strong>
+      <%= @item[:title] %>
+      <%= status_label(@item) %>
+    </h2>
+
+    <ul>
+      <li><a href="/developer/quby_v1/" class="active">Reference</a></li>
+    </ul>
+  </div>
+
+  <div id="wrapper">
+    <div class="content">
+      <%= yield %>
+    </div>
+    <div id="js-sidebar" class="sidebar-shell">
+      <div class="js-toggle-list sidebar-module expandable">
+        <ul>
+          <li class="js-topic">
+            <h3><a href="#" class="js-expand-btn collapsed arrow-btn" data-proofer-ignore></a><a href="/developer/quby_v1/">Overview</a></h3>
+            <ul class="js-guides">
+              <li><a href="/developer/quby_v1/what_is_quby/">What is Quby DSL?</a></li>
+            </ul>
+          </li>
+          <li class="js-topic">
+            <h3><a href="#" class="js-expand-btn collapsed arrow-btn" data-proofer-ignore></a><a href="/developer/quby_v1/opencpu/">OpenCPU</a></h3>
+            <ul class="js-guides">
+              <li><a href="/developer/quby_v1/opencpu/how_it_works/">How it Works</a></li>
+              <li><a href="/developer/quby_v1/opencpu/conventions/">Conventions</a></li>
+              <li><a href="/developer/quby_v1/opencpu/usage/">Usage in Quby</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div> <!-- /sidebar-module -->
+      <div class="sidebar-module notice">
+        <p>This website is a <a href="https://github.com/roqua/developer" target="_blank">public GitHub repository</a>. Please help us by forking the project and adding to it.</p>
+      </div>
+    </div><!-- /sidebar-shell -->
+  </div><!-- #wrapper -->
+
+  <%= render '_footer' %>
+</body>
+</html>
