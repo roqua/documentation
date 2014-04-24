@@ -6,9 +6,6 @@ title: FillOut Sessions
 {:toc}
 
 
-Start fill out session for patient.
-
-
 ## Start a fill out session.
 
     POST /api/v1/dossiers/:dossier_id/fill_out_sessions/
@@ -47,7 +44,7 @@ Name | Type | Description
 <%= json errors: ["Vragenlijst met sleutel 'questionnaire_key' niet gevonden"] %>
 
 
-### When no `return_to url` is provided
+### When no `return_to` url is provided
 
 <%= headers 422 %>
 <%= json errors: ['Return url is vereist'] %>
