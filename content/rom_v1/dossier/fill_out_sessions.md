@@ -40,7 +40,7 @@ Name | Type | Description
 
 ### When no questionnaire exists with the `questionnaire_key` provided
 
-<%= headers 404 %>
+<%= headers 422 %>
 <%= json errors: ["Vragenlijst met sleutel 'questionnaire_key' niet gevonden"] %>
 
 

@@ -79,7 +79,7 @@ Name | Type | Description
 
 ### When no protocol exists with the `protocol_key` provided
 
-<%= headers 404 %>
+<%= headers 422 %>
 <%= json errors: ["Protocol met sleutel 'protocol_key' niet gevonden"] %>
 
 
