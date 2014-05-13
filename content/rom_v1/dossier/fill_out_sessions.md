@@ -41,10 +41,10 @@ Name | Type | Description
 ### When no questionnaire exists with the `questionnaire_key` provided
 
 <%= headers 422 %>
-<%= json errors: ["Vragenlijst met sleutel 'questionnaire_key' niet gevonden"] %>
+<%= json errors: {'questionnaire_key' => ['questionnaire_not_found_by_key']} %>
 
 
 ### When no `return_to` url is provided
 
 <%= headers 422 %>
-<%= json errors: ['Return url is vereist'] %>
+<%= json errors: {'return_url' => ['missing']} %>

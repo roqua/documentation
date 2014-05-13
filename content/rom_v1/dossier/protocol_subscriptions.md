@@ -80,7 +80,7 @@ Name | Type | Description
 ### When no protocol exists with the `protocol_key` provided
 
 <%= headers 422 %>
-<%= json errors: ["Protocol met sleutel 'protocol_key' niet gevonden"] %>
+<%= json errors: {'protocol_key' => ['protocol_not_found_by_key']}
 
 
 ## Stop a protocol subscription.
