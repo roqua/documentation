@@ -34,8 +34,8 @@ Name | Type | Description
 
 ### When no `dossier_id` is provided
 
-<%= headers 422 %>
-<%= json errors: ['Dossier id moet opgegeven zijn'] %>
+<%= headers 404 %>
+<%= no_body %>
 
 
 ### When no questionnaire exists with the `questionnaire_key` provided

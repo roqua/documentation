@@ -37,8 +37,8 @@ Name | Type | Description
 
 ### When no `dossier_id` is provided
 
-<%= headers 422 %>
-<%= json errors: ['Dossier id moet opgegeven zijn'] %>
+<%= headers 404 %>
+<%= no_body %>
 
 
 ## Start a protocol subscription
@@ -73,8 +73,8 @@ Name | Type | Description
 
 ### When no `dossier_id` is provided
 
-<%= headers 422 %>
-<%= json errors: ['Dossier id moet opgegeven zijn'] %>
+<%= headers 404 %>
+<%= no_body %>
 
 
 ### When no protocol exists with the `protocol_key` provided
@@ -113,13 +113,13 @@ Name | Type | Description
 
 ### When no `dossier_id` is provided
 
-<%= headers 422 %>
-<%= json errors: ['Dossier id moet opgegeven zijn'] %>
+<%= headers 404 %>
+<%= no_body %>
 
 
 ### When no protocol subscription exists with the given `id`
 
 <%= headers 404 %>
-<%= json errors: ["Protocolabonnement met id 'id' niet gevonden"] %>
+<%= no_body %>
 
 
