@@ -51,7 +51,7 @@ Name | Type | Description
 ### Response
 
 <%= headers 200 %>
-<%= json "responses" => [
+<%= json [
     {
       "name"           => "OQ-45",
       "status"         => "scheduled",
