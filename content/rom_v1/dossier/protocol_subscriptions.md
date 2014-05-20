@@ -22,10 +22,12 @@ Name | Type | Description
 ### Success
 
 <%= headers 200 %>
-<%= json [{daily_start_time: 32400,
-       patient_id:       16893,
-       protocol_id:      35,
-       start_at:         "2014-02-14T15:43:24+01:00"}]
+<%= json [{id:               124,
+           daily_start_time: 32400,
+           start_at:         "2014-02-14T15:43:24+01:00",
+           stop_at:          "2014-03-14T15:43:24+01:00",
+           protocol_key:     "rom",
+           protocol_name:    "ROM"}]
 %>
 
 
@@ -58,10 +60,12 @@ Name | Type | Description
 ### Success
 
 <%= headers 200 %>
-<%= json daily_start_time: 32400,
-         patient_id:       16893,
-         protocol_id:      35,
-         start_at:         "2014-02-14T15:43:24+01:00"
+<%= json id:               124,
+         daily_start_time: 32400,
+         start_at:         "2014-02-14T15:43:24+01:00",
+         stop_at:          "2014-03-14T15:43:24+01:00",
+         protocol_key:     "rom",
+         protocol_name:    "ROM"
 %>
 
 
@@ -98,10 +102,12 @@ Name | Type | Description
 ### Success
 
 <%= headers 200 %>
-<%= json daily_start_time: 32400,
-         patient_id:       16893,
-         protocol_id:      35,
-         start_at:         "2014-02-14T15:43:24+01:00"
+<%= json id:               124,
+         daily_start_time: 32400,
+         start_at:         "2014-02-14T15:43:24+01:00",
+         stop_at:          "2014-03-14T15:43:24+01:00",
+         protocol_key:     "rom",
+         protocol_name:    "ROM"
 %>
 
 
