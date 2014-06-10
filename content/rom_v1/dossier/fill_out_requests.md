@@ -26,7 +26,7 @@ Name                | Type               | Description
 --------------------|--------------------|------------
 `questionnaire_keys`| `array of string`  | **Required**. List of questionnaires that need to be filled out.
 `respondent_type`   | `string`           | Defaults to `patient_version`.
-`callback_url`      | `string`           | url to call on events (see below).
+`callback_url`      | `string`           | URL to call on events (see below).
 `reminders`         | `array of integer` | List of offsets in seconds after open_from to make a reminder callback.
 `open_from`         | `integer`          | Unix timestamp for when the questionnaires can be filled out. Defaults to Time.now
 `open_till`         | `integer`          | Unix timestamp for when the questionnaires expire. Default to never.
@@ -67,7 +67,7 @@ The callback url should contain the authentication for the request.
          }
 %>
 
-### When no dossier_id is provide
+### When no dossier_id is provided
 
 <%= headers 404 %>
 <%= no_body %>
