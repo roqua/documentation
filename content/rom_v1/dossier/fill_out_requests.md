@@ -63,8 +63,7 @@ The callback url should contain the authentication for the request.
 <%= headers 422 %>
 <%= json errors: {
            open_till: ['in_past'],
-           questionnaire_keys: ['blank'],
-           questionnaire_keys: ['invalid'] # one of the questionnaire_keys was not found
+           questionnaire_keys: ['blank', 'invalid'], #invalid when a key could not be found.
          }
 %>
 
