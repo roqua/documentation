@@ -78,18 +78,6 @@ $(function() {
   var currentYear = (new Date).getFullYear();
   $("#year").text( (new Date).getFullYear() );
 
-  // Grab API status
-  $.getJSON('https://status.github.com/api/status.json?callback=?', function(data) {
-    if(data) {
-      var link = $("<a>")
-        .attr("href", "https://status.github.com")
-        .addClass(data.status)
-        .attr("title", "API Status: " + data.status + ". Click for details.")
-        .text("API Status: " + data.status);
-      $('.api-status').html(link);
-    }
-  });
-
   // Add link anchors for headers with IDs
   $(".content h1, .content h2, .content h3, .content h4").each(function(e){
     var id = $(this).attr("id");

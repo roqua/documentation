@@ -4,6 +4,7 @@ require 'stringio'
 require 'cgi'
 require 'securerandom'
 require 'time'
+require 'csv'
 
 module GitHub
   module Resources
@@ -92,13 +93,6 @@ module GitHub
         %Q{<#{url}>; rel="#{name}"}
       end
 
-      def default_pagination_rels
-        {
-          :next => "https://api.github.com/resource?page=2",
-          :last => "https://api.github.com/resource?page=5"
-        }
-      end
-
       def json(key)
         hash = case key
           when Hash
@@ -124,6 +118,36 @@ module GitHub
         hs = headers(status, head.merge('Content-Type' => 'text/html'))
         res = CGI.escapeHTML(response)
         hs + %(<pre><code>) + res + "</code></pre>"
+      end
+
+      def csv(string, col_sep: ';')
+        data = CSV.parse(string, col_sep: col_sep)
+
+        output = ""
+        output << "<table>"
+
+        output << "<thead>"
+        data[0..0].each do |row|
+          output << "<tr>"
+          row.each do |cell|
+            output << "<th>#{cell}</th>"
+          end
+          output << "</tr>"
+        end
+        output << "</thead>"
+
+        output << "<tbody>"
+        data[1..-1].each do |row|
+          output << "<tr>"
+          row.each do |cell|
+            output << "<td>#{cell}</td>"
+          end
+          output << "</tr>"
+        end
+        output << "</tbody>"
+
+        output << "</table>"
+        output
       end
 
     end
