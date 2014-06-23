@@ -15,7 +15,7 @@ CSV
 
 If a value is present in this column, it means that the patient either did not get contacted for a ROM measurement, did not reply, or did not want to complete the measurement. If the column is empty, it means that either the response was completed, or is still pending completion.
 
-This number can be traced to the `nonrespons/nonrespons.json` in the downloaded export. This file contains a list of all recorded non-responses. This is stored in a seperate file since multiple entries in the CSV can have the same non-response identifier (because many questionnaires can be marked non-responsive at the same time).
+This number can be traced to the `nonrespons/nonrespons.json` in the downloaded export. This file contains a list of all recorded non-responses. This is stored in a seperate file since multiple entries in the CSV can have the same non-response identifier (because non-response can be registerd for multiple questionnaires at once).
 
 <%= json [
   {
