@@ -53,9 +53,10 @@ module GitHub
       end
 
       def status_label(item)
-        %(<span class="status status-#{item[:status].downcase}">
-          #{item[:status]}
-          </span>) if item[:status]
+        status = item[:status] || 'draft'
+        %(<span class="status status-#{status.downcase}">
+          #{status}
+          </span>)
       end
 
       def strftime(time, format = DefaultTimeFormat)

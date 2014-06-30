@@ -1,5 +1,6 @@
 ---
 title: HL7 2.4 ORU
+status: final
 ---
 
 * TOC
