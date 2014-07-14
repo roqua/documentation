@@ -1,6 +1,6 @@
 ---
 title: Responses
-status: final
+status: stable
 ---
 
 * TOC
