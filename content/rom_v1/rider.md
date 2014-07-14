@@ -1,6 +1,6 @@
 ---
 title: Technical Rider
-status: draft
+status: stable
 ---
 
 In theater and musical performances, a technical rider is often used to document
@@ -17,9 +17,14 @@ conditions can be met.
 To protect the transmission of HL7 traffic, we need to set up an encrypted VPN
 tunnel to your network.
 
-* Our network is using the 10.0.0.0/8 range internally. Yours probably does too.
-  To prevent collisions and routing problems we should pick one of the other
-  private ranges for our VPN-traffic, e.g. 172.16.0.0/12.
+* As VPN endpoints, we prefer to set up VPNs between two public IP addresses.
+  This prevents any kind of collision between IP addresses used by either us,
+  or other parties that have VPNs with us.
+
+  If this is absolutely impossible, our network is using the 10.0.0.0/8 range
+  internally. Yours probably does too. To prevent collisions and routing
+  problems we should pick IP addresses in of the other private ranges,
+  e.g. 172.16.0.0/12.
 
 * We would like to set up monitoring to check that the VPN is actually responsive.
   For this, we will need one IP-address on your end that responds to `ping`. We

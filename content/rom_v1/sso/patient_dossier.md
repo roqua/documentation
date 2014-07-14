@@ -1,5 +1,6 @@
 ---
 title: Single Sign-On for Patient Dossiers
+status: stable
 ---
 
 * TOC
