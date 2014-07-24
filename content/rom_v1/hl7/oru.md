@@ -1,5 +1,5 @@
 ---
-title: HL7 2.4 ORU
+title: HL7 2.4 ORU^R01
 status: stable
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: DSL version 1
+title: Quby
 ---
 
 V1 documentation

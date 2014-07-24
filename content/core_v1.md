@@ -1,5 +1,5 @@
 ---
-title: API version 1
+title: Core
 ---
 
 V1 documentation

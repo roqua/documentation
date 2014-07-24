@@ -19,3 +19,5 @@ end
 group :test do
   gem 'html-proofer', '~> 0.6.0'
 end
+
+gem 'pry'

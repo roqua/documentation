@@ -1,6 +1,7 @@
 ---
 title: How it Works
 status: draft
+sort: -1000
 ---
 
 Quby talks to OpenCPU using JSON. It means that OpenCPU API translates the JSON data sent to some kind of R data

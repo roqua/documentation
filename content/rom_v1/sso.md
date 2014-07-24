@@ -1,6 +1,7 @@
 ---
 title: Single Sign On
 status: stable
+sort: -900
 ---
 
 There are multiple ways to automatically log a browser session into RoQua: as a patient, as a medical professional, as an admin. Several ways have a SSO option.

@@ -1,6 +1,7 @@
 ---
-title: OpenCPU - Usage in Quby
+title: Usage in Quby
 status: draft
+sort: -800
 ---
 
 Following example shows how to generate a `score` in Quby called `:auth_token`. This `score` contains an SHA1 hash

@@ -1,5 +1,6 @@
 ---
 title: Authentication
+sort: -900
 ---
 
 For Core, we support two different types of authentication. Any request that exposes personal details about a specific dossier requires authentication using a valid OAuth access token.

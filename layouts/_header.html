@@ -3,10 +3,10 @@
     <div>
       <a class="logo" href="/developer/">RoQua Developer</a>
       <ul class="nav">
-        <li><a href="/developer/" class="nav-overview">Overview</a></li>
-        <li><a href="/developer/core_v1/" class="nav-core">Core</a></li>
-        <li><a href="/developer/rom_v1/" class="nav-rom">ROM</a></li>
-        <li><a href="/developer/quby_v1/" class="nav-quby">Quby</a></li>
+        <%= nav_link @items.find { |i| i.identifier == '/developer/' } %>
+        <%= nav_link @items.find { |i| i.identifier == '/developer/core_v1/' } %>
+        <%= nav_link @items.find { |i| i.identifier == '/developer/rom_v1/' } %>
+        <%= nav_link @items.find { |i| i.identifier == '/developer/quby_v1/' } %>
         <li><a href="http://roqua.nl/contact">Support</a></li>
       </ul>
     </div>

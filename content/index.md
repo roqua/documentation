@@ -1,5 +1,5 @@
 ---
-title: RoQua API & Integrations
+title: Overview
 ---
 
 RoQua consists of several applications. Some of these are internal only,
