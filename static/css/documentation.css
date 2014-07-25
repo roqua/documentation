@@ -1377,11 +1377,11 @@ li.api-status img {
     background-size: 8px 61px;
   }
 
-  #header .logo {
+/*  #header .logo {
     background-image: url(/developer/assets/images/logo_developer@2x.png);
     background-size: 186px 27px;
   }
-
+*/
   #searchfield {
     background-image: url(/developer/assets/images/search@2x.png);
     background-size: 13px 13px;

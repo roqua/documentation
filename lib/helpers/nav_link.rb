@@ -1,7 +1,6 @@
 # encoding: utf-8
 
 class NavLinker
-
   def initialize(item)
     @item = item
   end
@@ -68,11 +67,9 @@ class NavLinker
 end
 
 module NavLinkHelper
-
   def nav_link(item)
     NavLinker.new(@item).nav_link(item)
   end
-
 end
 
 include NavLinkHelper
