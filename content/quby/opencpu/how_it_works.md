@@ -64,4 +64,4 @@ of the score:
 ```
 
 As with many programming languages there are more than one way to reach the goal. This is why the Roqua team came up
-with some [conventions](/developer/quby_v1/opencpu/conventions/) that should be followed in order to make the data exchange as smooth as possible.
+with some [conventions](/developer/quby/opencpu/conventions/) that should be followed in order to make the data exchange as smooth as possible.

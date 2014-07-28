@@ -48,4 +48,4 @@ Number  | Environment | Direction          | Purpose
 ## Web Application Monitoring
 
 We provide a service health API endpoint that you can use to check the various
-subsystems of RoQua. See [Service Health](/developer/rom_v1/global/service_health/).
+subsystems of RoQua. See [Service Health](/developer/rom/global/service_health/).
