@@ -67,40 +67,14 @@ h1 .header-anchor {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 24px;
   color: #333;
   margin: 2em auto 1em;
   position: relative;
 }
 
-.library-list h1 {
-	margin: 20px 0 20px;
-	padding: 20px 0 20px;
-}
-
-.library-list h2 {
-	margin-bottom: -17px;
-	margin-left: 0px;
-	font-size: 16px;
-	max-width: 190px;
-}
-
-.library-list ul {
-	margin-bottom: 40px;
-}
-
-.library-list ul li {
-	padding-left: 200px;
-	padding-right: 200px;
-	list-style: none;
-	font-size: 14px;
-}
-
-body.api .content h2 {
-  margin-bottom: 1em;
-  margin-top: 2em;
-  font-size: 22px;
-  font-weight: 300;
+.content h2 {
+  border-bottom: 2px solid #eee;
 }
 
 .change h2, .sidebar-shell h2 {
@@ -938,7 +912,7 @@ p code {
 
 #markdown-toc li {
 	font-size: 14px;
-	list-style-type: lower-roman;
+	list-style-type: decimal;
 }
 
 #markdown-toc li a {
@@ -948,6 +922,10 @@ p code {
 
 #markdown-toc li a:hover {
   color: #327fc7;
+}
+
+#markdown-toc li ul {
+  margin-top: 0;
 }
 
 body .content table {
