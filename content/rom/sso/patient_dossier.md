@@ -1,5 +1,5 @@
 ---
-title: Single Sign-On for Patient Dossiers
+title: Single Sign-On for Professionals
 status: stable
 ---
 
