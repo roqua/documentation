@@ -17,4 +17,4 @@ Running guard start a local server and recompiles the doc files when changed.
 Publish to http://roqua.github.io/developer
 ===========================================
 
-    bundle exec rake publish
+CircleCI will push to the githib pages when the tests pass.
