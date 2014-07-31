@@ -7,7 +7,7 @@ title: Protocol Subscriptions
 
 Manage protocol subscriptions for individual patients.
 
-## Retrieve all active protocol subscriptions for a patient
+## List active protocol subscriptions for a patient
 
     GET /api/v1/dossiers/:dossier_id/protocol_subscriptions
 
