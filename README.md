@@ -12,3 +12,9 @@ Running guard start a local server and recompiles the doc files when changed.
 
     bundle exec guard
     open http://localhost:9093/developer
+
+
+Publish to http://roqua.github.io/developer
+===========================================
+
+    bundle exec rake publish
