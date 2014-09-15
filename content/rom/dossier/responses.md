@@ -47,13 +47,14 @@ Requests for more detailed information about responses are namespaced under a sp
 Name | Type | Description
 ---- |------|--------------
 `respondent_type` | `string` | Request only responses where the `completer_type` would equal the given value.
-`status`          | `string` | Request only responses where the `status` would equal the given value.
+`status`          | `string` | ['completed', 'aborted', 'open', 'scheduled'] Request only responses where the `status` would equal the given value.
 
 ### Response
 
 <%= headers 200 %>
 <%= json [
     {
+      "id"             => 1,
       "name"           => "OQ-45",
       "status"         => "scheduled",
       "open_from"      => "2012-11-23T12:40:20+00:00+0200",
@@ -70,6 +71,7 @@ Name | Type | Description
                            :complete=>nil}
     },
     {
+      "id"             => 2,
       "name"           => "OQ-45",
       "status"         => "open",
       "open_from"      => nil,
@@ -86,6 +88,24 @@ Name | Type | Description
                            :complete=>nil}
     },
     {
+      "id"             => 3,
+      "name"           => "OQ-45",
+      "status"         => "aborted",
+      "open_from"      => nil,
+      "open_till"      => nil,
+      "completer_type" => "parent",
+      "completed_at"   => "2012-11-20T15:40:20+00:00+0200",
+      "completing_url" => "https://demo.roqua.nl/login?token=abcdefgh",
+      "values"         => {},
+      "outcome"        => {:scores=>{},
+                           :action=>nil,
+                           :actions=>{},
+                           :alarm=>nil,
+                           :attention=>nil,
+                           :complete=>nil}
+    },
+    {
+      "id"             => 4,
       "name"           => "OQ-45",
       "status"         => "completed",
       "open_from"      => nil,
@@ -185,17 +205,18 @@ Name | Type | Description
 
 ### Response Attributes
 
-Name             | Type     | Description
------------------|----------|--------------
-`name`           | `string` | The name of the response.
-`status`         | `string` | One of the following values:<br/>* `scheduled` - This response is scheduled to be completed at a later time. Cannot be completed right now, and visiting its URL will not result in this response being presented. See `open_from` and `open_till` attributes for the time window when this response will be `open`.<br/>* `open` - This response is completable right now.<br/> * `completed` - This response has been completed.
-`open_from`      | `string` | An ISO 8601 formatted string that indicates when the response becomes completable, or `null` if this response is not only completable within a specific time window.
-`open_till`      | `string` | An ISO 8601 formatted string that indicates when the response expires and is no longer completable, or `null` if this response is not only completable within a specific time window.
-`completer_type` | `string` | Describes for whom this response is intended. Can be `patient`, `professional`, `parent`, `second_parent` or `teacher`. More types might be added later, therefore it is advised that API consumers select the desired types, and not reject the undesired types.
-`completed_at`   | `string` | An ISO 8601 formatted string that indicates when the response was completed, or `null` if this response is not yet completed.
-`completing_url` | `string` | The URL that can be visited to complete this (and possibly other) response(s). Will be `null` if response is already completed.
-`values`         | `hash`   | Hash with key value pairs for every question in the questionnaire. Will be empty when the response is not completed.
-`outcome`        | `hash`   | Hash with various outcome elements. See below for more details.
+Name             | Type      | Description
+-----------------|-----------|--------------
+`id`             | `integer` | Id uniquely identifying the reponse record.
+`name`           | `string`  | The name of the response.
+`status`         | `string`  | One of the following values:<br/>* `scheduled` - This response is scheduled to be completed at a later time. Cannot be completed right now, and visiting its URL will not result in this response being presented. See `open_from` and `open_till` attributes for the time window when this response will be `open`.<br/>* `open` - This response is completable right now.<br/> * `aborted` - Filling out the questionnaire has been aborted.<br/> * `completed` - This response has been completed.
+`open_from`      | `string`  | An ISO 8601 formatted string that indicates when the response becomes completable, or `null` if this response is not only completable within a specific time window.
+`open_till`      | `string`  | An ISO 8601 formatted string that indicates when the response expires and is no longer completable, or `null` if this response is not only completable within a specific time window.
+`completer_type` | `string`  | Describes for whom this response is intended. Can be `patient`, `professional`, `parent`, `second_parent` or `teacher`. More types might be added later, therefore it is advised that API consumers select the desired types, and not reject the undesired types.
+`completed_at`   | `string`  | An ISO 8601 formatted string that indicates when the response was completed, or `null` if this response is not yet completed.
+`completing_url` | `string`  | The URL that can be visited to complete this (and possibly other) response(s). Will be `null` if response is already completed.
+`values`         | `hash`    | Hash with key value pairs for every question in the questionnaire. Will be empty when the response is not completed.
+`outcome`        | `hash`    | Hash with various outcome elements. See below for more details.
 
 #### Outcome
 
