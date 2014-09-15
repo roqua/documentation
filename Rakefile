@@ -45,6 +45,7 @@ task :publish => [:clean] do
     ENV['GIT_WORK_TREE'] = Dir.pwd
     File.unlink(gif) if File.file?(gif)
     `mv developer/* .`
+    `cp ../circle.yml .`
     `git add -A`
     tsha = `git write-tree`.strip
     puts "Created tree   #{tsha}"
