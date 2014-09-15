@@ -8,7 +8,7 @@ provides. The nicely formatted version [can be found here](http://roqua.github.i
 Local development / preview
 =============
 
-Running guard start a local server and recompiles the doc files when changed.
+Running guard starts a local server and recompiles the doc files when changed.
 
     bundle exec guard
     open http://localhost:9093/developer
@@ -17,4 +17,4 @@ Running guard start a local server and recompiles the doc files when changed.
 Publish to http://roqua.github.io/developer
 ===========================================
 
-CircleCI will push to the githib pages when the tests pass.
+CircleCI will push to the github pages when the tests pass.
