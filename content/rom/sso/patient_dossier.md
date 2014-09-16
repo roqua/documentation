@@ -22,7 +22,7 @@ window or frame to navigate to:
     https://epd.:ggzname.roqua.nl/epd/session/create
 
 
-## Parameters
+## Required parameters
 
 To this URL, you must add a number of query parameters (i.e. `?key=value&foo=bar&baz=quux`). These parameters are used for specifying the user to be logged in, the dossier to be shown, and authenticating that the request is signed by a valid authority.
 
@@ -79,6 +79,14 @@ value-of-bar|value-of-foo|1359373315
 ```
 
 Given a secret `very-secret`, this message would result in the following HMAC: `7ada2feaa64e7af5665b5ad92530f64983fdb3c0`.
+
+## Optional parameters
+
+In addition to the list of required parameters above, we also support the following list of optional parameters. Remember that it's fine to send parameters we don't have listed in this document, they will be used in the validation of the HMAC, but will be ignored otherwise.
+
+### `user_firstname` - Firstname of the professional
+
+### `user_lastname` - Lastname of the professional
 
 ## Example implementation, both client and server
 
