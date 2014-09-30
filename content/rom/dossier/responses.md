@@ -46,8 +46,12 @@ Requests for more detailed information about responses are namespaced under a sp
 
 Name | Type | Description
 ---- |------|--------------
-`respondent_type` | `string` | Request only responses where the `completer_type` would equal the given value.
-`status`          | `string` | ['completed', 'aborted', 'open', 'scheduled'] Request only responses where the `status` would equal the given value.
+`questionnaire_keys`       | 'array of strings' | Only return responses on questionnaires whose key is listed
+`completed_before`         | `time`             | Only return responses filled out before the specified time
+`completed_after`          | `time`             | Only return responses filled out after the specified time
+`respondent_type`          | `string`           | Only return responses whose `completer_type` equals the given value
+`status`                   | `string`           | ['completed', 'aborted', 'open', 'scheduled'] Only return responses whose `status` equals the given value
+`protocol_subscription_id` | `string`           | Only return responses associated to the protocol subscription with the given id
 
 ### Response
 
