@@ -263,7 +263,7 @@ Name | Type | Description
 The created response is returned. See the section on listing all responses for an explanation of the response object attribute fields.
 
 <%= headers 200 %>
-<%= json {
+<%= json [ {
       "id"                 => 4,
       "name"               => "OQ-45",
       "questionnaire_name" => "OQ-45",
@@ -360,7 +360,7 @@ The created response is returned. See the section on listing all responses for a
                                :alarm=>["v_8", "v_11", "v_45"],
                                :attention=>["v_33"],
                                :complete=>nil}
-    } %>
+    } ] %>
 
 ### When no questionnaire exists for the `questionnaire_key` provided
 
