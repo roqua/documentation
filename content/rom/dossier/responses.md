@@ -256,15 +256,14 @@ Name | Type | Description
 `questionnaire_key` | `string`  | [Required] Key uniquely identifying the questionnaire in the ROM application
 `answer_data`       | `hash`    | [Required] Hash storing the answered option key for every question key
 `filled_out_at`     | `integer` | The Unix time when the questionnaire was filled out
-`respondent`        | `string`  | ['patient'(default)|'parent'|'second_parent'|'teacher'|'caregiver'] String identifying the respondent which filled out the questionnaire
+`respondent`        | `string`  | ['patient'(default) \| 'parent' \| 'second_parent' \| 'teacher' \| 'caregiver'] String identifying the respondent which filled out the questionnaire
 
 ### Response
 
 The created response is returned. See the section on listing all responses for an explanation of the response object attribute fields.
 
 <%= headers 200 %>
-<%= json [ {
-      "id"                 => 4,
+<%= json  "id"                 => 4,
       "name"               => "OQ-45",
       "questionnaire_name" => "OQ-45",
       "questionnaire_key"  => "oq45",
@@ -360,7 +359,7 @@ The created response is returned. See the section on listing all responses for a
                                :alarm=>["v_8", "v_11", "v_45"],
                                :attention=>["v_33"],
                                :complete=>nil}
-    } ] %>
+    %>
 
 ### When no questionnaire exists for the `questionnaire_key` provided
 
