@@ -39,6 +39,10 @@ task :publish => [:clean] do
   sh "nanoc compile"
 
   ENV['GIT_DIR'] = File.expand_path(`git rev-parse --git-dir`.chomp)
+  old_branch = `git rev-parse --abbrev-ref HEAD`.strip
+  `git checkout --quiet gh-pages`
+  `git pull --quiet`
+  `git checkout --quiet #{old_branch}`
   old_sha = `git rev-parse refs/remotes/origin/gh-pages`.chomp
   Dir.chdir('output') do
     ENV['GIT_INDEX_FILE'] = gif = '/tmp/dev.gh.i'
