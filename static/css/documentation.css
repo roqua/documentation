@@ -64,6 +64,7 @@ h1 .header-anchor {
 
 .header-anchor:before {
   content:'\f05c';
+  font-family: octicons;
 }
 
 h2 {
