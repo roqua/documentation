@@ -83,8 +83,20 @@ Name | Type | Description
 
 ### When no protocol exists with the `protocol_key` provided
 
+<%= headers 404 %>
+<%= no_body %>
+
+
+### When a flag does not exist within the protocol
+
 <%= headers 422 %>
-<%= json errors: {'protocol_key' => ['protocol_not_found_by_key']} %>
+<%= json errors: {'base' => ['flag_does_not_exist']} %>
+
+
+### When a flag is set to an invalid value
+
+<%= headers 422 %>
+<%= json errors: {'base' => ['flag_value_invalid']} %>
 
 
 ## Stop a protocol subscription.
