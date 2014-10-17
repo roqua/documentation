@@ -27,7 +27,9 @@ Name | Type | Description
            start_at:         "2014-02-14T15:43:24+01:00",
            stop_at:          "2014-03-14T15:43:24+01:00",
            protocol_key:     "rom",
-           protocol_name:    "ROM"}]
+           protocol_name:    "ROM",
+           flags:            {dagboek_roker: false},
+           textvars:         {dagboek_hoofdprobleem: "Slaaptekort"}}]
 %>
 
 
@@ -56,6 +58,7 @@ Name | Type | Description
 `protocol_key` | `string`  | **Required**. Key uniquely identifying the protocol of interest as specified in RoQua.
 `start_at`     | `integer` | The Unix time when the first measurement should be prepared. Defaults to the current time.
 `flags`        | `hash`    | Boolean flags that are passed in when a questionnaire is being filled out.
+`textvars`     | `hash`    | String textvars that are passed in when a questionnaire is being filled out.
 
 ### Success
 
@@ -65,7 +68,9 @@ Name | Type | Description
          start_at:         "2014-02-14T15:43:24+01:00",
          stop_at:          "2014-03-14T15:43:24+01:00",
          protocol_key:     "rom",
-         protocol_name:    "ROM"
+         protocol_name:    "ROM",
+         flags:            {dagboek_roker: false},
+         textvars:         {dagboek_hoofdprobleem: "Slaaptekort"}}]
 %>
 
 
