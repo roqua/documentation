@@ -70,7 +70,7 @@ Name | Type | Description
          protocol_key:     "rom",
          protocol_name:    "ROM",
          flags:            {dagboek_roker: false},
-         textvars:         {dagboek_hoofdprobleem: "Slaaptekort"}}]
+         textvars:         {dagboek_hoofdprobleem: "Slaaptekort"}
 %>
 
 
