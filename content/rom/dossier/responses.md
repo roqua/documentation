@@ -66,6 +66,7 @@ Name | Type | Description
       "open_from"          => "2012-11-23T12:40:20+00:00+0200",
       "open_till"          => "2012-11-25T12:40:20+00:00+0200",
       "completer_type"     => "patient",
+      "started_at"         => nil,
       "completed_at"       => nil,
       "completing_url"     => "https://demo.roqua.nl/login?token=abcdefgh",
       "values"             => {},
@@ -85,6 +86,7 @@ Name | Type | Description
       "open_from"          => nil,
       "open_till"          => nil,
       "completer_type"     => "parent",
+      "started_at"         => nil,
       "completed_at"       => nil,
       "completing_url"     => "https://demo.roqua.nl/login?token=abcdefgh",
       "values"             => {},
@@ -104,6 +106,7 @@ Name | Type | Description
       "open_from"          => nil,
       "open_till"          => nil,
       "completer_type"     => "parent",
+      "started_at"         => "2012-11-20T15:30:20+00:00+0200",
       "completed_at"       => "2012-11-20T15:40:20+00:00+0200",
       "completing_url"     => "https://demo.roqua.nl/login?token=abcdefgh",
       "values"             => {},
@@ -123,6 +126,7 @@ Name | Type | Description
       "open_from"          => nil,
       "open_till"          => nil,
       "completer_type"     => "patient",
+      "started_at"         => "2012-11-20T15:30:20+00:00+0200",
       "completed_at"       => "2012-11-20T15:40:20+00:00+0200",
       "completing_url"     => nil,
       "values"             => {"v_1"=>4,
@@ -227,6 +231,7 @@ Name                  | Type      | Description
 `open_from`           | `string`  | An ISO 8601 formatted string that indicates when the response becomes completable, or `null` if this response is not only completable within a specific time window.
 `open_till`           | `string`  | An ISO 8601 formatted string that indicates when the response expires and is no longer completable, or `null` if this response is not only completable within a specific time window.
 `completer_type`      | `string`  | Describes for whom this response is intended. Can be `patient`, `professional`, `parent`, `second_parent` or `teacher`. More types might be added later, therefore it is advised that API consumers select the desired types, and not reject the undesired types.
+`started_at`          | `string`  | An ISO 8601 formatted string that indicates when the response was started being filled out, or `null` if this data is not available.
 `completed_at`        | `string`  | An ISO 8601 formatted string that indicates when the response was completed, or `null` if this response is not yet completed.
 `completing_url`      | `string`  | The URL that can be visited to complete this (and possibly other) response(s). Will be `null` if response is already completed.
 `values`              | `hash`    | Hash with key value pairs for every question in the questionnaire. Will be empty when the response is not completed.
@@ -255,6 +260,7 @@ Name | Type | Description
 ---- |------|--------------
 `questionnaire_key` | `string`  | [Required] Key uniquely identifying the questionnaire in the ROM application
 `answer_data`       | `hash`    | [Required] Hash storing the answered option key for every question key
+`started_at`        | `integer` | The Unix time when the questionnaire was started being filled out (greater or equal to 31 december 1999)
 `filled_out_at`     | `integer` | The Unix time when the questionnaire was filled out (greater or equal to 31 december 1999)
 `respondent`        | `string`  | ['patient'(default) \| 'parent' \| 'second_parent' \| 'teacher' \| 'caregiver'] String identifying the respondent which filled out the questionnaire
 
@@ -271,6 +277,7 @@ The created response is returned. See the section on listing all responses for a
       "open_from"          => nil,
       "open_till"          => nil,
       "completer_type"     => "patient",
+      "started_at"         => "2012-11-20T15:30:20+00:00+0200",
       "completed_at"       => "2012-11-20T15:40:20+00:00+0200",
       "completing_url"     => nil,
       "values"             => {"v_1"=>4,
@@ -380,6 +387,7 @@ Name | Type | Description
 ---- |------|--------------
 `questionnaire_key` | `string`  | [Required] Key uniquely identifying the questionnaire in the ROM application
 `answer_data`       | `hash`    | [Required] Hash storing the answered option key for every question key
+`started_at`        | `integer` | The Unix time when the questionnaire was started being filled out (greater or equal to 31 december 1999)
 `filled_out_at`     | `integer` | The Unix time when the questionnaire was filled out (greater or equal to 31 december 1999)
 
 ### Response
@@ -395,6 +403,7 @@ The created response is returned. See the section on listing all responses for a
          "open_from"          => nil,
          "open_till"          => nil,
          "completer_type"     => "patient",
+         "started_at"         => "2012-11-20T15:30:20+00:00+0200",
          "completed_at"       => "2012-11-20T15:40:20+00:00+0200",
          "completing_url"     => nil,
          "values"             => {"v_1"=>4,
