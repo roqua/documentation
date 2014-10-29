@@ -55,8 +55,8 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
 
     POST https://leefplezier.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/
     {
-      'protocol_key': 'leefplezier_diary',
-      'start_at': 1414604287
+      "protocol_key": "leefplezier_diary",
+      "start_at": 1414604287
     }
 
 ### Response
