@@ -23,8 +23,14 @@ Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen. H
 
     POST https://core.roqua.nl/api/v1/dossier_groups/ROQUA_DOSSIER_GROUP_ID/dossiers
     {
-      'dossier': {
-        'external_identifier': ':espria_id'
+      "dossier": {
+        "external_identifier": "ESPRIA_ID"
+      },
+      "person": {
+        "birthdate": "1980-02-23",
+        "email": "jan@gmail.com",
+        "zipcode": "1602",
+        "gender": "M"
       }
     }
 
