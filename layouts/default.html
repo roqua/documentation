@@ -27,23 +27,28 @@
     </div>
 
     <div id="js-sidebar" class="sidebar-shell">
-      <div class="js-toggle-list sidebar-module expandable">
-        <ul>
-          <% @section.children.sort_by { |topic| topic[:sort] || 0 }.each do |topic| %>
-            <li class="js-topic">
-              <h3><a href="#" class="js-expand-btn collapsed arrow-btn" data-proofer-ignore></a><a href="<%= topic.identifier %>"><%= topic[:title] %></a></h3>
-              <ul class="js-guides">
-                <% topic.children.sort_by {|guide| guide[:sort] || 0 }.each do |guide| %>
-                  <li><a href="<%= guide.identifier %>"><%= guide[:title] %></a></li>
-                <% end %>
-              </ul>
-            </li>
-          <% end %>
-        </ul>
-      </div> <!-- /sidebar-module -->
+
+      <% unless @item.identifier == '/developer/' %>
+        <div class="js-toggle-list sidebar-module expandable">
+          <ul>
+            <% @section.children.sort_by { |topic| topic[:sort] || 0 }.each do |topic| %>
+              <li class="js-topic">
+                <h3><a href="#" class="js-expand-btn collapsed arrow-btn" data-proofer-ignore></a><a href="<%= topic.identifier %>"><%= topic[:title] %></a></h3>
+                <ul class="js-guides">
+                  <% topic.children.sort_by {|guide| guide[:sort] || 0 }.each do |guide| %>
+                    <li><a href="<%= guide.identifier %>"><%= guide[:title] %></a></li>
+                  <% end %>
+                </ul>
+              </li>
+            <% end %>
+          </ul>
+        </div> <!-- /sidebar-module -->
+      <% end %>
+
       <div class="sidebar-module notice">
         <p>This website is a <a href="https://github.com/roqua/developer" target="_blank">public GitHub repository</a>. Please help us by forking the project and adding to it.</p>
       </div>
+
     </div><!-- /sidebar-shell -->
   </div><!-- #wrapper -->
 
