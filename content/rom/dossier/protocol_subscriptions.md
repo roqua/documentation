@@ -70,7 +70,27 @@ Name | Type | Description
          protocol_key:     "rom",
          protocol_name:    "ROM",
          flags:            {dagboek_roker: false},
-         textvars:         {dagboek_hoofdprobleem: "Slaaptekort"}
+         textvars:         {dagboek_hoofdprobleem: "Slaaptekort"},
+         responses:        [{
+                              "id"                 => 2,
+                              "name"               => "OQ-45",
+                              "questionnaire_name" => "OQ-45",
+                              "questionnaire_key"  => "oq45",
+                              "status"             => "open",
+                              "open_from"          => "2014-11-23T21:40:20+00:00+0200",
+                              "open_till"          => "2014-11-23T22:10:20+00:00+0200",
+                              "completer_type"     => "patient",
+                              "started_at"         => nil,
+                              "completed_at"       => nil,
+                              "completing_url"     => "https://demo.roqua.nl/login?token=abcdefgh",
+                              "values"             => {},
+                              "outcome"            => {:scores=>{},
+                                                      :action=>nil,
+                                                      :actions=>{},
+                                                      :alarm=>nil,
+                                                      :attention=>nil,
+                                                      :complete=>nil}
+                            }, 'etc']
 %>
 
 
