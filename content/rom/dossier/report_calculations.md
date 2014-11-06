@@ -6,13 +6,13 @@ status: draft
 * TOC
 {:toc}
 
-## Calculations over multiple answers.
+## Calculations over multiple responses.
 
-### Calculate over specific answers.
+### Calculate over specific responses.
 
-    GET /api/v1/dossiers/:dossier_id/report_calculations?calculator=test&answer_ids[]=1&answer_ids[]=6
+    GET /api/v1/dossiers/:dossier_id/report_calculations?calculator=test&response_ids[]=1&response_ids[]=6
 
-### Calculate over answers defined by filters
+### Calculate over responses defined by filters
 
     GET /api/v1/dossiers/:dossier_id/report_calculations?calculator=test&filters[questionnaire_keys][]=rand361
 
@@ -22,22 +22,22 @@ Name               | Type      | Description
 -------------------|-----------|--------------
 `dossier_id`       | `string`  | **Required**. Unique identifier for the patient to be subscribed.
 `calculator`       | `string`  | **Required**. Name of ReportCalculator.
-`answer_ids`       | `array of int` | specific answers to do the calculation over.
-`filters`          | `hash`    | See below. Required if no answers_ids are given.
+`response_ids`       | `array of int` | specific responses to do the calculation over.
+`filters`          | `hash`    | See below. Required if no responses_ids are given.
 
 #### filter attributes:
 
 Name                | Type               | Description
 --------------------|--------------------|------------
-`questionnaire_keys`| `array of string`  | **Required**. Keys of the questionnaires we want answers from.
-`completed_after`   | `integer`          | Unix timestamp search for answers after this time
-`completed_before`  | `integer`          | Unix timestamp search for answers before this time
+`questionnaire_keys`| `array of string`  | **Required**. Keys of the questionnaires we want responses from.
+`completed_after`   | `integer`          | Unix timestamp search for responses after this time
+`completed_before`  | `integer`          | Unix timestamp search for responses before this time
 
 
 ### Success
 
 <%= headers 200 %>
-<%= json 'results' => {'key' => 'value'}, 'answer_ids' => [1, 6] %>
+<%= json 'results' => {'key' => 'value'}, 'response_ids' => [1, 6] %>
 
 
 ### When validations fail
