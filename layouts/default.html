@@ -31,11 +31,11 @@
       <% unless @item.identifier == '/developer/' %>
         <div class="js-toggle-list sidebar-module expandable">
           <ul>
-            <% @section.children.sort_by { |topic| topic[:sort] || 0 }.each do |topic| %>
+            <% @section.children.sort_by { |topic| topic[:title] || 0 }.sort_by { |topic| topic[:sort] || 0 }.each do |topic| %>
               <li class="js-topic">
                 <h3><a href="#" class="js-expand-btn collapsed arrow-btn" data-proofer-ignore></a><a href="<%= topic.identifier %>"><%= topic[:title] %></a></h3>
                 <ul class="js-guides">
-                  <% topic.children.sort_by {|guide| guide[:sort] || 0 }.each do |guide| %>
+                  <% topic.children.sort_by { |guide| guide[:title] || 0 }.sort_by {|guide| guide[:sort] || guide[:title] || 0 }.each do |guide| %>
                     <li><a href="<%= guide.identifier %>"><%= guide[:title] %></a></li>
                   <% end %>
                 </ul>
