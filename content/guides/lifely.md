@@ -136,8 +136,48 @@ Onder `answer_data` worden de waarden opgestuurd.
 
 Deze API wordt nog gemaakt door RoQua. Zal gaan lijken op de vorige, maar dan met andere parameters (iets als `"non_response": true` in plaats van `answer_data` wellicht).
 
+## Stap 4: Resultaten berekenen en ophalen
+Base url = https://leefplezier.nu
+Prefix = /api/v1
+
+The API only supports GET requests and uses basic auth.
 
 
+### Routes
+
+GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/calculate`
+
+- This route should be called by the Lifely backend after they submit the final results to RoQua, i.e., when they decide that all missing measurements are actually missing.
+- Returns status 200.
+
+GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
+
+- Returns 200 status code with SVG image if the results are ready.
+- Returns 202 if the results have not yet been calculated.
+- Returns 204 if user has not enough measurements for feedback (<25%).
+
+GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/plezierigheid.svg`
+
+- Returns 200 status code with SVG image if the results are ready.
+- Returns 202 if the results have not yet been calculated.
+- Returns 204 if user has not enough measurements for feedback (<25%).
+
+GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voorspellend_netwerk.svg`
+
+- Returns 200 status code with SVG image if the results are ready.
+- Returns 202 if the results have not yet been calculated.
+- Returns 204 if user has not enough measurements for a voorspellend netwerk (<75%).
+- Returns 404 if we were not able to find a network in Autovar.
+
+### Example use
+
+__URL__
+`https://lifely_staging:e08fb668f13d75491d1c528ef5be256f2095d92b0eaa67969e17dc2e09ebb27de562c852b3cb0ef00aa8cc5aad91@staging.leefplezier.nu/leefplezier/api/v1/dossier/1213/protocol_subscriptions/1/results/welbevinden.svg`
+
+__CURL__
+```bash
+curl -X GET --user lifely_staging:e08fb668f13d75491d1c528ef5be256f2095d92b0eaa67969e17dc2e09ebb27de562c852b3cb0ef00aa8cc5aad91 https://staging.leefplezier.nu/leefplezier/api/v1/dossier/1213/protocol_subscriptions/1/results/welbevinden.svg
+```
 
 
 ## Af en toe: Vragenlijst-definitie ophalen
