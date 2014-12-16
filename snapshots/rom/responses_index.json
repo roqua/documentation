@@ -1,7 +1,7 @@
 {
   "request": {
     "request_method": "GET",
-    "path": "/api/v1/dossiers/epd_id_7/responses.json",
+    "path": "/api/v1/dossiers/epd_id_2/responses.json",
     "body": {
     }
   },
@@ -14,16 +14,16 @@
     },
     "body": [
       {
-        "id": 7,
-        "name": null,
-        "questionnaire_name": null,
-        "questionnaire_key": "quest6",
+        "id": 3,
+        "name": "Questionnaire With Flags",
+        "questionnaire_name": "Questionnaire With Flags",
+        "questionnaire_key": "quest1",
         "open_from": null,
         "open_till": null,
         "completer_type": null,
         "completed_at": null,
         "status": "open",
-        "completing_url": "http://default.example.com/client/session/new?token=f7435766",
+        "completing_url": "http://default.example.com/client/session/new?token=222353cd",
         "values": {
         },
         "outcome": {
@@ -35,22 +35,23 @@
           "complete": null
         },
         "flags": {
+          "with_flags_hides_v_1_flag": true
         },
         "textvars": {
         },
         "started_at": null
       },
       {
-        "id": 8,
-        "name": null,
-        "questionnaire_name": null,
-        "questionnaire_key": "quest7",
-        "open_from": "2014-12-28T13:18:23.000+01:00",
+        "id": 4,
+        "name": "Questionnaire With Textvars",
+        "questionnaire_name": "Questionnaire With Textvars",
+        "questionnaire_key": "quest2",
+        "open_from": "2014-12-28T14:06:39.000+01:00",
         "open_till": null,
         "completer_type": null,
         "completed_at": null,
         "status": "scheduled",
-        "completing_url": "http://default.example.com/client/session/new?token=f7435766",
+        "completing_url": "http://default.example.com/client/session/new?token=222353cd",
         "values": {
         },
         "outcome": {
@@ -64,18 +65,21 @@
         "flags": {
         },
         "textvars": {
+          "with_textvars_var1": "{{with_textvars_var1}}",
+          "with_textvars_var2": "var2_default",
+          "with_textvars_var3": "var3_default"
         },
         "started_at": null
       },
       {
-        "id": 6,
+        "id": 2,
         "name": "OQ-45",
         "questionnaire_name": "OQ-45",
         "questionnaire_key": "oq45",
         "open_from": null,
         "open_till": null,
         "completer_type": null,
-        "completed_at": "2014-12-12T13:18:23.000+01:00",
+        "completed_at": "2014-12-12T14:06:39.000+01:00",
         "status": "completed",
         "completing_url": null,
         "values": {
@@ -284,7 +288,7 @@
         },
         "textvars": {
         },
-        "started_at": "2014-12-16T13:18:23.000+01:00"
+        "started_at": "2014-12-16T14:06:39.000+01:00"
       }
     ]
   }

@@ -74,6 +74,8 @@ Name                  | Type      | Description
 `completing_url`      | `string`  | The URL that can be visited to complete this (and possibly other) response(s). Will be `null` if response is already completed.
 `values`              | `hash`    | Hash with key value pairs for every question in the questionnaire. Will be empty when the response is not completed.
 `outcome`             | `hash`    | Hash with various outcome elements. See below for more details.
+`flags`               | `hash     | Hash of flag_name to boolean
+`textvars`            | `hash`    | Hash of textvar_name to string
 
 #### Outcome
 
@@ -135,105 +137,8 @@ Name | Type | Description
 
 The created response is returned. See the section on listing all responses for an explanation of the response object attribute fields.
 
-<%= headers 200 %>
-<%= json "id"                 => 4,
-         "name"               => "OQ-45",
-         "questionnaire_name" => "OQ-45",
-         "questionnaire_key"  => "oq45",
-         "status"             => "completed",
-         "open_from"          => nil,
-         "open_till"          => nil,
-         "completer_type"     => "patient",
-         "started_at"         => "2012-11-20T15:30:20+00:00+0200",
-         "completed_at"       => "2012-11-20T15:40:20+00:00+0200",
-         "completing_url"     => nil,
-         "values"             => {"v_1"=>4,
-                                  "v_2"=>1,
-                                  "v_3"=>2,
-                                  "v_4"=>3,
-                                  "v_5"=>4,
-                                  "v_6"=>4,
-                                  "v_7"=>4,
-                                  "v_8"=>4,
-                                  "v_9"=>4,
-                                  "v_10"=>4,
-                                  "v_11"=>3,
-                                  "v_12"=>1,
-                                  "v_13"=>1,
-                                  "v_14"=>3,
-                                  "v_15"=>3,
-                                  "v_16"=>2,
-                                  "v_18"=>2,
-                                  "v_19"=>2,
-                                  "v_20"=>2,
-                                  "v_21"=>2,
-                                  "v_22"=>3,
-                                  "v_23"=>1,
-                                  "v_24"=>1,
-                                  "v_25"=>3,
-                                  "v_26"=>1,
-                                  "v_27"=>0,
-                                  "v_28"=>0,
-                                  "v_29"=>0,
-                                  "v_30"=>0,
-                                  "v_31"=>0,
-                                  "v_32"=>3,
-                                  "v_33"=>1,
-                                  "v_34"=>1,
-                                  "v_35"=>1,
-                                  "v_36"=>1,
-                                  "v_37"=>3,
-                                  "v_38"=>1,
-                                  "v_39"=>3,
-                                  "v_40"=>3,
-                                  "v_41"=>4,
-                                  "v_42"=>4,
-                                  "v_43"=>4,
-                                  "v_44"=>0,
-                                  "v_45"=>4,
-                                  "v_46"=>4},
-         "outcome"            => {:scores=>{"totaal"=>
-                                             {"score"=>true,
-                                              "label"=>"Totaal",
-                                              "value"=>101,
-                                              "norm"=>">55",
-                                              "interpretation"=>"Klinisch",
-                                              "tscore"=>89,
-                                              "tscore_interpretation"=>"Zeer hoog",
-                                              "oru_flag"=>"HH",
-                                              "global"=>true},
-                                            "psychisch"=>
-                                             {"score"=>true,
-                                              "label"=>"Psychisch Onwelbevinden",
-                                              "value"=>61,
-                                              "norm"=>">33",
-                                              "interpretation"=>"Klinisch",
-                                              "tscore"=>89,
-                                              "tscore_interpretation"=>"Zeer hoog",
-                                              "oru_flag"=>"HH"},
-                                            "interpers"=>
-                                             {"score"=>true,
-                                              "label"=>"Interpersoonlijk Functioneren",
-                                              "value"=>19,
-                                              "norm"=>">12",
-                                              "interpretation"=>"Klinisch",
-                                              "tscore"=>71,
-                                              "tscore_interpretation"=>"Zeer hoog",
-                                              "oru_flag"=>"HH"},
-                                            "sociaal"=>
-                                             {"score"=>true,
-                                              "label"=>"Sociale Rolvervulling",
-                                              "value"=>21,
-                                              "norm"=>">10",
-                                              "interpretation"=>"Klinisch",
-                                              "tscore"=>93,
-                                              "tscore_interpretation"=>"Zeer hoog",
-                                              "oru_flag"=>"HH"}},
-                                  :action=>:alarm,
-                                  :alarm=>["v_8", "v_11", "v_45"],
-                                  :attention=>["v_33"],
-                                  :complete=>nil}
-    %>
+<%= snapshot_request('rom', 'responses_update') %>
+<%= snapshot_response('rom', 'responses_update') %>
 
 ### When the response already stores data updating is not allowed
 
