@@ -182,12 +182,24 @@ GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/r
 ### Example use
 
 __URL__
-`https://lifely_staging:e08fb668f13d75491d1c528ef5be256f2095d92b0eaa67969e17dc2e09ebb27de562c852b3cb0ef00aa8cc5aad91@staging.leefplezier.nu/leefplezier/api/v1/dossier/1213/protocol_subscriptions/1/results/welbevinden.svg`
+`https://lifely_staging:e08fb668f13d75491d1c528ef5be256f2095d92b0eaa67969e17dc2e09ebb27de562c852b3cb0ef00aa8cc5aad91@staging.leefplezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/welbevinden.svg`
 
 __CURL__
+SVG example:
 ```bash
-curl -X GET --user lifely_staging:e08fb668f13d75491d1c528ef5be256f2095d92b0eaa67969e17dc2e09ebb27de562c852b3cb0ef00aa8cc5aad91 https://staging.leefplezier.nu/leefplezier/api/v1/dossier/1213/protocol_subscriptions/1/results/welbevinden.svg
+curl -X GET --user lifely_staging:e08fb668f13d75491d1c528ef5be256f2095d92b0eaa67969e17dc2e09ebb27de562c852b3cb0ef00aa8cc5aad91 https://staging.leefplezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/welbevinden.svg
 ```
+
+JSON example:
+```bash
+curl https://lifely_staging:e08fb668f13d75491d1c528ef5be256f2095d92b0eaa67969e17dc2e09ebb27de562c852b3cb0ef00aa8cc5aad91@staging.leefezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/top_networks.json
+```
+
+Returns: 
+```json
+["Meer onrust werd gevolgd door meer piekeren","Meer onrust werd gevolgd door minder concentratievermogen","Meer onrust werd gevolgd door minder opgewektheid"
+```
+
 
 
 ## Af en toe: Vragenlijst-definitie ophalen
