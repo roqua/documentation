@@ -1,0 +1,59 @@
+{
+  "request": {
+    "request_method": "POST",
+    "path": "/api/v1/dossiers/epd_id_0/responses.json",
+    "body": {
+      "questionnaire_key": "quest0",
+      "answer_data": {
+        "answer": "data"
+      },
+      "respondent": "patient",
+      "started_at": 1418731702,
+      "filled_out_at": 1418732302
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "id": 1,
+      "name": null,
+      "questionnaire_name": null,
+      "questionnaire_key": "quest0",
+      "open_from": null,
+      "open_till": null,
+      "completer_type": "patient",
+      "completed_at": "2014-12-16T13:18:22.000+01:00",
+      "status": "completed",
+      "completing_url": null,
+      "values": {
+        "answer": "data"
+      },
+      "outcome": {
+        "scores": {
+          "tot": {
+            "score": true,
+            "label": "Totaalscore",
+            "value": 37,
+            "referenced_values": [
+
+            ]
+          }
+        },
+        "action": null,
+        "alarm": null,
+        "attention": null,
+        "complete": null
+      },
+      "flags": {
+      },
+      "textvars": {
+      },
+      "started_at": "2014-12-16T13:08:22.000+01:00"
+    }
+  }
+}

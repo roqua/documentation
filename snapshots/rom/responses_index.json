@@ -1,0 +1,291 @@
+{
+  "request": {
+    "request_method": "GET",
+    "path": "/api/v1/dossiers/epd_id_7/responses.json",
+    "body": {
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": [
+      {
+        "id": 7,
+        "name": null,
+        "questionnaire_name": null,
+        "questionnaire_key": "quest6",
+        "open_from": null,
+        "open_till": null,
+        "completer_type": null,
+        "completed_at": null,
+        "status": "open",
+        "completing_url": "http://default.example.com/client/session/new?token=f7435766",
+        "values": {
+        },
+        "outcome": {
+          "scores": {
+          },
+          "action": null,
+          "alarm": null,
+          "attention": null,
+          "complete": null
+        },
+        "flags": {
+        },
+        "textvars": {
+        },
+        "started_at": null
+      },
+      {
+        "id": 8,
+        "name": null,
+        "questionnaire_name": null,
+        "questionnaire_key": "quest7",
+        "open_from": "2014-12-28T13:18:23.000+01:00",
+        "open_till": null,
+        "completer_type": null,
+        "completed_at": null,
+        "status": "scheduled",
+        "completing_url": "http://default.example.com/client/session/new?token=f7435766",
+        "values": {
+        },
+        "outcome": {
+          "scores": {
+          },
+          "action": null,
+          "alarm": null,
+          "attention": null,
+          "complete": null
+        },
+        "flags": {
+        },
+        "textvars": {
+        },
+        "started_at": null
+      },
+      {
+        "id": 6,
+        "name": "OQ-45",
+        "questionnaire_name": "OQ-45",
+        "questionnaire_key": "oq45",
+        "open_from": null,
+        "open_till": null,
+        "completer_type": null,
+        "completed_at": "2014-12-12T13:18:23.000+01:00",
+        "status": "completed",
+        "completing_url": null,
+        "values": {
+          "v_1": 4,
+          "v_2": 3,
+          "v_3": 2,
+          "v_4": 3,
+          "v_5": 3,
+          "v_6": 2,
+          "v_7": 3,
+          "v_8": 4,
+          "v_9": 2,
+          "v_10": 2,
+          "v_11": 3,
+          "v_12": 4,
+          "v_13": 2,
+          "v_14": 3,
+          "v_15": 4,
+          "v_16": 2,
+          "v_18": 3,
+          "v_19": 4,
+          "v_20": 3,
+          "v_21": 2,
+          "v_22": 3,
+          "v_23": 4,
+          "v_24": 2,
+          "v_25": 3,
+          "v_26": 4,
+          "v_27": 3,
+          "v_28": 3,
+          "v_29": 2,
+          "v_30": 3,
+          "v_31": 4,
+          "v_32": 2,
+          "v_33": 3,
+          "v_34": 4,
+          "v_35": 2,
+          "v_36": 3,
+          "v_37": 4,
+          "v_38": 2,
+          "v_39": 3,
+          "v_40": 4,
+          "v_41": 4,
+          "v_42": 3,
+          "v_43": 2,
+          "v_44": 3,
+          "v_45": 3,
+          "v_46": 4
+        },
+        "outcome": {
+          "scores": {
+            "totaal": {
+              "score": true,
+              "label": "Totaal",
+              "value": 135,
+              "norm": ">55",
+              "interpretation": "Klinisch",
+              "tscore": 110,
+              "tscore_interpretation": "Zeer hoog",
+              "oru_flag": "HH",
+              "global": true,
+              "referenced_values": [
+                "v_1",
+                "v_2",
+                "v_3",
+                "v_4",
+                "v_5",
+                "v_6",
+                "v_7",
+                "v_8",
+                "v_9",
+                "v_10",
+                "v_11",
+                "v_12",
+                "v_13",
+                "v_14",
+                "v_15",
+                "v_16",
+                "v_18",
+                "v_19",
+                "v_20",
+                "v_21",
+                "v_22",
+                "v_23",
+                "v_24",
+                "v_25",
+                "v_26",
+                "v_27",
+                "v_28",
+                "v_29",
+                "v_30",
+                "v_31",
+                "v_32",
+                "v_33",
+                "v_34",
+                "v_35",
+                "v_36",
+                "v_37",
+                "v_38",
+                "v_39",
+                "v_40",
+                "v_41",
+                "v_42",
+                "v_43",
+                "v_44",
+                "v_45",
+                "v_46"
+              ]
+            },
+            "psychisch": {
+              "score": true,
+              "label": "Psychisch Onwelbevinden",
+              "value": 74,
+              "norm": ">33",
+              "interpretation": "Klinisch",
+              "tscore": 102,
+              "tscore_interpretation": "Zeer hoog",
+              "oru_flag": "HH",
+              "referenced_values": [
+                "v_2",
+                "v_3",
+                "v_5",
+                "v_6",
+                "v_8",
+                "v_9",
+                "v_10",
+                "v_11",
+                "v_13",
+                "v_15",
+                "v_23",
+                "v_24",
+                "v_25",
+                "v_26",
+                "v_28",
+                "v_30",
+                "v_32",
+                "v_34",
+                "v_35",
+                "v_36",
+                "v_37",
+                "v_41",
+                "v_42",
+                "v_43",
+                "v_46"
+              ]
+            },
+            "interpers": {
+              "score": true,
+              "label": "Interpersoonlijk Functioneren",
+              "value": 33,
+              "norm": ">12",
+              "interpretation": "Klinisch",
+              "tscore": 99,
+              "tscore_interpretation": "Zeer hoog",
+              "oru_flag": "HH",
+              "referenced_values": [
+                "v_1",
+                "v_7",
+                "v_16",
+                "v_18",
+                "v_19",
+                "v_20",
+                "v_21",
+                "v_27",
+                "v_31",
+                "v_38",
+                "v_44"
+              ]
+            },
+            "sociaal": {
+              "score": true,
+              "label": "Sociale Rolvervulling",
+              "value": 28,
+              "norm": ">10",
+              "interpretation": "Klinisch",
+              "tscore": 116,
+              "tscore_interpretation": "Zeer hoog",
+              "oru_flag": "HH",
+              "referenced_values": [
+                "v_4",
+                "v_12",
+                "v_14",
+                "v_22",
+                "v_29",
+                "v_33",
+                "v_39",
+                "v_40",
+                "v_45"
+              ]
+            }
+          },
+          "action": "alarm",
+          "alarm": [
+            "v_8",
+            "v_11",
+            "v_27",
+            "v_33",
+            "v_45"
+          ],
+          "attention": [
+
+          ],
+          "complete": null
+        },
+        "flags": {
+        },
+        "textvars": {
+        },
+        "started_at": "2014-12-16T13:18:23.000+01:00"
+      }
+    ]
+  }
+}
