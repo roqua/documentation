@@ -138,7 +138,7 @@ Deze API wordt nog gemaakt door RoQua. Zal gaan lijken op de vorige, maar dan me
 
 ## Stap 4: Resultaten berekenen en ophalen
 Base url = https://leefplezier.nu
-Prefix = /api/v1
+Prefix = /leefplezier/api/v1
 
 The API only supports GET requests and uses basic auth.
 
