@@ -149,8 +149,8 @@ POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/
 
 - This route should be called by the Lifely backend after they submit the final results to RoQua, i.e., when they decide that all missing measurements are actually missing.
 - Returns status 404 when a listresponses request to RoQua returns no diary study questionnaires for the specified user.
-- Returns status 202 if this calculate was called previously and results are still being calculated.
-- Otherwise it returns status 200 (note: if results were previously calculated, calling calculate again will trigger recalculation of the results).
+- Returns status 202 if calculate was called previously for this dossier/protocol_subscription and results are still being calculated.
+- Otherwise it returns status 200 (note: if results were previously calculated for this dossier/protocol_subscription, calling calculate again will trigger recalculation of the results).
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
 
