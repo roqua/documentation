@@ -1,33 +1,34 @@
 {
   "request": {
     "request_method": "POST",
-    "path": "/api/v1/dossiers/epd_id_0/responses.json",
+    "path": "/api/v1/dossiers/epd_id_resp_create/responses",
     "body": {
-      "questionnaire_key": "quest0",
+      "questionnaire_key": "key_resp_create",
       "answer_data": {
         "answer": "data"
       },
       "respondent": "patient",
-      "started_at": 1418734598,
-      "filled_out_at": 1418735198
+      "started_at": 1422706855,
+      "filled_out_at": 1422707455
     }
   },
   "response": {
-    "status": 200,
+    "status": 201,
     "headers": {
       "X-XSS-Protection": "1; mode=block",
       "X-Content-Type-Options": "nosniff",
+      "Location": "",
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": {
       "id": 1,
       "name": null,
       "questionnaire_name": null,
-      "questionnaire_key": "quest0",
+      "questionnaire_key": "key_resp_create",
       "open_from": null,
       "open_till": null,
       "completer_type": "patient",
-      "completed_at": "2014-12-16T14:06:38.000+01:00",
+      "completed_at": "2015-01-31T13:30:55.000+01:00",
       "status": "completed",
       "completing_url": null,
       "values": {
@@ -53,7 +54,7 @@
       },
       "textvars": {
       },
-      "started_at": "2014-12-16T13:56:38.000+01:00"
+      "started_at": "2015-01-31T13:20:55.000+01:00"
     }
   }
 }
