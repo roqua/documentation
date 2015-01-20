@@ -1,0 +1,26 @@
+{
+  "request": {
+    "request_method": "POST",
+    "path": "/api/v1/dossiers/some_epd_id/fill_out_sessions",
+    "body": {
+      "questionnaire_keys": [
+        "quest4"
+      ]
+    }
+  },
+  "response": {
+    "status": 422,
+    "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "errors": {
+        "return_url": [
+          "missing"
+        ]
+      }
+    }
+  }
+}

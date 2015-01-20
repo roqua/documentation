@@ -44,8 +44,7 @@ ids corresponding with aborted responses is provided, filling out will be resume
 
 ### When no questionnaire keys or answer ids are provided.
 
-<%= headers 422 %>
-<%= json errors: {'questionnaire_keys' => ['missing']} %>
+<%= snapshot_response('rom', 'fill_out_session_missing_questionnaire_key') %>
 
 ### When no questionnaire exists for one of the `questionnaire_key`s provided
 
@@ -61,9 +60,7 @@ ids corresponding with aborted responses is provided, filling out will be resume
 
 ### When no `return_to` url is provided
 
-<%= headers 422 %>
-<%= json errors: {'return_url' => ['missing']} %>
-
+<%= snapshot_response('rom', 'fill_out_session_missing_return_to') %>
 
 ## Progress page
 
