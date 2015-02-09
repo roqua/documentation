@@ -154,5 +154,3 @@ The created response is returned. See the section on listing all responses for a
 
 <%= headers 404 %>
 <%= no_body %>
-
-
