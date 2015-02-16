@@ -1,6 +1,6 @@
 ---
 title: Stats
-status: not implemented yet
+status: draft
 ---
 
 * TOC
