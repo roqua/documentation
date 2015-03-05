@@ -34,6 +34,8 @@ Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen. H
       }
     }
 
+Als er een dossier id bestaat voor het opgevraagde espria id update Lifely alleen de birthdate, zipcode en gender. Als het dossier id nog niet bestaat sturen ze alles op wat ze van ledenpanel krijgen: firstname, lastname, initials, email, birthdate, zipcode, gender.
+
 ### Response
 
 <%= headers 200 %>
@@ -43,7 +45,7 @@ Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen. H
 
 
 
-## Stap 2: protocol subscription starten
+## Stap 2a: protocol subscription starten
 
 Daarna wordt er een protocol subscription gestart. Dit zorgt er voor dat er responses worden klaargezet op de volgens het protocol vastgestelde momenten. Relevante parameters hier zijn de `protocol_key` (vast gegeven) en de `start_at`. De `start_at` geeft de datum en tijd aan van de eerste ochtendmeting, als unix timestamp. In dit geval moet de tijd door Lifely worden berekend op basis van de aan de gebruiker gevraagde bedtijd.
 
@@ -109,7 +111,13 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
 
 
 
+## Stap 2b: protocol subscription stoppen
 
+Om de protocol subscription te stoppen moet er een delete gestuurd worden naar RoQua, met daarin het `roqua_dossier_id` en het `protocol_subscription_id` van het protocol dat gestopt moet worden.
+    
+### Request
+
+    DELETE https://leefplezier.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/ROQUA_RESPONSE_ID
 
 ## Stap 3: Ingevulde data terugsturen
 
@@ -135,6 +143,8 @@ Onder `answer_data` worden de waarden opgestuurd.
 ## Stap 3a: Gemiste data melden
 
 Deze API wordt nog gemaakt door RoQua. Zal gaan lijken op de vorige, maar dan met andere parameters (iets als `"non_response": true` in plaats van `answer_data` wellicht).
+
+Update: Nick zegt dat gemiste metingen niet worden opgestuurd naar RoQua. 
 
 ## Stap 4: Resultaten berekenen en ophalen
 Base url = https://leefplezier.nu
