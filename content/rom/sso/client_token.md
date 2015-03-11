@@ -1,5 +1,5 @@
 ---
-title: Single Sign-On for Respondents
+title: Respondents using token
 status: stable
 ---
 

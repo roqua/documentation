@@ -1,5 +1,5 @@
 ---
-title: Single Sign-On for Professionals
+title: EPD v3 (HMAC)
 status: stable
 ---
 
