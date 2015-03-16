@@ -1,5 +1,5 @@
 ---
-title: Client v3 (HMAC)
+title: Respondents using HMAC
 status: stable
 ---
 
