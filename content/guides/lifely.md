@@ -115,7 +115,7 @@ Daarnaast moet er om een protocol subscription te starten ook een call naar Leef
 
     POST https://leefplezier.nu/api/v1/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/subscription
 
-Deze call moet gedaan worden op het moment dat een participant zich inschrijft.
+Deze call moet gedaan worden op het moment dat een participant zich inschrijft nadat de protocol_subscription op RoQua is gestart.
 
 ## Stap 2b: protocol subscription stoppen
 
@@ -131,7 +131,7 @@ Daarnaast moet er om een protocol subscription te stoppen ook een call naar Leef
 
     DELETE https://leefplezier.nu/api/v1/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/subscription
 
-Deze call moet gedaan worden op het moment dat een participant zich uitschrijft van de studie.
+Deze call moet gedaan worden op het moment dat een participant zich uitschrijft van de studie of opnieuw begint (bij opnieuw beginnen moet ook weer de `POST` in stap 2a weer worden aangeroepen).
 
 ## Stap 3: Ingevulde data terugsturen
 
