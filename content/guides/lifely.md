@@ -53,7 +53,7 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
 
 [Full API Docs](/developer/rom/dossier/protocol_subscriptions/#start-a-protocol-subscription)
 
-### Request
+### 2a.1 Request
 
     POST https://leefplezier.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/
     {
@@ -111,7 +111,7 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
 
 Daarnaast moet er om een protocol subscription te starten ook een call naar Leefplezier gedaan worden. Deze call hoeft alleen het `protocol_subscription_id` en het `dossier_id` te bevatten. 
 
-### Request
+### 2a.2 Request
 
     POST https://leefplezier.nu/api/v1/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/subscription
 
@@ -121,13 +121,13 @@ Deze call moet gedaan worden op het moment dat een participant zich inschrijft n
 
 Om de protocol subscription te stoppen moet er een delete gestuurd worden naar RoQua, met daarin het `roqua_dossier_id` en het `protocol_subscription_id` van het protocol dat gestopt moet worden.
     
-### Request
+### 2b.1 Request
 
     DELETE https://leefplezier.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/ROQUA_RESPONSE_ID
 
 Daarnaast moet er om een protocol subscription te stoppen ook een call naar Leefplezier gedaan worden. Deze call hoeft alleen het `protocol_subscription_id` en het `dossier_id` te bevatten. 
 
-### Request
+### 2b.2 Request
 
     DELETE https://leefplezier.nu/api/v1/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/subscription
 
