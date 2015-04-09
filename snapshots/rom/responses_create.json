@@ -1,0 +1,64 @@
+{
+  "request": {
+    "request_method": "POST",
+    "path": "/api/v1/dossiers/epd_id_resp_create/responses",
+    "body": {
+      "questionnaire_key": "key_resp_create",
+      "answer_data": {
+        "answer": "data"
+      },
+      "respondent": "patient",
+      "started_at": 1422706855,
+      "filled_out_at": 1422707455
+    }
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "Location": "",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "id": 1,
+      "name": null,
+      "questionnaire_name": null,
+      "questionnaire_key": "key_resp_create",
+      "open_from": null,
+      "open_till": null,
+      "requesters": [
+
+      ],
+      "completer_type": "patient",
+      "completed_at": "2015-01-31T13:30:55.000+01:00",
+      "status": "completed",
+      "completing_url": null,
+      "values": {
+        "answer": "data"
+      },
+      "outcome": {
+        "scores": {
+          "tot": {
+            "score": true,
+            "label": "Totaalscore",
+            "value": 37,
+            "referenced_values": [
+
+            ]
+          }
+        },
+        "action": null,
+        "alarm": null,
+        "attention": null,
+        "complete": null
+      },
+      "flags": {
+      },
+      "textvars": {
+      },
+      "started_at": "2015-01-31T13:20:55.000+01:00"
+    }
+  }
+}
