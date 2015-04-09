@@ -24,5 +24,5 @@ task :publish => [:clean] do
   FileUtils.rm_r('output') if File.exist?('output')
 
   sh "bundle exec nanoc compile"
-  sh "bundle exec nanoc publish"
+  sh "bundle exec nanoc deploy"
 end
