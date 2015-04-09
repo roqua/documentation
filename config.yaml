@@ -47,3 +47,10 @@ data_sources:
 
 # For the atom feed.
 base_url: http://roqua.github.io/
+
+deploy:
+  default:
+    kind: fog
+    provider: aws
+    region: eu-west-1
+    bucket: roqua-documentation-site
