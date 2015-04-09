@@ -5,6 +5,7 @@ require 'cgi'
 require 'securerandom'
 require 'time'
 require 'csv'
+require 'active_support/core_ext/hash/indifferent_access'
 
 module GitHub
   module Resources
@@ -85,6 +86,20 @@ module GitHub
         %(<pre class="#{css_class}"><code>#{lines * "\n"}</code></pre>\n)
       end
 
+      def request_headers(method, path, head = {})
+        lines = ["#{method} #{path}"]
+        head.each do |key, value|
+          case key
+            when :pagination
+              lines << link_header(value)
+            else
+              lines << "#{key}: #{value}"
+          end
+        end
+
+        %(<pre class="headers"><code>#{lines * "\n"}</code></pre>\n)
+      end
+
       def link_header(rels)
         formatted_rels = rels.map { |name, url| link_header_rel(name, url) }
 
@@ -116,6 +131,21 @@ module GitHub
 
         %(<pre><code class="language-javascript">) +
           JSON.pretty_generate(hash) + "</code></pre>"
+      end
+
+      def snapshot_response(app, filename)
+        resp = load_snapshot(app, filename)[:response]
+        headers(resp[:status]) + json(resp[:body])
+      end
+
+      def snapshot_request(app, filename)
+        req = load_snapshot(app, filename)[:request]
+        request_headers(req[:request_method], req[:path]) + json(req[:body])
+      end
+
+      def load_snapshot(app, filename)
+        @snapshots ||= Hash.new { {} }
+        @snapshots[app][filename] ||= JSON.parse(File.read("snapshots/#{app}/#{filename}.json")).with_indifferent_access
       end
 
       def no_body
