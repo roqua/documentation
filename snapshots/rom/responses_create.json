@@ -15,8 +15,9 @@
   "response": {
     "status": 201,
     "headers": {
-      "X-XSS-Protection": "1; mode=block",
-      "X-Content-Type-Options": "nosniff",
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
       "Location": "",
       "Content-Type": "application/json; charset=utf-8"
     },
@@ -27,6 +28,9 @@
       "questionnaire_key": "key_resp_create",
       "open_from": null,
       "open_till": null,
+      "requesters": [
+
+      ],
       "completer_type": "patient",
       "completed_at": "2015-01-31T13:30:55.000+01:00",
       "status": "completed",
