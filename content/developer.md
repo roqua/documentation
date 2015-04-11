@@ -1,5 +1,6 @@
 ---
 title: API-docs
+sidebar: false
 ---
 
 RoQua consists of several applications. Some of these are internal only,

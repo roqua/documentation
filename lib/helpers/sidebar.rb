@@ -32,7 +32,9 @@ module SidebarHelper
     end
 
     tag(:div) do
-      area.children.sort_by {|i| i[:sort] || 0 }.map do |category|
+      area.children.select {|i| i[:sidebar] != false }
+                   .sort_by {|i| i[:sort] || 0 }
+                   .map do |category|
         tag(:div, class: "sidebar-module sidebar-category js-toggle-list expandable") do
           content = []
           content << tag(:header) do

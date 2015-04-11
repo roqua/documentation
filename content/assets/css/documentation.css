@@ -207,7 +207,7 @@ a img {
   margin-bottom: 0;
   clear: both;
   height: 59px;
-  background: #724D51;
+  background: #08c;
 }
 
 #header {
@@ -255,12 +255,12 @@ a img {
 
 
 #header .nav .active a {
-	color: #F0F0CC;
+	color: #ffc400;
 	border-bottom: 3px solid #fff;
 }
 
 #header .nav a:hover {
-  color: #F0F0CC;
+  color: #ffc400;
 }
 
 /*------------------------------------------------------------------------------
