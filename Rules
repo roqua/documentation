@@ -10,10 +10,6 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-# Reset search-index by deleting it every time
-compile '/assets/*' do
-end
-
 compile '/CNAME/' do
 end
 
