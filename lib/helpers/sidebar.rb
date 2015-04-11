@@ -58,7 +58,7 @@ module SidebarHelper
 
             content << tag(:h3) do
               [
-                tag(:a, href: '#', class: "js-expand-btn collapsed arrow-btn") { "" },
+                tag(:a, href: '#', class: "js-expand-btn collapsed arrow-btn", 'data-proofer-ignore' => true) { "" },
                 tag(:a, href: section.identifier) { section[:title] }
               ]
             end
@@ -83,7 +83,14 @@ module SidebarHelper
   end
 
   def tag(tagname, attrs = {})
-    attributes = attrs.map {|k,v| "#{k}=\"#{v}\"" }.join(" ")
+    attributes = attrs.map do |k,v|
+      if v == true
+        "#{k}"
+      else
+        "#{k}=\"#{v}\""
+      end
+    end.join(" ")
+
     content = yield
     content = content.join("\n") if content.is_a?(Array)
 
