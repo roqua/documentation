@@ -49,4 +49,4 @@ deploy:
     kind: fog
     provider: aws
     region: eu-west-1
-    bucket: roqua-documentation-site
+    bucket: docs.roqua.net
