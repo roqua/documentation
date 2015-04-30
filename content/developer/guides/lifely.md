@@ -197,9 +197,9 @@ GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/r
 - Returns 204 if user has not enough measurements for a voorspellend netwerk (<75%).
 - Returns 404 if we were not able to find a network in Autovar, or if the `calculate` route has not previously been called for this dossier\_id/protocol\_subscription_id.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.json`
+GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.svg`
 
-- Returns 200 status code with a JSON array if the results are ready.
+- Returns 200 status code with an SVG image if the results are ready.
 - Returns 202 if the results have not yet been calculated.
 - Returns 204 if user has not enough measurements for netwerk calculations (<75%).
 - Returns 404 if we were not able to find a network in Autovar, or if the `calculate` route has not previously been called for this dossier\_id/protocol\_subscription_id.
