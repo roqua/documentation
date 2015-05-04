@@ -10,9 +10,9 @@ Responses are questionnaire completions, although they need not be filled out ye
 
 ## List open responses for given token
 
-If you know the token that can be used to log in as a respondent, you can use that to request a list of the names of the questionnaires that will be presented when logging in with that token. This can be done without any authentication.
+If you know the token that can be used to log in as a respondent, you can use that to request a list of the names of the questionnaires that will be presented when logging in with that token. This can be done without any authentication, and CORS is allowed for this particular resource so that external applications can do this request clientside with an AJAX call.
 
-    GET /login.json?token=:token
+    GET /api/v1/pending_questionnaires.json?token=:token
 
 ### Response
 
