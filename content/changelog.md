@@ -17,7 +17,31 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-## Eerstvolgende uitrol
+## 2015-05-04
+
+* SQLite-export downloadbaar gemaakt in de Admin (initieel op aanvraag)
+* Snelheidsverbeteringen in CSV- en SQLite-exports
+
+## 2015-05-01
+
+* Overstap van Sendgrid naar Mandrill
+* Kleiner-dan tekens in vraagtitels op de outcome-paginas weer zichtbaar gemaakt. De Rails 4.2-upgrade had gezorgd dat dezen wegvielen.
+* Flexibelere notificaties bij automatische protocollen. Het is nu ook mogelijk om bijvoorbeeld tegelijk een e-mail en een SMS te sturen.
+* Op de achtergrond beginnen we met een SQLite-gebaseerde export te genereren. Dit wordt een rijker exportformaat waarin meer informatie doorvalt, en welke continue up to date is (in tegenstelling tot de nachtelijke export naar CSV-files).
+
+## 2015-04-25
+
+* Bij de NESDA-vragenlijsten tonen we nu een overzicht van ingevulde en gemiste metingen.
+
+## 2015-04-22
+
+* Klaarstaande vragenlijsten kunnen nu in een andere volgorde worden gezet door ze te verslepen.
+
+## 2015-04-16
+
+* API voor het verwijderen van een fillout request toegevoegd. Dit haalt alle klaargezette lijsten van die request weg.
+
+* De responses API geeft nu ook terug welke medewerker lijsten heeft klaargezet (`requester`).
 
 * De URLs van EPD-gebruikers bevatten nu het huidige dossiernummer. Dit zorgt ervoor dat
   we beter kunnen detecteren wanneer iemand een oud tabblad open laat staan en tegelijk
