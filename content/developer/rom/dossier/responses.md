@@ -8,34 +8,6 @@ status: draft
 
 Responses are questionnaire completions, although they need not be filled out yet. Upon creating an invitation, responses for all selected questionnaires are created. At this point, the responses have status `new`. When the patient fills out the questionnaire for the answer, its status will change to `completed`.
 
-## List open responses for given token
-
-If you know the token that can be used to log in as a respondent, you can use that to request a list of the names of the questionnaires that will be presented when logging in with that token. This can be done without any authentication, and CORS is allowed for this particular resource so that external applications can do this request clientside with an AJAX call.
-
-    GET /api/v1/pending_questionnaires.json?token=:token
-
-### Response
-
-<%= headers 200 %>
-<%= json "questionnaires" => [
-  {
-    "key"               => "srs",
-    "name"              => "SRS",
-    "short_description" => nil
-  },
-  {
-    "key"               => "oq45",
-    "name"              => "OQ-45",
-    "short_description" => "Outcome Questionnaire"
-  },
-  {
-    "key"               => "scl90",
-    "name"              => "SCL-90",
-    "short_description" => "Klachtenlijst"
-  }
-]
-%>
-
 ## List all responses for dossier
 
 Requests for more detailed information about responses are namespaced under a specific [dossier](/developer/rom/dossier/dossiers/), which is the `/api/v1/dossiers/DOSSIER_ID` path. In this path `DOSSIER_ID` is the external identifier used by the EPD to represent this patient.
