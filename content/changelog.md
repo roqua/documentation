@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2015-05-20
+
+* Uitnodigingstemplates en SMS-templates zijn dynamischer en flexibeler in termen van hoe om te gaan met herinneringen. In een template is nu de variabele `event` beschikbaar, deze is `opened` danwel `reminder`.
+* Uitnodigingstemplates hebben een los instelbare `subject` voor wanneer ze ingezet worden als e-mail.
+
 ## 2015-05-04
 
 * SQLite-export downloadbaar gemaakt in de Admin (initieel op aanvraag)
