@@ -19,6 +19,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 ## 2015-05-27
 
+* Protocollen zijn nu te filteren op afdeling
 * Afdeling-keuze is verplaatst naar de "Vragenlijsten klaarzetten" en "Uitnodiging aanmaken" pagina's. Daar staat het duidelijker in context van wat het precies doet: filteren op wat je in die pagina's ziet.
 
 ## 2015-05-20
