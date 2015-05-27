@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2015-05-27
+
+* Afdeling-keuze is verplaatst naar de "Vragenlijsten klaarzetten" en "Uitnodiging aanmaken" pagina's. Daar staat het duidelijker in context van wat het precies doet: filteren op wat je in die pagina's ziet.
+
 ## 2015-05-20
 
 * Uitnodigingstemplates en SMS-templates zijn dynamischer en flexibeler in termen van hoe om te gaan met herinneringen. In een template is nu de variabele `event` beschikbaar, deze is `opened` danwel `reminder`.
