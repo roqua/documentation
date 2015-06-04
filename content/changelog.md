@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2015-06-04
+
+* Bugfix: IDS-SR scores
+* Bugfix: Brede monitoren hadden een layout-issue op de outcome grafieken pagina.
+
 ## 2015-06-03
 
 * Bugfix: afdelingskeuze werkte niet correct wanneer er veel afdelingen zijn.
