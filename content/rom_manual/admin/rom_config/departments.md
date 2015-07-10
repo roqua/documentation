@@ -10,7 +10,7 @@ protocollen filteren, zodat alleen de opties die relevant zijn binnen een bepaal
 De afdelingen en welke protocollen en uitnodigingstemplates daar bij horen worden in de admin omgeving gedefinieerd.
 
 De naam van de afdeling die was geselecteerd op het moment van het klaarzetten van een vragenlijst valt
-door in de dataexport onder de vragenlijstsleutel_location kolom.
+door in de dataexport onder de \<vragenlijstsleutel\>_location kolom.
 
 <img src="/assets/images/screenshots/admin_team_index.png" />
 
