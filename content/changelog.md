@@ -23,6 +23,10 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * Links in emails en smsjes naar <org>.rom.roqua.nl
 * Escape html voor open textvragen in rapporten ipv het eruit te strippen.
 
+## 2015-08-12
+
+* Add charts and quby_key to api/responses
+
 ## 2015-07-08
 
 * Renamed grip_intake to grip_screening
