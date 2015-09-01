@@ -17,7 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-## 2015-07-15
+## 2015-09-01
+
+* Respondent models.
+
+## 2015-08-15
 
 * Plaats inactieve protocollen en measurement achteraan. 
 * Links in emails en smsjes naar <org>.rom.roqua.nl
