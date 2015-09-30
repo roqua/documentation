@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2015-09-30
+
+* Added zccl questionnaire (Zelfcontrolecognitielijst)0
+* Added asrm questionnaire (Altman Self-Rating Mania Scale)
+* Added brs questionnaire (Brief Resilience Scale)
+* Added brugha_20 questionnaire
+* Added emaaa_ucp4 questionnaire (CC4 - Dagboek Casus Conceptualisatie UCP)
+* Added fs_nl (Flourishing Scale)
+* Added gvsg_45 (Groninger Vragenlijst Sociaal Gedrag)
+* Added ob_bk_man (Bekkenbodem Score Mannen)
+* Added who_bref (WHOQOL-BREF)
+
 ## 2015-09-01
 
 * Respondent models.
