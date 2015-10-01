@@ -72,8 +72,8 @@ before filling out and between every questionnaire. We provide you with the foll
 - `completed_questionnaire_keys[]` : a list of keys of filled out questionnaires
 - `pending_questionnaire_keys[]` : a list of keys of questionnaires to be filled out
 
-The actual names of these questionnaires can be queries through the
-[questionnaires API endpoint](http://roqua.github.io/developer/rom/global/questionnaires/).
+The actual names of these questionnaires can be queried through the
+[questionnaires API endpoint](/developer/rom/global/questionnaires/).
 
 These url parameters can be used on your progress page to show the respondent's progress and provide links for
 continuing filling out or aborting the fill out session.
