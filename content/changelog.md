@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+##2015-10-14
+
+* Added cqi_veilig questionnaire
+* Added cqi protocol
+* Added lte questionnaire
+
 ##2015-10-07
 
 * Added Zelf-i Project seeds
