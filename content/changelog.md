@@ -20,6 +20,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 ##2015-10-20
 
 * Added Device Area
+* Fix plural translation
 
 ##2015-10-14
 
