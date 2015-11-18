@@ -7,7 +7,7 @@ sort: 100
 
 ## Aanmaken
 
-Vul onder "consumer_key" een identificerende naam in. Bij IP-filter kunnen één of meerdere IP-adressen of IP-ranges worden opgegeven. Voor API-requests wordt dit IP-filter opgelegd op het afzend-adres van het HTTP-request. Bij SSO-koppelingen legt het IP-filter een beperking op voor geldige IP-adressen die mogen inloggen.
+Vul onder "consumer_key" een identificerende naam in.
 
 Daarnaast moet voor elke token worden aangegeven wat de acties zijn die met die sleutel gedaan mogen worden. Dit gaat met de vinkjes onder "Rechten". De tekst bij elk vinkje linkt naar de documentatie van het betreffende recht.
 
