@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 20115-12-02
+Fixed reports showing wrong dates in some few instances.
+ApiToken and SsoTokens are now 60 characters long (A-Z-a-z0-9_-)
+
 ##2015-10-20
 
 * Added Device Area
