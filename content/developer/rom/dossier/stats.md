@@ -16,7 +16,7 @@ Stats that are generated over different aspects of a dossier.
 
 Name | Type | Description
 -----|------|--------------
-`epd_ids` | `string|array of string` | **Required**. Unique identifier for the patient which requires stats. Multiple epd_ids are allowed and must be comma-separated, for example `1234567890,1234567891,1234567892` will return stats for three dossiers if they exist.
+`epd_ids` | `string|array of string` | **Optional**. Unique identifier(s) for the patient(s) which require stats. Multiple epd_ids are allowed and must be comma-separated, for example `1234567890,1234567891,1234567892` will return stats for three dossiers if they exist. When no epd_ids are provided, returns all dossier stats for organization.
 
 ### Response
 
