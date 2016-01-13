@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-01-13
+Added option to add svg images to reports (coming from report calculations).
+
 ## 2015-12-03
 Fixed .main not scrolling in Internet Explorer
 
