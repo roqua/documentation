@@ -139,6 +139,8 @@ Ingevulde data die op Lifely's servers is ontvangen kan worden teruggepost naar 
 
 Daarnaast wordt de `started_at` en `filled_out_at` opgestuurd. Dit zijn de Unix timestamps van de moment dat de vragenlijst getoond respectievelijk voltooid werd.
 
+*Let op:* Ingevulde data kan maximaal 1 dag na de `open_from` (dus in de toekomst) worden opgestuurd (gemeten aan de hand van de tijd die de server hanteert). Als er wordt getracht metingen op te sturen die meer dan 1 dag in de toekomst liggen dan zal de server een 422: Unprocessable Entity terugsturen.
+
 Onder `answer_data` worden de waarden opgestuurd.
 
 [Full API Docs](/developer/rom/dossier/responses/#update-a-response)
@@ -152,7 +154,6 @@ Onder `answer_data` worden de waarden opgestuurd.
         "filled_out_at": 1414604400,
         "answer_data": {"v_1" => "a1", "v_2" => 24}
     }
-
 
 ## Stap 3a: Gemiste data melden
 
