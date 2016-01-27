@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-01-27
+Added no_textile option to templates, to not parse as textiel after liquid is done.
+
 ## 2016-01-20
 added token_or_authmac authenticator that can handle both v_2 and v_3 of the sso coupling
 
