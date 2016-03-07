@@ -108,3 +108,14 @@ Name               | Type     | Description
    "zipcode"=>nil,
    "country"=>nil,
    "subject_code"=>nil} %>
+
+## Send an invite
+
+    POST /api/v1/people/:person_id/send_invite_email
+
+### Parameters
+
+Name            | Type     | Description
+----------------|----------|--------------
+`email_subject` | `string` |
+`email_body`    | `string` | Needs to contain `%create_account_link%` for where invite the link should go.
