@@ -76,11 +76,11 @@ Name               | Type     | Description
 
 #### Credential info
 
-Name                | Type     | Description
---------------------|----------|-----
-`username`          | `string`
-`password`          | `string`
-`pass_confirmation` | `string`
+Name                    | Type     | Description
+------------------------|----------|-----
+`username`              | `string`
+`password`              | `string`
+`password_confirmation` | `string`
 
 ### Response
 
