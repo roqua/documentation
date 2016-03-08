@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-03-08
+
+* Added warning when we can't set a cookie on session/create_from_epd
+
 ## 2016-02-17
 
 * Added MSPSS questionnaire (Multidimensional scale of perceived Social Support)
