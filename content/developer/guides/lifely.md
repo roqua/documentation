@@ -15,7 +15,7 @@ title: Lifely API guide
 
 ## Stap 1: dossier aanmaken
 
-Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen. Hierbij wordt het ROQUA_DOSSIER_ID die ontvangen is van het Espria Ledenpanel doorgestuurd zodat dit later te koppelen is.
+Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen.
 
 [Full API Docs](/developer/core/dossier/dossiers/)
 
@@ -24,24 +24,29 @@ Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen. H
     POST https://core.roqua.nl/api/v1/dossier_groups/ROQUA_DOSSIER_GROUP_ID/dossiers
     {
       "dossier": {
-        "external_identifier": "ESPRIA_ID"
+      // Iets met credentials moet hierin? Hoe checked lifely op dit moment of een account al bestaat?
       },
       "person": {
         "birthdate": "1980-02-23",
         "email": "jan@gmail.com",
         "zipcode": "1602",
         "gender": "M"
-      }
+      },
+      "credential": {
+        "username": 'jan@gmail.com', 
+        "password": '12345678', 
+        "password_confirmation": '12345678'},
     }
 
-Als er een dossier id bestaat voor het opgevraagde espria id update Lifely alleen de birthdate, zipcode en gender. Als het dossier id nog niet bestaat sturen ze alles op wat ze van ledenpanel krijgen: firstname, lastname, initials, email, birthdate, zipcode, gender.
+Als het dossier id nog niet bestaat wordt er eentje aangemaakt met daarin email, birthdate, zipcode, gender (alle gegevens die via het formulier in de app opgegeven worden). Daarnaast wordt er bij een dossier een credential mee gegeven, met daarin de username (email) en het wachtwoord van de gebruiker.
 
 ### Response
 
 <%= headers 200 %>
 <%= json id: '59abe42d-ad25-4273-95ef-86444705e8d3' %>
 
-
+- __Statuscode 422__ - als de gegeven input niet correct is (password != password confirmation etc)
+- __Statuscode XXX__ - als de username al bestaat.
 
 
 
@@ -59,6 +64,7 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
     {
       "protocol_key": "leefplezier_diary",
       "start_at": 1414604287
+      "textvars": 
     }
 
 ### Response
