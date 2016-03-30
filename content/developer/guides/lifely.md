@@ -38,33 +38,44 @@ Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen.
         "password_confirmation": '12345678'},
     }
 
-Als het dossier id nog niet bestaat wordt er eentje aangemaakt met daarin email, birthdate, zipcode, gender (alle gegevens die via het formulier in de app opgegeven worden). Daarnaast wordt er bij een dossier een credential mee gegeven, met daarin de username (email) en het wachtwoord van de gebruiker.
+Als het dossier id nog niet bestaat wordt er eentje aangemaakt met daarin `email`, `birthdate`, `zipcode`, `gender` (alle gegevens die via het formulier in de app opgegeven worden). Daarnaast wordt er een `credential` mee gegeven, met daarin de `username` (email) en het `password` (de de `password_confirmation` daarvan) van de gebruiker.
 
 ### Response
 
 <%= headers 200 %>
 <%= json id: '59abe42d-ad25-4273-95ef-86444705e8d3' %>
 
-- __Statuscode 422__ - als de gegeven input niet correct is (password != password confirmation etc)
-- __Statuscode XXX__ - als de username al bestaat.
+- __Statuscode 422__ - als de gegeven input niet correct is (`password != password_confirmation` etc)
+- __Statuscode XXX__ - als de `username` al bestaat.
 
 
 
 ## Stap 2a: protocol subscription starten
 
-Daarna wordt er een protocol subscription gestart. Dit zorgt er voor dat er responses worden klaargezet op de volgens het protocol vastgestelde momenten. Relevante parameters hier zijn de `protocol_key` (vast gegeven) en de `start_at`. De `start_at` geeft de datum en tijd aan van de eerste ochtendmeting, als unix timestamp. In dit geval moet de tijd door Lifely worden berekend op basis van de aan de gebruiker gevraagde bedtijd.
+Daarna wordt er een protocol subscription gestart. Dit zorgt er voor dat er responses worden klaargezet op de volgens het protocol vastgestelde momenten. Relevante parameters hier zijn de `protocol_key` (vast gegeven), de `start_at`, de `textvars` en de `flags`. De `start_at` geeft de datum en tijd aan van de eerste ochtendmeting, als unix timestamp. In dit geval moet de tijd door Lifely worden berekend op basis van de aan de gebruiker gevraagde bedtijd. De `textvars` worden gebruikt om de gebruiker de mogelijkheid te geven om zelf een vraag te verzinnen. Hiervoor maken we altijd gebruik van dezelfde key, de `persoonlijke_vraag` key. Daarnaast moeten er nog `flags` meegegeven worden. Deze flags worden gebruikt om delen van de vragenlijst aan en uit te zetten. Bij deze flags is het belangrijk om altijd de 1e flag (`v2`) op true mee te geven. Op deze manier kunnen wij in de backend op een nette en eenvoudige manier onderscheid maken tussen de verschillende vragenlijst versies.
 
-RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een `open_from` en `open_till` die aangeven wat de wenselijke timeframe is waarbinnen een gebruiker mag (beginnen met) invullen.
+RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een `open_from` en `open_till` die aangeven wat de wenselijke timeframe is waarbinnen een gebruiker mag (beginnen met) invullen. Daarnaast worden ook de opgegeven `flags` en `textvars` terug gegeven.
 
 [Full API Docs](/developer/rom/dossier/protocol_subscriptions/#start-a-protocol-subscription)
 
 ### 2a.1 Request
 
-    POST https://leefplezier.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/
+    POST https://leefplezier.rom.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/
     {
       "protocol_key": "leefplezier_diary",
       "start_at": 1414604287
-      "textvars": 
+      "textvars": {
+        "persoonlijke_vraag": "gepunnikt"
+      },
+      "flags": {
+        "v2": true,
+        "thema_1_name": true,
+        "thema_2_name": false,
+        "thema_3_name": true,
+        "thema_4_name": false,
+        "thema_5_name": true,
+        "thema_6_name": false
+      }
     }
 
 ### Response
@@ -129,7 +140,7 @@ Om de protocol subscription te stoppen moet er een delete gestuurd worden naar R
     
 ### 2b.1 Request
 
-    DELETE https://leefplezier.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/ROQUA_RESPONSE_ID
+    DELETE https://leefplezier.rom.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/ROQUA_RESPONSE_ID
 
 Daarnaast moet er om een protocol subscription te stoppen ook een call naar Leefplezier gedaan worden. Deze call hoeft alleen het `protocol_subscription_id` en het `dossier_id` te bevatten. 
 
@@ -153,7 +164,7 @@ Onder `answer_data` worden de waarden opgestuurd.
 
 ### Request
 
-    PUT https://leefplezier.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/responses/ROQUA_RESPONSE_ID
+    PUT https://leefplezier.rom.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/responses/ROQUA_RESPONSE_ID
     {
         "questionnaire_key": "leefplz_db",
         "started_at": 1414604287,
@@ -178,38 +189,59 @@ The API only supports GET requests and uses basic auth.
 
 POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/calculate`
 
-- This route should be called by the Lifely backend after they submit the final results to RoQua, i.e., when they decide that all missing measurements are actually missing.
-- Returns status 404 when a listresponses request to RoQua returns no diary study questionnaires for the specified user.
-- Returns status 202 if calculate was called previously for this dossier/protocol_subscription and results are still being calculated.
-- Otherwise it returns status 200 (note: if results were previously calculated for this dossier/protocol_subscription, calling calculate again will trigger recalculation of the results).
+- Deze route moet worden aangeroepen door de lifely backend nadat de laatste metingen naar RoQua gestuurd zijn, dus wanneer besloten wordt dat alle missende metingen daadwerkelijk missing zijn.
+- __Statuscode 404__ - als een `listresponses naar RoQua geen dagboekstudie terug geeft voor de opgegeven gebruiker.
+- __Statuscode 202__ - als de calculate al eerder aangeroepen was voor deze deelnemer/dagboekstudie combinatie, en de berekening nog steeds bezig is. Het kan ook het geval zijn dat we zelf al een berekening zijn gestart, door onze dagelijkse tussentijdse resultaten berekening.
+- __Statuscode 200__ - als alles goed gaat. Als de calculate aangeroepen wordt voor een deelnemer/dagboekstudie combinatie die al resultaten heeft, dan worden de resultaten opnieuw berekend.
+
+GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voormeting.svg`
+
+- __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
+- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker de voormeting nog niet heeft ingevuld.
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
 
-- Returns 200 status code with SVG image if the results are ready.
-- Returns 202 if the results have not yet been calculated.
-- Returns 204 if user has not enough measurements for feedback (<25%).
-- Returns 404 if the `calculate` route has not previously been called for this dossier\_id/protocol\_subscription_id. 
+- __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
+- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 3 dagen grens is nog niet gepasseerd).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
+
+GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/persoonlijke_vraag.svg`
+
+- __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
+- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 7 dagen grens is nog niet gepasseerd).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
+
+GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/dag_affect.svg`
+
+- __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
+- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (minimaal 1 meting), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 14 dagen grens is nog niet gepasseerd).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/plezierigheid.svg`
 
-- Returns 200 status code with SVG image if the results are ready.
-- Returns 202 if the results have not yet been calculated.
-- Returns 204 if user has not enough measurements for feedback (<25%).
-- Returns 404 if the `calculate` route has not previously been called for this dossier\_id/protocol\_subscription_id.
+- __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
+- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 21 dagen grens is nog niet gepasseerd).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voorspellend_netwerk.svg`
 
-- Returns 200 status code with SVG image if the results are ready.
-- Returns 202 if the results have not yet been calculated.
-- Returns 204 if user has not enough measurements for a voorspellend netwerk (<75%).
-- Returns 404 if we were not able to find a network in Autovar, or if the `calculate` route has not previously been called for this dossier\_id/protocol\_subscription_id.
+- __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
+- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (75% van de metingen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 30 dagen grens is nog niet gepasseerd).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer, of als Autovar geen model kon vinden voor deze deelnemer. 
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.svg`
 
-- Returns 200 status code with an SVG image if the results are ready.
-- Returns 202 if the results have not yet been calculated.
-- Returns 204 if user has not enough measurements for netwerk calculations (<75%).
-- Returns 404 if we were not able to find a network in Autovar, or if the `calculate` route has not previously been called for this dossier\_id/protocol\_subscription_id.
+- __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
+- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (75% van de metingen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 30 dagen grens is nog niet gepasseerd).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer, of als Autovar geen model kon vinden voor deze deelnemer. 
 
 ### Example use
 
@@ -240,7 +272,11 @@ Dit wordt af en toe gedaan om de vragen te syncen met onze definitie. Daarna moe
 
 ### Request
 
+    # Dagboeklijst
     GET https://leefplezier.roqua.nl/api/v1/questionnaires/leefplz_db
+    
+    # Voormeting
+    GET https://leefplezier.roqua.nl/api/v1/questionnaires/leefplz_vm
 
 ### Response
 
