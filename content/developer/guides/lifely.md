@@ -87,39 +87,39 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
   id: 123,
   responses: [
     {
-      "id"                 => 1,
-      "questionnaire_key"  => "leefplz_db",
-      "status"             => "scheduled",
-      "open_from"          => "2014-11-23T09:40:20+00:00+0200",
-      "open_till"          => "2014-11-23T10:10:20+00:00+0200"
+      "id":                  1,
+      "questionnaire_key":   "leefplz_db",
+      "status":              "scheduled",
+      "open_from":           "2014-11-23T09:40:20+00:00+0200",
+      "open_till":           "2014-11-23T10:10:20+00:00+0200"
     },
     {
-      "id"                 => 2,
-      "questionnaire_key"  => "leefplz_db",
-      "status"             => "scheduled",
-      "open_from"          => "2014-11-23T12:40:20+00:00+0200",
-      "open_till"          => "2014-11-23T13:10:20+00:00+0200"
+      "id":                  2,
+      "questionnaire_key":   "leefplz_db",
+      "status":              "scheduled",
+      "open_from":           "2014-11-23T12:40:20+00:00+0200",
+      "open_till":           "2014-11-23T13:10:20+00:00+0200"
     },
     {
-      "id"                 => 3,
-      "questionnaire_key"  => "leefplz_db",
-      "status"             => "scheduled",
-      "open_from"          => "2014-11-23T21:40:20+00:00+0200",
-      "open_till"          => "2014-11-23T22:10:20+00:00+0200"
+      "id":                 3,
+      "questionnaire_key":  "leefplz_db",
+      "status":             "scheduled",
+      "open_from":          "2014-11-23T21:40:20+00:00+0200",
+      "open_till":          "2014-11-23T22:10:20+00:00+0200"
     },
     {
-      "id"                 => 4,
-      "questionnaire_key"  => "leefplz_db",
-      "status"             => "scheduled",
-      "open_from"          => "2014-11-24T09:40:20+00:00+0200",
-      "open_till"          => "2014-11-24T10:10:20+00:00+0200"
+      "id":                  4,
+      "questionnaire_key":   "leefplz_db",
+      "status":              "scheduled",
+      "open_from":           "2014-11-24T09:40:20+00:00+0200",
+      "open_till":           "2014-11-24T10:10:20+00:00+0200"
     },
     {
-      "id"                 => 5,
-      "questionnaire_key"  => "leefplz_db",
-      "status"             => "scheduled",
-      "open_from"          => "2014-11-24T12:40:20+00:00+0200",
-      "open_till"          => "2014-11-24T13:10:20+00:00+0200"
+      "id":                  5,
+      "questionnaire_key":   "leefplz_db",
+      "status":              "scheduled",
+      "open_from":           "2014-11-24T12:40:20+00:00+0200",
+      "open_till":           "2014-11-24T13:10:20+00:00+0200"
     },
 
     'etc', 'etc', 'etc'
@@ -169,7 +169,7 @@ Onder `answer_data` worden de waarden opgestuurd.
         "questionnaire_key": "leefplz_db",
         "started_at": 1414604287,
         "filled_out_at": 1414604400,
-        "answer_data": {"v_1" => "a1", "v_2" => 24}
+        "answer_data": {"v_1": "a1", "v_2": 24}
     }
 
 ## Stap 3a: Gemiste data melden
