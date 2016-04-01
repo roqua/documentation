@@ -17,7 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-## 2016-0330
+## 2016-04-01
+
+* Symbolize keys in protocol settings
+* Fix auto protocol editor when no measurement id exist
+
+## 2016-03-30
 
 * Admin: vragenlijsten binnen protocollen kunnen herordenen door te slepen.
 * Added pearlin_75 questionnaire (Pearlin Mastery Scale)
