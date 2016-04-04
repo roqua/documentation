@@ -191,7 +191,7 @@ POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/
 
 - Deze route moet worden aangeroepen door de lifely backend nadat de laatste metingen naar RoQua gestuurd zijn, dus wanneer besloten wordt dat alle missende metingen daadwerkelijk missing zijn.
 - __Statuscode 404__ - als een `listresponses naar RoQua geen dagboekstudie terug geeft voor de opgegeven gebruiker.
-- __Statuscode 202__ - als de calculate al eerder aangeroepen was voor deze deelnemer/dagboekstudie combinatie, en de berekening nog steeds bezig is. Het kan ook het geval zijn dat we zelf al een berekening zijn gestart, door onze dagelijkse tussentijdse resultaten berekening.
+- __Statuscode 202__ - als de calculate al eerder aangeroepen was voor deze deelnemer/dagboekstudie combinatie, en de berekening nog steeds bezig is.
 - __Statuscode 200__ - als alles goed gaat. Als de calculate aangeroepen wordt voor een deelnemer/dagboekstudie combinatie die al resultaten heeft, dan worden de resultaten opnieuw berekend.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voormeting.svg`
