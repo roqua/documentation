@@ -69,12 +69,14 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
       },
       "flags": {
         "v2": true,
-        "thema_1_name": true,
-        "thema_2_name": false,
-        "thema_3_name": true,
-        "thema_4_name": false,
-        "thema_5_name": true,
-        "thema_6_name": false
+        "thema_1_slaap": true,
+        "thema_2_beweging": false,
+        "thema_3_lichaam": true,
+        "thema_4_gedachten": false,
+        "thema_5_sociaal": true,
+        "thema_6_omgeving": false,
+        "thema_7_mindfulness": false,
+        "thema_8_betekenis": false
       }
     }
 
@@ -273,10 +275,10 @@ Dit wordt af en toe gedaan om de vragen te syncen met onze definitie. Daarna moe
 ### Request
 
     # Dagboeklijst
-    GET https://leefplezier.roqua.nl/api/v1/questionnaires/leefplz_db
+    GET https://leefplezier.rom.roqua.nl/api/v1/questionnaires/leefplz_db
     
     # Voormeting
-    GET https://leefplezier.roqua.nl/api/v1/questionnaires/leefplz_vm
+    GET https://leefplezier.rom.roqua.nl/api/v1/questionnaires/leefplz_vm
 
 ### Response
 
