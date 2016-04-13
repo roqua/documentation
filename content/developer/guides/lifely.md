@@ -192,58 +192,58 @@ The API only supports GET requests and uses basic auth.
 POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/calculate`
 
 - Deze route moet worden aangeroepen door de lifely backend nadat de laatste metingen naar RoQua gestuurd zijn, dus wanneer besloten wordt dat alle missende metingen daadwerkelijk missing zijn.
-- __Statuscode 404__ - als een `listresponses naar RoQua geen dagboekstudie terug geeft voor de opgegeven gebruiker.
+- - __Statuscode 200__ - als alles goed gaat. Als de calculate aangeroepen wordt voor een deelnemer/dagboekstudie combinatie die al resultaten heeft, dan worden de resultaten opnieuw berekend.
 - __Statuscode 202__ - als de calculate al eerder aangeroepen was voor deze deelnemer/dagboekstudie combinatie, en de berekening nog steeds bezig is.
-- __Statuscode 200__ - als alles goed gaat. Als de calculate aangeroepen wordt voor een deelnemer/dagboekstudie combinatie die al resultaten heeft, dan worden de resultaten opnieuw berekend.
+- __Statuscode 404__ - als een `listresponses naar RoQua geen dagboekstudie terug geeft voor de opgegeven gebruiker.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voormeting.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker de voormeting nog niet heeft ingevuld.
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer. 
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
-- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
-- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 3 dagen grens is nog niet gepasseerd).
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
+- __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <3 dagen aan metingen).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/persoonlijke_vraag.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
-- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
-- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 7 dagen grens is nog niet gepasseerd).
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
+- __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <7 dagen aan metingen).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/dag_affect.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
-- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
-- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (minimaal 1 meting), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 14 dagen grens is nog niet gepasseerd).
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
+- __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<1 meting of <14 dagen aan metingen).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/plezierigheid.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
-- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
-- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 21 dagen grens is nog niet gepasseerd).
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer. 
+- __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <21 dagen aan metingen).
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voorspellend_netwerk.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
-- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
-- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (75% van de metingen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 30 dagen grens is nog niet gepasseerd).
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer, of als Autovar geen model kon vinden voor deze deelnemer. 
+- __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
+- __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<75% van de metingen ingevuld of <30 dagen aan metingen).
+- __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer. 
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
-- __Statuscode 202__ - als de resultaten nog niet berekend zijn.
+- __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (75% van de metingen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 30 dagen grens is nog niet gepasseerd).
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, en dus nog niet is opgepikt door de dagelijkse resultaten berekening en er nog geen calculate is aangeroepen voor deze deelnemer, of als Autovar geen model kon vinden voor deze deelnemer. 
+- __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.  
 
 ### Example use
 
