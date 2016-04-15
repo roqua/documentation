@@ -13,7 +13,7 @@ Klik op het instellingenicoon boven in de pagina:
 
 ## Respondenten toevoegen
 
-Klik onder de respondentgegevens op "Aanmaken" om een respondent
+Klik onder de respondentgegevens op "Aanmaken" om een respondent toe te voegen.
 
 Nu krijgt u de gelegenheid om een label en e-mail van de respondent in te vullen.
 
