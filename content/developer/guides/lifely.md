@@ -270,7 +270,7 @@ Returns:
 
 ## Af en toe: Vragenlijst-definitie ophalen
 
-Dit wordt af en toe gedaan om de vragen te syncen met onze definitie. Daarna moet telkens worden nagekeken of er geen nieuwe vraagtypes zijn opgenomen die de weergave-module van Lifely's app niet snapt.
+Dit wordt af en toe gedaan om de vragen te syncen met onze definitie. Daarna moet telkens worden nagekeken of er geen nieuwe vraagtypes zijn opgenomen die de weergave-module van Lifely's app niet snapt. __Note: er staat nu in dat de dagboekvragenlijst te vinden is onder leefplz_db. Dit klopt voor productie, voor testen maken we tijdelijk gebruik van de leefplz_d2 vragenlijst__
 
 ### Request
 
