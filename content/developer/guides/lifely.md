@@ -155,10 +155,15 @@ Deze call moet gedaan worden op het moment dat een participant zich uitschrijft 
 ## Stap 3: Een voormeting starten
 Voordat er data gepushed kan worden naar een voormeting moet er een voormeting gestart worden op RoQua. Allereerst moet er een _fill out request_ gestart worden. Dit kan gedaan worden met de volgende call:
 
-    POST https://leefplezier.rom.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/fill_out_request/
+    POST https://leefplezier.rom.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/fill_out_requests/
     {
-      "questionnaire_keys": ['leefplz_vm']
+        "fill_out_request": {
+            "questionnaire_keys": ["leefplz_vm"]
+        }
     }
+
+<%= snapshot_response('rom', 'fill_out_requests_create') %>
+
 
 Het response op deze call is een JSON met daarin een `ID` veld. Dit fill out request id moet worden opgeslagen zodat hier in een later stadium de answers op terug gepushed kunnen worden. Het is best om deze call te doen vlak voor het posten van de daadwerkelijke data (dus nadat de gebruiker zijn of haar meting heeft ingevuld. Op die manier is het nagenoeg onmolgelijk om een 422: unprocessable entity terug te krijgen.
 
