@@ -11,7 +11,7 @@ At opened/reminder/expired a callback is made to the callback url.
 
 ## Create a FillOutRequest
 
-    POST /api/v1/dossiers/:dossier_id/fill_out_request/
+    POST /api/v1/dossiers/:dossier_id/fill_out_requests/
 
 ### Parameters
 
@@ -37,6 +37,7 @@ Name                | Type               | Description
 <%= headers 200 %>
 <%= json id: 1234 %>
 
+<%= snapshot_response('rom', 'fill_out_requests_create') %>
 
 ### Callbacks
 
