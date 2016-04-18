@@ -33,8 +33,8 @@ Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen.
         "gender": "M"
       },
       "credential": {
-        "username": 'jan@gmail.com', 
-        "password": '12345678', 
+        "username": 'jan@gmail.com',
+        "password": '12345678',
         "password_confirmation": '12345678'},
     }
 
@@ -128,7 +128,7 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
   ]
 %>
 
-Daarnaast moet er om een protocol subscription te starten ook een call naar Leefplezier gedaan worden. Deze call hoeft alleen het `protocol_subscription_id` en het `dossier_id` te bevatten. 
+Daarnaast moet er om een protocol subscription te starten ook een call naar Leefplezier gedaan worden. Deze call hoeft alleen het `protocol_subscription_id` en het `dossier_id` te bevatten.
 
 ### 2a.2 Request
 
@@ -139,12 +139,12 @@ Deze call moet gedaan worden op het moment dat een participant zich inschrijft n
 ## Stap 2b: protocol subscription stoppen
 
 Om de protocol subscription te stoppen moet er een delete gestuurd worden naar RoQua, met daarin het `roqua_dossier_id` en het `protocol_subscription_id` van het protocol dat gestopt moet worden.
-    
+
 ### 2b.1 Request
 
     DELETE https://leefplezier.rom.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/protocol_subscriptions/ROQUA_RESPONSE_ID
 
-Daarnaast moet er om een protocol subscription te stoppen ook een call naar Leefplezier gedaan worden. Deze call hoeft alleen het `protocol_subscription_id` en het `dossier_id` te bevatten. 
+Daarnaast moet er om een protocol subscription te stoppen ook een call naar Leefplezier gedaan worden. Deze call hoeft alleen het `protocol_subscription_id` en het `dossier_id` te bevatten.
 
 ### 2b.2 Request
 
@@ -152,9 +152,25 @@ Daarnaast moet er om een protocol subscription te stoppen ook een call naar Leef
 
 Deze call moet gedaan worden op het moment dat een participant zich uitschrijft van de studie of opnieuw begint (bij opnieuw beginnen moet ook weer de `POST` in stap 2a weer worden aangeroepen).
 
-## Stap 3: Ingevulde data terugsturen
+## Stap 3: Een voormeting starten
+Voordat er data gepushed kan worden naar een voormeting moet er een voormeting gestart worden op RoQua. Allereerst moet er een _fill out request_ gestart worden. Dit kan gedaan worden met de volgende call:
 
-Ingevulde data die op Lifely's servers is ontvangen kan worden teruggepost naar RoQua. Omdat deze operatie stiekem een upsert is (update OR insert if not found) moet zowel de `id` als de `questionnaire_key` van de response worden opgestuurd. De `questionnaire_key` is echter altijd `"leefplz_db"`.
+    POST https://leefplezier.rom.roqua.nl/api/v1/dossiers/ROQUA_DOSSIER_ID/fill_out_requests/
+    {
+        "fill_out_request": {
+            "questionnaire_keys": ["leefplz_vm"]
+        }
+    }
+
+<%= snapshot_response('rom', 'fill_out_requests_create') %>
+
+
+Het response op deze call is een JSON met daarin een `ID` veld. Dit fill out request id moet worden opgeslagen zodat hier in een later stadium de answers op terug gepushed kunnen worden. Het is best om deze call te doen vlak voor het posten van de daadwerkelijke data (dus nadat de gebruiker zijn of haar meting heeft ingevuld. Op die manier is het nagenoeg onmolgelijk om een 422: unprocessable entity terug te krijgen.
+
+
+## Stap 4: Ingevulde data terugsturen
+
+Ingevulde data die op Lifely's servers is ontvangen kan worden teruggepost naar RoQua. Omdat deze operatie stiekem een upsert is (update OR insert if not found) moet zowel de `id` als de `questionnaire_key` van de response worden opgestuurd. De `questionnaire_key` is echter altijd `"leefplz_db"` voor de dagboekmetingen en `"leefplz_vm"` voor de voormeting.
 
 Daarnaast wordt de `started_at` en `filled_out_at` opgestuurd. Dit zijn de Unix timestamps van de moment dat de vragenlijst getoond respectievelijk voltooid werd.
 
@@ -174,13 +190,14 @@ Onder `answer_data` worden de waarden opgestuurd.
         "answer_data": {"v_1": "a1", "v_2": 24}
     }
 
-## Stap 3a: Gemiste data melden
+
+## Stap 4a: Gemiste data melden
 
 Deze API wordt nog gemaakt door RoQua. Zal gaan lijken op de vorige, maar dan met andere parameters (iets als `"non_response": true` in plaats van `answer_data` wellicht).
 
-Update: Nick zegt dat gemiste metingen niet worden opgestuurd naar RoQua. 
+Update: Nick zegt dat gemiste metingen niet worden opgestuurd naar RoQua.
 
-## Stap 4: Resultaten berekenen en ophalen
+## Stap 5: Resultaten berekenen en ophalen
 Base url = https://leefplezier.nu
 Prefix = /leefplezier/api/v1
 
@@ -201,7 +218,7 @@ GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/r
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker de voormeting nog niet heeft ingevuld.
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer. 
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
 
@@ -229,21 +246,21 @@ GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/r
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <21 dagen aan metingen).
-- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.
+- __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voorspellend_netwerk.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<75% van de metingen ingevuld of <30 dagen aan metingen).
-- __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer. 
+- __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.
 
 GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (75% van de metingen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 30 dagen grens is nog niet gepasseerd).
-- __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.  
+- __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.
 
 ### Example use
 
@@ -261,7 +278,7 @@ JSON example:
 curl https://lifely_staging:api_secret@staging.leefezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/top_networks.json
 ```
 
-Returns: 
+Returns:
 ```json
 ["Meer onrust werd gevolgd door meer piekeren","Meer onrust werd gevolgd door minder concentratievermogen","Meer onrust werd gevolgd door minder opgewektheid"
 ```
@@ -276,7 +293,7 @@ Dit wordt af en toe gedaan om de vragen te syncen met onze definitie. Daarna moe
 
     # Dagboeklijst
     GET https://leefplezier.rom.roqua.nl/api/v1/questionnaires/leefplz_db
-    
+
     # Voormeting
     GET https://leefplezier.rom.roqua.nl/api/v1/questionnaires/leefplz_vm
 
