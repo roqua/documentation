@@ -20,7 +20,7 @@
     "body": {
       "id":1,
       "respondent_type":"patient_version",
-      "completing_url":"http://leefplezier.roqua.dev/client/session/new?token=8815c257"
+      "completing_url":"https://default.example.com/client/session/new?token=8815c257"
     }
   }
 }
