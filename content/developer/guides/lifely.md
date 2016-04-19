@@ -165,7 +165,12 @@ Voordat er data gepushed kan worden naar een voormeting moet er een voormeting g
 <%= snapshot_response('rom', 'fill_out_requests_create') %>
 
 
-Het response op deze call is een JSON met daarin een `ID` veld. Dit fill out request id moet worden opgeslagen zodat hier in een later stadium de answers op terug gepushed kunnen worden. Het is best om deze call te doen vlak voor het posten van de daadwerkelijke data (dus nadat de gebruiker zijn of haar meting heeft ingevuld. Op die manier is het nagenoeg onmolgelijk om een 422: unprocessable entity terug te krijgen.
+Om antwoorden terug te sturen naar de API moet op dit moment nog de `response_id` uit de `responses.json` gehaald worden. Deze kan opgehaald worden door een call te doen naar de responses API
+
+zie stap 2.a
+
+
+Het is best om deze call te doen vlak voor het posten van de daadwerkelijke data (dus nadat de gebruiker zijn of haar meting heeft ingevuld. Op die manier is het nagenoeg onmolgelijk om een 422: unprocessable entity terug te krijgen. 
 
 
 ## Stap 4: Ingevulde data terugsturen
