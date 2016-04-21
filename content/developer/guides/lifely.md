@@ -52,9 +52,9 @@ Als het dossier id nog niet bestaat wordt er eentje aangemaakt met daarin `email
 
 ## Stap 2a: protocol subscription starten
 
-Daarna wordt er een protocol subscription gestart. Dit zorgt er voor dat er responses worden klaargezet op de volgens het protocol vastgestelde momenten. Relevante parameters hier zijn de `protocol_key` (vast gegeven), de `start_at`, de `textvars` en de `flags`. De `start_at` geeft de datum en tijd aan van de eerste ochtendmeting, als unix timestamp. In dit geval moet de tijd door Lifely worden berekend op basis van de aan de gebruiker gevraagde bedtijd. De `textvars` worden gebruikt om de gebruiker de mogelijkheid te geven om zelf een vraag te verzinnen. Hiervoor maken we altijd gebruik van dezelfde key, de `persoonlijke_vraag` key. Daarnaast moeten er nog `flags` meegegeven worden. Deze flags worden gebruikt om delen van de vragenlijst aan en uit te zetten. Bij deze flags is het belangrijk om altijd de 1e flag (`v2`) op true mee te geven. Op deze manier kunnen wij in de backend op een nette en eenvoudige manier onderscheid maken tussen de verschillende vragenlijst versies.
+Daarna wordt er een protocol subscription gestart. Dit zorgt er voor dat er responses worden klaargezet op de volgens het protocol vastgestelde momenten. Relevante parameters hier zijn de `protocol_key` (vast gegeven), de `start_at`, de `textvars` en de `flags`. De `start_at` geeft de datum en tijd aan van de eerste ochtendmeting, als unix timestamp. In dit geval moet de tijd door Lifely worden berekend op basis van de aan de gebruiker gevraagde bedtijd. De `textvars` worden gebruikt om de gebruiker de mogelijkheid te geven om zelf een vraag te verzinnen. Hiervoor maken we altijd gebruik van dezelfde key, de `leefplz_db_persoonlijke_vraag` key. Daarnaast moeten er nog `flags` meegegeven worden. Deze flags worden gebruikt om delen van de vragenlijst aan en uit te zetten. Bij deze flags is het belangrijk om altijd de 1e flag (`leefplz_db_v2`) op true mee te geven. Op deze manier kunnen wij in de backend op een nette en eenvoudige manier onderscheid maken tussen de verschillende vragenlijst versies.
 
-RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een `open_from` en `open_till` die aangeven wat de wenselijke timeframe is waarbinnen een gebruiker mag (beginnen met) invullen. Daarnaast worden ook de opgegeven `flags` en `textvars` terug gegeven.
+RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een `open_from` en `open_till` die aangeven wat de wenselijke timeframe is waarbinnen een gebruiker mag (beginnen met) invullen. Daarnaast worden ook de opgegeven `flags` en `textvars` terug gegeven. Let er op dat de flags en textvars altijd geprefixed zijn met de naam van de vragenlijst (`leefplz_db_` of `leefplz_d2_`).
 
 [Full API Docs](/developer/rom/dossier/protocol_subscriptions/#start-a-protocol-subscription)
 
@@ -65,18 +65,18 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
       "protocol_key": "leefplezier_diary",
       "start_at": 1414604287
       "textvars": {
-        "persoonlijke_vraag": "gepunnikt"
+        "leefplz_db_persoonlijke_vraag": "gepunnikt"
       },
       "flags": {
-        "v2": true,
-        "thema_1_slaap": true,
-        "thema_2_beweging": false,
-        "thema_3_lichaam": true,
-        "thema_4_gedachten": false,
-        "thema_5_sociaal": true,
-        "thema_6_omgeving": false,
-        "thema_7_mindfulness": false,
-        "thema_8_betekenis": false
+        "leefplz_db_v2": true,
+        "leefplz_db_thema_1_slaap": true,
+        "leefplz_db_thema_2_beweging": false,
+        "leefplz_db_thema_3_lichaam": true,
+        "leefplz_db_thema_4_gedachten": false,
+        "leefplz_db_thema_5_sociaal": true,
+        "leefplz_db_thema_6_omgeving": false,
+        "leefplz_db_thema_7_mindfulness": false,
+        "leefplz_db_thema_8_betekenis": false
       }
     }
 
@@ -164,9 +164,7 @@ Voordat er data gepushed kan worden naar een voormeting moet er een voormeting g
 
 <%= snapshot_response('rom', 'fill_out_requests_create') %>
 
-
-Het response op deze call is een JSON met daarin een `ID` veld. Dit fill out request id moet worden opgeslagen zodat hier in een later stadium de answers op terug gepushed kunnen worden. Het is best om deze call te doen vlak voor het posten van de daadwerkelijke data (dus nadat de gebruiker zijn of haar meting heeft ingevuld. Op die manier is het nagenoeg onmolgelijk om een 422: unprocessable entity terug te krijgen.
-
+Om antwoorden terug te sturen naar de API moet op dit moment nog de `response_id` uit de `responses.json` gehaald worden. Deze kan opgehaald worden door een call te doen naar de responses API, en daarbij de filteren op questionnaire key en opened status. Zie hiervoor ook zie stap 2.a en de [RoQua docs](http://docs.roqua.net). Het is best om deze call te doen vlak voor het posten van de daadwerkelijke data (dus nadat de gebruiker zijn of haar meting heeft ingevuld. Op die manier is het nagenoeg onmolgelijk om een 422: unprocessable entity terug te krijgen.
 
 ## Stap 4: Ingevulde data terugsturen
 
@@ -201,79 +199,133 @@ Update: Nick zegt dat gemiste metingen niet worden opgestuurd naar RoQua.
 Base url = https://leefplezier.nu
 Prefix = /leefplezier/api/v1
 
-The API only supports GET requests and uses basic auth.
-
+The API gebruikt basic auth om de authenticatie te doen,
 
 ### Routes
 
-POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/calculate`
+#### Results overzicht route
+Naast het ophalen van de daadwerkelijke resultaten is het ook mogelijk om een JSON met daarin een overzicht van een deelnemer te krijgen, waarin staat welke resultaten op dit moment unlocked zijn en welke beschikbaar zijn om te laten zien in de app. Hiervoor moet de volgende call gedaan worden:
+
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results.json`
+```json
+  {
+	"voormeting.svg": {
+		"unlocked": true,
+		"unlocked_from": "1970-01-01",
+		"changed_at": null,
+		"enough_measurements": true
+	},
+	"welbevinden.svg": {
+		"unlocked": true,
+		"unlocked_from": "2016-04-19",
+		"changed_at": "2016-04-21T02:01:23.094+02:00",
+		"enough_measurements": true
+	},
+	"persoonlijke_vraag.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-04-23",
+		"changed_at": "2016-04-21T02:01:23.094+02:00",
+		"enough_measurements": false
+	},
+	"gevoelens.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-04-30",
+		"changed_at": "2016-04-21T02:01:23.094+02:00",
+		"enough_measurements": false
+	},
+	"plezierigheid.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-05-07",
+		"changed_at": "2016-04-21T02:01:23.094+02:00",
+		"enough_measurements": false
+	},
+	"top_networks.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-05-16",
+		"changed_at": null,
+		"enough_measurements": false
+	},
+	"voorspellend_netwerk.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-05-16",
+		"changed_at": null,
+		"enough_measurements": false
+	}
+}
+```
+
+In deze JSON staan de velden: `unlocked`, `unlocked_from`, `changed_at` en `enough_measurements`. Het eerste veld, `unlocked` geeft aan of de deelnemer lang genoeg met de dagboekstudie bezig is om resultaten te kunnen krijgen (voor deze grafiek). Het tweede veld, `unlocked_from` geeft aan vanaf wanneer de grafiek beschikbaar is / was. Voor resultaten die altijd al beschikbaar zouden zijn (en dus niet unlocked hoefden te worden) geven we altijd 1 januari 1970 terug. Het derde veld, `changed_at`, kan gebruikt worden om te kijken wanneer een grafiek voor het laatst geupdate is. Hier zou je lokaal een cache van kunnen bij houden, en wanneer de results.json aangeeft dat de grafiek gechanged is hem lokaal up te daten. Het laatste veld, `enough_measurements`, geeft aan of er voldoende metingen voor de grafiek zijn, en of deze voldoende zijn verspreid over een aantal dagen. Wanneer zowel `unlocked` en `enough_measurements` `true` zijn is het mogelijk om resultaten op te halen van de API. Als één van deze velden nog niet `true` is, is dit niet mogelijk en wordt er een fout code gegeven.
+
+
+#### Result Routes
+    POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/calculate`
 
 - Deze route moet worden aangeroepen door de lifely backend nadat de laatste metingen naar RoQua gestuurd zijn, dus wanneer besloten wordt dat alle missende metingen daadwerkelijk missing zijn.
 - - __Statuscode 200__ - als alles goed gaat. Als de calculate aangeroepen wordt voor een deelnemer/dagboekstudie combinatie die al resultaten heeft, dan worden de resultaten opnieuw berekend.
 - __Statuscode 202__ - als de calculate al eerder aangeroepen was voor deze deelnemer/dagboekstudie combinatie, en de berekening nog steeds bezig is.
 - __Statuscode 404__ - als een `listresponses naar RoQua geen dagboekstudie terug geeft voor de opgegeven gebruiker.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voormeting.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voormeting.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker de voormeting nog niet heeft ingevuld.
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <3 dagen aan metingen).
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/persoonlijke_vraag.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/persoonlijke_vraag.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <7 dagen aan metingen).
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/dag_affect.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/dag_affect.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<1 meting of <14 dagen aan metingen).
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/plezierigheid.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/plezierigheid.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <21 dagen aan metingen).
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voorspellend_netwerk.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voorspellend_netwerk.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<75% van de metingen ingevuld of <30 dagen aan metingen).
 - __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (75% van de metingen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 30 dagen grens is nog niet gepasseerd).
 - __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.
 
-### Example use
+### Voorbeeld gebruik
 
 __URL__
 `https://lifely_staging:api_secret@staging.leefplezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/welbevinden.svg`
 
 __CURL__
-SVG example:
+SVG voorbeeld:
 ```bash
 curl -X GET --user lifely_staging:api_secret https://staging.leefplezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/welbevinden.svg
 ```
 
-JSON example:
+JSON voorbeeld:
 ```bash
 curl https://lifely_staging:api_secret@staging.leefezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/top_networks.json
 ```
