@@ -164,14 +164,7 @@ Voordat er data gepushed kan worden naar een voormeting moet er een voormeting g
 
 <%= snapshot_response('rom', 'fill_out_requests_create') %>
 
-
-Om antwoorden terug te sturen naar de API moet op dit moment nog de `response_id` uit de `responses.json` gehaald worden. Deze kan opgehaald worden door een call te doen naar de responses API
-
-zie stap 2.a
-
-
-Het is best om deze call te doen vlak voor het posten van de daadwerkelijke data (dus nadat de gebruiker zijn of haar meting heeft ingevuld. Op die manier is het nagenoeg onmolgelijk om een 422: unprocessable entity terug te krijgen. 
-
+Om antwoorden terug te sturen naar de API moet op dit moment nog de `response_id` uit de `responses.json` gehaald worden. Deze kan opgehaald worden door een call te doen naar de responses API, en daarbij de filteren op questionnaire key en opened status. Zie hiervoor ook zie stap 2.a en de [RoQua docs](http://docs.roqua.net). Het is best om deze call te doen vlak voor het posten van de daadwerkelijke data (dus nadat de gebruiker zijn of haar meting heeft ingevuld. Op die manier is het nagenoeg onmolgelijk om een 422: unprocessable entity terug te krijgen.
 
 ## Stap 4: Ingevulde data terugsturen
 
@@ -206,79 +199,134 @@ Update: Nick zegt dat gemiste metingen niet worden opgestuurd naar RoQua.
 Base url = https://leefplezier.nu
 Prefix = /leefplezier/api/v1
 
-The API only supports GET requests and uses basic auth.
-
+The API gebruikt basic auth om de authenticatie te doen,
 
 ### Routes
 
-POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/calculate`
+#### Results overzicht route
+Naast het ophalen van de daadwerkelijke resultaten is het ook mogelijk om een JSON met daarin een overzicht van een deelnemer te krijgen, waarin staat welke resultaten op dit moment unlocked zijn en welke beschikbaar zijn om te laten zien in de app. Hiervoor moet de volgende call gedaan worden:
+
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results.json`
+
+<%= json \
+  {
+	"voormeting.svg": {
+		"unlocked": true,
+		"unlocked_from": "1970-01-01",
+		"changed_at": null,
+		"enough_measurements": true
+	},
+	"welbevinden.svg": {
+		"unlocked": true,
+		"unlocked_from": "2016-04-19",
+		"changed_at": "2016-04-21T02:01:23.094+02:00",
+		"enough_measurements": true
+	},
+	"persoonlijke_vraag.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-04-23",
+		"changed_at": "2016-04-21T02:01:23.094+02:00",
+		"enough_measurements": false
+	},
+	"gevoelens.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-04-30",
+		"changed_at": "2016-04-21T02:01:23.094+02:00",
+		"enough_measurements": false
+	},
+	"plezierigheid.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-05-07",
+		"changed_at": "2016-04-21T02:01:23.094+02:00",
+		"enough_measurements": false
+	},
+	"top_networks.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-05-16",
+		"changed_at": null,
+		"enough_measurements": false
+	},
+	"voorspellend_netwerk.svg": {
+		"unlocked": false,
+		"unlocked_from": "2016-05-16",
+		"changed_at": null,
+		"enough_measurements": false
+	}
+}
+%>
+
+In deze JSON staan de velden: `unlocked`, `unlocked_from`, `changed_at` en `enough_measurements`. Het eerste veld, `unlocked` geeft aan of de deelnemer lang genoeg met de dagboekstudie bezig is om resultaten te kunnen krijgen (voor deze grafiek). Het tweede veld, `unlocked_from` geeft aan vanaf wanneer de grafiek beschikbaar is / was. Voor resultaten die altijd al beschikbaar zouden zijn (en dus niet unlocked hoefden te worden) geven we altijd 1 januari 1970 terug. Het derde veld, `changed_at`, kan gebruikt worden om te kijken wanneer een grafiek voor het laatst geupdate is. Hier zou je lokaal een cache van kunnen bij houden, en wanneer de results.json aangeeft dat de grafiek gechanged is hem lokaal up te daten. Het laatste veld, `enough_measurements`, geeft aan of er voldoende metingen voor de grafiek zijn, en of deze voldoende zijn verspreid over een aantal dagen. Wanneer zowel `unlocked` en `enough_measurements` `true` zijn is het mogelijk om resultaten op te halen van de API. Als één van deze velden nog niet `true` is, is dit niet mogelijk en wordt er een fout code gegeven.
+
+
+#### Result Routes
+    POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/calculate`
 
 - Deze route moet worden aangeroepen door de lifely backend nadat de laatste metingen naar RoQua gestuurd zijn, dus wanneer besloten wordt dat alle missende metingen daadwerkelijk missing zijn.
 - - __Statuscode 200__ - als alles goed gaat. Als de calculate aangeroepen wordt voor een deelnemer/dagboekstudie combinatie die al resultaten heeft, dan worden de resultaten opnieuw berekend.
 - __Statuscode 202__ - als de calculate al eerder aangeroepen was voor deze deelnemer/dagboekstudie combinatie, en de berekening nog steeds bezig is.
 - __Statuscode 404__ - als een `listresponses naar RoQua geen dagboekstudie terug geeft voor de opgegeven gebruiker.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voormeting.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voormeting.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker de voormeting nog niet heeft ingevuld.
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/welbevinden.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <3 dagen aan metingen).
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/persoonlijke_vraag.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/persoonlijke_vraag.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <7 dagen aan metingen).
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/dag_affect.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/dag_affect.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<1 meting of <14 dagen aan metingen).
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/plezierigheid.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/plezierigheid.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<3 metingen verspreid over 3 dagen of <21 dagen aan metingen).
 - __Statuscode 404__ - als deze deelnemer nog niet bekend is in het systeem, dwz er is nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voorspellend_netwerk.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/voorspellend_netwerk.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (<75% van de metingen ingevuld of <30 dagen aan metingen).
 - __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.
 
-GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.svg`
+    GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results/top_networks.svg`
 
 - __Statuscode 200__ - als de resultaten klaar staan, inclusief SVG afbeelding.
 - __Statuscode 202__ - als dit plaatje nog gelocked is óf als de resultaten nog niet berekend zijn.
 - __Statuscode 204__ - als de gebruiker nog niet voldoende metingen heeft (75% van de metingen), of als de resultaten nog niet beschikbaar zijn voor deze gebruiker (de 30 dagen grens is nog niet gepasseerd).
 - __Statuscode 404__ - als Autovar geen model kon vinden voor deze deelnemer of als deze deelnemer nog niet bekend is in het systeem, dwz er nog geen /calculate aangeroepen voor deze deelnemer.
 
-### Example use
+### Voorbeeld gebruik
 
 __URL__
 `https://lifely_staging:api_secret@staging.leefplezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/welbevinden.svg`
 
 __CURL__
-SVG example:
+SVG voorbeeld:
 ```bash
 curl -X GET --user lifely_staging:api_secret https://staging.leefplezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/welbevinden.svg
 ```
 
-JSON example:
+JSON voorbeeld:
 ```bash
 curl https://lifely_staging:api_secret@staging.leefezier.nu/leefplezier/api/v1/dossier/123/protocol_subscriptions/abc/results/top_networks.json
 ```
