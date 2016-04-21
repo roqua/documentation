@@ -52,9 +52,9 @@ Als het dossier id nog niet bestaat wordt er eentje aangemaakt met daarin `email
 
 ## Stap 2a: protocol subscription starten
 
-Daarna wordt er een protocol subscription gestart. Dit zorgt er voor dat er responses worden klaargezet op de volgens het protocol vastgestelde momenten. Relevante parameters hier zijn de `protocol_key` (vast gegeven), de `start_at`, de `textvars` en de `flags`. De `start_at` geeft de datum en tijd aan van de eerste ochtendmeting, als unix timestamp. In dit geval moet de tijd door Lifely worden berekend op basis van de aan de gebruiker gevraagde bedtijd. De `textvars` worden gebruikt om de gebruiker de mogelijkheid te geven om zelf een vraag te verzinnen. Hiervoor maken we altijd gebruik van dezelfde key, de `persoonlijke_vraag` key. Daarnaast moeten er nog `flags` meegegeven worden. Deze flags worden gebruikt om delen van de vragenlijst aan en uit te zetten. Bij deze flags is het belangrijk om altijd de 1e flag (`v2`) op true mee te geven. Op deze manier kunnen wij in de backend op een nette en eenvoudige manier onderscheid maken tussen de verschillende vragenlijst versies.
+Daarna wordt er een protocol subscription gestart. Dit zorgt er voor dat er responses worden klaargezet op de volgens het protocol vastgestelde momenten. Relevante parameters hier zijn de `protocol_key` (vast gegeven), de `start_at`, de `textvars` en de `flags`. De `start_at` geeft de datum en tijd aan van de eerste ochtendmeting, als unix timestamp. In dit geval moet de tijd door Lifely worden berekend op basis van de aan de gebruiker gevraagde bedtijd. De `textvars` worden gebruikt om de gebruiker de mogelijkheid te geven om zelf een vraag te verzinnen. Hiervoor maken we altijd gebruik van dezelfde key, de `leefplz_db_persoonlijke_vraag` key. Daarnaast moeten er nog `flags` meegegeven worden. Deze flags worden gebruikt om delen van de vragenlijst aan en uit te zetten. Bij deze flags is het belangrijk om altijd de 1e flag (`leefplz_db_v2`) op true mee te geven. Op deze manier kunnen wij in de backend op een nette en eenvoudige manier onderscheid maken tussen de verschillende vragenlijst versies.
 
-RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een `open_from` en `open_till` die aangeven wat de wenselijke timeframe is waarbinnen een gebruiker mag (beginnen met) invullen. Daarnaast worden ook de opgegeven `flags` en `textvars` terug gegeven.
+RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een `open_from` en `open_till` die aangeven wat de wenselijke timeframe is waarbinnen een gebruiker mag (beginnen met) invullen. Daarnaast worden ook de opgegeven `flags` en `textvars` terug gegeven. Let er op dat de flags en textvars altijd geprefixed zijn met de naam van de vragenlijst (`leefplz_db_` of `leefplz_d2_`).
 
 [Full API Docs](/developer/rom/dossier/protocol_subscriptions/#start-a-protocol-subscription)
 
@@ -65,18 +65,18 @@ RoQua geeft in de JSON terug een lijst van `responses`. Elke response heeft een 
       "protocol_key": "leefplezier_diary",
       "start_at": 1414604287
       "textvars": {
-        "persoonlijke_vraag": "gepunnikt"
+        "leefplz_db_persoonlijke_vraag": "gepunnikt"
       },
       "flags": {
-        "v2": true,
-        "thema_1_slaap": true,
-        "thema_2_beweging": false,
-        "thema_3_lichaam": true,
-        "thema_4_gedachten": false,
-        "thema_5_sociaal": true,
-        "thema_6_omgeving": false,
-        "thema_7_mindfulness": false,
-        "thema_8_betekenis": false
+        "leefplz_db_v2": true,
+        "leefplz_db_thema_1_slaap": true,
+        "leefplz_db_thema_2_beweging": false,
+        "leefplz_db_thema_3_lichaam": true,
+        "leefplz_db_thema_4_gedachten": false,
+        "leefplz_db_thema_5_sociaal": true,
+        "leefplz_db_thema_6_omgeving": false,
+        "leefplz_db_thema_7_mindfulness": false,
+        "leefplz_db_thema_8_betekenis": false
       }
     }
 
