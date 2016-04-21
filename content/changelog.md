@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-04-21
+
+* Bipo onderzoek vragenlijsten toegevoegd.
+
 ## 2016-04-19
 
 * MVI-20 vragenlijst toegevoegd (Multidimensionele Vermoeidheids Index)
