@@ -207,8 +207,7 @@ The API gebruikt basic auth om de authenticatie te doen,
 Naast het ophalen van de daadwerkelijke resultaten is het ook mogelijk om een JSON met daarin een overzicht van een deelnemer te krijgen, waarin staat welke resultaten op dit moment unlocked zijn en welke beschikbaar zijn om te laten zien in de app. Hiervoor moet de volgende call gedaan worden:
 
     GET `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/results.json`
-
-<%= json \
+```json
   {
 	"voormeting.svg": {
 		"unlocked": true,
@@ -253,7 +252,7 @@ Naast het ophalen van de daadwerkelijke resultaten is het ook mogelijk om een JS
 		"enough_measurements": false
 	}
 }
-%>
+```
 
 In deze JSON staan de velden: `unlocked`, `unlocked_from`, `changed_at` en `enough_measurements`. Het eerste veld, `unlocked` geeft aan of de deelnemer lang genoeg met de dagboekstudie bezig is om resultaten te kunnen krijgen (voor deze grafiek). Het tweede veld, `unlocked_from` geeft aan vanaf wanneer de grafiek beschikbaar is / was. Voor resultaten die altijd al beschikbaar zouden zijn (en dus niet unlocked hoefden te worden) geven we altijd 1 januari 1970 terug. Het derde veld, `changed_at`, kan gebruikt worden om te kijken wanneer een grafiek voor het laatst geupdate is. Hier zou je lokaal een cache van kunnen bij houden, en wanneer de results.json aangeeft dat de grafiek gechanged is hem lokaal up te daten. Het laatste veld, `enough_measurements`, geeft aan of er voldoende metingen voor de grafiek zijn, en of deze voldoende zijn verspreid over een aantal dagen. Wanneer zowel `unlocked` en `enough_measurements` `true` zijn is het mogelijk om resultaten op te halen van de API. Als één van deze velden nog niet `true` is, is dit niet mogelijk en wordt er een fout code gegeven.
 
