@@ -20,6 +20,8 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 ## 2016-04-21
 
 * Bipo onderzoek vragenlijsten toegevoegd.
+* Mogelijkheid om protocollen met slepen te herordenen toegevoegd
+* Aan respondenten (ouder, leerkracht, ...) kan een label worden toegevoegd
 
 ## 2016-04-19
 
