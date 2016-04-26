@@ -17,6 +17,13 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-04-26
+
+* HMAC token authenticatie geeft nu specifiekere meldingen bij fouten.
+* Amputee Mobility Predictor (zonder/met prothese) lijsten toegevoegd
+* Indien er geen cookies gebruikt kunnen worden bij een client login wordt de client hiervan op de hoogte gesteld.
+* Opmaak van rapporten en uitnodigingen is iets aangepast, waardoor deze beter uit te printen moeten zijn.
+
 ## 2016-04-21
 
 * Bipo onderzoek vragenlijsten toegevoegd.
