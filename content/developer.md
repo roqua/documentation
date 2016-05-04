@@ -1,5 +1,5 @@
 ---
-title: API-docs
+title: API
 sidebar: false
 ---
 
