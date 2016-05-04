@@ -260,8 +260,8 @@ In deze JSON staan de velden: `unlocked`, `unlocked_from`, `changed_at` en `enou
 #### Result Routes
     POST `/dossier/{:dossier_id}/protocol_subscriptions/{:protocol_subscription_id}/calculate`
 
-- Deze route moet worden aangeroepen door de lifely backend nadat de laatste metingen naar RoQua gestuurd zijn, dus wanneer besloten wordt dat alle missende metingen daadwerkelijk missing zijn.
-- - __Statuscode 200__ - als alles goed gaat. Als de calculate aangeroepen wordt voor een deelnemer/dagboekstudie combinatie die al resultaten heeft, dan worden de resultaten opnieuw berekend.
+Deze route moet worden aangeroepen door de lifely backend nadat de laatste metingen naar RoQua gestuurd zijn, dus wanneer besloten wordt dat alle missende metingen daadwerkelijk missing zijn.
+- __Statuscode 200__ - als alles goed gaat. Als de calculate aangeroepen wordt voor een deelnemer/dagboekstudie combinatie die al resultaten heeft, dan worden de resultaten opnieuw berekend.
 - __Statuscode 202__ - als de calculate al eerder aangeroepen was voor deze deelnemer/dagboekstudie combinatie, en de berekening nog steeds bezig is.
 - __Statuscode 404__ - als een `listresponses naar RoQua geen dagboekstudie terug geeft voor de opgegeven gebruiker.
 
