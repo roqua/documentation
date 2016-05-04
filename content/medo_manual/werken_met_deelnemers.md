@@ -1,6 +1,6 @@
 ---
 title: Werken met deelnemers
-sort: 400
+sort: 300
 ---
 
 * TOC

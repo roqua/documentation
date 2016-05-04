@@ -1,6 +1,6 @@
 ---
 title: Werken met projecten
-sort: 300
+sort: 200
 ---
 
 * TOC

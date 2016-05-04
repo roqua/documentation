@@ -1,6 +1,6 @@
 ---
 title: Werken met medewerkers
-sort: 500
+sort: 400
 ---
 
 * TOC

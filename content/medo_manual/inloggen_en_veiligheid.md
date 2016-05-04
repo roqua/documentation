@@ -1,6 +1,6 @@
 ---
 title: Inloggen en veiligheid
-sort: 200
+sort: 100
 ---
 
 * TOC
