@@ -17,6 +17,13 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-05-06
+
+* Dagboekvragenlijsten worden voortaan voor andere vragenlijsten aangeboden voor invulling.
+* BAL Medicatie/Behandeling vragenlijst vraag "Hoe vaak heeft u eerder een periode gehad met deze klachten?" toegevoegd
+* Het gebruik van `-` als volledig antwoord op vragen die naar getallen vragen is niet meer toegestaan. Dit voorkomt een onduidelijke foutmelding verderop bij het invullen.
+* Het gebruik van bijvoorbeeld spaties in datum velden zorgt niet meer dat een lijst niet kan worden opgeslagen.
+
 ## 2016-04-26
 
 * HMAC token authenticatie geeft nu specifiekere meldingen bij fouten.
