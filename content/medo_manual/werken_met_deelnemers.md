@@ -23,19 +23,25 @@ worden. Door op een rij te klikken gaat u naar de detailpagina van die deelnemer
 
 ### Statistieken
 
+Rechts in de tabel zijn drie statistieken opgenomen:
+
+* **Gemiste metingen** geeft aan hoeveel metingen er gemist zijn.
+* **Ingevulde metingen** geeft aan hoeveel er ingevuld zijn.
+* **Totaal metingen** geeft aan hoeveel metingen er in totaal klaargezet zijn.
+
 ### Import en Export
 
 Ook is het voor verzamelaars en coördinatoren mogelijk om de deelnemerslijst te
 exporteren en nieuwe deelnemers te importeren. Als u op de **Lijst importeren**
 knop drukt krijgt u een pagina te zien met toelichting over het aan te leveren
 csv-bestand. Door op de **Lijst exporteren** knop te drukken krijgt u een
-csv-bestand met daarin alle gegevens van de deelnemers in het zelfde formaat als
+csv-bestand met daarin alle gegevens van de deelnemers in hetzelfde formaat als
 het csv-bestand voor importeren.
 
 <div class="alert alert-error">
   <strong>Let op!</strong>
-  Het is van belang dat u het csv-bestand van de export niet in het zelfde
-  project probeert te importeren. Hierdoor zal dubbele data ontstaan.
+  Het is van belang dat u het csv-bestand van de export niet in hetzelfde
+  project probeert te importeren. Daardoor zal ongewenste dubbele data ontstaan.
 </div>
 
 ## Detailpagina
