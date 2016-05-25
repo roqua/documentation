@@ -827,6 +827,9 @@ div.sidebar-module ul ul li span {
 .content img {
   max-width: 100%;
   margin: 12px 0;
+  box-shadow: 0 0 10px #bbb;
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .content .description {
