@@ -23,7 +23,8 @@ Zo weten wij zeker dat inloggegevens, zoals email en wachtwoord, niet tussen
 medewerkers gedeeld worden en/of deze gegevens niet gestolen zijn.
 
 Voor Two-Factor Authentication heeft u een mobiel apparaat nodig met een
-authenticator app zoals [Google Authenticator]() of [1Password]().
+authenticator app zoals [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=nl)
+of [1Password](https://1password.com/pricing/).
 
 Om veiligheidsredenen vragen wij ook om uw persoonlijke (mobiele)
 telefoonnummer in te stellen in Medo. Wanneer u uw tijdelijke wachtwoord
