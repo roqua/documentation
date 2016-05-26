@@ -24,7 +24,7 @@ Als eerste stap wordt bij aanmelding een call gedaan om een dossier te openen.
     POST https://core.roqua.nl/api/v1/dossier_groups/ROQUA_DOSSIER_GROUP_ID/dossiers
     {
       "dossier": {
-      // Iets met credentials moet hierin? Hoe checked lifely op dit moment of een account al bestaat?
+      // Iets met credentials moet hierin? Hoe checkt lifely op dit moment of een account al bestaat?
       },
       "person": {
         "birthdate": "1980-02-23",
