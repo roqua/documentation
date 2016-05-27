@@ -11,7 +11,7 @@ sort: 300
 Op deze pagina bevindt zich een tabel met de deelnemers van het project. Door
 op de tabelkoppen te klikken kan de tabel gesorteerd worden. Daarnaast is het
 mogelijk om door de tabel te zoeken, waarbij door data van meerdere kolommen
-gezocht kan worden. Verzamelaars en coördinatoren kunnen de voornaam,
+gezocht kan worden. Als u verzamelaar of coördinator bent kunt u de voornaam,
 achternaam en het e-mailadres van deelnemers bekijken.
 
 <img src='/assets/images/screenshots/medo/deelnemerslijst.png' />
@@ -19,24 +19,23 @@ achternaam en het e-mailadres van deelnemers bekijken.
 ### Privacy
 
 Door de optie *Persoonsgegevens tonen* uit te vinken kunnen deze gegevens ook verborgen
-worden. Door op een rij te klikken gaat u naar de detailpagina van die deelnemer.
+worden. Klik op een rij om meer informatie over de deelnemer te bekijken, en naar RoQua te gaan.
 
 ### Statistieken
 
 Rechts in de tabel zijn drie statistieken opgenomen:
 
-* **Gemiste metingen** geeft aan hoeveel metingen er gemist zijn.
-* **Ingevulde metingen** geeft aan hoeveel er ingevuld zijn.
-* **Totaal metingen** geeft aan hoeveel metingen er in totaal klaargezet zijn.
+* **Gemiste Metingen** geeft aan hoeveel metingen er gemist zijn
+* **Ingevulde Metingen** geeft aan hoeveel er ingevuld zijn
+* **Totaal Metingen** geeft aan hoeveel metingen er in totaal klaargezet zijn
 
 ### Import en Export
 
 Ook is het voor verzamelaars en coördinatoren mogelijk om de deelnemerslijst te
 exporteren en nieuwe deelnemers te importeren. Als u op de **Lijst importeren**
 knop drukt krijgt u een pagina te zien met toelichting over het aan te leveren
-csv-bestand. Door op de **Lijst exporteren** knop te drukken krijgt u een
-csv-bestand met daarin alle gegevens van de deelnemers in hetzelfde formaat als
-het csv-bestand voor importeren.
+csv-bestand. Door op **Lijst exporteren** te drukken krijgt u een csv-bestand
+met daarin alle gegevens van de deelnemers, dat in o.a. Excel te openen is.
 
 <div class="alert alert-error">
   <strong>Let op!</strong>
@@ -60,7 +59,7 @@ zijn sommige velden verplicht.
 ### Metadata
 
 Metadata is bedoeld om informatie over de deelnemer op te slaan die niet in een
-van de standaard velden met persoonsgegevens past. Metadata veld bestaat uit de
+van de standaardvelden met persoonsgegevens past. Metadata veld bestaat uit de
 **naam** en de **waarde** van het veld. Naam wordt gebruikt om de naam van het
 veld te definieren. Waarde wordt gebruikt om de waarde van het veld op te slaan.
 

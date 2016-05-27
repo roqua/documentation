@@ -8,21 +8,18 @@ sort: 100
 
 ## Eerste gebruik
 
-U ontvangt van ons een email met de activatie-link wanneer u uitgenodigd bent
+U ontvangt van ons een e-mail met de activatielink wanneer u uitgenodigd bent
 om deel te nemen aan het beheer van een Medo project. Wanneer u op deze link
-klikt, moet u uw naam invullen en een nieuwe wachtwoord kiezen. Hierna wordt
+klikt, moet u uw naam invullen en een nieuw wachtwoord kiezen. Hierna wordt
 u doorverwezen naar een scherm waar u een
-[Two-Factor Authentication](#two-factor-authentication) kunt instellen.
+[twee-staps-verificatie](#two-factor-authentication) kunt instellen.
 
 ## Two-Factor Authentication
 
-In Medo maken we gebruik van Two-Factor Authentication - een authenticatie vorm
-waarbij de gebruiker een persoonlijk apparat moet gebruiken (ook wel
-twee-staps-verificatie genoemd).
-Zo weten wij zeker dat inloggegevens, zoals email en wachtwoord, niet tussen
-medewerkers gedeeld worden en/of deze gegevens niet gestolen zijn.
+Medo gebruikt twee-staps-verificatie, wat inhoudt dat u na het invullen van uw
+wachtwoord een code van uw smartphone moet invullen.
 
-Voor Two-Factor Authentication heeft u een mobiel apparaat nodig met een
+Voor twee-staps-verificatie heeft u een mobiel apparaat nodig met een
 authenticator app zoals [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=nl)
 of [1Password](https://1password.com/pricing/).
 
@@ -37,7 +34,7 @@ vindt u in Medo.
 ## Accountinstellingen
 
 Door linksonder op **Account** te klikken kunt u uw gebruikersaccount
-aanpassen. Om de gegevens te wijzigen dient u altijd uw wachtwoord in
+aanpassen. Om de gegevens te wijzigen dient u altijd uw oude wachtwoord in
 te vullen. Het invullen van een nieuw wachtwoord is optioneel.
 
 <img src='/assets/images/screenshots/medo/accountinstellingen.png' />
