@@ -19,7 +19,7 @@ A [reference implementation](https://github.com/roqua/authmac) is available. See
 To open RoQua EPD-interface as a given user for a given dossier, tell a browser
 window or frame to navigate to:
 
-    https://:ggzname.rom.roqua.nl/epd/session/create
+    https://:ggzname.rom.roqua.nl/session/create_from_epd
 
 Where :ggzname is the name RoQua has given to your organization. The domain should be the same as the domain of the admin area on which the [SSO-tokens](http://docs.roqua.net/rom_manual/admin/integration/sso_tokens/) are generated.
 
