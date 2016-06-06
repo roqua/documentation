@@ -12,7 +12,7 @@ U ontvangt van ons een e-mail met de activatielink wanneer u uitgenodigd bent
 om deel te nemen aan het beheer van een Medo project. Wanneer u op deze link
 klikt, moet u uw naam invullen en een nieuw wachtwoord kiezen. Hierna wordt
 u doorverwezen naar een scherm waar u
-[twee-staps-verificatie](#two-factor-authentication) kunt instellen.
+[twee-staps-verificatie](#twee-staps-verificatie) kunt instellen.
 
 ## Twee-staps-verificatie
 
