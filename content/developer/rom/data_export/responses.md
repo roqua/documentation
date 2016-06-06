@@ -22,6 +22,11 @@ An export version defines which answers are exported and the names of the column
 
     GET /api/v1/data_exports/download
 
+## Download the latest sql export
+
+    GET /api/v1/data_exports/download_sql
+
+Is usually updated every hour. Download is a sqlite .db file.
 
 ## Download a specific export version
 
