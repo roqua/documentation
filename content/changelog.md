@@ -17,15 +17,19 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-## 2015-06-15
+## 2016-06-27
+
+* Lijst toegevoegd: fact_empo: EMPO Jongeren versie 2.0 (subschaal: interactionele empowerment)
+
+## 2016-06-15
 
 * api: Added parent_key to response json questions, to make it easier to reproduce nesting. 
 
-## 2015-06-06
+## 2016-06-06
 
 * Added `api/v1/data_exports/download_sql` to download the sql export.
 
-## 2015-05-24
+## 2016-05-24
 
 * Drag and drop measurements onder protocollen (admin)
 
