@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-06-28
+
+* Duidelijke indicator voor autoprotocollen in protocoloverzicht.
+* respondent_id in sql_export answers. Pointing at the respondent whom the answers belong to (the you in 'how are you').
+
 ## 2016-06-27
 
 * Lijst toegevoegd: fact_empo: EMPO Jongeren versie 2.0 (subschaal: interactionele empowerment)
