@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-06-30
+
+* Telefoonnummers uit het epd worden vanaf nu strikter gevalideerd voordat zij als mobiel nummer in RoQua doorvallen. Telefoonnummers die niet starten met 06, +316 of 00316 worden in geen geval meer aangezien voor mobiel telefoonnummer. Verder kijken we eerst naar het primaire telefoonnummer (primary residence number) en dan pas naar het alternatieve telefoonnummer (other residence number of andere doorgegeven nummers) om een mobiel telefoonnummer te vinden. Dit houdt in dat, anders dan voorheen, een mobiel telefoonnummer in het alternatieve nummer veld geen voorrang meer krijgt op een mobiel nummer in het primaire nummer veld. Hopelijk voorkomen we hiermee dat mobiele nummers van randpersonen die worden geregistreerd in het alternatieve telefoonnummer veld worden aangemerkt als mobiele nummers van de client. We zijn ook iets strikter geworden in wat voor tekens we accepteren in het telefoonnummer. Als er bijvoorbeeld commentaar zoals 'vader' bij het telefoonnummer veld is geplaatst wordt het nummer niet geaccepteerd. Indien het telefoonnummer uit het epd niet wordt geaccepteerd zal het mobiel telefoonnummer veld in RoQua leeg blijven.
+
 ## 2016-06-28
 
 * Duidelijke indicator voor autoprotocollen in protocoloverzicht.
