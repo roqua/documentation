@@ -42,7 +42,7 @@ Along with request it sends a JSON string made of parameters given:
 
 On the OpenCPU server JSON will be translated into R function based on the URL with parameters based on JSON. According
 to examples above, package (or library) that called **digest** will be loaded and used in order to execute function
-called [hmac(key, object)](http://www.inside-r.org/packages/cran/digest/docs/hmac). This function will return an MD5
+called [hmac(key, object)](http://www.rdocumentation.org/packages/digest/versions/0.6.10/topics/hmac). This function will return an MD5
 hash. OpenCPU will parse it back into JSON and return to Quby as following:
 
 ``` json
