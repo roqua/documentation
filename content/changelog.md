@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-09-08
+
+* Bij de uitkomstenpagina is het tabblad "Help" hernoemd naar "Uitleg".
+
 ## 2016-07-14
 
 * De knoppen op de pagina om vragenlijsten klaar te zetten scollen nu mee in het venster, waardoor je niet meer helemaal naar onderen hoeft te scrollen om op deze knoppen te drukken.
