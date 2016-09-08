@@ -4,7 +4,7 @@ general:
       - gh-pages
 machine:
   ruby:
-    version: 2.1.0
+    version: 2.3.1
 dependencies:
   pre:
     - git config user.email "circleci@roqua.nl"
