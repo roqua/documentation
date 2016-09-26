@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-09-22
+
+* Probleem opgelost waardoor voor automatische protocollen geen meldingen in de timeline kwamen voor uitnodigingen die werden verzonden. De uitnodigingen waren wel verzonden, en de uitnodigingen zullen allemaal weer verschijnen met deze release.
+
 ## 2016-09-14
 
 * De 'Voorbeeld bijwerken' knop op de pagina waar je rapporten aanmaakt deselecteerde sinds zaterdag 10 september onterecht alle invullingen. De knop werkt nu weer zoals het hoort.
