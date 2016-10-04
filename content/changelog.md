@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+
+## 2016-10-03
+
+* Kolommen toegevoegd aan cvs alle exports: respondent_id, respondent_type, respondent_label.
+
 ## 2016-09-22
 
 * Probleem opgelost waardoor voor automatische protocollen geen meldingen in de timeline kwamen voor uitnodigingen die werden verzonden. De uitnodigingen waren wel verzonden, en de uitnodigingen zullen allemaal weer verschijnen met deze release.
