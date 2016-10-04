@@ -21,7 +21,14 @@ external_identifier | Also known as `epd_id` or `clientid`, the clientid we got 
 
 ### respondents
 
-A respondent is a someone who fills out a questionnaire. It's the you in “How are you?” and “How is your child/patient” on a questionnaire.
+A respondent is a someone who fills out a questionnaire. It's the you in “How are you?” and “How is your child/patient” on a questionnaire. The one who enters the data into roqua is not always the respondent.
+
+Right now there is only one respondent per type, but that will change in the future.
+
+Attribute             | Description
+----------------------|-----------------
+type                  | patient, parent, second_parent, teacher, caregiver, profess. second_parent will likely be merged into parent in the future.
+label                 | human readable specifier. e.g. Moeder, Medewerker, Buurman.
 
 ### responses
 
@@ -29,7 +36,7 @@ A Response the set of answers to one fill out of a questionnaire. Most attribute
 
 Attribute             | Description
 ----------------------|-----------------
-respondent_id         | foreign key to respondent whoe the answers belong to.
+respondent_id         | foreign key to respondent who the answers belong to.
 entered_by_id         | foreign key to professional who typed in the answer if the respondent didn't do it directly (so copying from paper or doing an interview)
 questionnaire_key     | roqua-key of questionnaire (in a few cases different from quby-key)
 questionnaire_variant | roqua-key of specific questionnaire variant (e.g. bulk version)
