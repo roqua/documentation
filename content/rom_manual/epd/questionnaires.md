@@ -81,7 +81,7 @@ Kies de situatie die van toepassing is. "Interview" wanneer u samen met de patie
 <img src="/assets/images/screenshots/dossier_quests11.png" />
 
 <ul class="hints hints-sidebar">
-  <li> Wanneer u kiest voor "Overnemen van papier" is het mogelijk de datum van invullen op te geven voor u verder gaat. Dit is handig voor bulk-invoer van vragenlijsten die door de patiënt op een eerdere datum op papier zijn ingevuld.</li>
+  <li> Wanneer u kiest voor "Overnemen van papier" is het mogelijk de datum van invullen op te geven voor u verder gaat. Dit is handig voor bulk-invoer van vragenlijsten die op een eerdere datum op papier zijn ingevuld.</li>
   <li> Wanneer u kiest voor "Interview" wordt de huidige datum gebruikt.</li>
 </ul>
 
