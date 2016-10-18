@@ -17,6 +17,15 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-10-19
+
+* Voor ggz-wnb wordt de roepnaam nu overgenomen vanuit A19 persoonsgegevens en deze is te gebruiken in uitnodigingsbrieven. Indien er geen roepnaam beschikbaar is wordt de voornaam gebruikt.
+* Het is nu mogelijk om elke vragenlijst direct in te vullen, hiervoor was eerder een losse bulk-versie nodig. Direct invullen wordt gebruikt:
+  * tijdens een interview met de patient
+  * bij het overnemen van papieren bulk lijsten (invuldatum kan dan ook worden ingesteld)
+* cbcl_6_18z (private) toegevoegd - CBCL 6-18 zonder inleidende vragen
+nem_diary
+* obvl, obvl2 (free) textueel aangepast, plus voorbeeldvraag toegevoegd. - Opvoedingsbelasting vragenlijst
 
 ## 2016-10-03
 
