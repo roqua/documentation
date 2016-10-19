@@ -19,6 +19,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 ## 2016-10-19
 
+* Png's in rapporten worden voortaan in img-tags gestopt, ipv inline, waardoor ze ook werken in firefox en ie-edge (eerder werden elementen van andere svg's op de pagina geleend)
 * Voor ggz-wnb wordt de roepnaam nu overgenomen vanuit A19 persoonsgegevens en deze is te gebruiken in uitnodigingsbrieven. Indien er geen roepnaam beschikbaar is wordt de voornaam gebruikt.
 * Het is nu mogelijk om elke vragenlijst direct in te vullen, hiervoor was eerder een losse bulk-versie nodig. Direct invullen wordt gebruikt:
   * tijdens een interview met de patient
@@ -26,6 +27,8 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * cbcl_6_18z (private) toegevoegd - CBCL 6-18 zonder inleidende vragen
 nem_diary
 * obvl, obvl2 (free) textueel aangepast, plus voorbeeldvraag toegevoegd. - Opvoedingsbelasting vragenlijst
+* ct_wnb_jng, ct_wnb_oud, ct_wnb_ou2 (private) toegevoegd.
+* obvl_z, obvl_z2 (free) toegevoegd - OBVL zonder 1e Ouder/2e Ouder
 
 ## 2016-10-03
 
