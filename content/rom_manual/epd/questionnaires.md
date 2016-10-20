@@ -76,12 +76,12 @@ Soms is het wenselijk om een vragenlijst direct in te kunnen vullen. Dit kan doo
 
 <img src="/assets/images/screenshots/dossier_quests11.png" />
 
-Kies de situatie die van toepassing is. "Interview" wanneer u samen met de patiënt een vragenlijst wilt invullen. "Overnemen van papier" is vooral handig voor bulk-invoer. Klik op "Verder" om te beginnen met invullen.
+Kies de situatie die van toepassing is. "Interview" wanneer u samen met de patiënt een vragenlijst wilt invullen. "Overnemen van papier" is om op papier ingevulde lijsten snel in te kunnen voeren. Klik op "Verder" om te beginnen met invullen.
 
 <img src="/assets/images/screenshots/dossier_quests11.png" />
 
 <ul class="hints hints-sidebar">
-  <li> Wanneer u kiest voor "Overnemen van papier" is het mogelijk de datum van invullen op te geven voor u verder gaat. Dit is handig voor bulk-invoer van vragenlijsten die op een eerdere datum op papier zijn ingevuld.</li>
+  <li> Wanneer u kiest voor "Overnemen van papier" is het mogelijk de datum in te vullen waarop de respondent de lijst op papier heeft ingevuld.</li>
   <li> Wanneer u kiest voor "Interview" wordt de huidige datum gebruikt.</li>
 </ul>
 
