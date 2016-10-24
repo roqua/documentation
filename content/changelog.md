@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-10-24
+
+* Voegt een notifier class toe waarmee via core SMSjes kunnen worden verstuurd voor protocols (invitations en reminders).
+* besch_less textuele wijzigingen - Zelfbeschadigend en agressief gedrag
+* cip_brs (free) verbeterd - BRS en Happiness Index
+* cqi_add_dr (private) toegevoegd - CQi klinisch - GGZ Drenthe Ouderen
+* inl_trls_3 (private) toegevoegd - Inleiding/SES Trails NEXT 3e meting
+* mir_gzndh2 (private) toegevoegd - Gezondheidsvragenlijst 2
+* mka_consul (private) toegevoegd - MKA Consult UMCG
+* mka_interv (private) toegevoegd - MKA Interventie
+
 ## 2016-10-19
 
 * Png's in rapporten worden voortaan in img-tags gestopt, ipv inline, waardoor ze ook werken in firefox en ie-edge (eerder werden elementen van andere svg's op de pagina geleend)
