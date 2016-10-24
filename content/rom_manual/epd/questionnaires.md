@@ -72,7 +72,7 @@ Selecteer vervolgens de gewenste lijsten en klik op "Invullen". Je gaat meteen d
 
 ### Direct invullen van een vragenlijst
 
-Soms is het wenselijk om een vragenlijst direct in te kunnen vullen. Dit kan door een vragenlijst te selecteren en op de knop Direct invullen te klikken. Er verschijnt nu een scherm waarin u de gewenste situatie kunt kiezen.
+Soms is het wenselijk om een vragenlijst direct namens een respondent in te kunnen vullen. Dit kan door een vragenlijst te selecteren en op de knop Direct invullen te klikken. Er verschijnt nu een scherm waarin u de gewenste situatie kunt kiezen.
 
 <img src="/assets/images/screenshots/dossier_quests11.png" />
 
