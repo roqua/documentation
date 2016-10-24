@@ -70,6 +70,21 @@ Selecteer vervolgens de gewenste lijsten en klik op "Invullen". Je gaat meteen d
 
 ## Speciale gevallen
 
+### Direct invullen van een vragenlijst
+
+Soms is het wenselijk om een vragenlijst direct namens een respondent in te kunnen vullen. Dit kan door een vragenlijst te selecteren en op de knop Direct invullen te klikken. Er verschijnt nu een scherm waarin u de gewenste situatie kunt kiezen.
+
+<img src="/assets/images/screenshots/dossier_quests11.png" />
+
+Kies de situatie die van toepassing is. "Interview" wanneer u samen met de patiënt een vragenlijst wilt invullen. "Overnemen van papier" is om op papier ingevulde lijsten snel in te kunnen voeren. Klik op "Verder" om te beginnen met invullen.
+
+<img src="/assets/images/screenshots/dossier_quests11.png" />
+
+<ul class="hints hints-sidebar">
+  <li> Wanneer u kiest voor "Overnemen van papier" is het mogelijk de datum in te vullen waarop de respondent de lijst op papier heeft ingevuld.</li>
+  <li> Wanneer u kiest voor "Interview" wordt de huidige datum gebruikt.</li>
+</ul>
+
 ### Recent ingevulde lijsten
 
 Medewerkers met toegang tot de admin-interface kunnen [bij vragenlijsten instellen hoe lang een oude, eerder ingevulde vragenlijst geldig blijft](/rom_manual/admin/rom_config/protocols/#tijdspanne). Als dit van een vragenlijst is ingesteld, en de vragenlijst is binnen die periode ingevuld, dan staat de vragenlijst onderaan in een groepje "recent ingevulde lijsten". Waarschijnlijk is het dan niet nodig deze lijst nu te laten invullen. Hoe lang een lijst als "recent" wordt gezien verschilt per vragenlijst en soms ook per protocol.
