@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-10-25
+
+* Toon het tijdstip van een handmatige non-response in de tijdlijn, het tijdstip werd eerder niet getoond.
+* gvlo/gvlo2 naam invuller verwijderd.
+
 ## 2016-10-24
 
 * Voegt een notifier class toe waarmee via core SMSjes kunnen worden verstuurd voor protocols (invitations en reminders).
