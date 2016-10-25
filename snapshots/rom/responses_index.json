@@ -8,6 +8,8 @@
   "response": {
     "status": 200,
     "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
       "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
       "Pragma": "no-cache",
       "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
@@ -15,10 +17,10 @@
     },
     "body": [
       {
-        "id": 17,
+        "id": 2,
         "name": "Questionnaire With Flags",
         "questionnaire_name": "Questionnaire With Flags",
-        "questionnaire_key": "quest10",
+        "questionnaire_key": "quest12",
         "open_from": null,
         "open_till": null,
         "requesters": [
@@ -46,10 +48,10 @@
         "started_at": null
       },
       {
-        "id": 18,
+        "id": 3,
         "name": "Questionnaire With Textvars",
         "questionnaire_name": "Questionnaire With Textvars",
-        "questionnaire_key": "quest11",
+        "questionnaire_key": "quest13",
         "open_from": "2015-02-12T13:30:55.000+01:00",
         "open_till": null,
         "requesters": [
@@ -79,7 +81,7 @@
         "started_at": null
       },
       {
-        "id": 16,
+        "id": 1,
         "name": "OQ-45",
         "questionnaire_name": "OQ-45",
         "questionnaire_key": "oq45",
@@ -147,7 +149,7 @@
               "score": true,
               "label": "Totaal",
               "value": 135,
-              "norm": ">55",
+              "norm": ">= 55",
               "interpretation": "Klinisch",
               "tscore": 110,
               "tscore_interpretation": "Zeer hoog",
@@ -205,7 +207,7 @@
               "score": true,
               "label": "Psychisch Onwelbevinden",
               "value": 74,
-              "norm": ">33",
+              "norm": ">= 33",
               "interpretation": "Klinisch",
               "tscore": 102,
               "tscore_interpretation": "Zeer hoog",
@@ -242,7 +244,7 @@
               "score": true,
               "label": "Interpersoonlijk Functioneren",
               "value": 33,
-              "norm": ">12",
+              "norm": ">= 12",
               "interpretation": "Klinisch",
               "tscore": 99,
               "tscore_interpretation": "Zeer hoog",
@@ -265,7 +267,7 @@
               "score": true,
               "label": "Sociale Rolvervulling",
               "value": 28,
-              "norm": ">10",
+              "norm": ">= 10",
               "interpretation": "Klinisch",
               "tscore": 116,
               "tscore_interpretation": "Zeer hoog",
