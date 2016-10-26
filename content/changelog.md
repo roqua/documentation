@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-10-26
+* vragenlijst toegevoegd: EORTC QLQ-H&N35 
+* vragenlijst toegevoegd: EORTC QLQ-BR23 
+* vragenlijst toegevoegd: Brunnstrom Fugl-Meyer Assesment
+* vragenlijst toegevoegd: Nine Hole Peg Test
+* vragenlijst toegevoegd: 10 meter looptest (TML)
+* vragenlijst toegevoegd: Multiple Sclerosis Impact Profile (MSIP)
+* vragenlijst toegevoegd: Dutch Multifactor Fatigue Scale (DMFS)
+* vragenlijst toegevoegd: Spraak Handicap Index (SHI)
+* vragenlijst toegevoegd: Caregiver Strain Index (CSI)
+* vragenlijst toegevoegd: Berg Balance Scale (BBS) 
+
 ## 2016-10-25
 
 * Toon het tijdstip van een handmatige non-response in de tijdlijn, het tijdstip werd eerder niet getoond.
