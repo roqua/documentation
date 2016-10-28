@@ -17,6 +17,13 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-10-28
+* Emailbounces in de admin omgeving tonen nu hun jaartal
+* vragenlijst toegevoegd: Eating Assessment Tool (EAT-10)
+* vragenlijst toegevoegd: Vragenlijst borstkanker (BCSCQ)
+* vragenlijst toegevoegd: Vragenlijst poli - Hoofd en Hals Oncologie
+* vragenlijst toegevoegd: Dagboek 2 MIRORR
+
 ## 2016-10-26
 * vragenlijst toegevoegd: EORTC QLQ-H&N35 
 * vragenlijst toegevoegd: EORTC QLQ-BR23 
