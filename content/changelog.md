@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-11-01
+* Overgestapt naar Sparkpost voor het verzenden van e-mails in verband met problemen bij hotmail, live en outlook accounts.
+
 ## 2016-10-28
 * Emailbounces in de admin omgeving tonen nu hun jaartal
 * vragenlijst toegevoegd: Eating Assessment Tool (EAT-10)
