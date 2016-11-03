@@ -16,6 +16,8 @@ Om ook deze wijzigingen beter te communiceren hebben we deze pagina opgericht wa
 overzicht te vinden is van alle kleine wijzigingen die we maken aan onze software. Anders dan de officiële
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
+## 2016-11-03
+* Er is een versie van de Mate 1 beschikbaar gesteld waar er voor de gebruiksvragen bij het openen van de vragenlijst nullen zijn vooringevuld. Deze Mate 1 is te vinden onder de naam 'MATE 1: Gebruik (nullen vooringevuld)'.
 
 ## 2016-11-01
 * Overgestapt naar Sparkpost voor het verzenden van e-mails in verband met problemen bij hotmail, live en outlook accounts.
