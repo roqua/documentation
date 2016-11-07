@@ -16,6 +16,17 @@ Om ook deze wijzigingen beter te communiceren hebben we deze pagina opgericht wa
 overzicht te vinden is van alle kleine wijzigingen die we maken aan onze software. Anders dan de officiële
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
+
+## 2016-11-07
+* Fixed merging 2 dossiers by changing respondent of moved answers.
+* vragenlijst toegevoegd: Anamneselijst Hoofd en Hals Oncologie (anam_hhonc - private)
+* vragenlijst toegevoegd: Vragenlijst zorgverlener poli - Hoofd en Hals Oncologie (zv_hhonc - private)
+* vragenlijst toegevoegd: Scored Patient-Generated Subjective Global Assessment (PG-SGA) Short Form (SF) (pg_sga - free)
+* vragenlijst toegevoegd: Utrechtse Schaal voor Evaluatie van Revalidatie (USER) (user - free)
+* vragenlijst toegevoegd: Druk en Dwars Ouderbegeleiding - Anamnese (dd_anamn/dd_anamn_o2 - private)
+* vragenlijst toegevoegd: Druk en Dwars Ouderbegeleiding - T2 & T3 Evaluatie (dd_hulp_2/dd_hlp_o2 private)
+* vragenlijst toegevoegd: Druk en Dwars - Algemene vragen (dd_opvoed/dd_opvd_o2 - private)
+
 ## 2016-11-03
 * Er is een versie van de Mate 1 beschikbaar gesteld waar er voor de gebruiksvragen bij het openen van de vragenlijst nullen zijn vooringevuld. Deze Mate 1 is te vinden onder de naam 'MATE 1: Gebruik (nullen vooringevuld)'.
 
