@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-11-08
+* Added C-Groep Activity grid for the app
+* vragenlijst toegevoegd: TransID lijsten
+
 ## 2016-11-07
 * Fixed merging 2 dossiers by changing respondent of moved answers.
 * vragenlijst toegevoegd: Anamneselijst Hoofd en Hals Oncologie (anam_hhonc - private)
