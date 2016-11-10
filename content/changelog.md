@@ -17,6 +17,13 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+## 2016-11-10
+
+* Betere vragenlijst kiezer bij het maken van een rapport template.
+* Toevoegen van vragenlijsten aan metingen gaat sneller.
+* Scores toegevoegd aan de copm (private) - UMCG Revalidatie Ortho Onco 
+* nvt opties toegevoegd aan de kt_psyq (free) - PsyQ klanttevredenheid"
+
 ## 2016-11-08
 * Added C-Groep Activity grid for the app
 * vragenlijst toegevoegd: TransID lijsten
