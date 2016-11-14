@@ -10,7 +10,10 @@ end
 
 desc "Test the output"
 task :test => [:clean, :compile] do
-  HTML::Proofer.new("./output", alt_ignore: [/screenshots/]).run
+  HTML::Proofer.new("./output",
+                    alt_ignore: [/screenshots/],
+                    typhoeus: {ssl_verifypeer: false} # https://tools.ietf.org is failing 2016-11, enable at will.
+                   ).run
 end
 
 desc "Publish to S3"
