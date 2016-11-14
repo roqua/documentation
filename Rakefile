@@ -1,5 +1,5 @@
 require 'nanoc3/tasks'
-require 'html/proofer'
+require 'html-proofer'
 
 task :default => [:test]
 
@@ -10,10 +10,8 @@ end
 
 desc "Test the output"
 task :test => [:clean, :compile] do
-  HTML::Proofer.new("./output",
-                    alt_ignore: [/screenshots/],
-                    typhoeus: {ssl_verifypeer: false} # https://tools.ietf.org is failing 2016-11, enable at will.
-                   ).run
+  HTMLProofer.check_directory("output/",
+                              alt_ignore: [/screenshots/]).run
 end
 
 desc "Publish to S3"
