@@ -16,6 +16,10 @@ Om ook deze wijzigingen beter te communiceren hebben we deze pagina opgericht wa
 overzicht te vinden is van alle kleine wijzigingen die we maken aan onze software. Anders dan de officiële
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
+## 2016-11-14
+
+* Het is nu mogelijk een default return_url, progress_url en stylesheet te zetten op organisatie niveau. Alleen door support in te stellen.
+* Bij Internet Explorer 9 en lager openen de vragenlijsten bij "direct invullen" of klikken op de link onder het token nu in een apart scherm. Dit is omdat sommige antwoordmogelijkheden niet goed werden weergegeven onder ie11 in ie8 compatibility mode, ie10 in ie8 compatibilty mode werkte wel prima.
 
 ## 2016-11-10
 
