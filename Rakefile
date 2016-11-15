@@ -10,8 +10,10 @@ end
 
 desc "Test the output"
 task :test => [:clean, :compile] do
+  puts 'ssl_verifypeer disabled on 2016-11-14, may want to try enabling again'
   HTMLProofer.check_directory("output/",
-                              alt_ignore: [/screenshots/]).run
+                              alt_ignore: [/screenshots/],
+                              typhoeus: {ssl_verifypeer: false}).run
 end
 
 desc "Publish to S3"
