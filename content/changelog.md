@@ -21,11 +21,12 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 * Voortaan is de manager-rol niet meer nodig om in te loggen in RoQua Admin. Zonder expliciete rechten kunnen medewerkers echter alleen de overzichtspagina zien. Ook moet er uiteraard wel al een RoQua Admin-wachtwoord voor deze medewerkers zijn ingesteld.
 * Fout opgelost waarbij a19 faalde als de gender niet was gedefinieerd.
+* verandering van 14/11 teruggedraaid dat lijsten in ie9 en lager in een apart venster wordt geopend gezien bij sommige klanten de sessie niet behouden bleef.
 
 ## 2016-11-14
 
 * Het is nu mogelijk een default return_url, progress_url en stylesheet te zetten op organisatie niveau. Alleen door support in te stellen.
-* Bij Internet Explorer 9 en lager openen de vragenlijsten bij "direct invullen" of klikken op de link onder het token nu in een apart scherm. Dit is omdat sommige antwoordmogelijkheden niet goed werden weergegeven onder ie11 in ie8 compatibility mode, ie10 in ie8 compatibilty mode werkte wel prima.
+* <s>Bij Internet Explorer 9 en lager openen de vragenlijsten bij "direct invullen" of klikken op de link onder het token nu in een apart scherm. Dit is omdat sommige antwoordmogelijkheden niet goed werden weergegeven onder ie11 in ie8 compatibility mode, ie10 in ie8 compatibilty mode werkte wel prima.</s>
 
 ## 2016-11-10
 
