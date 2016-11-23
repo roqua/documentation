@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2016-11-23
+
+* vragelijst aangepast: 4Ks - optionele vraag deselecteerbaar gemaakt.
+* vragenlijst toegevoegd: Communication Skills Questionnaire (CSQ) #capistrano - csq_comm free
+* vragenlijst toegevoegd: Sociale Netwerk Analyse soc_netw free
+* vragenlijst toegevoegd: Sociale Netwerk Analyse eetclub Hospitality (HY) project hy_socnetw private
+* vragenlijst toegevoegd: Werkzame mechanismen Lotgenotencontact - Hospitality project - hy_lotg private
+* vragenlijst toegevoegd: Werkzamen mechanismen - Hospitality project - hy_mech private
+* vragenlijst toegevoegd: Personal and Social Performance Scale - versie Hospitality project - hy_psp private
+* vragenlijst toegevoegd: Sociodemografische gegevens - Hospitality project - hy_socio private
+* vragenlijst toegevoegd: GAF versie Hospitality project - hy_gaf private
+
 ## 2016-11-17
 * In de admin omgeving kan een email adres worden opgeven die bij verzonden emails wordt meegegeven als adres waar mensen op kunnen reageren met emails ('reply to' adres).
 * In de rapporttemplates zijn variabelen toegevoegd om scores op een vergelijkbare manier uit te lezen als dat met antwoordwaardes gebeurt. Daarnaast kunnen scores en antwoordwaardes van de eerste of een na laatste invulling nu vergeleken worden met de laatste invulling via de variabelen vragenlijstsleutel.vraag/scoresleutel.last_minus_first en vragenlijstsleutel.vraag/scoresleutel.last_minus_first_to_last
