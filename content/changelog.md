@@ -17,10 +17,15 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2016-11-30
+
+* Bij het aanpassen van antwoorden van een reeds ingevulde vragenlijst worden alle vragen op één scherm getoond en is het mogelijk om validaties over te slaan.
+* Rapporten geven nu gedetailleerdere feedback voor rapportbouwers bij fouten, waaronder een regelnummer waar de fout is opgetreden. Mochten er fouten optreden zonder regelnummer, neem dan contact op met het RoQua team.
+
 # 2016-11-23
 
 * vragelijst aangepast: 4Ks - optionele vraag deselecteerbaar gemaakt.
-* vragenlijst toegevoegd: Communication Skills Questionnaire (CSQ) #capistrano - csq_comm free
+* vragenlijst toegevoegd: Communication Skills Questionnaire (CSQ) - csq_comm free
 * vragenlijst toegevoegd: Sociale Netwerk Analyse soc_netw free
 * vragenlijst toegevoegd: Sociale Netwerk Analyse eetclub Hospitality (HY) project hy_socnetw private
 * vragenlijst toegevoegd: Werkzame mechanismen Lotgenotencontact - Hospitality project - hy_lotg private
