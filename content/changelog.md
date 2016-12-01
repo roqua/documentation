@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2016-12-01
+
+* Betere foutmeldingen bij aanpassen van patiëntgegevens.
+* Fout in admin/settings opgelost, waardoor huidige export-versie niet geselecteerd was.
+
 # 2016-11-30
 
 * Bij het aanpassen van antwoorden van een reeds ingevulde vragenlijst worden alle vragen op één scherm getoond en is het mogelijk om validaties over te slaan.
