@@ -17,6 +17,13 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2016-12-08
+
+* vragenlijst toegevoegd: Dagboek Langdurige Rehabilitatie Lentis
+* vragenlijst toegevoegd: Functionele Spierkrachttest Kinderrevalidatie
+* vragenlijst toegevoegd: (Halve) Bruce Test Kinderrevalidatie     vragenlijst toegevoegd: Wingate Anaerobe Test - Kinderrevalidatie
+* vragenlijst toegevoegd: Spierkracht Hand-held Dynamometer (HHD) Kinderrevalidatie
+
 # 2016-12-06
 
 * Organizatie optie toegevoegd om team selectie verplicht te maken voor je lijsten kunt klaarzetten.
