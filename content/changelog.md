@@ -21,7 +21,8 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 * vragenlijst toegevoegd: Dagboek Langdurige Rehabilitatie Lentis
 * vragenlijst toegevoegd: Functionele Spierkrachttest Kinderrevalidatie
-* vragenlijst toegevoegd: (Halve) Bruce Test Kinderrevalidatie     vragenlijst toegevoegd: Wingate Anaerobe Test - Kinderrevalidatie
+* vragenlijst toegevoegd: (Halve) Bruce Test Kinderrevalidatie     
+* vragenlijst toegevoegd: Wingate Anaerobe Test - Kinderrevalidatie
 * vragenlijst toegevoegd: Spierkracht Hand-held Dynamometer (HHD) Kinderrevalidatie
 
 # 2016-12-06
