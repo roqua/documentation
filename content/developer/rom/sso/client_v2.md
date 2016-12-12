@@ -9,7 +9,7 @@ Automatic login of a patient (or other respondents for a dossier) can be done wi
 
 To start completing questionnaires for a given dossier, tell a browser window or frame to navigate to:
 
-    https://:ggzname.roqua.nl/client/sso
+    https://:ggzname.rom.roqua.nl/client/sso
 
 
 ## Required parameters

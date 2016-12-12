@@ -19,7 +19,7 @@ A [reference implementation](https://github.com/roqua/authmac) is available. See
 To open RoQua patient interface for a given dossier, tell a browser
 window or frame to navigate to:
 
-    https://epd.:ggzname.roqua.nl/client/session/sso
+    https://:ggzname.rom.roqua.nl/client/session/sso
 
 
 ## Required parameters

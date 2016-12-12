@@ -10,7 +10,7 @@ The login for a patient (or other respondents for a dossier) is done by entering
 To open RoQua client-interface and start filling in pending questionnaires, tell a browser
 window or frame to navigate to:
 
-    https://:ggzname.roqua.nl/login
+    https://:ggzname.rom.roqua.nl/login
 
 
 ## Parameters
