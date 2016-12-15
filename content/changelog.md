@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2016-12-15
+
+* vragenlijst toegevoegd: Endurance Shuttle Walk Test (ESWT) Kinderrevalidatie
+* vragenlijst toegevoegd: Incremental Shuttle Walk Test (ISWT) Kinderrevalidatie
+* vragenlijst toegevoegd: 6-minute walking-test (6MWT) Kinderrevalidatie
+* vragenlijst toegevoegd: Motor Function Measure (MFM)
+* vragenlijst toegevoegd: Gross Motor Function Measure (GMFM)
+* vragenlijst toegevoegd: Zelfinventarisatielijst (ZIL)
+* Bugfix: Toon vragenlijst op 1 pagina wanneer invulling wordt aangepast.
+* Antwoorden op een vraag met een select input (dropdown) worden nu goed getoond in rapporten.
+
 # 2016-12-08
 
 * vragenlijst toegevoegd: Dagboek Langdurige Rehabilitatie Lentis
