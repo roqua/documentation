@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2016-12-21
+
+* vragenlijst toegevoegd: Athens Insomnia Scale (AIS)
+* vragenlijst toegevoegd: Verslag Pediatric Evaluation of Disability Inventory (PEDI-NL)
+
 # 2016-12-15
 
 * vragenlijst toegevoegd: Endurance Shuttle Walk Test (ESWT) Kinderrevalidatie
