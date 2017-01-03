@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-01-03
+
+* Toon sleutel (key) van vragenlijst bij bewerken protocolmeting.
+* vragenlijst toegevoegd: Work and Social Adjustment Scale (WSAS)
+* vragenlijst toegevoegd: Gezondheidsvragenlijst (EQ-5D-5L) (pay per completion EuroQol)
+* vragenlijst toegevoegd: Self-Compassion Scale (SCS)
+* vragenlijst toegevoegd: UMCG Neurorevalidatie Beatrixoord
+* vragenlijst toegevoegd: 6-minute walking-test (6MWT) Neurorevalidatie
+* vragenlijst toegevoegd: Motoriek testspieren ASIA
+* vragenlijst toegevoegd: WCC rolstoeltest (private UMCG)
+
 # 2016-12-21
 
 * vragenlijst toegevoegd: Athens Insomnia Scale (AIS)
