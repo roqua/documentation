@@ -17,6 +17,14 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-01-11
+
+* Het is nu mogelijk om de navigatie aan de zijkant uit- of in te klappen.
+* Managers kunnen nu inactieve protocollen zien in de admin interface en ze herstellen.
+* prive/betaalde lijsten uit inactieve protocollen kunnen nu ook worden toegevoegd aan andere nieuwe protocollen.
+* Als dezelfde vragenlijst 2x klaarstaat zal hij voortaan ook 2x afgenomen worden. In het verleden werd de tweede verwijderd.
+* vragenlijst toegevoegd: Vragenlijst follow-up Kaakchirurgie (mka_follow - private)
+
 # 2017-01-03
 
 * Toon sleutel (key) van vragenlijst bij bewerken protocolmeting.
