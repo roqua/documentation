@@ -19,6 +19,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 # 2017-01-13
 
+* Probleem waarbij de menubalk aan de zijkant van RoQua niet verscheen in oude browsers is opgelost
 * Phamous 2017 meting toegevoegd
 * vragenlijst toegevoegd: Yoga SCS
 * vragenlijst toegevoegd: Patient Health Questionnaire 15 - Lichamelijke klachten
