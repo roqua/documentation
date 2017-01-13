@@ -17,6 +17,24 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-01-13
+
+* Phamous 2017 meting toegevoegd
+* vragenlijst toegevoegd: Yoga SCS
+* vragenlijst toegevoegd: Patient Health Questionnaire 15 - Lichamelijke klachten
+* vragenlijst toegevoegd: Yoga Demografische gegevens
+* vragenlijst toegevoegd: Yoga WHOQoL
+* vragenlijst toegevoegd: Yoga Post-training
+* vragenlijst toegevoegd: Yoga Follow-up
+* vragenlijst toegevoegd: Schalen van Psychologisch Welzijn (RYFF)
+* vragenlijst toegevoegd: LEC-5 - Life events checklist voor de DSM-5
+* vragenlijst toegevoegd: PSS-SR - PTSS klachtenlijst
+* vragenlijst toegevoegd: PCL-5 - PTSS checklist DSM-5 - versie 1.1
+* vragenlijst toegevoegd: Zelf-rapportage vragenlijst ADHD voor volwassenheid en kindertijd (ZVAH)
+* vragenlijst toegevoegd: Perceived Stress Scale (PSS)
+* vragenlijst toegevoegd: Canadian Occupational Performance Measure (COPM) versie kinderrevalidatie
+* vragenlijst toegevoegd: SCORE-15 - Nederlandse versie, 2015, Gezinsfunctioneren
+
 # 2017-01-11
 
 * Het is nu mogelijk om de navigatie aan de zijkant uit- of in te klappen.
