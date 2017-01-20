@@ -17,6 +17,27 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-01-20
+
+* In rapporttemplates kan nu van individuele vragen en scores worden uitgevraagd of deze ingevuld danwel beschikbaar zijn.
+* vragenlijst toegevoegd: PSS-SR - PTSS klachtenlijst
+* vragenlijst toegevoegd: meting gemist On The Road
+* vragenlijst toegevoegd: Drop-out On The Road
+* vragenlijst toegevoegd: Scale of Body Connection (SBC) - subschaal awareness (YOGA)
+* vragenlijst toegevoegd: Gezondheidsvragenlijst (EQ-5D-5L) (YOGA)
+* vragenlijst toegevoegd: DASS 21-item Vragenlijst Depressie, Angst, Stress (YOGA)
+* vragenlijst toegevoegd: Work and Social Adjustment Scale (WSAS) (YOGA)
+* vragenlijst toegevoegd: Perseverative Thinking Questionnaire (PTQ) - Yoga onderzoek
+* vragenlijst toegevoegd: Intolerance of Uncertainty Scale (IUS) - Verkorte versie (YOGA)
+* vragenlijst toegevoegd: Intolerance of Uncertainty Scale (IUS) - Verkorte versie
+* vragenlijst toegevoegd: Five Facet Mindfulness Questionnaire (FFMQ) 24 items (YOGA)
+* vragenlijst toegevoegd: Five Facet Mindfulness Questionnaire (FFMQ) 24 items
+* vragenlijst toegevoegd: Leefstijl CIP dagboek
+* vragenlijst toegevoegd: Zorgconsumptie afgelopen 6 maanden - Yoga
+* vragenlijst toegevoegd: Zorgconsumptie afgelopen 3 maanden - Yoga
+* vragenlijst toegevoegd: Internationale Vragenlijst lichamelijke activiteiten
+* vragenlijst toegevoegd: Voedingsvragenlijst 25 items
+
 # 2017-01-13
 
 * Probleem waarbij de menubalk aan de zijkant van RoQua niet verscheen in oude browsers is opgelost
