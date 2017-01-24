@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-01-24
+
+* vragenlijst toegevoegd: Gegeneraliseerde Angststoornis (GAD-7) NL versie
+
 # 2017-01-20
 
 * In rapporttemplates kan nu van individuele vragen en scores worden uitgevraagd of deze ingevuld danwel beschikbaar zijn.
