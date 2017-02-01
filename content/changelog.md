@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-02-01
+
+* Bij het gebruik van de direct-invullen knop worden nu alle aangevinkte lijsten aangeboden in plaats van maar één van die lijsten
+* Voor Medoq projecten kan nu door het RoQua team een instelling worden aangezet waardoor het toegestaan wordt om naar 1 medewerker per dossier uitnodigingen uit te zenden en automatische protocollen te gebruiken. Deze functionaliteit is niet geschikt voor gebruik in reguliere GGZ zorg.
+
 # 2017-01-27
 
 * De voorstelling van de antwoorden in het uitkomsten venster van RoQua en bijbehorende printout is gewijzigd. Er wordt nu gebruik gemaakt van een compactere 2 kolommen lay-out.
