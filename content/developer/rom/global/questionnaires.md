@@ -1,6 +1,5 @@
 ---
 title: Questionnaires
-status: draft
 ---
 
 * TOC
@@ -49,6 +48,19 @@ status: draft
       tot:  {label: "Somscore"},
       gedr: {label: "Problemen"},
       bep:  {label: "Dingen"}
+    },
+
+    sbg_info: {
+      key: "example_sbg_key",
+      questions: {
+        example_sbg_question_key_1: "example_1",
+        example_sbg_question_key_2: "example_2"
+      },
+      scores: {
+        example_sbg_score_key_tot: "tot",
+        example_sbg_score_key_gedr: "gedr",
+        example_sbg_score_key_bep: "bep"
+      }
     }
   }
  %>
