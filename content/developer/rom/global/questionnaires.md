@@ -10,7 +10,7 @@ title: Questionnaires
     GET /api/v1/questionnaires/:key
 
     Optional GET params:
-    - `use_legacy_keys` (default: `true`): Prepend question keys with the questionnaire name instead of `v_`. Association this questionnaire with a response will be easier with `false`, because the `responses` endpoint uses `v_` prefixes as well.
+    - `use_legacy_keys` (default: `true`): Prepend question keys with the questionnaire name instead of `v_`. If you want to associate the questionnaire with a response, `false` is recommended, because the `responses` endpoint uses `v_` prefixes as well.
 
 ### Response
 
