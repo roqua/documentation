@@ -12,7 +12,7 @@ title: Questionnaires
     Optional GET params:
     - `use_legacy_keys` (default: `true`): Prepend question keys with the questionnaire name instead of `v_`. If you want to associate the questionnaire with a response, `false` is recommended, because the `responses` endpoint uses `v_` prefixes as well.
 
-### Response
+### Response (with `use_legacy_keys=false`)
 
 <%= headers 200 %>
 <%= json questionnaire: {
@@ -22,7 +22,7 @@ title: Questionnaires
     description: "(volwassenen)",
     short_description: "Health of the Nations Outcome Scales",
     questions: {
-      example_1: {
+      v_1: {
         title: "1. Hoe vaak heeft u last van X?",
         type: "radio",
         options: {
@@ -34,7 +34,7 @@ title: Questionnaires
           a9: {value: 9, description: "Niet van toepassing"}
         }
       },
-      example_2: {
+      v_2: {
         title: "2. Hoe vaak heeft u last van Y?",
         type: "radio",
         options: {
@@ -56,8 +56,8 @@ title: Questionnaires
     sbg_info: {
       key: "example_sbg_key",
       questions: {
-        example_sbg_question_key_1: "example_1",
-        example_sbg_question_key_2: "example_2"
+        example_sbg_question_key_1: "v_1",
+        example_sbg_question_key_2: "v_2"
       },
       scores: {
         example_sbg_score_key_tot: "tot",
