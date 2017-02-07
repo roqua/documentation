@@ -25,7 +25,7 @@ Respondents are people that fill out questionnaires. The default respondent is t
 Name                  | Type      | Description
 ----------------------|-----------|--------------
 `id`                  | `integer` | Id uniquely identifying the respondent.
-`label`               | `string`  | Non identifying name for the respondent (e.g. `history teacher`)
+`label`               | `string`  | Non-identifying name for the respondent (e.g. `history teacher`)
 `respondent_type`     | `string`  | patient, parent, second_parent, teacher or caregiver.
 
 
