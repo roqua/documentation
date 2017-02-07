@@ -34,6 +34,7 @@ Name | Type | Description
 Name                  | Type      | Description
 ----------------------|-----------|--------------
 `id`                  | `integer` | Id uniquely identifying the reponse record.
+`respondent_id`       | `integer` | Id of respondent who the answers belong to (not always the person who typed them into the system)
 `name`                | `string`  | The name of the response. **Warning, this field is deprecated, use questionnaire\_name instead**
 `questionnaire_name`  | `string`  | The name of the questionnaire that was filled out.
 `questionnaire_key`   | `string`  | Key uniquely identifying the questionnaire that was filled out.
@@ -41,7 +42,7 @@ Name                  | Type      | Description
 `open_from`           | `string`  | An ISO 8601 formatted string that indicates when the response becomes completable, or `null` if this response is not only completable within a specific time window.
 `open_till`           | `string`  | An ISO 8601 formatted string that indicates when the response expires and is no longer completable, or `null` if this response is not only completable within a specific time window.
 `requesters`          | `array`   | Array of objects identifying the professionals that requested this questionnaire to be completed.
-`completer_type`      | `string`  | Describes for whom this response is intended. Can be `patient`, `professional`, `parent`, `second_parent` or `teacher`. More types might be added later, therefore it is advised that API consumers select the desired types, and not reject the undesired types.
+`completer_type`      | `string`  | Describes who the answer was prepared for, e.g. ad_hoc_professional for bulk versions of patient lists. Can be `patient`, `ad_hoc_professional`, `parent`, `second_parent` or `teacher`. More types might be added later, therefore it is advised that API consumers select the desired types, and not reject the undesired types.
 `started_at`          | `string`  | An ISO 8601 formatted string that indicates when the response was started being filled out, or `null` if this data is not available.
 `completed_at`        | `string`  | An ISO 8601 formatted string that indicates when the response was completed, or `null` if this response is not yet completed.
 `completing_url`      | `string`  | The URL that can be visited to complete this (and possibly other) response(s). Will be `null` if response is already completed.
