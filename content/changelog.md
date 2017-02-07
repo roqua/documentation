@@ -19,9 +19,9 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 # 2017-02-07
 
-* [Respondenten](https://docs.roqua.net/developer/rom/dossier/respondents/) toegevoegd aan de api
+* [Respondenten](/developer/rom/dossier/respondents/) toegevoegd aan de api
 * respondent_id toegevoegd aan responses api
-* [Protocollen](https://docs.roqua.net/developer/rom/global/protocols/) en [Metingen](https://docs.roqua.net/developer/rom/global/measurements/) toegevoegd aan de api. 
+* [Protocollen](/developer/rom/global/protocols/) en [Metingen](/developer/rom/global/measurements/) toegevoegd aan de api. 
 * measurement_id toegevoegd aan responses api.
 * vragenlijst toegevoegd: PSYRATS - Delusion Rating Scale (DRS)
 * vragenlijst toegevoegd: PSYRATS - Auditory Hallucinations Rating Scale (AHRS)
