@@ -17,6 +17,21 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-02-07
+
+* [Respondenten](https://docs.roqua.net/developer/rom/dossier/respondents/) toegevoegd aan de api
+* respondent_id toegevoegd aan responses api
+* [Protocollen](https://docs.roqua.net/developer/rom/global/protocols/) en [Metingen](https://docs.roqua.net/developer/rom/global/measurements/) toegevoegd aan de api. 
+* measurement_id toegevoegd aan responses api.
+* vragenlijst toegevoegd: PSYRATS - Delusion Rating Scale (DRS)
+* vragenlijst toegevoegd: PSYRATS - Auditory Hallucinations Rating Scale (AHRS)
+* vragenlijst toegevoegd: Codeerblad Richtlijn voor risicotaxatie relationeel geweld (B-SAFER)
+* vragenlijst toegevoegd: ASR ingekorte versie - No Fun No Glory
+* vragenlijst toegevoegd: HoNOS65+ schaalscores
+* vragenlijst toegevoegd: Dagboekmeting overdag - Hospitality project
+* vragenlijst toegevoegd: Dagboekmeting overdag - Hospitality project
+* vragenlijst toegevoegd: Obsessive-Compulsive Inventory-Revised (OCI-R)
+
 # 2017-02-01
 
 * Bij het gebruik van de direct-invullen knop worden nu alle aangevinkte lijsten aangeboden in plaats van maar één van die lijsten
