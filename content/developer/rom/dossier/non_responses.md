@@ -13,7 +13,7 @@ They are created:
 - When a professional deletes uncompleted responses.
 - Directly by the professional on the prepare responses page for a set of questionnaires.
 
-[See SBG definition](http://www.sbggz.nl/MDS?contentitem=cded80f9-83e4-4159-8596-9d04c7fde64f#Reden-non-response)
+[See SBG definition](https://www.sbggz.nl/MDS?contentitem=cded80f9-83e4-4159-8596-9d04c7fde64f#Reden-non-response)
 
 ## Get a single non_response {#show}
 
