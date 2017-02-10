@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-02-10
+
+* vragenlijst toegevoegd: Pain Disability Index (PDI-DLV)
+* Het is nu mogelijk nonresponses van een dossier op te halen via de api.
+* De API om een vragenlijstdefinitie op te vragen stuurt nu bij SBG-lijsten ook informatie mee over welke SBG-keys bij welke RoQua-keys horen. Zie [API-documentatie](http://docs.roqua.net/developer/rom/global/questionnaires/) voor een voorbeeld.
+
 # 2017-02-07
 
 * [Respondenten](/developer/rom/dossier/respondents/) toegevoegd aan de api
