@@ -1,0 +1,30 @@
+{
+  "request": {
+    "request_method": "GET",
+    "path": "/api/v1/dossiers/epd_id_0/non_responses/1",
+    "body": {
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "id": 1,
+      "non_response_at": "2015-01-31T13:30:55.000+01:00",
+      "response_ids": [
+        1
+      ],
+      "reason_group": "Patiënt is wel benaderd voor de ROM meting, maar:",
+      "reason_option": "Patiënt retourneert meetinstrument niet.",
+      "reason_code": "04",
+      "reason_other": "user entered text"
+    }
+  }
+}

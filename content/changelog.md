@@ -23,11 +23,11 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * Het is nu mogelijk nonresponses van een dossier op te halen via de api.
 * De API om een vragenlijstdefinitie op te vragen stuurt nu bij SBG-lijsten ook informatie mee over welke SBG-keys bij welke RoQua-keys horen. Zie [API-documentatie](http://docs.roqua.net/developer/rom/global/questionnaires/) voor een voorbeeld.
 
-# 2017-02-07
+# 2017-02-07 {#u20170207}
 
 * [Respondenten](/developer/rom/dossier/respondents/) toegevoegd aan de api
 * respondent_id toegevoegd aan responses api
-* [Protocollen](/developer/rom/global/protocols/) en [Metingen](/developer/rom/global/measurements/) toegevoegd aan de api. 
+* [Protocollen](/developer/rom/global/protocols/) en [Metingen](/developer/rom/global/measurements/) toegevoegd aan de api.
 * measurement_id toegevoegd aan responses api.
 * vragenlijst toegevoegd: PSYRATS - Delusion Rating Scale (DRS)
 * vragenlijst toegevoegd: PSYRATS - Auditory Hallucinations Rating Scale (AHRS)
@@ -134,7 +134,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 * vragenlijst toegevoegd: Dagboek Langdurige Rehabilitatie Lentis
 * vragenlijst toegevoegd: Functionele Spierkrachttest Kinderrevalidatie
-* vragenlijst toegevoegd: (Halve) Bruce Test Kinderrevalidatie     
+* vragenlijst toegevoegd: (Halve) Bruce Test Kinderrevalidatie
 * vragenlijst toegevoegd: Wingate Anaerobe Test - Kinderrevalidatie
 * vragenlijst toegevoegd: Spierkracht Hand-held Dynamometer (HHD) Kinderrevalidatie
 
@@ -188,7 +188,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 * Betere vragenlijst kiezer bij het maken van een rapport template.
 * Toevoegen van vragenlijsten aan metingen gaat sneller.
-* Scores toegevoegd aan de copm (private) - UMCG Revalidatie Ortho Onco 
+* Scores toegevoegd aan de copm (private) - UMCG Revalidatie Ortho Onco
 * nvt opties toegevoegd aan de kt_psyq (free) - PsyQ klanttevredenheid"
 
 ## 2016-11-08
@@ -219,8 +219,8 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Dagboek 2 MIRORR
 
 ## 2016-10-26
-* vragenlijst toegevoegd: EORTC QLQ-H&N35 
-* vragenlijst toegevoegd: EORTC QLQ-BR23 
+* vragenlijst toegevoegd: EORTC QLQ-H&N35
+* vragenlijst toegevoegd: EORTC QLQ-BR23
 * vragenlijst toegevoegd: Brunnstrom Fugl-Meyer Assesment
 * vragenlijst toegevoegd: Nine Hole Peg Test
 * vragenlijst toegevoegd: 10 meter looptest (TML)
@@ -228,7 +228,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Dutch Multifactor Fatigue Scale (DMFS)
 * vragenlijst toegevoegd: Spraak Handicap Index (SHI)
 * vragenlijst toegevoegd: Caregiver Strain Index (CSI)
-* vragenlijst toegevoegd: Berg Balance Scale (BBS) 
+* vragenlijst toegevoegd: Berg Balance Scale (BBS)
 
 ## 2016-10-25
 
@@ -295,7 +295,7 @@ nem_diary
 
 ## 2016-06-15
 
-* api: Added parent_key to response json questions, to make it easier to reproduce nesting. 
+* api: Added parent_key to response json questions, to make it easier to reproduce nesting.
 
 ## 2016-06-06
 
@@ -357,7 +357,7 @@ nem_diary
 ## 2016-03-17
 
 * Added entered_by to sql_export.
-* Added paid questionnaire (PAID Vragenlijst) 
+* Added paid questionnaire (PAID Vragenlijst)
 
 ## 2016-03-08
 
@@ -437,7 +437,7 @@ ApiToken and SsoTokens are now 60 characters long (A-Z-a-z0-9_-)
 
 ## 2015-08-15
 
-* Plaats inactieve protocollen en measurement achteraan. 
+* Plaats inactieve protocollen en measurement achteraan.
 * Links in emails en smsjes naar <org>.rom.roqua.nl
 * Escape html voor open textvragen in rapporten ipv het eruit te strippen.
 
