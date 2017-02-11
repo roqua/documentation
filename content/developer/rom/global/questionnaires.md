@@ -9,8 +9,11 @@ title: Questionnaires
 
     GET /api/v1/questionnaires/:key
 
-Optional GET params:
-- `use_legacy_keys` (default: `true`): Prepend question keys with the questionnaire name instead of `v_`. If you want to associate the questionnaire with a response, `false` is recommended, because the `responses` endpoint uses `v_` prefixes as well. In the future, `use_legacy_keys=false` will become default.
+### Optional GET params:
+
+- `use_legacy_keys` (default: `true` *Will change!*): Prepend question keys with the questionnaire name instead of `v_`.
+  - If you want to associate the questionnaire with a response, `false` is recommended, because the `responses` endpoint uses `v_` prefixes as well.
+  - In the future, `use_legacy_keys=false` will become default.
 
 ### Response (with `use_legacy_keys=false`)
 
@@ -54,16 +57,28 @@ Optional GET params:
     },
 
     sbg_info: {
-      key: "example_sbg_key",
+      sbg_key: "example_sbg_key",
       questions: {
-        example_sbg_question_key_1: "v_1",
-        example_sbg_question_key_2: "v_2"
+        "1": "v_1",
+        "2": "v_3"
       },
       scores: {
-        example_sbg_score_key_tot: "tot",
-        example_sbg_score_key_gedr: "gedr",
-        example_sbg_score_key_bep: "bep"
+        totaalscoreMeting: "to"
       }
     }
   }
  %>
+
+### Response Attributes
+
+Name                  | Type          | Description
+----------------------|---------------|--------------
+`sbg_info`            | `hash`/`null` | Null if not an sbg questionnaire.
+
+### sbg_info
+
+Name                  | Type          | Description
+----------------------|---------------|--------------
+`sbg_key`             | `string`      | The name the SBG gave to the questionnaire.
+`questions`           | `hash`        | From sbg identifier to roqua identifier (use_legacy_keys dependent).
+`scores`              | `hash`        | From sbg identifier to roqua identifier.
