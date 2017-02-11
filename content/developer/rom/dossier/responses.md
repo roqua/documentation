@@ -34,22 +34,24 @@ Name | Type | Description
 Name                  | Type      | Description
 ----------------------|-----------|--------------
 `id`                  | `integer` | Id uniquely identifying the reponse record.
-`respondent_id`       | `integer` | Id of respondent who the answers belong to (not always the person who typed them into the system)
-`name`                | `string`  | The name of the response. **Warning, this field is deprecated, use questionnaire\_name instead**
-`questionnaire_name`  | `string`  | The name of the questionnaire that was filled out.
-`questionnaire_key`   | `string`  | Key uniquely identifying the questionnaire that was filled out.
-`status`              | `string`  | One of the following values:<br/>* `scheduled` - This response is scheduled to be completed at a later time. Cannot be completed right now, and visiting its URL will not result in this response being presented. See `open_from` and `open_till` attributes for the time window when this response will be `open`.<br/>* `open` - This response is completable right now.<br/> * `aborted` - Filling out the questionnaire has been aborted.<br/> * `completed` - This response has been completed.
+`respondent_id`       | `integer` | Id of [respondent](/developer/rom/dossier/respondents) who the response belong to (not always the person who typed them into the system)
+`completed_at`        | `string`  | An ISO 8601 formatted string that indicates when the response was completed, or `null` if this response is not yet completed.
+`completer_type`      | `string`  | Describes who the response was prepared for, e.g. ad_hoc_professional for bulk versions of patient lists. Can be `patient`, `ad_hoc_professional`, `parent`, `second_parent` or `teacher`. More types might be added later, therefore it is advised that API consumers select the desired types, and not reject the undesired types.
+`completing_url`      | `string`  | The URL that can be visited to complete this (and possibly other) response(s). Will be `null` if response is already completed.
+`flags`               | `hash     | Hash of flag_name to boolean
+`measurement_id`      | `integer` | The [measurement](/developer/rom/global/measurements/) this response was created from (leads to protocol)
+`non_response_id`     | `integer` | Id of [non_response](/developer/rom/dossier/non_responses) this response belongs to.
 `open_from`           | `string`  | An ISO 8601 formatted string that indicates when the response becomes completable, or `null` if this response is not only completable within a specific time window.
 `open_till`           | `string`  | An ISO 8601 formatted string that indicates when the response expires and is no longer completable, or `null` if this response is not only completable within a specific time window.
-`requesters`          | `array`   | Array of objects identifying the professionals that requested this questionnaire to be completed.
-`completer_type`      | `string`  | Describes who the answer was prepared for, e.g. ad_hoc_professional for bulk versions of patient lists. Can be `patient`, `ad_hoc_professional`, `parent`, `second_parent` or `teacher`. More types might be added later, therefore it is advised that API consumers select the desired types, and not reject the undesired types.
-`started_at`          | `string`  | An ISO 8601 formatted string that indicates when the response was started being filled out, or `null` if this data is not available.
-`completed_at`        | `string`  | An ISO 8601 formatted string that indicates when the response was completed, or `null` if this response is not yet completed.
-`completing_url`      | `string`  | The URL that can be visited to complete this (and possibly other) response(s). Will be `null` if response is already completed.
-`values`              | `hash`    | Hash with key value pairs for every question in the questionnaire. Will be empty when the response is not completed.
 `outcome`             | `hash`    | Hash with various outcome elements. See below for more details.
-`flags`               | `hash     | Hash of flag_name to boolean
+`questionnaire_name`  | `string`  | The name of the [questionnaire](/developer/rom/global/questionnaires) that was filled out.
+`questionnaire_key`   | `string`  | Key uniquely identifying the questionnaire that was filled out.
+`requesters`          | `array`   | Array of objects identifying the professionals that requested this questionnaire to be completed.
+`status`              | `string`  | One of the following values:<br/>* `scheduled` - This response is scheduled to be completed at a later time. Cannot be completed right now, and visiting its URL will not result in this response being presented. See `open_from` and `open_till` attributes for the time window when this response will be `open`.<br/>* `open` - This response is completable right now.<br/> * `aborted` - Filling out the questionnaire has been aborted.<br/> * `completed` - This response has been completed.
+`started_at`          | `string`  | An ISO 8601 formatted string that indicates when the response was started being filled out, or `null` if this data is not available.
 `textvars`            | `hash`    | Hash of textvar_name to string
+`values`              | `hash`    | Hash with key value pairs for every question in the questionnaire. Will be empty when the response is not completed.
+`name`                | `string`  | The name of the response. **Warning, this field is deprecated, use questionnaire\_name instead**
 
 #### Outcome
 

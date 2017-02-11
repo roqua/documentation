@@ -18,15 +18,16 @@
     "body": [
       {
         "id": 2,
+        "respondent_id": 5,
         "name": "Questionnaire With Flags",
         "questionnaire_name": "Questionnaire With Flags",
-        "questionnaire_key": "quest12",
+        "questionnaire_key": "quest1",
         "open_from": null,
         "open_till": null,
         "requesters": [
 
         ],
-        "completer_type": null,
+        "completer_type": "patient",
         "completed_at": null,
         "status": "open",
         "completing_url": "http://default.example.com/client/session/new?token=fedca987",
@@ -41,25 +42,29 @@
           "complete": null
         },
         "flags": {
+          "female": false,
           "with_flags_hides_v_1_flag": true
         },
         "textvars": {
         },
-        "started_at": null
+        "started_at": null,
+        "measurement_id": null,
+        "non_response_id": null
       },
       {
         "id": 3,
+        "respondent_id": 5,
         "name": "Questionnaire With Textvars",
         "questionnaire_name": "Questionnaire With Textvars",
-        "questionnaire_key": "quest13",
-        "open_from": "2015-02-12T13:30:55.000+01:00",
+        "questionnaire_key": "quest2",
+        "open_from": null,
         "open_till": null,
         "requesters": [
 
         ],
-        "completer_type": null,
+        "completer_type": "patient",
         "completed_at": null,
-        "status": "scheduled",
+        "status": "open",
         "completing_url": "http://default.example.com/client/session/new?token=fedca987",
         "values": {
         },
@@ -78,10 +83,13 @@
           "with_textvars_var2": "var2_default",
           "with_textvars_var3": "var3_default"
         },
-        "started_at": null
+        "started_at": null,
+        "measurement_id": null,
+        "non_response_id": null
       },
       {
-        "id": 1,
+        "id": 4,
+        "respondent_id": 5,
         "name": "OQ-45",
         "questionnaire_name": "OQ-45",
         "questionnaire_key": "oq45",
@@ -302,7 +310,9 @@
         },
         "textvars": {
         },
-        "started_at": "2015-01-31T13:30:55.000+01:00"
+        "started_at": "2015-01-31T13:30:55.000+01:00",
+        "measurement_id": null,
+        "non_response_id": null
       }
     ]
   }

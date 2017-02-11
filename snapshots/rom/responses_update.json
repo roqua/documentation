@@ -1,9 +1,9 @@
 {
   "request": {
     "request_method": "PUT",
-    "path": "/api/v1/dossiers/epd_id_resp_update/responses/8",
+    "path": "/api/v1/dossiers/epd_id_resp_update/responses/5",
     "body": {
-      "questionnaire_key": "key_resp_update",
+      "questionnaire_key": "key_resp_upd",
       "answer_data": {
         "answer": "data"
       }
@@ -12,6 +12,8 @@
   "response": {
     "status": 200,
     "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
       "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
       "Pragma": "no-cache",
       "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
@@ -19,10 +21,11 @@
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": {
-      "id": 8,
+      "id": 5,
+      "respondent_id": null,
       "name": null,
       "questionnaire_name": null,
-      "questionnaire_key": "key_resp_update",
+      "questionnaire_key": "key_resp_upd",
       "open_from": null,
       "open_till": null,
       "requesters": [
@@ -55,7 +58,9 @@
       },
       "textvars": {
       },
-      "started_at": null
+      "started_at": null,
+      "measurement_id": null,
+      "non_response_id": null
     }
   }
 }
