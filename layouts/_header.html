@@ -3,10 +3,10 @@
     <div>
       <a class="logo" href="/">RoQua Handleiding</a>
       <ul class="nav">
-        <%= nav_link @items.find { |i| i.identifier == '/' } %>
-        <%= nav_link @items.find { |i| i.identifier == '/rom_manual/' } %>
-        <%= nav_link @items.find { |i| i.identifier == '/medo_manual/' } %>
-        <%= nav_link @items.find { |i| i.identifier == '/developer/' } %>
+        <%= nav_link @items.find { |i| i.identifier.without_exts == '/index' } %>
+        <%= nav_link @items.find { |i| i.identifier.without_exts == '/rom_manual' } %>
+        <%= nav_link @items.find { |i| i.identifier.without_exts == '/medo_manual' } %>
+        <%= nav_link @items.find { |i| i.identifier.without_exts == '/developer' } %>
         <li><a href="https://roqua.zendesk.com/">Helpdesk</a></li>
       </ul>
     </div>

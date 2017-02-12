@@ -1,17 +1,17 @@
-<%= render '_head' %>
+<%= render '/_head.*' %>
 
 <%
   # Autodiscover current section by traversing up the parent stack until we meet a parent
   # that has a short enough URL to be a section document
   @section = @item
-  while @section.identifier.count("/") > 2
-    @section = @section.parent
+  while @section.identifier.components.size > 1
+    @section = parent_of(@section)
   end
 %>
 
 
 <body class="rom">
-  <%= render '_header' %>
+  <%= render '/_header.*' %>
 
   <div class="sub-nav">
     <h2>
@@ -34,6 +34,6 @@
     </div><!-- /sidebar-shell -->
   </div><!-- #wrapper -->
 
-  <%= render '_footer' %>
+  <%= render '/_footer.*' %>
 </body>
 </html>

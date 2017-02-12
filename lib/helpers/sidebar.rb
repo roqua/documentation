@@ -26,19 +26,19 @@ module SidebarHelper
   def sidebar(item)
     area = item
     ancestors = [area]
-    while area.identifier.count("/") > 2
-      area = area.parent
+    while area.identifier.components.size > 1
+      area = parent_of(area)
       ancestors << area
     end
 
     tag(:div) do
-      area.children.select {|i| i[:sidebar] != false }
+      children_of(area).select {|i| i[:sidebar] != false }
                    .sort_by {|i| i[:sort] || 0 }
                    .map do |category|
         tag(:div, class: "sidebar-module sidebar-category js-toggle-list expandable") do
           content = []
           content << tag(:header) do
-            tag(:a, href: category.identifier) { category[:title] }
+            tag(:a, href: category.identifier.without_exts) { category[:title] }
           end
 
           if ancestors.include?(category)
@@ -53,22 +53,22 @@ module SidebarHelper
 
   def category_list(category)
     tag(:ul) do
-      category.children.sort_by {|i| i[:sort] || 0 }.map do |section|
-        if section.children.any?
+      children_of(category).sort_by {|i| i[:sort] || 0 }.map do |section|
+        if children_of(section).any?
           tag(:li, class: 'js-topic') do
             content = []
 
             content << tag(:h3) do
               [
                 tag(:a, href: '#', class: "js-expand-btn collapsed arrow-btn", 'data-proofer-ignore' => true) { "" },
-                tag(:a, href: section.identifier) { section[:title] }
+                tag(:a, href: section.identifier.without_exts) { section[:title] }
               ]
             end
 
             content << tag(:ul, class: 'js-guides') do
-              section.children.sort_by {|i| i[:sort] || 0 }.map do |subsection|
+              children_of(section).sort_by {|i| i[:sort] || 0 }.map do |subsection|
                 tag(:li) do
-                  tag(:a, href: subsection.identifier) { subsection[:title] }
+                  tag(:a, href: subsection.identifier.without_exts) { subsection[:title] }
                 end
               end
             end
@@ -77,7 +77,7 @@ module SidebarHelper
           end
         else
           tag(:li) do
-            tag(:h3) { tag(:a, href: section.identifier) { section[:title] } }
+            tag(:h3) { tag(:a, href: section.identifier.without_exts) { section[:title] } }
           end
         end
       end

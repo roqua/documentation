@@ -1,11 +1,11 @@
-<%= render '_head' %>
+<%= render 'head' %>
 
 <%
   # Autodiscover current section by traversing up the parent stack until we meet a parent
   # that has a short enough URL to be a section document
   @section = @item
   while @section.identifier.count("/") > 3
-    @section = @section.parent
+    @section = parent_of@section)
   end
 %>
 

@@ -9,7 +9,6 @@ class NavLinker
     link_text = item[:short_title] || item[:title]
 
     html_class = html_class_for(item)
-
     if item == @item
       li(
         a(link_text, :href => item.path),
@@ -32,7 +31,7 @@ class NavLinker
       html_classes << 'home'
     end
 
-    if @item == item || (item.identifier != '/' && @item.identifier.start_with?(item.identifier))
+    if @item == item || (item.identifier.without_exts != '/index' && @item.identifier.without_exts.start_with?(item.identifier.without_exts))
       html_classes << 'active'
     end
 

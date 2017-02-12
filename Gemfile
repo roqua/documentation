@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem 'nanoc', '~> 3.4.3'
+gem 'nanoc', '~> 4.6'
 
 # For deployment
 gem 'fog'
@@ -15,6 +15,7 @@ gem 'rake', '~> 0.9.2'
 gem 'thin'
 gem 'activesupport', require: false
 gem 'yajl-ruby', '~> 1.2'
+gem 'roqua-rom-api'
 
 group :development do
   gem 'adsf'

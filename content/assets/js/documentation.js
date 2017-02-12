@@ -12,7 +12,7 @@ $(function() {
               $(this).parent('li').removeClass('disable')
 
             var url = $(this).attr('href').toString()
-            var cleanDocUrl = docUrl[1]
+            var cleanDocUrl = docUrl[1].slice(0, -1)
             if(url.indexOf(cleanDocUrl) >= 0 && url.length == cleanDocUrl.length){
               $(this).parent('li').addClass('disable')
               var parentTopic = $(this).parentsUntil('div.sidebar-module > ul').last()
