@@ -438,7 +438,7 @@ ApiToken and SsoTokens are now 60 characters long (A-Z-a-z0-9_-)
 ## 2015-08-15
 
 * Plaats inactieve protocollen en measurement achteraan.
-* Links in emails en smsjes naar <org>.rom.roqua.nl
+* Links in emails en smsjes naar &lt;org>.rom.roqua.nl
 * Escape html voor open textvragen in rapporten ipv het eruit te strippen.
 
 ## 2015-08-12
