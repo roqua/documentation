@@ -18,4 +18,5 @@ deployment:
   production:
     branch: master
     commands:
+      - bundle update roqua-rom-api && export DOC_DIR=`pwd` && cd `bundle show roqua-rom-api` && yardoc --output-dir $DOC_DIR/content/rom_api_gem
       - bundle exec rake publish
