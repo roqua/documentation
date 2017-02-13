@@ -9,6 +9,7 @@ dependencies:
   pre:
     - git config user.email "circleci@roqua.nl"
     - git config user.name "CircleCI"
+    - bundle update roqua-rom-api && export DOC_DIR=`pwd` && cd `bundle show roqua-rom-api` && yardoc --output-dir $DOC_DIR/content/rom_api_gem
 
 test:
   override:
@@ -18,5 +19,4 @@ deployment:
   production:
     branch: master
     commands:
-      - bundle update roqua-rom-api && export DOC_DIR=`pwd` && cd `bundle show roqua-rom-api` && yardoc --output-dir $DOC_DIR/content/rom_api_gem
       - bundle exec rake publish
