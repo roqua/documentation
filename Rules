@@ -13,6 +13,7 @@ end
 # is not bundled with Nanoc or Ruby.
 #
 compile '/**/*.md' do
+ filter :erb
  filter :kramdown, toc_levels: [2,3], input: 'GFM', hard_wrap: false
  layout '/default.*'
 end
