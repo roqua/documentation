@@ -9,7 +9,7 @@ dependencies:
   pre:
     - git config user.email "circleci@roqua.nl"
     - git config user.name "CircleCI"
-    - bundle update roqua-rom-api && export DOC_DIR=`pwd` && cd `bundle show roqua-rom-api` && yardoc --output-dir $DOC_DIR/content/rom_api_gem
+    - bundle update roqua-rom-api && export DOC_DIR=`pwd` && cd `bundle show roqua-rom-api` && bundle install && bundle exec yardoc --output-dir $DOC_DIR/content/rom_api_gem
 
 test:
   override:
