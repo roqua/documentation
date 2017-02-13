@@ -1,4 +1,3 @@
-require 'nanoc/tasks'
 require 'html-proofer'
 
 task :default => [:test]
