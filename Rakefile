@@ -7,6 +7,11 @@ task :compile do
   `nanoc compile`
 end
 
+desc "clean the output directory"
+task :clean do
+  `nanoc prune`
+end
+
 desc "Test the output"
 task :test => [:clean, :compile] do
   puts 'ssl_verifypeer disabled on 2016-11-14, may want to try enabling again'
