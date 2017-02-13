@@ -21,17 +21,17 @@ end
 compile '/CNAME/' do
 end
 
-compile '*' do
-  filter :erb
-  filter :kramdown, :toc_levels => [2], input: 'GFM', hard_wrap: false
-  filter :colorize_syntax,
-    :colorizers => {:javascript => :pygmentsrb}
-  layout item[:layout] || 'default'
-end
-
 route '/developer/assets/*' do
   item.identifier.chop
   # item.identifier[7..-2]
+end
+
+compile '/**/*.md' do
+  filter :erb
+  filter :kramdown, toc_levels: [2,3], input: 'GFM', hard_wrap: false
+  filter :colorize_syntax,
+    :colorizers => {:javascript => :pygmentsrb}
+  layout item[:layout] || 'default'
 end
 
 route '/CNAME/' do
@@ -41,5 +41,3 @@ end
 route '*' do
   item.identifier + 'index.html'
 end
-
-layout '*', :erb

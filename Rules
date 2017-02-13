@@ -4,6 +4,9 @@ compile '/rom_api_gem/**/*' do
   write item.identifier.to_s
 end
 
+compile '/CNAME/' do
+end
+
 compile '/**/*.html' do
   layout '/default.*'
 end
