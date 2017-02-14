@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-02-14 {#u20170214}
+
+* Het is nu mogelijk om de navigatie aan de zijkant uit- of in te klappen.
+* Verbeterde weergave van vragenlijsten op mobiele telefoons.
+
 # 2017-02-10 {#u20170210}
 
 * vragenlijst toegevoegd: Pain Disability Index (PDI-DLV)
