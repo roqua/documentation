@@ -17,6 +17,13 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-02-24 {#u20170224}
+
+* vragenlijst toegevoegd: Zorgconsumptie afgelopen 8 maanden - Hospitality project
+* vragenlijst toegevoegd: Zorgconsumptie afgelopen 4 maanden - Hospitality project
+* vragenlijst toegevoegd: Sociaal Functioneren Schaal (SFS) subschaal zelfstandigheid (independence competence)
+* Bij een automatisch protocol voor een dagboek dat tegelijk loopt met een ander automatisch protocol worden de dagboeklijsten weer vooraan het lijstje van in te vullen vragenlijsten gezet.
+
 # 2017-02-14 {#u20170214}
 
 * Het is nu mogelijk om de navigatie aan de zijkant uit- of in te klappen.
