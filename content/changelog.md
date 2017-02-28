@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-02-28 {#u20170228}
+
+* vragenlijst toegevoegd: Sociale Netwerk Analyse Hospitality (HY) project
+
 # 2017-02-24 {#u20170224}
 
 * vragenlijst toegevoegd: Zorgconsumptie afgelopen 8 maanden - Hospitality project
