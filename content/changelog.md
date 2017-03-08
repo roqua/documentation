@@ -17,6 +17,13 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-03-08 {#u20170308}
+* De knoppen bovenaan de overzichtspagina waarmee vragenlijsten kunnen worden klaargezet, en rapporten of uitnodigingstemplates kunnen worden aangemaakt zijn verplaatst naar de zijbalk.
+* Duidelijkere foutmelding als de client is uitgelogd tijdens het invullen van een vragenlijst
+* Probleem verholpen waardoor slidervragen niet werkten in Internet Explorer 8 compatibiliteitsmodus van Internet Explorer 11
+* Bij Honos-lijsten (Honos-12, Jeugd en 65+) is nu een overzichtspagina te zien.
+* vragenlijst toegevoegd: I.ROC bewegingsvraag
+
 # 2017-02-28 {#u20170228}
 
 * vragenlijst toegevoegd: Sociale Netwerk Analyse Hospitality (HY) project
