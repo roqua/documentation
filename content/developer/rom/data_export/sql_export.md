@@ -60,3 +60,13 @@ score <score_key> do
   {<score_subkey>: <data>, ..}
 end
 ```
+
+### non_responses
+
+Attribute             | Description
+----------------------|-----------------
+timestamp             | Time at of non-response, can be set by the user, defaults to creation time.
+reason_group:         | e.g. "Patiënt is wel benaderd voor de ROM
+reason_option:        | e.g. "Patiënt retourneert meetinstrument niet."
+reason_code:          | e.g. "04"
+reason_other:         | user entered text
