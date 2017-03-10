@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-03-10 {#u20170309}
+* vragenlijst toegevoegd: Schlichting taaltest - scorelijst
+* vragenlijst toegevoegd: Borgschaal dyspneu/spiervermoeidheid
+* vragenlijst toegevoegd: Terugval preventie instrument
+
 # 2017-03-08 {#u20170308}
 * De knoppen bovenaan de overzichtspagina waarmee vragenlijsten kunnen worden klaargezet, en rapporten of uitnodigingstemplates kunnen worden aangemaakt zijn verplaatst naar de zijbalk.
 * Duidelijkere foutmelding als de client is uitgelogd tijdens het invullen van een vragenlijst
