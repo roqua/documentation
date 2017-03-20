@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-03-20 {#u20170320}
+* Vragenlijsten met texvariabelen en vlaggen (extra instellingen en informatie die kan worden toegevoegd bij automatische protocollen) exporteren nu deze informatie in de data export.
+* vragenlijst toegevoegd: Trauma Screening Vragenlijst (TSV)
+* vragenlijst toegevoegd: Radiotherapie Medicatie
+* vragenlijst toegevoegd: Radiotherapie Risicofactoren
+* vragenlijst toegevoegd: Radiotherapie Hart- en longziekten
+* vragenlijst toegevoegd: Radiotherapie Demografie
+* vragenlijst toegevoegd: Radiotherapie Conditie
+* vragenlijst toegevoegd: 9 psychosevragen Phamous basis protocol
+* vragenlijst toegevoegd: CANSAS variant op versie M. van der Gaag et al © 2009
+
 # 2017-03-10 {#u20170309}
 * vragenlijst toegevoegd: Schlichting taaltest - scorelijst
 * vragenlijst toegevoegd: Borgschaal dyspneu/spiervermoeidheid
