@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-03-23 {#u20170323}
+* PDI vragenlijst heeft een grafiek van de gemiddelde antwoordwaarde gekregen
+
 # 2017-03-20 {#u20170320}
 * Vragenlijsten met texvariabelen en vlaggen (extra instellingen en informatie die kan worden toegevoegd bij automatische protocollen) exporteren nu deze informatie in de data export.
 * vragenlijst toegevoegd: Trauma Screening Vragenlijst (TSV)
