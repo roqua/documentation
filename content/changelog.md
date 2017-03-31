@@ -17,6 +17,20 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-03-31 {#u20170331}
+* De pagina om antwoorden te bekijken is opgeknapt.
+  Als u feedback heeft [horen we dat graag](mailto:support@roqua.nl).
+* Geboortedatum mag niet meer worden gebruikt in uitnodigings- en rapporttemplates.
+* vragenlijst toegevoegd: Pain Catastrophizing Scale (PCS) Dutch Version
+* vragenlijst toegevoegd: Lichamelijk activiteitenpatroon
+* vragenlijst toegevoegd: Injustice Experience Questionnaire (IEQ) - NL versie
+* vragenlijst toegevoegd: Anamnese BAT studie
+* vragenlijst toegevoegd: Forensisch Ambulante Risico Evaluatie (FARE)
+* vragenlijst toegevoegd: Patient EX/RP Adherence Scale (PEAS)
+* vragenlijst toegevoegd: YBOCS versie NOCDA (wave 2)
+* vragenlijst toegevoegd: Lifechart dagboek selfreport
+* vragenlijst toegevoegd: Ervaringenlijst klinische psychiatrie - addendum GGZ OB Adolescenten kliniek
+
 # 2017-03-23 {#u20170323}
 * PDI vragenlijst heeft een grafiek van de gemiddelde antwoordwaarde gekregen
 
