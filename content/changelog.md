@@ -1,3 +1,4 @@
+
 ---
 title: Changelog
 ---
@@ -16,6 +17,10 @@ Om ook deze wijzigingen beter te communiceren hebben we deze pagina opgericht wa
 overzicht te vinden is van alle kleine wijzigingen die we maken aan onze software. Anders dan de officiële
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
+
+# 2017-04-03 {#u20170403}
+* vragenlijst toegevoegd: CANSAS Vraag naar Hulpbehoefte - Versie behandelaar
+* vragenlijst toegevoegd: Coping Inventory for stressful situations (CISS)
 
 # 2017-03-31 {#u20170331}
 * De pagina om antwoorden te bekijken is opgeknapt.
