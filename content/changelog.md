@@ -18,6 +18,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-04-24 {#u20170424}
+* vragenlijst toegevoegd: Groningen DeFeC vragenlijst voor volwassenen (vanaf 18 jaar)
+
 # 2017-04-12 {#u20170412}
 * vragenlijst toegevoegd: 6-minute walking-test (6MWT) Reumarevalidatie
 * vragenlijst toegevoegd: Central Sensitization Inventory (CSI)
