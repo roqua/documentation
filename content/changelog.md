@@ -18,6 +18,14 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-04-25 {#u20170425}
+* vragenlijst toegevoegd: TRANS-ID Afbouw dagboek
+* vragenlijst toegevoegd: TRANS-ID Afbouw avonddagboek
+* vragenlijst toegevoegd: TRANS-ID Afbouw wekelijks
+* vragenlijst toegevoegd: TRANS-ID Herstel dagboek
+* vragenlijst toegevoegd: TRANS-ID Herstel avonddagboek
+* vragenlijst toegevoegd: TRANS-ID Herstel wekelijks
+
 # 2017-04-24 {#u20170424}
 * vragenlijst toegevoegd: Groningen DeFeC vragenlijst voor volwassenen (vanaf 18 jaar)
 
