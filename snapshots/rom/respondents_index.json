@@ -1,7 +1,7 @@
 {
   "request": {
     "request_method": "GET",
-    "path": "/api/v1/dossiers/epd_id_0/respondents",
+    "path": "",
     "body": {
     }
   },
@@ -17,7 +17,7 @@
     },
     "body": [
       {
-        "id": 1,
+        "id": 3,
         "label": "Patiënt",
         "respondent_type": "patient"
       }

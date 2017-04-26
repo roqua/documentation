@@ -1,16 +1,18 @@
 {
   "request": {
     "request_method": "POST",
-    "path": "/api/v1/dossiers/some_epd_id/fill_out_sessions",
+    "path": "",
     "body": {
       "questionnaire_keys": [
-        "quest4"
+        "quest7"
       ]
     }
   },
   "response": {
     "status": 422,
     "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
       "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
       "Pragma": "no-cache",
       "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",

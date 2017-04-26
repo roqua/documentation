@@ -1,7 +1,7 @@
 {
   "request": {
     "request_method": "GET",
-    "path": "/api/v1/measurements/1.json",
+    "path": "",
     "body": {
     }
   },
@@ -16,15 +16,15 @@
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": {
-      "id": 1,
-      "name": "Measurement 0",
+      "id": 2,
+      "name": "Measurement 2",
       "description": null,
       "active": true,
       "label": "intake",
-      "protocol_id": 1,
+      "protocol_id": 2,
       "questionnaires": [
         {
-          "id": 1,
+          "id": 8,
           "key": "roqua_simple",
           "quby_key": "simple",
           "name": "Simpele Vragenlijst"

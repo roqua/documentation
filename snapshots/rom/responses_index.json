@@ -1,7 +1,7 @@
 {
   "request": {
     "request_method": "GET",
-    "path": "/api/v1/dossiers/epd_id_index/responses",
+    "path": "",
     "body": {
     }
   },
@@ -17,12 +17,12 @@
     },
     "body": [
       {
-        "id": 2,
-        "respondent_id": 5,
+        "id": 3,
+        "respondent_id": 2,
         "name": "Questionnaire With Flags",
         "questionnaire_name": "Questionnaire With Flags",
-        "questionnaire_key": "quest1",
-        "open_from": null,
+        "questionnaire_key": "with_flags",
+        "open_from": "2015-01-31T13:30:55.000+01:00",
         "open_till": null,
         "requesters": [
 
@@ -52,12 +52,12 @@
         "non_response_id": null
       },
       {
-        "id": 3,
-        "respondent_id": 5,
+        "id": 4,
+        "respondent_id": 2,
         "name": "Questionnaire With Textvars",
         "questionnaire_name": "Questionnaire With Textvars",
-        "questionnaire_key": "quest2",
-        "open_from": null,
+        "questionnaire_key": "quest8",
+        "open_from": "2015-01-31T13:30:55.000+01:00",
         "open_till": null,
         "requesters": [
 
@@ -88,12 +88,12 @@
         "non_response_id": null
       },
       {
-        "id": 4,
-        "respondent_id": 5,
+        "id": 5,
+        "respondent_id": 2,
         "name": "OQ-45",
         "questionnaire_name": "OQ-45",
         "questionnaire_key": "oq45",
-        "open_from": null,
+        "open_from": "2015-01-31T13:30:55.000+01:00",
         "open_till": null,
         "requesters": [
           {

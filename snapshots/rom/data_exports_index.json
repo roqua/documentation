@@ -1,7 +1,7 @@
 {
   "request": {
     "request_method": "GET",
-    "path": "/api/v1/data_exports",
+    "path": "",
     "body": {
     }
   },
@@ -17,14 +17,14 @@
     },
     "body": [
       {
-        "id": 6,
+        "id": 2,
         "key": "v201501-1",
         "name": null,
         "hash": "xuhoh-cisif-nodon-mazon-fusen",
         "version": "2015-01-31T13:25:55.000+01:00"
       },
       {
-        "id": 5,
+        "id": 1,
         "key": "v201501",
         "name": null,
         "hash": "xuhoh-cisif-nodon-mazon-fusen",

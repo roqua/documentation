@@ -1,7 +1,7 @@
 {
   "request": {
     "request_method": "GET",
-    "path": "/api/v1/protocols/5.json",
+    "path": "",
     "body": {
     }
   },
@@ -16,22 +16,22 @@
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": {
-      "id": 5,
+      "id": 1,
       "name": "Protocol",
       "description": "foo bar",
       "active": true,
       "automatic": false,
       "measurements": [
         {
-          "id": 4,
-          "name": "Measurement 3",
+          "id": 1,
+          "name": "Measurement 1",
           "description": null,
           "active": true,
           "label": "intake",
-          "protocol_id": 5,
+          "protocol_id": 1,
           "questionnaires": [
             {
-              "id": 3,
+              "id": 7,
               "key": "roqua_simple",
               "quby_key": "simple",
               "name": "Simpele Vragenlijst"

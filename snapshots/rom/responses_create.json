@@ -1,15 +1,15 @@
 {
   "request": {
     "request_method": "POST",
-    "path": "/api/v1/dossiers/epd_id_resp_create/responses",
+    "path": "",
     "body": {
-      "questionnaire_key": "key_resp_cre",
       "answer_data": {
         "answer": "data"
       },
+      "filled_out_at": "1422707455",
+      "questionnaire_key": "key_resp_cre",
       "respondent": "patient",
-      "started_at": 1422706855,
-      "filled_out_at": 1422707455
+      "started_at": "1422706855"
     }
   },
   "response": {
@@ -24,12 +24,12 @@
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": {
-      "id": 1,
-      "respondent_id": 4,
+      "id": 2,
+      "respondent_id": 1,
       "name": null,
       "questionnaire_name": null,
       "questionnaire_key": "key_resp_cre",
-      "open_from": null,
+      "open_from": "2015-01-31T13:30:55.000+01:00",
       "open_till": null,
       "requesters": [
 
