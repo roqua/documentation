@@ -18,6 +18,21 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-05-04 {#u20170504}
+* De naam van een vragenlijst wordt niet meer aan respondenten getoond als tabbladtitel. In plaats daarvan wordt "vragenlijst" getoond.
+* vragenlijst toegevoegd: Chronotype Vragenlijst TRANS-ID dag-/nachtritme
+* vragenlijst toegevoegd: TRANS-ID Alexithymia subschaal TAS-20
+* vragenlijst toegevoegd: Groningen Frailty Indicator (GFI)
+* vragenlijst toegevoegd: TRANS-ID Herstel - Medicatie en andere behandelingen
+* vragenlijst toegevoegd: TRANS-ID Afbouw - Medicatie en andere behandelingen
+* vragenlijst toegevoegd: TRANS-ID Sociale steun SSL
+* vragenlijst toegevoegd: TRANS-ID Geluk en zingeving
+* vragenlijst toegevoegd: TRANS-ID Algemene gegevens
+* vragenlijst toegevoegd: 6-minute walking-test (6MWT) Thoraxrevalidatie
+* vragenlijst toegevoegd: TRANS-ID Langdurige moeilijkheden
+* vragenlijst toegevoegd: Brugha 20 items incl. vragen over tijdstip en beleving
+* vragenlijst toegevoegd: NEO-PI-3 Subschaal Neuroticisme
+
 # 2017-04-25 {#u20170425}
 * vragenlijst toegevoegd: TRANS-ID Afbouw dagboek
 * vragenlijst toegevoegd: TRANS-ID Afbouw avonddagboek
