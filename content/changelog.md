@@ -18,6 +18,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-05-12 {#u20170512}
+* vragenlijst toegevoegd: Dissociation Tension Scale (DSS)
+* vragenlijst toegevoegd: Systematic Assessment for Treatment Emergent Events (SAFTEE)
+* vragenlijst toegevoegd: Somatoform Dissociation Questionnaire (SDQ-5)
+* T-Scores voor verschillende vragenlijsten worden nu ook via de HL7 ORU koppeling opgestuurd.
+
 # 2017-05-04 {#u20170504}
 * De naam van een vragenlijst wordt niet meer aan respondenten getoond als tabbladtitel. In plaats daarvan wordt "vragenlijst" getoond.
 * vragenlijst toegevoegd: Chronotype Vragenlijst TRANS-ID dag-/nachtritme
