@@ -18,6 +18,15 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-05-31 {#u20170531}
+* vragenlijst toegevoegd: Hospital Anxiety and Depression Scale (HADS)
+* vragenlijst toegevoegd: Work Ability Index (WAI)- huidig werkvermogen vs. beste ooit
+* vragenlijst toegevoegd: VAS schaal pijn en jeuk
+* vragenlijst toegevoegd: Kwaliteit van leven bij behandeling AIBD (TABQOL)
+* vragenlijst toegevoegd: Kwaliteit van leven bij AIBD (ABQOL)
+* vragenlijst toegevoegd: Schema Mode Inventory (versie 1) SMI-118
+* vragenlijst toegevoegd: The Warwick-Edinburgh Mental Well-being Scale (WEMWBS)
+
 # 2017-05-12 {#u20170512}
 * vragenlijst toegevoegd: Dissociation Tension Scale (DSS)
 * vragenlijst toegevoegd: Systematic Assessment for Treatment Emergent Events (SAFTEE)
