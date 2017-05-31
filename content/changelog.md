@@ -25,6 +25,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Kwaliteit van leven bij AIBD (ABQOL)
 * vragenlijst toegevoegd: Schema Mode Inventory (versie 1) SMI-118
 * vragenlijst toegevoegd: The Warwick-Edinburgh Mental Well-being Scale (WEMWBS)
+* vragen toegevoegd aan:  HY - Zorgconsumptie 4 mnd
 
 # 2017-05-12 {#u20170512}
 * vragenlijst toegevoegd: Dissociation Tension Scale (DSS)
