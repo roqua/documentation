@@ -17,6 +17,15 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-06-12 {#u20170612}
+* vragenlijst toegevoegd: Hamilton Rating Scale for Depression (HRSD)
+* vragenlijst toegevoegd: Dermatology Life Quality Index (DLQI)
+* vragenlijst toegevoegd: Antropometrie Dietetiek
+* vragenlijst toegevoegd: Four Square Step Test (FSST)
+* vragenlijst toegevoegd: L-test functionele mobiliteit
+* vragenlijst toegevoegd: VAS schaal pijn
+* vragenlijst toegevoegd: ALS Functioning Rating Scale (ALSFRS-R)
+
 # 2017-05-31 {#u20170531}
 * vragenlijst toegevoegd: Hospital Anxiety and Depression Scale (HADS)
 * vragenlijst toegevoegd: Work Ability Index (WAI)- huidig werkvermogen vs. beste ooit
