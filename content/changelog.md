@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-06-13 #{u20170613}
+* vragenlijst toegevoegd: Samenvatting SCID-II SFT trials
+
 # 2017-06-12 {#u20170612}
 * vragenlijst toegevoegd: Hamilton Rating Scale for Depression (HRSD)
 * vragenlijst toegevoegd: Dermatology Life Quality Index (DLQI)
