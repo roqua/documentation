@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-06-16 #{u20170616}
+* vragenlijst toegevoegd: Treatment Entry Questionnaire (TEQ)
+* Weergave van de scoretabel van de SIPP verbeterd
+
 # 2017-06-13 #{u20170613}
 * vragenlijst toegevoegd: Samenvatting SCID-II SFT trials
 
