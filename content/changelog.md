@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-06-30 #{u20170630}
+* vragenlijst toegevoegd: Sterke Kanten en Moeilijkheden: Vragenlijst voor Ouders of Leerkracht (SDQ-Dut)
+
 # 2017-06-26 #{u20170626}
 * vragenlijst toegevoegd: Self Anchoring Ladder by Cantril
 * vragenlijst toegevoegd: Numeric Rating Scale - versie Pijncentrum
