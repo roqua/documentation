@@ -17,6 +17,21 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-07-17 #{u20170717}
+
+* vragenlijst aangepast: (outcome_decription, interpretatie nil-proof) Seasonal Pattern Assessment Questionnaire
+* vragenlijst aangepast: (title, outcome_decription) Adult Self-Report Scale (versie 1.1)
+* vragenlijst aangepast: (nummering verwijderd) RAND-36 versie 1
+* vragenlijst aangepast: (opties datum onbekend toegevoegd) Radiotherapie Hart- en longziekten
+* vragenlijst aangepast: (normering toegevoegd) NVM Persoonlijkheidskenmerken
+* vragenlijst aangepast: (rounding bij score defs, private gemaakt) Antropometrie Dietetiek
+* vragenlijst toegevoegd: SMFA - gevolgen van bekkenletsel
+* vragenlijst aangepast: (panels herschikt, title, score defs tot en mot) ALS Functioning Rating Scale (ALSFRS-R)
+* vragenlijst toegevoegd: Tampa Scale Kinesiophobia
+* vragenlijst toegevoegd: Single Leg Decline Squat Test
+* vragenlijst toegevoegd: Tevredenheid Tendinopathie Polikliniek
+* vragenlijst aangepast: (score definitie prx) Observatielijst Cognitieve Vaardigheden Duurzaam Verblijf
+
 # 2017-06-30 #{u20170630}
 * vragenlijst toegevoegd: Sterke Kanten en Moeilijkheden: Vragenlijst voor Ouders of Leerkracht (SDQ-Dut)
 
