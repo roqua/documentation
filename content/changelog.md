@@ -32,6 +32,10 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Tevredenheid Tendinopathie Polikliniek
 * vragenlijst aangepast: (score definitie prx) Observatielijst Cognitieve Vaardigheden Duurzaam Verblijf
 
+# 2017-07-12 #{u20170712}
+
+* Aangevinkte opties in vragenlijsten zijn nu standaard ook weer uit te vinken door er nogmaals op te klikken.
+
 # 2017-06-30 #{u20170630}
 * vragenlijst toegevoegd: Sterke Kanten en Moeilijkheden: Vragenlijst voor Ouders of Leerkracht (SDQ-Dut)
 
