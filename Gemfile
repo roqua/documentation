@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gem 'nanoc', '~> 3.4'
 
 # For deployment
-gem 'fog-aws'
+gem 'fog'
 
 gem 'builder'
 gem 'coderay'
