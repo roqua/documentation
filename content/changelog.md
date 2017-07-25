@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-07-28 #{u20170728}
+
+* Probleem verholpen waarbij pagina's leeg printen na een internet explorer update. (window.print mag geen iframes meer printen. execCommand werkt nog wel)
+* vragenlijst toegevoegd MHLC-C Interne Oriëntatie (mhlc_sgk)
+* vragenlijst toegeveogd OSTRC - Overuse Injury Questionnaire (ostrc_sgk)
+* vragenlijst toegevoegd VISA-P (visap_sgk)
+* vragenlijst toegevoegd Standing Heel-Rise Test (shr_sgk)
+
+
+
 # 2017-07-17 #{u20170717}
 
 * vragenlijst aangepast: (outcome_decription, interpretatie nil-proof) Seasonal Pattern Assessment Questionnaire
