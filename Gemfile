@@ -1,13 +1,13 @@
 source "http://rubygems.org"
 
-gem 'nanoc', '~> 3.4.3'
+gem 'nanoc', '~> 3.4'
 
 # For deployment
-gem 'fog'
+gem 'fog-aws'
 
 gem 'builder'
 gem 'coderay'
-gem 'kramdown', '~> 1.3.3'
+gem 'kramdown', '~> 1.3'
 gem 'mime-types', '~> 1.16'
 gem 'nokogiri', '~> 1.6.0'
 gem 'pygments.rb'
