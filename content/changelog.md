@@ -17,6 +17,40 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-08-03 #{u20170803}
+* vragenlijst bijgewerkt (abusievelijke SBG info verwijderd): Gezondheidsvragenlijst - exclusief VAS schaal - pre injury versie chirurgie
+* vragenlijst bijgewerkt (abusievelijke SBG info verwijderd): Gezondheidsvragenlijst - exclusief VAS schaal
+* vragenlijst bijgewerkt (inleidende tekst aangepast): Four Square Step Test (FSST)
+* vragenlijst bijgewerkt (refactored): Persoonlijkheidsvragenlijst SIPP-SF (verkorte versie)
+* vragenlijst toegevoegd: Dagboekmeting TRAILS TRANS-ID
+* vragenlijst toegevoegd: Vragenlijst over zelfdoding en zelfbeschadiging (VOZZ) - screening
+* vragenlijst toegevoegd: Gezondheidsvragenlijst - exclusief VAS schaal
+* vragenlijst bijgewerkt (vraag toegevoegd): Samenvatting CAARMS
+* vragenlijst toegevoegd: Arbeidsparticipatie - Sportgeneeskunde
+* vragenlijst toegevoegd: Peesfunctie Revalidatie - Verwachtingen
+* vragenlijst toegevoegd: Redenen - Not Return To Sport
+* vragenlijst toegevoegd: VISA-A
+* vragenlijst bijgewerkt (refactored): Groninger Vragenlijst Sociaal Gedrag - 45 item versie
+* vragenlijst toegevoegd: SMFA - pre injury versie
+* vragenlijst toegevoegd: WHODAS - chirurgie - pre injury versie
+* vragenlijst toegevoegd: Borgschaal pijn
+* vragenlijst toegevoegd: bekken vragenlijst chirurgie
+* vragenlijst toegevoegd: Vragenlijst over zelfdoding en zelfbeschadiging (VOZZ) - vervolg
+* vragenlijst bijgewerkt (score toegevoegd): Perceived Stress Scale (PSS)
+* vragenlijst bijgewerkt (vraag verwijderd): Wingate Anaerobe Test - Kinderrevalidatie
+* vragenlijst bijgewerkt (vraag toegevoegd): Terugval preventie instrument
+* vragenlijst toegevoegd: Nationale Herstel Schaal
+* vragenlijst bijgewerkt (description aangepast): RAND-36 versie 2
+* vragenlijst bijgewerkt (score berekeningen plus linecharts toegevoegd): Clinical COPD Questionnaire (CCQ)
+* vragenlijst bijgewerkt (score berekening gerepareerd): 7 item Mastery Scale (5 puntsschaal)
+* vragenlijst bijgewerkt: TRANS-ID Afbouw dagboek overdag
+* vragenlijst bijgewerkt: TRANS-ID Afbouw dagboek avond
+* vragenlijst bijgewerkt: TRANS-ID Herstel dagboek overdag
+* vragenlijst bijgewerkt: TRANS-ID Herstel dagboek avond
+* vragenlijst toegevoegd: Injury-Psychological Readiness to Return to Sport Scale
+* Bugfix: FFMQ scores
+* Bugfix voor ORU berichten: Voorheen stuurden we na een bericht met status C (changed) het opvolgende ORU bericht met status F (finished). Dit had eigenlijk ook weer status C moeten zijn.
+
 # 2017-07-28 #{u20170728}
 
 * Probleem verholpen waarbij pagina's leeg printen na een internet explorer update. (window.print mag geen iframes meer printen. execCommand werkt nog wel)
@@ -24,8 +58,6 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegeveogd OSTRC - Overuse Injury Questionnaire (ostrc_sgk)
 * vragenlijst toegevoegd VISA-P (visap_sgk)
 * vragenlijst toegevoegd Standing Heel-Rise Test (shr_sgk)
-
-
 
 # 2017-07-17 #{u20170717}
 
