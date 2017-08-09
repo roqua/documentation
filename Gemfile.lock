@@ -20,7 +20,7 @@ GEM
     daemons (1.2.4)
     ethon (0.10.1)
       ffi (>= 1.3.0)
-    eventmachine (1.2.3)
+    eventmachine (1.2.5)
     excon (0.57.1)
     ffi (1.9.18)
     fission (0.5.0)
@@ -152,7 +152,7 @@ GEM
     fog-voxel (0.1.0)
       fog-core
       fog-xml
-    fog-vsphere (1.11.2)
+    fog-vsphere (1.11.3)
       fog-core
       rbvmomi (~> 1.9)
     fog-xenserver (0.3.0)
@@ -179,12 +179,12 @@ GEM
     guard-process (1.2.1)
       guard-compat (~> 1.2, >= 1.2.1)
       spoon (~> 0.0.1)
-    html-proofer (3.3.1)
+    html-proofer (3.7.2)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       colored (~> 1.2)
       mercenary (~> 0.3.2)
-      nokogiri (~> 1.5)
+      nokogiri (~> 1.7)
       parallel (~> 1.3)
       typhoeus (~> 0.7)
       yell (~> 2.0)
@@ -200,15 +200,17 @@ GEM
     lumberjack (1.0.12)
     mercenary (0.3.6)
     method_source (0.8.2)
-    mime-types (1.25.1)
-    mini_portile2 (2.1.0)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.2.0)
     minitest (5.10.3)
     multi_json (1.12.1)
     nanoc (3.8.0)
       cri (~> 2.3)
     nenv (0.3.0)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -221,7 +223,7 @@ GEM
     pygments.rb (1.1.2)
       multi_json (>= 1.0.0)
     rack (2.0.3)
-    rake (0.9.6)
+    rake (12.0.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -263,16 +265,16 @@ DEPENDENCIES
   guard
   guard-nanoc
   guard-process
-  html-proofer (~> 3.3.1)
-  kramdown (~> 1.3)
-  mime-types (~> 1.16)
-  nanoc (~> 3.4)
-  nokogiri (~> 1.6.0)
+  html-proofer
+  kramdown
+  mime-types
+  nanoc (~> 3.8)
+  nokogiri
   pry
   pygments.rb
-  rake (~> 0.9.2)
+  rake
   thin
-  yajl-ruby (~> 1.2)
+  yajl-ruby
 
 BUNDLED WITH
    1.15.3

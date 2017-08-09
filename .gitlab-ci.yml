@@ -1,0 +1,33 @@
+image: "roqua/roqua-build-images:ruby-2.3.3"
+
+cache:
+  paths:
+    - vendor/ruby
+
+stages:
+  - test
+  - post-test
+
+test:
+  stage: test
+  script:
+  - ruby -v
+  - gem install bundler
+  - bundle install --path vendor
+  - bundle exec nanoc compile -v
+  - bundle exec rake test
+  - bundle exec rake validate:links:internal
+  - mv output public
+  artifacts:
+    paths:
+    - public
+
+pages:
+  stage: post-test
+  dependencies:
+    - test
+  script:
+    - echo 'Deploying to GitLab Pages'
+  artifacts:
+    paths:
+    - public

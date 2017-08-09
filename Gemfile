@@ -1,20 +1,20 @@
 source "http://rubygems.org"
 
-gem 'nanoc', '~> 3.4'
+gem 'nanoc', '~> 3.8'
 
 # For deployment
 gem 'fog'
 
 gem 'builder'
 gem 'coderay'
-gem 'kramdown', '~> 1.3'
-gem 'mime-types', '~> 1.16'
-gem 'nokogiri', '~> 1.6.0'
+gem 'kramdown'
+gem 'mime-types'
+gem 'nokogiri'
 gem 'pygments.rb'
-gem 'rake', '~> 0.9.2'
+gem 'rake'
 gem 'thin'
 gem 'activesupport', require: false
-gem 'yajl-ruby', '~> 1.2'
+gem 'yajl-ruby'
 
 group :development do
   gem 'adsf'
@@ -25,7 +25,7 @@ group :development do
 end
 
 group :test do
-  gem 'html-proofer', '~> 3.3.1'
+  gem 'html-proofer'
 end
 
 gem 'pry'
