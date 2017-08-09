@@ -15,7 +15,7 @@ end
 
 compile '*' do
   if item[:extension] == 'css'
-    # don't filter stylesheets
+    filter :relativize_paths, :type => :css
   elsif item[:extension] == 'js'
     # don't filter javascripts
   elsif item.binary?
@@ -25,6 +25,7 @@ compile '*' do
     filter :kramdown, :toc_levels => [2,3], input: 'GFM', hard_wrap: false
     filter :colorize_syntax, :colorizers => {:javascript => :pygmentsrb}
     layout item[:layout] || 'default'
+    filter :relativize_paths, :type => :html
   end
 end
 
