@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-08-10 #{u20170810}
+* vragenlijst toegevoegd: sp_nl - Sensory profile - pearson, pay_per_completion
+* vragenlijst toegevoegd: itsp_0_6 - Infant/Toddler Sensory Profile-NL - 0 t/m 6 maanden - pearson, pay_per_completion
+* vragenlijst toegevoegd: itsp_7_36 - Infant/Toddler Sensory Profile-NL - 7 t/m 36 maanden - pearson, pay_per_completion
+* vragenlijst toegevoegd: UMCG Leefstijwijzer versie 3 (rapport nog in aanbouw)
+
 # 2017-08-03 #{u20170803}
 * vragenlijst bijgewerkt (abusievelijke SBG info verwijderd): Gezondheidsvragenlijst - exclusief VAS schaal - pre injury versie chirurgie
 * vragenlijst bijgewerkt (abusievelijke SBG info verwijderd): Gezondheidsvragenlijst - exclusief VAS schaal
