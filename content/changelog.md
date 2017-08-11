@@ -17,13 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-# 2017-08-10 #{u20170810}
+# 2017-08-11 {#u20170811}
+* Probleem verholpen bij Oru berichten die twee dubbele quotes achter elkaar bevatten
+
+# 2017-08-10 {#u20170810}
 * vragenlijst toegevoegd: sp_nl - Sensory profile - pearson, pay_per_completion
 * vragenlijst toegevoegd: itsp_0_6 - Infant/Toddler Sensory Profile-NL - 0 t/m 6 maanden - pearson, pay_per_completion
 * vragenlijst toegevoegd: itsp_7_36 - Infant/Toddler Sensory Profile-NL - 7 t/m 36 maanden - pearson, pay_per_completion
 * vragenlijst toegevoegd: UMCG Leefstijwijzer versie 3 (rapport nog in aanbouw)
 
-# 2017-08-03 #{u20170803}
+# 2017-08-03 {#u20170803}
 * vragenlijst bijgewerkt (abusievelijke SBG info verwijderd): Gezondheidsvragenlijst - exclusief VAS schaal - pre injury versie chirurgie
 * vragenlijst bijgewerkt (abusievelijke SBG info verwijderd): Gezondheidsvragenlijst - exclusief VAS schaal
 * vragenlijst bijgewerkt (inleidende tekst aangepast): Four Square Step Test (FSST)
@@ -57,16 +60,14 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * Bugfix: FFMQ scores
 * Bugfix voor ORU berichten: Voorheen stuurden we na een bericht met status C (changed) het opvolgende ORU bericht met status F (finished). Dit had eigenlijk ook weer status C moeten zijn.
 
-# 2017-07-28 #{u20170728}
-
+# 2017-07-28 {#u20170728}
 * Probleem verholpen waarbij pagina's leeg printen na een internet explorer update. (window.print mag geen iframes meer printen. execCommand werkt nog wel)
 * vragenlijst toegevoegd MHLC-C Interne Oriëntatie (mhlc_sgk)
 * vragenlijst toegeveogd OSTRC - Overuse Injury Questionnaire (ostrc_sgk)
 * vragenlijst toegevoegd VISA-P (visap_sgk)
 * vragenlijst toegevoegd Standing Heel-Rise Test (shr_sgk)
 
-# 2017-07-17 #{u20170717}
-
+# 2017-07-17 {#u20170717}
 * vragenlijst aangepast: (outcome_decription, interpretatie nil-proof) Seasonal Pattern Assessment Questionnaire
 * vragenlijst aangepast: (title, outcome_decription) Adult Self-Report Scale (versie 1.1)
 * vragenlijst aangepast: (nummering verwijderd) RAND-36 versie 1
@@ -80,14 +81,13 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Tevredenheid Tendinopathie Polikliniek
 * vragenlijst aangepast: (score definitie prx) Observatielijst Cognitieve Vaardigheden Duurzaam Verblijf
 
-# 2017-07-12 #{u20170712}
-
+# 2017-07-12 {#u20170712}
 * Aangevinkte opties in vragenlijsten zijn nu standaard ook weer uit te vinken door er nogmaals op te klikken.
 
-# 2017-06-30 #{u20170630}
+# 2017-06-30 {#u20170630}
 * vragenlijst toegevoegd: Sterke Kanten en Moeilijkheden: Vragenlijst voor Ouders of Leerkracht (SDQ-Dut)
 
-# 2017-06-26 #{u20170626}
+# 2017-06-26 {#u20170626}
 * vragenlijst toegevoegd: Self Anchoring Ladder by Cantril
 * vragenlijst toegevoegd: Numeric Rating Scale - versie Pijncentrum
 * vragenlijst toegevoegd: Brief Pain Inventory (BPI) - versie Pijncentrum
@@ -97,11 +97,11 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Personality Inventory for DSM-5 Short Form (PID-5-SF)
 * vragenlijst toegevoegd: RAND-36 subschaal fysiek functioneren
 
-# 2017-06-16 #{u20170616}
+# 2017-06-16 {#u20170616}
 * vragenlijst toegevoegd: Treatment Entry Questionnaire (TEQ)
 * Weergave van de scoretabel van de SIPP verbeterd
 
-# 2017-06-13 #{u20170613}
+# 2017-06-13 {#u20170613}
 * vragenlijst toegevoegd: Samenvatting SCID-II SFT trials
 
 # 2017-06-12 {#u20170612}
