@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-08-23 {#u20170823}
+* Nieuwe scheduler toegevoegd: De random scheduler maakt het mogelijk op willekeurige momenten in de dag lijsten klaar te zetten.
+* Vragenlijst toegevoegd: tampa_sgk - Tampa Scale Kinesiophobia - free
+
+
 # 2017-08-11 {#u20170811}
 * Probleem verholpen bij Oru berichten die twee dubbele quotes achter elkaar bevatten
 
