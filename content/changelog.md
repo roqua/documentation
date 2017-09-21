@@ -17,6 +17,41 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-09-21 {#u20170921}
+* Bij de uitkomsten van vragenlijsten kan nu met een knop de onderliggende waardes van alle gekozen vraagopties getoond worden. Voor sommige lijsten verduidelijkt dit de zwaarte van de gekozen optie. Ook worden de niet gekozen opties van de vraag getoond om zo de context van de gekozen optie duidelijk te maken.
+* CSV export wijzigingen:
+   - Sortering van de invullingen is nu op basis van aanmaakmoment (created_at) van de invulling. De sortering was voorheen niet consistent.
+   - emailed\_at is nu altijd leeg. Dit veld was al van beperkt nut, er worden soms andere notificatiemiddelen gebruikt of emails kunnen zonder ons weten niet aankomen. Het open_from veld is in alle gevallen een handiger veld om het moment van notificeren aan te geven, aangezien deze momenten vrijwel altijd overeenkomen.
+   - roqua_id, gender en birthyear velden zijn nu altijd nil. Deze waren al enkele jaren gedeprecieerd.
+   - project veld is nu altijd nil. Dit veld was al 2 jaar niet meer te gebruiken via RoQua.
+* vragenlijst toegevoegd: Decision Tool Depressie Jeugd versie 1.0 (Indicatie voor topklinische zorg)
+* vragenlijst bijgewerkt (enkele textuele aanpassingen): Radiotherapie Demografie
+* vragenlijst bijgewerkt (score berekening migratie toegevoegd): 6-minute walking-test (6MWT) Kinderrevalidatie
+* vragenlijst bijgewerkt (typefouten hersteld): Amyotrofic Sclerosis Severity Scale: Swallowing
+* vragenlijst bijgewerkt (interpretatie toegevoegd): Pain Catastrophizing Scale (PCS) Dutch Version
+* vragenlijst bijgewerkt (scores en normscores toegevoegd): Nederlandse Persoonlijkheidsvragenlijst 2-R
+* vragenlijst toegevoegd: Algemene gegevens Revalidatie na Transplantlines Beatrixoord
+* vragenlijst bijgewerkt (score berekening aangepast): Contact en Binding vragenlijst
+* vragenlijst toegevoegd: Maandelijkse vragenlijst TRANS-ID herstel
+* vragenlijst bijgewerkt (export/outcome titles aangepast): Specificatie behandeling van aanmelding tot Eindmeting ROM-GPS
+* vragenlijst bijgewerkt (diagnose omschrijvingen aangepast): MINI diagnostisch interview - Eindmeting
+* vragenlijst bijgewerkt (diagnose omschrijvingen aangepast): Mini Plus voor ROM GPS
+* vragenlijst bijgewerkt (scores aangepast): 10 meter looptest (TML)
+* vragenlijst bijgewerkt (2 vragen toegevoegd): 6-minute walking-test (6MWT) Kinderrevalidatie
+* vragenlijst toegevoegd: myotrofic Sclerosis Severity Scale: Swallowing
+* vragenlijst toegevoegd: Zorgconsumptie afgelopen 3 maanden - SFT
+* vragenlijst toegevoegd: Demografie en psychiatrische voorgeschiedenis SFT trial
+* vragenlijst toegevoegd: Specificatie behandeling van aanmelding tot Eindmeting ROM-GPS
+* vragenlijst toegevoegd: C-TRF Trails NEXT - Leerkracht versie
+* vragenlijst bijgewerkt (score berekening en grafiek toegevoegd): State-Trait Anxiety Inventory - 6 item (STAI-6)
+* vragenlijst toegevoegd: Adult Self-Report Scale (version 1.1)
+* vragenlijst bijgewerkt (description iets aangepast): Adult Self-Report Scale (versie 1.1)
+* vragenlijst bijgewerkt (opties leverdonor en dunne darm toegevoegd): Informatiepakket TransplantLines
+* vragenlijst toegevoegd: Oswestry Low Back Pain Disability Questionnaire (OLBPDQ)
+* vragenlijst bijgewerkt (algemene vragen en scores toegevoegd): Endurance Shuttle Walk Test (ESWT) Kinderrevalidatie
+* vragenlijst bijgewerkt (score berekening aangepast): Quality of Life Questionnaire-BR23 (Breast)
+* vragenlijst bijgewerkt (typefout description): Persoonsgegevens PROM Kwaliteitsregistratie Pijngeneeskunde
+
 # 2017-09-06 {#u20170906}
 * Treat rapport behandelt missende vragenlijsten of antwoorden uit vragenlijsten nu beter. Er wordt aangegeven welke gegevens missen om een advies te geven voor een probleemgebied.
 * RoQua heeft nu nieuwe (navigatie) iconen. Ook zijn "Contact", "Handleiding" en "Mijn gegevens" verplaatst naar de menubalk bovenin.
