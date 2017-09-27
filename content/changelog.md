@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-09-27 {#u20170927}
+
+* vragenlijst bijgewerkt (score berekening aangepast, T-score toegevoegd): Kwaliteit van Leven (MANSA)
+* vragenlijst toegevoegd: Outcome Questionnaire - Symptom Distress schaal (OQ45-sd)
+* vragenlijst bijgewerkt (SBG T-scores toegevoegd): Outcome Questionnaire (OQ-45)
+* vragenlijst bijgewerkt (titels aangepast voor beter onderscheid): EuroQol EQ-5D (diverse versies)
+* vragenlijst toegevoegd: CAPS-5 - Door clinicus af te nemen PTSS schaal voor de DSM-5
+* vragenlijst toegevoegd: TRANS-ID Afbouw - Medicatie versie 2 en andere behandelingen
+* vragenlijst bijgewerkt (outcome/export titels aangepast): Test voor mate van synergievorming
+
 # 2017-09-21 {#u20170921}
 * Bij de uitkomsten van vragenlijsten kan nu met een knop de onderliggende waardes van alle gekozen vraagopties getoond worden. Voor sommige lijsten verduidelijkt dit de zwaarte van de gekozen optie. Ook worden de niet gekozen opties van de vraag getoond om zo de context van de gekozen optie duidelijk te maken.
 * CSV export wijzigingen:
