@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-09-28 {#u20170928}
+
+* vragenlijst bijgewerkt (housekeeping): Hypochondrie (Whitely Index)
+* vragenlijst bijgewerkt (score berekening aangepast): Hypochondrie (Whitely Index, ROM-GPS)
+* vragenlijst bijgewerkt (normering 2011 toegevoegd): Brief Symptom Inventory (BSI)
+
 # 2017-09-27 {#u20170927}
 
 * vragenlijst bijgewerkt (score berekening aangepast, T-score toegevoegd): Kwaliteit van Leven (MANSA)
