@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-10-09 {#u20171009}
+
+* vragenlijst toegevoegd: Dagboekstudie bij eerste psychose (versie Stemmen)
+* vragenlijst toegevoegd: Dagboekstudie bij eerste psychose
+* vragenlijst bijgewerkt (titel aangepast): Sensory Profile - 4-12 jaar
+* vragenlijst bijgewerkt (score en paar vragen toegevoegd): (Halve) Bruce Test Kinderrevalidatie
+* vragenlijst bijgewerkt (titel aangepast): Quality of Life Questionnaire-H&N35 (Head & Neck)
+* vragenlijst bijgewerkt (titel aangepast): Quality of Life Questionnaire-C30
+* vragenlijst bijgewerkt (titel aangepast): Quality of Life Questionnaire-PAN26 (Pancreas)
+
 # 2017-09-28 {#u20170928}
 
 * vragenlijst bijgewerkt (housekeeping): Hypochondrie (Whitely Index)
