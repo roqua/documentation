@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-10-12 {#u20171012}
+
+* vragenlijst bijgewerkt (scores aangepast): Brief Symptom Inventory (BSI)
+* vragenlijst bijgewerkt (dagboek tag toegevoegd): Dagboek ZELF-i - Denk-module
+* vragenlijst toegevoegd: Dagboekstudie bij eerste psychose (versie Wanen)
+* vragenlijst toegevoegd: Quality of Life Questionnaire-C30 (voor Brain module)
+* vragenlijst bijgewerkt (score aangepast): Quality of Life Questionnaire-C30
+* vragenlijst bijgewerkt (score aangepast): Scored Patient-Generated Subjective Global Assessment (PG-SGA) Short Form (SF)
+* PDF export voor rapporten
+
 # 2017-10-09 {#u20171009}
 
 * vragenlijst toegevoegd: Dagboekstudie bij eerste psychose (versie Stemmen)
