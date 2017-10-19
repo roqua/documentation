@@ -17,6 +17,28 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-10-19 {#u20171019}
+
+* vragenlijst bijgewerkt (vraagteksten over werk aangepast): Zorgconsumptie afgelopen 8 maanden - Hospitality project
+* vragenlijst bijgewerkt (hotkeys toegevoegd): CBCL 6 - 18
+* vragenlijst bijgewerkt (hotkeys toegevoegd): CBCL 6 - 18 (zonder extra vragen)
+* vragenlijst bijgewerkt (hotkeys toegevoegd): CBCL 1 - 5
+* vragenlijst bijgewerkt (hotkeys toegevoegd): CBCL 1 - 5 (zonder extra vragen)
+* vragenlijst bijgewerkt (hotkeys toegevoegd): C-TRF 1 - 5
+* vragenlijst bijgewerkt (hotkeys toegevoegd): TRF 6-18
+* vragenlijst bijgewerkt (hotkeys toegevoegd): Ervaringenlijst klinische psychiatrie
+* vragenlijst bijgewerkt (hotkeys toegevoegd): Utrechtse Coping Lijst
+* vragenlijst toegevoegd: Vragenlijst Fietsongevallen - pre-injury versie
+* vragenlijst toegevoegd: DSM-5 checklist SFT trial
+* vragenlijst bijgewerkt (hotkeys toegevoegd): YSR 11-18
+* vragenlijst bijgewerkt (hotkeys toegevoegd): Opvoedingsbelasting vragenlijst (OBVL)
+* vragenlijst bijgewerkt (hotkeys toegevoegd): SCL90 / Jeugdthermometer
+* vragenlijst bijgewerkt (hotkeys toegevoegd): NVM / RAND36
+* vragenlijst bijgewerkt (hotkeys toegevoegd): Outcome Questionnaire (OQ45)
+* vragenlijst bijgewerkt (hotkeys toegevoegd): Ervaringenlijst ambulante psychiatrie
+* vragenlijst bijgewerkt (hotkeys toegevoegd): MANchester Short Assessment of quality of life
+* vragenlijst toegevoegd: Anamneselijst Kliniek voor Eetstoornissen
+
 # 2017-10-12 {#u20171012}
 
 * vragenlijst bijgewerkt (scores aangepast): Brief Symptom Inventory (BSI)
