@@ -17,6 +17,15 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-10-26 {#u20171026}
+
+* vragenlijst bijgewerkt (compleet gemaakt): Vragenlijst over zelfdoding en zelfbeschadiging (VOZZ)
+* vragenlijst toegevoegd: CSP-DNA onderzoek dagboek 1
+* vragenlijst bijgewerkt (typefout hersteld): Brugha plezierige/onplezierige gebeurtenissen - 20 items
+* vragenlijst bijgewerkt (minor tekst aanpassingen): Roken - Baseline
+* vragenlijst bijgewerkt (minor tekst aanpassingen): Roken - Eindmeting
+* vragenlijst bijgewerkt (minor tekst aanpassingen): Dagboek HAMLETT studie
+
 # 2017-10-19 {#u20171019}
 
 * vragenlijst bijgewerkt (vraagteksten over werk aangepast): Zorgconsumptie afgelopen 8 maanden - Hospitality project
