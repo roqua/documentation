@@ -17,6 +17,15 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-11-03{#u20171103}
+
+* vragenlijst bijgewerkt (nu ook voor 2e ouder): Jeugdthermometer Fornhese: waardering door ouders/verzorgers
+* vragenlijst toegevoegd: Inleiding/SES Trails NEXT 4e meting
+* vragenlijst bijgewerkt (validaties toegevoegd): Inleiding/SES Trails NEXT 3e meting
+* vragenlijst bijgewerkt (titel aangepast): Amyotrofic Sclerosis Severity Scale: Swallowing and Speech
+* vragenlijst toegevoegd: Medicatie_op_Maat in de polikliniek farmacogenetica - Apotheker deelnemende patiënten T1
+* vragenlijst toegevoegd: Medicatie_op_Maat in de polikliniek farmacogenetica - Patiënt lijst T1
+
 # 2017-10-26 {#u20171026}
 
 * vragenlijst bijgewerkt (compleet gemaakt): Vragenlijst over zelfdoding en zelfbeschadiging (VOZZ)
