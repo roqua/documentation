@@ -17,6 +17,27 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-11-17{#u20171117}
+* vragenlijst toegevoegd: Radiotherapie Hart- en longziekten (half)jaarlijkse follow-up
+* vragenlijst toegevoegd: Radiotherapie Baseline vragenlijst Hart- en longziekten
+* vragenlijst toegevoegd: Radiotherapie Risicofactoren (half)jaarlijkse follow-up
+* vragenlijst toegevoegd: Radiotherapie Risicofactoren intake
+* vragenlijst bijgewerkt (uitvraagperiode flexibel gemaakt): Radiotherapie Conditie
+* vragenlijst bijgewerkt (codeboek tekst aanpassingen): MINI diagnostisch interview - Eindmeting
+* vragenlijst bijgewerkt (codeboek tekst aanpassingen): MINI diagnostisch interview - Intake
+* vragenlijst bijgewerkt (tekst aanpassing): Medicatie_op_Maat in de polikliniek farmacogenetica - Apotheker deelnemende patiënten T1
+* vragenlijst toegevoegd: Radiotherapie UMCG vragenlijst prostaatkanker
+* vragenlijst bijgewerkt (minor tekst aanpassingen): Parent Behavior Checklist (PBC) Trails NEXT
+* vragenlijst toegevoegd: Phamous Anamnese 2018
+* vragenlijst toegevoegd: Phamous Labbepalingen 2018
+* vragenlijst toegevoegd: Klanttevredenheidslijst Ouders - Accare
+* vragenlijst toegevoegd: Klanttevredenheidslijst Jongere - Accare
+* vragenlijst bijgewerkt (score aangepast): Beck Cognitive Insight Scale (BCIS)
+* vragenlijst toegevoegd: Verdeling zorgtaken
+* vragenlijst toegevoegd: Quality of Life Questionnaire-PR25 (Prostate)
+* vragenlijst bijgewerkt (paar vragen niet verplicht gesteld): Quality of Life Questionnaire-BR23 (Breast)
+* vragenlijst bijgewerkt (typefout aangepast): Parent Protection Scale Trails NEXT
+
 # 2017-11-03{#u20171103}
 
 * vragenlijst bijgewerkt (nu ook voor 2e ouder): Jeugdthermometer Fornhese: waardering door ouders/verzorgers
