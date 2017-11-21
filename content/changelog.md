@@ -17,6 +17,29 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-11-21{#u20171121}
+* vragenlijst bijgewerkt (nu ook patient version): Medicatie_op_Maat in de polikliniek farmacogenetica - Apotheker
+* vragenlijst toegevoegd: Childhood Trauma Questionnaire (CTQ_SF)
+* vragenlijst toegevoegd: Impulsieve gedragsschaal (S-UPPS)
+* vragenlijst bijgewerkt (score toegevoegd): CHAOS vragenlijst NL
+* vragenlijst toegevoegd: Stressvolle levensgebeurtenissen (LES)
+* vragenlijst toegevoegd: Vragenlijst warmte van de ouder
+* vragenlijst toegevoegd: Vragenlijst self efficacy van de ouder
+* vragenlijst toegevoegd: Vragenlijst opvoedingsstijl
+* vragenlijst toegevoegd: soort relatie met moeder, vader en met beste vriend(in) (ouder-versie)
+* vragenlijst toegevoegd: soort relatie met moeder, vader en met beste vriend(in)
+* vragenlijst toegevoegd: Intieme zelfonthulling op het internet
+* vragenlijst toegevoegd: screening borderline persoonlijkheidspathologie - ouder
+* vragenlijst toegevoegd: screening borderline persoonlijkheidspathologie - client
+* vragenlijst toegevoegd: Forensisch Ambulante Risico Evaluatie
+* vragenlijst bijgewerkt (veld en score toegevoegd): Forensisch Ambulante Risico Evaluatie (scoreformulier)
+* vragenlijst bijgewerkt (title aangepast): Radiotherapie Hart- en longziekten Baseline
+* vragenlijst bijgewerkt (title aangepast): Radiotherapie Risicofactoren Baseline
+* vragenlijst bijgewerkt (tijdsperiode default op 6_maanden gezet): Radiotherapie Hart- en longziekten (half)jaarlijkse follow-up
+* vragenlijst bijgewerkt (tijdsperiode default op 6_maanden gezet): Radiotherapie Risicofactoren (half)jaarlijkse follow-up
+* vragenlijst bijgewerkt (tijdsperiode default op 6_maanden gezet): Radiotherapie Conditie
+* vragenlijst bijgewerkt (title aangepast): Childhood Trauma Questionnaire (CTQ-SF)
+
 # 2017-11-17{#u20171117}
 * vragenlijst toegevoegd: Radiotherapie Hart- en longziekten (half)jaarlijkse follow-up
 * vragenlijst toegevoegd: Radiotherapie Baseline vragenlijst Hart- en longziekten
