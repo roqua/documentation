@@ -17,6 +17,23 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-11-22{#u20171122}
+* vragenlijst bijgewerkt (scoring gelijk aan BSI getrokken): Brief Symptom Inventory (BSI RaakFU version)
+* vragenlijst toegevoegd: TRANS-ID evaluatie hartslagmetingen
+* vragenlijst toegevoegd: TRANS-ID Afbouw evaluatie vragenlijst behandeling
+* vragenlijst toegevoegd: TRANS-ID Herstel evaluatie vragenlijst behandeling
+* vragenlijst toegevoegd: TRANS-ID Afbouw evaluatie vragenlijst medicatie
+* vragenlijst toegevoegd: TRANS-ID Herstel evaluatie vragenlijst medicatie
+* vragenlijst toegevoegd: TRANS-ID evaluatie bewegingsmeter & onderzoek als geheel
+* vragenlijst toegevoegd: TRANS-ID Afbouw evaluatie dagboekvragenlijst
+* vragenlijst toegevoegd: TRANS-ID Herstel evaluatie dagboekvragenlijst
+* vragenlijst toegevoegd: GGZ Centraal - adolescenten met borderline persoonlijkheidsstoornis - ouders
+* vragenlijst toegevoegd: GGZ Centraal - adolescenten met borderline persoonlijkheidsstoornis - jongeren
+* vragenlijst bijgewerkt (minor tekst aanpassing): Dagboekstudie bij eerste psychose
+* vragenlijst bijgewerkt (minor tekst aanpassing): Dagboekstudie bij eerste psychose (versie Stemmen)
+* vragenlijst bijgewerkt (minor tekst aanpassing): Dagboekstudie bij eerste psychose (versie Wanen)
+
+
 # 2017-11-21{#u20171121}
 * vragenlijst bijgewerkt (nu ook patient version): Medicatie_op_Maat in de polikliniek farmacogenetica - Apotheker
 * vragenlijst toegevoegd: Childhood Trauma Questionnaire (CTQ_SF)
