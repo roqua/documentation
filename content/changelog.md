@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-11-23{#u20171123}
+* vragenlijst bijgewerkt (scoring en title aangepast): BIG Five Inventory - BFI2-NL
+* vragenlijst bijgewerkt (typefout): Vragenlijst voor ouders: Algemene vragen
+* vragenlijst toegevoegd: HoNOS + extra vragen (zorgclustermodel NZA)
+* vragenlijst toegevoegd: Vragenlijst seksueel risicogedrag (La Guardia)
+* vragenlijst toegevoegd: Vragenlijst seksueel risicogedrag (CARE)
+* vragenlijst toegevoegd: Vragenlijst seksueel gedrag (DOSPERT)
+* vragenlijst toegevoegd: BIG Five Inventory
+* vragenlijst bijgewerkt (extra veld): GAF versie Hospitality project
+
 # 2017-11-22{#u20171122}
 * vragenlijst bijgewerkt (scoring gelijk aan BSI getrokken): Brief Symptom Inventory (BSI RaakFU version)
 * vragenlijst toegevoegd: TRANS-ID evaluatie hartslagmetingen
