@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-11-24{#u20171124}
+* vragenlijst toegevoegd: ouderschap - postpartum bonding (PBQ)
+
 # 2017-11-23{#u20171123}
 * vragenlijst bijgewerkt (scoring en title aangepast): BIG Five Inventory - BFI2-NL
 * vragenlijst bijgewerkt (typefout): Vragenlijst voor ouders: Algemene vragen
