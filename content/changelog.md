@@ -17,10 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-# 2017-11-24{#u20171124}
+# 2017-11-24 {#u20171124}
 * vragenlijst toegevoegd: ouderschap - postpartum bonding (PBQ)
 
-# 2017-11-23{#u20171123}
+# 2017-11-23 {#u20171123}
 * vragenlijst bijgewerkt (scoring en title aangepast): BIG Five Inventory - BFI2-NL
 * vragenlijst bijgewerkt (typefout): Vragenlijst voor ouders: Algemene vragen
 * vragenlijst toegevoegd: HoNOS + extra vragen (zorgclustermodel NZA)
@@ -30,7 +30,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: BIG Five Inventory
 * vragenlijst bijgewerkt (extra veld): GAF versie Hospitality project
 
-# 2017-11-22{#u20171122}
+# 2017-11-22 {#u20171122}
 * vragenlijst bijgewerkt (scoring gelijk aan BSI getrokken): Brief Symptom Inventory (BSI RaakFU version)
 * vragenlijst toegevoegd: TRANS-ID evaluatie hartslagmetingen
 * vragenlijst toegevoegd: TRANS-ID Afbouw evaluatie vragenlijst behandeling
@@ -47,7 +47,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst bijgewerkt (minor tekst aanpassing): Dagboekstudie bij eerste psychose (versie Wanen)
 
 
-# 2017-11-21{#u20171121}
+# 2017-11-21 {#u20171121}
 * vragenlijst bijgewerkt (nu ook patient version): Medicatie_op_Maat in de polikliniek farmacogenetica - Apotheker
 * vragenlijst toegevoegd: Childhood Trauma Questionnaire (CTQ_SF)
 * vragenlijst toegevoegd: Impulsieve gedragsschaal (S-UPPS)
@@ -70,7 +70,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst bijgewerkt (tijdsperiode default op 6_maanden gezet): Radiotherapie Conditie
 * vragenlijst bijgewerkt (title aangepast): Childhood Trauma Questionnaire (CTQ-SF)
 
-# 2017-11-17{#u20171117}
+# 2017-11-17 {#u20171117}
 * vragenlijst toegevoegd: Radiotherapie Hart- en longziekten (half)jaarlijkse follow-up
 * vragenlijst toegevoegd: Radiotherapie Baseline vragenlijst Hart- en longziekten
 * vragenlijst toegevoegd: Radiotherapie Risicofactoren (half)jaarlijkse follow-up
@@ -91,7 +91,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst bijgewerkt (paar vragen niet verplicht gesteld): Quality of Life Questionnaire-BR23 (Breast)
 * vragenlijst bijgewerkt (typefout aangepast): Parent Protection Scale Trails NEXT
 
-# 2017-11-03{#u20171103}
+# 2017-11-03 {#u20171103}
 
 * vragenlijst bijgewerkt (nu ook voor 2e ouder): Jeugdthermometer Fornhese: waardering door ouders/verzorgers
 * vragenlijst toegevoegd: Inleiding/SES Trails NEXT 4e meting
