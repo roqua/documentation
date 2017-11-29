@@ -14,7 +14,7 @@ Voer je gegevens in en klik op "Medewerker Updaten".
 <img src="/assets/images/screenshots/eerste_gebruik_1.png" />
 
 <ul class="hints">
-  <li> Je kunt je gegevens later nog bijwerken door op het <%= icon "preferences_icon" %>-icoontje te klikken linksonder in de RoQua interface.</li>
+  <li> Je kunt je gegevens later nog bijwerken door op het <%= icon "preferences_icon" %>-icoontje te klikken en te kiezen voor 'Mijn gegevens' in de RoQua interface.</li>
 </ul>
 
 Vervolgens wordt je gevraagd de afdeling te selecteren waarin je werkzaam bent. Deze keuze wordt onder je persoonlijke RoQua account opgeslagen, zodat je deze stap niet steeds opnieuw uit hoeft te voeren.
