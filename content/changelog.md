@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-12-01 {#u20171201}
+* vragenlijst toegevoegd: Brief Parent Self Efficacy Scale (BPSES)
+* vragenlijst toegevoegd: Parental Reflective Functioning Questionnaire for Adolescents (PRFQ-A)
+
 # 2017-11-24 {#u20171124}
 * vragenlijst toegevoegd: ouderschap - postpartum bonding (PBQ)
 
