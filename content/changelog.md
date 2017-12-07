@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-12-07 {#u20171207}
+Release notes:
+* vragenlijst toegevoegd: Groningen vragenlijst voor endonasale endoscopische sinus en schedelbasischirurgie (EES-Q)
+* vragenlijst bijgewerkt (textuele aanpassing): TRANS-ID Afbouw evaluatie vragenlijst medicatie
+* vragenlijst bijgewerkt (optie n.v.t. bij sommige vragen niet kiesbaar gemaakt): Multidimensional Scale of Perceived Social Support - Trails NEXT
+* vragenlijst bijgewerkt (kleine tekstuele aanpassingen): Sociale steun Trails NEXT
+* vragenlijst toegevoegd: CSP-DNA onderzoek dagboek 2
+* vragenlijst bijgewerkt (nieuwe versie van bepaalde vraag): Somatische mini Screen
+* vragenlijst toegevoegd: Vragenlijst over Ouderschap en een Psychische Aandoening
+* vragenlijst bijgewerkt (veld visible gemaakt): Dagboekmeting avond - Hospitality project
+* bugfix: Downloaden van sommige grafieken leverde een lege grafiek op
+
 # 2017-12-01 {#u20171201}
 * vragenlijst toegevoegd: Brief Parent Self Efficacy Scale (BPSES)
 * vragenlijst toegevoegd: Parental Reflective Functioning Questionnaire for Adolescents (PRFQ-A)
