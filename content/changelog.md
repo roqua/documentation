@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-12-14 {#u20171214}
+* De interface voor het instellen van het start en stopmoment van een automatisch protocol is verbeterd. Het aantal meetmomenten kan opgegeven worden, waarbij de interface laat zien op welke dag voor het laatst metingen worden klaar gezet.
+* vragenlijst toegevoegd: Neck Disability Index (NDI)
+* vragenlijst toegevoegd: Samengestelde lijst GROUP T4
+* vragenlijst toegevoegd: Herstelvragenlijst GROUP T4
+* vragenlijst toegevoegd: Numeric Rating Scale (NRS) Hidradenitis
+* vragenlijst bijgewerkt (tijdsperiode instelbaar): Systematic Assessment for Treatment Emergent Events (SAFTEE)
+* vragenlijst bijgewerkt (tijdsperiode instelbaar): Dissociation Tension Scale (DSS)
+* vragenlijst toegevoegd: Work Productivity and Activity Impairment Questionnaire (Hidradenitis Suppurativa V2.0)
+
 # 2017-12-07 {#u20171207}
 Release notes:
 * vragenlijst toegevoegd: Groningen vragenlijst voor endonasale endoscopische sinus en schedelbasischirurgie (EES-Q)
