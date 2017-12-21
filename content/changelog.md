@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-12-21 {#u20171221}
+
+* vragenlijst bijgewerkt (zorgcluster vragen toegevoegd): HoNOS + extra vragen (zorgclustermodel NZA)
+* vragenlijst bijgewerkt (kleine tekstuele aanpassingen): Vragenlijst over zelfdoding en zelfbeschadiging (VOZZ)
+* vragenlijst toegevoegd: CSP-DNA onderzoek dagboek 3
+* vragenlijst toegevoegd: Work Productivity and Activity Impairment Questionnaire: General Health V2.0
+* vragenlijst toegevoegd: Patient-Oriented Eczema Measure (POEM)
+* vragenlijst bijgewerkt (tekst aanpassing): EuroQol Gezondheidsvragenlijst 5-level versie
+* vragenlijst bijgewerkt (score berekening aangepast): Dermatology Life Quality Index (DLQI)
+* vragenlijst toegevoegd: Dagboek Yoga bij Depressie CIP
+
 # 2017-12-14 {#u20171214}
 * De interface voor het instellen van het start en stopmoment van een automatisch protocol is verbeterd. Het aantal meetmomenten kan opgegeven worden, waarbij de interface laat zien op welke dag voor het laatst metingen worden klaar gezet.
 * vragenlijst toegevoegd: Neck Disability Index (NDI)
