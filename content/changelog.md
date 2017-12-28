@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2017-12-28 {#u20171218}
+
+* Bug fix om protocollen te kunnen starten in het volgende jaar.
+* Vragenlijst score fix: vozz
+
 # 2017-12-21 {#u20171221}
 
 * vragenlijst bijgewerkt (zorgcluster vragen toegevoegd): HoNOS + extra vragen (zorgclustermodel NZA)
@@ -618,7 +623,7 @@ Release notes:
 
 # 2016-12-01
 
-* Betere foutmeldingen bij aanpassen van patiëntgegevens.
+* Betere foutmeldingen bij aanpassen van patiëntgegevens.
 * Fout in admin/settings opgelost, waardoor huidige export-versie niet geselecteerd was.
 
 # 2016-11-30
