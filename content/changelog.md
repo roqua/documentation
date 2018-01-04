@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-01-04 {#u20180104}
+* Het bereik waarin afnamedatum van een vragenlijst kan worden ingesteld is vergroot naar 20 jaar geleden.
+
 # 2017-12-28 {#u20171218}
 
 * Bug fix om protocollen te kunnen starten in het volgende jaar.
