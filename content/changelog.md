@@ -17,6 +17,19 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-01-15 {#u20180115
+* Het aflopen danwel stopzetten van een automatisch protocol wordt nu in de tijdslijn van een dossier getoond
+* P-DeFeC vragenlijsten zijn nu te kiezen onder het ouder tabblad
+
+# 2018-01-12 {#u20180112}
+* Opmaak van het uitkomstenscherm is bijgewerkt. GGZ-WNB intake vragenlijst uitkomsten zijn ingekort.
+* vragenlijst toegevoegd: CAPE versie GROUP T4
+* vragenlijst bijgewerkt (indeling iets aangepast): Persoonlijkheidskenmerken (PDQ4)
+* vragenlijst bijgewerkt (kleine tekstuele aanpassingen): Dagboek Lentis leefstijl
+* vragenlijst bijgewerkt (kleine tekstuele aanpassingen): World Health Organization Disability Assessment Schedule 2.0 (36 item selfreport)
+* vragenlijst toegevoegd: Phamous Psychosociaal Functioneren 2018
+* vragenlijst bijgewerkt (minimale aanpassingen): Phamous Labbepalingen 2018
+
 # 2018-01-04 {#u20180104}
 * Het bereik waarin afnamedatum van een vragenlijst kan worden ingesteld is vergroot naar 20 jaar geleden.
 
