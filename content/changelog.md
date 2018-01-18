@@ -17,7 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-# 2018-01-15 {#u20180115
+# 2018-01-18 {#u20180118}
+* Phamous brieven voor de 2018 metingen zijn nu beschikabar
+* Phamous anamnese 2016 invullingen die onder 2018 metingen zijn gemaakt zijn omgezet naar de Phamous anamnese 2018 versie van die lijst
+* Het invullen van 0000 als jaartal in een vragenlijst wordt nu correct afgehandeld
+
+# 2018-01-15 {#u20180115}
 * Het aflopen danwel stopzetten van een automatisch protocol wordt nu in de tijdslijn van een dossier getoond
 * P-DeFeC vragenlijsten zijn nu te kiezen onder het ouder tabblad
 
