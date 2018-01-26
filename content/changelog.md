@@ -17,6 +17,42 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-01-26 {#u20180126}
+
+* vragenlijst toegevoegd: Nederlandse Klinische Persoonlijkheidsvragenlijst (NKPV)
+* vragenlijst toegevoegd: Perceived Stress Scale (PSS)
+* vragenlijst toegevoegd: APQ - Alabama Parenting Questionnaire - 12 items
+* vragenlijst bijgewerkt (title aangepast): 9 psychosevragen Phamous basis protocol
+* vragenlijst bijgewerkt (invulvogorde aangepast): Vragenlijst over zelfdoding en zelfbeschadiging - screening (VOZZ)
+* vragenlijst toegevoegd: Einde oudervragenlijst - GGZ Centraal kinderdiagnostiek
+* vragenlijst bijgewerkt (kleine tekst aanpassingen): Parental Reflective Functioning Questionnaire for Adolescents (PRFQ-A)
+* vragenlijst bijgewerkt (kleine tekst aanpassingen): Impulsieve gedragsschaal (S-UPPS)
+* vragenlijst bijgewerkt (kleine tekst aanpassingen): Brief Parent Self Efficacy Scale (BPSES)
+* vragenlijst bijgewerkt (kleine tekst aanpassingen): BIG Five Inventory - BFI2-NL
+* vragenlijst bijgewerkt (title aangepast): Vragenlijst seksueel risicogedrag (CARE)
+* vragenlijst bijgewerkt (diverse aanpassingen): Vragenlijst seksueel gedrag (DOSPERT)
+* vragenlijst bijgewerkt (diverse aanpassingen): Childhood Trauma Questionnaire (CTQ-SF)
+* vragenlijst bijgewerkt (diverse aanpassingen): Vragenlijst seksueel risicogedrag (La Guardia)
+* vragenlijst bijgewerkt (diverse aanpassingen): Network of Relationships Inventory (NRI) - Relatie met zoon/dochter
+* vragenlijst bijgewerkt (diverse aanpassingen): Network of Relationships Inventory (NRI) - Relatie met moeder, vader, beste vriend(in)
+* vragenlijst bijgewerkt (minimale tekst aanpassingen): CHAOS vragenlijst NL
+* vragenlijst bijgewerkt (title aangepast): SCID-II - screening BPS - ouderversie
+* vragenlijst bijgewerkt (minimale aanpassingen): PSI - Perceived Stress Index
+* vragenlijst bijgewerkt (minimale aanpassingen): CRPR - Child Rearing Practices Report
+* vragenlijst bijgewerkt (minimale aanpassingen): Intieme zelfonthulling op het internet
+* vragenlijst bijgewerkt (diverse aanpassingen): GGZ Centraal - Vragenlijst ouders van adolescenten met borderline persoonlijkheidsstoornis
+* vragenlijst bijgewerkt (title en inleidende tekst aangepast): creening borderline persoonlijkheidspathologie - cliënt
+* vragenlijst bijgewerkt (diverse aanpassingen): GGZ Centraal - adolescenten met borderline persoonlijkheidsstoornis - jongeren
+* vragenlijst toegevoegd: Middelengebruik (G4)
+* vragenlijst bijgewerkt (title aangepast): HoNOS + extra vragen (zorgclustermodel NZA)
+* vragenlijst toegevoegd: Pijncentrum UMCG Algemene vragen
+* vragenlijst toegevoegd: Sociale leven en werkzaamheden Pijncentrum
+* vragenlijst bijgewerkt (vraag onzichtbaar gemaakt): Evaluatie Lichttherapie
+* vragenlijst bijgewerkt (score aangepast voor nil-fout): Opvoedingsbelasting vragenlijst (OBVL)
+* vragenlijst bijgewerkt (score berekening toegevoegd): World Health Organization Disability Assessment Schedule 2.0 (12 item selfreport)
+* vragenlijst bijgewerkt (kleine tekst aanpassing): TIC-P versie 2012, debriefing (GGZ populatie)
+* vragenlijst bijgewerkt (kleine tekst aanpassing): TIC-P versie 2012, medicatie debriefing
+
 # 2018-01-18 {#u20180118}
 * Phamous brieven voor de 2018 metingen zijn nu beschikabar
 * Phamous anamnese 2016 invullingen die onder 2018 metingen zijn gemaakt zijn omgezet naar de Phamous anamnese 2018 versie van die lijst
