@@ -17,6 +17,21 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-02-02 {#u20180202}
+
+* vragenlijst bijgewerkt (norm toegevoegd): Nederlandse Verkorte MMPI (NVM) Persoonlijkheidskenmerken
+* vragenlijst toegevoegd: Children's Depression Inventory 2 - Parent-report (CDI-2)
+* vragenlijst toegevoegd: Children's Depression Inventory 2 - Self-report (CDI-2)
+* vragenlijst toegevoegd: Medicatie GROUP T4
+* vragenlijst bijgewerkt (van paid naar free): Vier Dimensionele Klachtenlijst (4DKL)
+* vragenlijst toegevoegd: Difficulties in Emotion Regulation Scale (DERS)
+* vragenlijst bijgewerkt (vraag toegevoegd): Vragen over het meegemaakt hebben van traumatische gebeurtenissen (TSQ)
+* vragenlijst bijgewerkt (score berekening toegevoegd): Trauma Screening Vragenlijst (TSV)
+* vragenlijst bijgewerkt (diverse aanpassingen): Stressvolle levensgebeurtenissen (LES)
+* vragenlijst bijgewerkt (0 optie toegevoegd): Montreal Cognitive Assessment (MoCa) scoreformulier
+* vragenlijst bijgewerkt (kleine aanpassing): Pijncentrum UMCG Algemene vragen
+* vragenlijst bijgewerkt (vraag niet meer verplicht): Einde oudervragenlijst BPD Young - GGZ Centraal
+
 # 2018-01-30 {#u20180130}
 
 * Het is nu mogelijk om uitnodigingen als PDF te downloaden. Hiermee kunnen eventuele printproblemen van de gebruikte browser/epdapplicatie omzeild worden.
