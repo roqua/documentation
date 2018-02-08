@@ -17,6 +17,14 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-02-08 {#u20180208}
+
+* vragenlijst bijgewerkt (vragen en score berekeningen aangepast): Somatische mini Screen
+* vragenlijst bijgewerkt (scoreberekening aangepast): Childhood Trauma Questionnaire (CTQ-SF)
+* vragenlijst toegevoegd: LASA Lichamelijke gezondheid
+* vragenlijst bijgewerkt (scores en barcharts toegevoegd): Berg Balance Scale (BBS)
+* vragenlijst bijgewerkt (score berekening aangepast): 6-minute walking-test (6MWT) Neurorevalidatie
+
 # 2018-02-02 {#u20180202}
 
 * vragenlijst bijgewerkt (norm toegevoegd): Nederlandse Verkorte MMPI (NVM) Persoonlijkheidskenmerken
