@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-02-22 {#u20180222}
+
+* vragenlijst toegevoegd: Rosenberg Self-Esteem Scale (RSES) versie jongeren
+
 # 2018-02-15 {#u20180215}
 
 * vragenlijst toegevoegd: Vragenlijst fysieke beperkingen
