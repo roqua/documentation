@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-03-08 {#u20180308
+    
+* Bij het drukken op de patientgegevens verversen knop ververst nu de hele pagina om alle gegevens op die pagina bij te werken.
+* vragenlijst bijgewerkt (routing fix): Radiotherapie Hart- en longziekten Baseline
+* vragenlijst bijgewerkt (routing fix): Radiotherapie Hart- en longziekten (half)jaarlijkse follow-up
+* vragenlijst bijgewerkt (opties toegevoegd bij paar vragen): Vragenlijst interventie Kaakchirurgie
+* vragenlijst toegevoegd: Ervaringenlijst Psychogeriatrie (Team 290, Lentis) (CQi)
+* vragenlijst bijgewerkt (line- en bar- charts toegevoegd): Screen for Child Anxiety Related Emotional Disorders (SCARED-NL)
+* vragenlijst bijgewerkt (datum validaties aangepast): Phamous Algemeen 2016-2018
+
+
 # 2018-02-22 {#u20180222}
 
 * vragenlijst toegevoegd: Rosenberg Self-Esteem Scale (RSES) versie jongeren
