@@ -17,7 +17,7 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-# 2018-03-08 {#u20180308
+# 2018-03-08 {#u20180308}
     
 * Bij het drukken op de patientgegevens verversen knop ververst nu de hele pagina om alle gegevens op die pagina bij te werken.
 * vragenlijst bijgewerkt (routing fix): Radiotherapie Hart- en longziekten Baseline
