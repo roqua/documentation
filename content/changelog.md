@@ -19,6 +19,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 # 2018-03-08 {#u20180308}
     
+* Het is nu mogelijk om op de hoofdpagina van de admin omgeving door te klikken naar een voorbeeld van hoe een beschikbare vragenlijst er uit ziet bij het invullen. Hiermee zijn ook lijsten te bekijken die nog niet aan een protocol gekoppeld zijn.
 * Bij het drukken op de patientgegevens verversen knop ververst nu de hele pagina om alle gegevens op die pagina bij te werken.
 * vragenlijst bijgewerkt (routing fix): Radiotherapie Hart- en longziekten Baseline
 * vragenlijst bijgewerkt (routing fix): Radiotherapie Hart- en longziekten (half)jaarlijkse follow-up
