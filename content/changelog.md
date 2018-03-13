@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-03-13 {#u20180313}
+
+* vragenlijst bijgewerkt (type invuller omgezet): Lichamelijke activiteit - SFT trial
+* vragenlijst bijgewerkt (2 oude vragen toegevoegd): Radiotherapie Risicofactoren Baseline
+* vragenlijst bijgewerkt (context free titles toegevoegd): Eerste Psychosen Onderzoek (EPO) Algemene vragen
+* vragenlijst toegevoegd: Dagboek DiSCoVR studie
+* vragenlijst bijgewerkt (diverse aanpassingen): Eerste Psychosen Onderzoek (EPO) Algemene vragen
+* vragenlijst bijgewerkt (paar vragen op hidden gezet): LASA Lichamelijke gezondheid
+* vragenlijst bijgewerkt (niet verplicht; afbreekbaar): Berg Balance Scale (BBS)
+
 # 2018-03-08 {#u20180308}
     
 * Het is nu mogelijk om op de hoofdpagina van de admin omgeving door te klikken naar een voorbeeld van hoe een beschikbare vragenlijst er uit ziet bij het invullen. Hiermee zijn ook lijsten te bekijken die nog niet aan een protocol gekoppeld zijn.
