@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-03-29 {#u20180329}
+
+* vragenlijst toegevoegd: Transplantlines - Pijn - Carolinas Comfort Scale
+* vragenlijst toegevoegd: Transplantlines - Pijn direct na nierdonatie
+* vragenlijst bijgewerkt (minor tekst aanpassingen): Dagboek DiSCoVR studie
+* vragenlijst toegevoegd: Transplantlines - Pijnklachten op dit moment
+* vragenlijst toegevoegd: Risico-scorelijst decubitus
+* vragenlijst bijgewerkt (diverse aanpassingen): Vragenlijst over Ouderschap en een Psychische Aandoening
+* vragenlijst bijgewerkt (score berekeningen toegevoegd): Korte Schaal voor Negatieve Symptomen (KSNS)
+* vragenlijst toegevoegd: Leefstijlcheck UMCG - Medewerker deel (versie 2018)
+* vragenlijst toegevoegd: Leefstijlcheck UMCG - Deelnemer deel (versie 4.0 - 2018)
+
 # 2018-03-26 {#u20180326}
 
 * vragenlijst bijgewerkt (titel aangepast): Radiotherapie Risicofactoren
