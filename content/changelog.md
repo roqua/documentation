@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-04-05 {#u20180405}
+
+* vragenlijst bijgewerkt (extra routing vragen): Leefstijlcheck UMCG - Deelnemer deel (versie 4.0 - 2018)
+* vragenlijst toegevoegd: Symptomenlijst - versie 2 puntsschaal
+* vragenlijst bijgewerkt (diverse aanpassingen): Children's Depression Inventory 2  - Oudervragenlijst (CDI-2)
+* vragenlijst bijgewerkt (diverse aanpassingen): Children's Depression Inventory 2 - Zelfrapportagelijst (CDI-2)
+* vragenlijst bijgewerkt (score berekeningen toegevoegd): Short Form 12 versie 2 (voorheen SF-6D)
+* vragenlijst bijgewerkt (typo en titel aangepast): Transplantlines nierdonatie - Pijnklachten op dit moment
+* vragenlijst bijgewerkt (score berekeningen toegevoegd): Birchwood Insight Scale (BIS) - Psychose Inzicht schaal (PI)
+
 # 2018-03-29 {#u20180329}
 
 * vragenlijst toegevoegd: Transplantlines - Pijn - Carolinas Comfort Scale
