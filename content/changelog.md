@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-04-13 {#u20180413}
+
+* RoQua gebruikt nu de samengestelde achternaam in plaats van de gegeven achternaam voor clienten van het UMCG.
+* Metingen van automatische protocollen mogen nu worden aangepast door elke RoQua admin omgeving gebruiker met toegang tot de protocollen. Hiermee kunnen vragenlijsten worden toegevoegd of verwijderd of kan de volgorde van uitgevraagde lijsten worden aangepast.
+* vragenlijst bijgewerkt (score berekening aangepast): Groningen Frailty Indicator (GFI)
+* vragenlijst toegevoegd: Classification of surgical complications
+* vragenlijst toegevoegd: Basal and Squamous cell carcinoma Quality of Life questionnaire (BaSQoL)
+* vragenlijst bijgewerkt (afsluit tekst toegevoegd): Behandelresultaat psychomotorische therapie
+* vragenlijst bijgewerkt (afsluit tekst toegevoegd): Doelen en wensen t.a.v. psychomotorische therapie
+* vragenlijst bijgewerkt (typo's): Pain Disability Index (PDI-DLV)
+
+
 # 2018-04-05 {#u20180405}
 
 * vragenlijst bijgewerkt (extra routing vragen): Leefstijlcheck UMCG - Deelnemer deel (versie 4.0 - 2018)
