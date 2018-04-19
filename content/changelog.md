@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-04-19 {#u20180419}
+
+* Vragenlijsten voor automatische protocollen met gerandomiseerde schemas worden nu net als bij protocollen met reguliere dagelijkse schemas voor andere vragenlijsten aangeboden.
+
 # 2018-04-13 {#u20180413}
 
 * RoQua gebruikt nu de samengestelde achternaam in plaats van de gegeven achternaam voor clienten van het UMCG.
