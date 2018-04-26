@@ -21,4 +21,8 @@ gebruikt zal de medewerker een e-mail krijgen
 met instructies om een nieuw account aan te maken. In de tussentijd zal een
 leeg account worden toegevoegd aan het project.
 
+U kunt alleen medewerkers toevoegen met een e-mailadres met een domeinnaam die
+is toegevoegd aan de lijst met *veilige domeinnamen*. Deze lijst kan door de
+beheerder van het project worden aangepast op de projectinstellingen pagina.
+
 <img src='/assets/images/screenshots/medo/medewerkerslijst.png' />
