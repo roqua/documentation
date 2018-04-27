@@ -17,6 +17,21 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-04-27 {#u20180427}
+* Probleem waarbij de 'printvenster sluiten' link bij printen van uitkomsten met grafieken niet werkt is opgelost
+* vragenlijst bijgewerkt (vragen vervangen en daarmee scores aamgepast): Korte Schaal voor Negatieve Symptomen (KSNS)
+* vragenlijst toegevoegd: Short Nutritional Assessment Questionnaire
+* vragenlijst bijgewerkt (option aangepast): Radiotherapie Risicofactoren (half)jaarlijkse follow-up
+* vragenlijst toegevoegd: Schema Coping Vragenlijst
+* vragenlijst toegevoegd: Social Responsiveness Scale 2 - Voor 4-18-jarigen (SRS-2)
+* vragenlijst toegevoegd: Social Responsiveness Scale 2 - Voor 3-jarigen (SRS-2)
+* vragenlijst toegevoegd: CSP-DNA onderzoek dagboek 4
+* vragenlijst bijgewerkt (2 vragen toegevoegd): GGZ Centraal - adolescenten met borderline persoonlijkheidsstoornis - jongeren
+* vragenlijst bijgewerkt (minimale aanpassingen): Network of Relationships Inventory (NRI) - Relatie met moeder, vader, beste vriend(in)
+* vragenlijst bijgewerkt (scores toegevoegd en diverse aanpassingen): Cognitive Failure Questionnaire
+* vragenlijst bijgewerkt (scores toegevoegd en titel aangepast): Pain Vigilance and Awareness Questionnaire (PVAQ)
+* vragenlijst toegevoegd: Zorgconsumptie GROUP T4
+
 # 2018-04-19 {#u20180419}
 
 * Vragenlijsten voor automatische protocollen met gerandomiseerde schemas worden nu net als bij protocollen met reguliere dagelijkse schemas voor andere vragenlijsten aangeboden.
