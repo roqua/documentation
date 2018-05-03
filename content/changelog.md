@@ -17,6 +17,14 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-05-03 {#u20180503}
+
+* Bugfix: Toon juiste auto-protocollen per afdeling
+* vragenlijst toegevoegd: Instrumentele Activiteiten in het Dagelijks Leven - Zelfrapportage (iADL)
+* vragenlijst toegevoegd: Screening fysieke beperkingen
+* vragenlijst bijgewerkt (opmerkingenveld toegevoegd, interpretaties toegevoegd): Timed to Get Up and Go Test (TGUGT)
+* vragenlijst bijgewerkt (uitleg toegevoegd): Persoonlijkheidsvragenlijst SIPP-SF (verkorte versie)
+
 # 2018-04-27 {#u20180427}
 * Probleem waarbij de 'printvenster sluiten' link bij printen van uitkomsten met grafieken niet werkt is opgelost
 * vragenlijst bijgewerkt (vragen vervangen en daarmee scores aamgepast): Korte Schaal voor Negatieve Symptomen (KSNS)
