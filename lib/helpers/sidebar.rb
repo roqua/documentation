@@ -55,7 +55,8 @@ module SidebarHelper
     tag(:ul) do
       category.children.sort_by {|i| i[:sort] || 0 }.map do |section|
         if section.children.any?
-          tag(:li, class: 'js-topic') do
+
+          tag(:li, class: 'js-topic', id: section.identifier) do
             content = []
 
             content << tag(:h3) do
