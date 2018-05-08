@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-05-08 {#u20180508}
+
+* Bugfix: Vragenlijst g4_zorgcon routering fix, waardoor je niet verder kon
+
 # 2018-05-03 {#u20180503}
 
 * Bugfix: Toon juiste auto-protocollen per afdeling
