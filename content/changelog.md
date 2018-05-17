@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-05-17 {#u20180517}
+
+* vragenlijst toegevoegd: Frontal Assessment Battery (FAB)
+* vragenlijst toegevoegd: Quality of Life in Hand Eczema Questionnaire (QOLHEQ)
+* vragenlijst toegevoegd: Psychologische Inflexbiliteit in Pijn Schaal (PIPS)
+* vragenlijst toegevoegd: Mini-BESTest: Balance Evaluation Systems Test
+* vragenlijst bijgewerkt (diverse aanpassingen): Mental Health Continuum - Short Form (MHC-SF)
+* vragenlijst bijgewerkt (aanpassingen 2018): SBG opleidingsniveau en leefsituatie
+* vragenlijst bijgewerkt (interpretatie nu alleen voor 3 jarigen): Social Responsiveness Scale 2 - Voor 4-18-jarigen (SRS-2)
+* vragenlijst bijgewerkt (interpretatie nu alleen voor 3 jarigen): Social Responsiveness Scale 2 - Voor 3-jarigen (SRS-2)
+
 # 2018-05-08 {#u20180508}
 
 * Bugfix: Vragenlijst g4_zorgcon routering fix, waardoor je niet verder kon
