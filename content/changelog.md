@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-05-24 {#u20180524}
+
+* vragenlijst bijgewerkt (tekst aanpassing): Yoga Post-training vragenlijst
+* vragenlijst bijgewerkt (tekst aanpassing): Yoga Follow-up vragenlijst
+* vragenlijst bijgewerkt (typo): Mini-BESTest: Balance Evaluation Systems Test
+
 # 2018-05-17 {#u20180517}
 
 * vragenlijst toegevoegd: Frontal Assessment Battery (FAB)
@@ -25,7 +31,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Mini-BESTest: Balance Evaluation Systems Test
 * vragenlijst bijgewerkt (diverse aanpassingen): Mental Health Continuum - Short Form (MHC-SF)
 * vragenlijst bijgewerkt (aanpassingen 2018): SBG opleidingsniveau en leefsituatie
-* vragenlijst bijgewerkt (interpretatie nu alleen voor 3 jarigen): Social Responsiveness Scale 2 - Voor 4-18-jarigen (SRS-2)
+* vragenlijst bijgewerkt (interpretatie nu alleen voor 4-18 jarigen): Social Responsiveness Scale 2 - Voor 4-18-jarigen (SRS-2)
 * vragenlijst bijgewerkt (interpretatie nu alleen voor 3 jarigen): Social Responsiveness Scale 2 - Voor 3-jarigen (SRS-2)
 
 # 2018-05-08 {#u20180508}
