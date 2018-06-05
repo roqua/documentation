@@ -28,7 +28,7 @@ $(function() {
   function getDocUrl() {
     var pathRegEx = /\/\/[^\/]+(\/.+)/g,
         docUrl = pathRegEx.exec(window.location.toString())
-        return docUrl
+    return docUrl
   }
 
   // bind every href with a hash; take a look at v3/search/ for example
