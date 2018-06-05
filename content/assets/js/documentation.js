@@ -1,11 +1,12 @@
 // Init sidebar
 $(function() {
+
   var activeItem,
       helpList = $('#js-sidebar .js-topic'),
       firstOccurance = true,
       styleTOC = function() {
-        var pathRegEx = /\/\/[^\/]+(\/.+)/g,
-            docUrl = pathRegEx.exec(window.location.toString())
+        var docUrl = getDocUrl();
+
         if (docUrl){
           $('#js-sidebar .js-topic a').each(function(){
             if ($(this).parent('li').hasClass('disable'))
@@ -13,7 +14,8 @@ $(function() {
 
             var url = $(this).attr('href').toString()
             var cleanDocUrl = docUrl[1]
-            if(url.indexOf(cleanDocUrl) >= 0 && url.length == cleanDocUrl.length){
+
+            if(url.indexOf(cleanDocUrl) >= 0 && url.length == cleanDocUrl.length) {
               $(this).parent('li').addClass('disable')
               var parentTopic = $(this).parentsUntil('div.sidebar-module > ul').last()
               parentTopic.addClass('js-current')
@@ -22,6 +24,12 @@ $(function() {
           });
         }
       }
+
+  function getDocUrl() {
+    var pathRegEx = /\/\/[^\/]+(\/.+)/g,
+        docUrl = pathRegEx.exec(window.location.toString())
+    return docUrl
+  }
 
   // bind every href with a hash; take a look at v3/search/ for example
   $('#js-sidebar .js-accordion-list .js-topic a[href*=#]').bind("click", function(e) {
@@ -57,6 +65,7 @@ $(function() {
   // Accordion style list. Expanded items
   // collapse when new items are clicked.
   $('#js-sidebar .js-accordion-list .js-topic h3 a').click(function(){
+
     var clickedTopic = $(this).parents('.js-topic'),
         topicGuides = clickedTopic.find('.js-guides li')
 
@@ -76,7 +85,7 @@ $(function() {
 
   // Dynamic year for footer copyright
   var currentYear = (new Date).getFullYear();
-  $("#year").text( (new Date).getFullYear() );
+  $("#year").text( (new Date).getFullYear());
 
   // Add link anchors for headers with IDs
   $(".content h1, .content h2, .content h3, .content h4").each(function(e){
@@ -85,5 +94,17 @@ $(function() {
 
     $(this).prepend("<a class='header-anchor' href='#" + id + "'></a>");
   });
+
+
+  //expand the header is exists
+  var url = getDocUrl();
+  if (url) {
+    var id = url[1]
+    var selectedHeader = document.getElementById(id);
+    if (selectedHeader) {
+      var topicGuides = $(selectedHeader).find('.js-guides li')
+      topicGuides.slideToggle(100)
+    }
+  }
 
 });
