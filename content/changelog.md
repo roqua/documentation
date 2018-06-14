@@ -17,6 +17,16 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-06-14 #{u20180614}
+
+* vragenlijst bijgewerkt (ook voor behandelaren): Groningen Frailty Indicator (GFI)
+* vragenlijst bijgewerkt (ook voor behandelaren): Instrumentele Activiteiten in het Dagelijks Leven - Zelfrapportage (iADL)
+* vragenlijst bijgewerkt (ook voor behandelaren): Basal and Squamous cell carcinoma Quality of Life questionnaire (BaSQoL)
+* vragenlijst toegevoegd: Majeed vragenlijst bekkenletsel pre-injury
+* vragenlijst toegevoegd: Majeed vragenlijst bekkenletsel
+* vragenlijst toegevoegd: Kostenvragenlijst follow-up
+* vragenlijst bijgewerkt (score berekening robuust gemaakt): EuroQol Gezondheidsvragenlijst 3-level versie
+
 # 2018-06-07 #{u20180607}
 
 * vragenlijst toegevoegd: Young Schema Questionnaire - Verkorte versie (90 items)
