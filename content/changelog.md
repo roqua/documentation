@@ -17,6 +17,20 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-06-22 #{u20180622}
+
+* Probleem verholpen waardoor RoQua een lopende invulsessie zou kunnen opruimen. Clienten zouden nu minder vaak de melding moeten krijgen dat er iets mis ging bij het opslaan van de vragenlijst.
+* vragenlijst toegevoegd: Ketamine onderzoek tussenpagina (120 min.)
+* vragenlijst toegevoegd: Ketamine onderzoek tussenpagina (30 min.)
+* vragenlijst toegevoegd: Interstitial Cystitis Symptoms/Problem Index (ICSI/ICPI)
+* vragenlijst toegevoegd: Vragenlijst Opvattingen over Stemmen (VOS-R)
+* vragenlijst toegevoegd: Sociale vergelijkingsschaal voor stemmen
+* vragenlijst toegevoegd: Vragenlijst over de ondersteuning van de persoonlijk begeleider bij het herstel - MindUp versie (INSPIRE)
+* vragenlijst toegevoegd: Verkorte vragenlijst over de ondersteuning van de (woon)begeleider bij het herstel - MindUp versie (INSPIRE)
+* vragenlijst bijgewerkt (optie verwijderd): Majeed vragenlijst bekkenletsel
+* vragenlijst bijgewerkt (minor tekst aanpassing): Majeed vragenlijst bekkenletsel pre-injury
+* vragenlijst bijgewerkt (ook voor ouders invulbaar gemaakt): Perceived Stress Scale (PSS)
+
 # 2018-06-14 #{u20180614}
 
 * vragenlijst bijgewerkt (ook voor behandelaren): Groningen Frailty Indicator (GFI)
