@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-06-27 #{u20180627}
+
+* De admin omgeving heeft nu voor de gebruikers die alle rechten hebben de mogelijkheid om dataverwijderingsverzoeken in te dienen. Met deze pagina kan op een geauthenticeerde manier worden verzocht om alle data te verwijderen voor een bepaalde client in RoQua.
+* vragenlijst bijgewerkt (validaties verwijderd): Labbepalingen ROM-GPS
+
 # 2018-06-22 #{u20180622}
 
 * Probleem verholpen waardoor RoQua een lopende invulsessie zou kunnen opruimen. Clienten zouden nu minder vaak de melding moeten krijgen dat er iets mis ging bij het opslaan van de vragenlijst.
