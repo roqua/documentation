@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-07-05 #{u20180705}
+
+* vragenlijst toegevoegd: hoegekis.nl - Lezing ADHD Follow-up
+* vragenlijst toegevoegd: hoegekis.nl - Lezing ADHD Nameting
+* vragenlijst toegevoegd: hoegekis.nl - Lezing ADHD Voormeting
+* vragenlijst toegevoegd: Zelf-rapportage ADHD volwassenen (ZVAH)
+* vragenlijst toegevoegd: Verkorte Informant Vragenlijst over Cognitieve Achteruitgang bij Ouderen (IQCODE-N)
+* vragenlijst toegevoegd: Fatigue Severity Scale (FSS)
+* vragenlijst toegevoegd: Modified Rankin Scale (MRS)
+* vragenlijst bijgewerkt (routing aangepast): Kostenvragenlijst follow-up
+* vragenlijst bijgewerkt (routing aangepast): Vragen over het meegemaakt hebben van traumatische gebeurtenissen
+
 # 2018-06-27 #{u20180627}
 
 * De admin omgeving heeft nu voor de gebruikers die alle rechten hebben de mogelijkheid om dataverwijderingsverzoeken in te dienen. Met deze pagina kan op een geauthenticeerde manier worden verzocht om alle data te verwijderen voor een bepaalde client in RoQua.
