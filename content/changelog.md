@@ -28,6 +28,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Modified Rankin Scale (MRS)
 * vragenlijst bijgewerkt (routing aangepast): Kostenvragenlijst follow-up
 * vragenlijst bijgewerkt (routing aangepast): Vragen over het meegemaakt hebben van traumatische gebeurtenissen
+* SqlExport: Added questionnaires with questions, options and scores.
 
 # 2018-06-27 #{u20180627}
 
