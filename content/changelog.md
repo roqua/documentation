@@ -17,6 +17,13 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-07-19 #{u20180719}
+
+* vragenlijst toegevoegd: Leefstijlcoaching vragenlijst Lentis
+* vragenlijst bijgewerkt (generalisatie slag): Hospital Anxiety and Depression Scale (HADS) - Versie Spinhoven et al
+* vragenlijst toegevoegd: Prodromal Questionnaire Ervaringenlijst 16-item Jongerenversie (PQ-16)
+* vragenlijst bijgewerkt (interne aanpassingen): Young Schema Questionnaire
+
 # 2018-07-12 #{u20180712}
 
 * vragenlijst bijgewerkt (interne aanpassingen): RAND-36 versie 1
