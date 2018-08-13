@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-08-06 #{u20180806}
+
+* Bij het printen van rapporten met een antwoordentabel werden onterecht alle antwoordopties getoond in plaats van alleen de gekozen antwoordoptie. Dit is verbeterd.
+
 # 2018-07-19 #{u20180719}
 
 * vragenlijst toegevoegd: Leefstijlcoaching vragenlijst Lentis
