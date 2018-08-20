@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-08-20 #{u20180820}
+
+* Uitkomsten ADHD AVL waren niet in te zien door een configuratiefout, dit is hersteld
+
 # 2018-08-17 #{u20180817}
 
 * vragenlijst bijgewerkt (kleine aanpassingen): SQUASH lichamelijke activiteit
