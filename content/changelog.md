@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-08-23 #{u20180823}
+
+* Overzichtspagina in het EPD met alle vragenlijsten. Te vinden via het menu rechtsboven op de pagina.
+* Admin omgeving: Toon aantal verzonden SMS-berichten.
+
 # 2018-08-20 #{u20180820}
 
 * Uitkomsten ADHD AVL waren niet in te zien door een configuratiefout, dit is hersteld
