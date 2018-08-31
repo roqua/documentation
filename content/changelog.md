@@ -17,6 +17,36 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-08-31 #{u20180831}
+* Optimalisaties doorgevoerd ter verbetering van de snelheid van onder andere de timeline pagina 
+* vragenlijst bijgewerkt (diverse aanpassingen): Nederlandse vragenlijst voor eetgedrag (NVE)
+* vragenlijst toegevoegd: C4EB Dagboekje
+* vragenlijst toegevoegd: ain Quality Assessment Scale (PQAS)
+* vragenlijst toegevoegd: Cannabinoid-based Medicine – Side-effect Inventory (CBM-SEI)
+* vragenlijst toegevoegd: Pain Self-Efficacy Questionnaire (PSEQ)
+* vragenlijst toegevoegd: Worry Domains Questionnaire (WDQ)
+* vragenlijst toegevoegd: Labuitslagen Ketaminestudie
+* vragenlijst toegevoegd: Opmerkingen vragenlijst medewerker
+* vragenlijst toegevoegd: Quality of life in epidermolysis bullosa (EB) questionnaire (QOLEB)
+* vragenlijst toegevoegd: Neuropathic Pain diagnostic questionnaire - Door de behandelaar in te vullen (DN4)
+* vragenlijst bijgewerkt (score berekening robuuster gemaakt): ADHD vragenlijst (AVL)
+* vragenlijst bijgewerkt (vragen op niet verplicht gezet): Eyberg Child Behavior Inventory (ECBI)
+* vragenlijst bijgewerkt (score berekening herschreven): Asthma Control Questionnaire (ACQ)
+* vragenlijst bijgewerkt (score berekening hersteld): Vragenlijst executieve functies voor 5- tot 18-jarigen - Oudervragenlijst (BRIEF)
+* vragenlijst bijgewerkt (vragen toegevoegd): Leefstijlcoaching vragenlijst Lentis
+* vragenlijst toegevoegd: USER-P voor donoren Transplantlines
+* vragenlijst bijgewerkt (typefout): Utrechtse Schaal voor Evaluatie van Revalidatie-Participatie (USER-P)
+* vragenlijst bijgewerkt (copyright e.d.): NEO-FFI-3 Persoonlijkheidsvragenlijst
+* vragenlijst toegevoegd: Vragen over het verbreken van de relatie
+* vragenlijst toegevoegd: Vragenlijst kwaliteit van de relatie
+* vragenlijst toegevoegd: Vraagstemming afgelopen 2 weken
+* vragenlijst toegevoegd: Vraag stemming vandaag
+* vragenlijst toegevoegd: Vraag stemming op dit moment
+* vragenlijst toegevoegd: Vragenlijst persoonkarakteristieken
+* vragenlijst toegevoegd: Vragen veranderingen gedurende het onderzoek (T16)
+* vragenlijst toegevoegd: Vragen veranderingen gedurende het onderzoek (T1-T15)
+* vragenlijst toegevoegd: Scale of Body Connection (SBC)
+
 # 2018-08-23 #{u20180823}
 
 * Overzichtspagina in het EPD met alle vragenlijsten. Te vinden via het menu rechtsboven op de pagina.
