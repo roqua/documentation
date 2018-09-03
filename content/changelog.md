@@ -17,7 +17,7 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-# 2018-08-31 #{u20180831}
+# 2018-08-31 {#u20180831}
 * Optimalisaties doorgevoerd ter verbetering van de snelheid van onder andere de timeline pagina 
 * vragenlijst bijgewerkt (diverse aanpassingen): Nederlandse vragenlijst voor eetgedrag (NVE)
 * vragenlijst toegevoegd: C4EB Dagboekje
@@ -47,16 +47,16 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Vragen veranderingen gedurende het onderzoek (T1-T15)
 * vragenlijst toegevoegd: Scale of Body Connection (SBC)
 
-# 2018-08-23 #{u20180823}
+# 2018-08-23 {#u20180823}
 
 * Overzichtspagina in het EPD met alle vragenlijsten. Te vinden via het menu rechtsboven op de pagina.
 * Admin omgeving: Toon aantal verzonden SMS-berichten.
 
-# 2018-08-20 #{u20180820}
+# 2018-08-20 {#u20180820}
 
 * Uitkomsten ADHD AVL waren niet in te zien door een configuratiefout, dit is hersteld
 
-# 2018-08-17 #{u20180817}
+# 2018-08-17 {#u20180817}
 
 * vragenlijst bijgewerkt (kleine aanpassingen): SQUASH lichamelijke activiteit
 * vragenlijst bijgewerkt (routering aangepast): Therapietrouw medicatie vóór transplantatie - TransplantLines
@@ -90,24 +90,23 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst bijgewerkt (vraag nummers toegevoegd): Vragenlijst over zelfdoding en zelfbeschadiging - screening en vervolgvragen
 * vragenlijst bijgewerkt (opmerkingen toegevoegd): Leefstijlcoaching vragenlijst Lentis
 
-
-# 2018-08-06 #{u20180806}
+# 2018-08-06 {#u20180806}
 
 * Bij het printen van rapporten met een antwoordentabel werden onterecht alle antwoordopties getoond in plaats van alleen de gekozen antwoordoptie. Dit is verbeterd.
 
-# 2018-07-19 #{u20180719}
+# 2018-07-19 {#u20180719}
 
 * vragenlijst toegevoegd: Leefstijlcoaching vragenlijst Lentis
 * vragenlijst bijgewerkt (generalisatie slag): Hospital Anxiety and Depression Scale (HADS) - Versie Spinhoven et al
 * vragenlijst toegevoegd: Prodromal Questionnaire Ervaringenlijst 16-item Jongerenversie (PQ-16)
 * vragenlijst bijgewerkt (interne aanpassingen): Young Schema Questionnaire
 
-# 2018-07-12 #{u20180712}
+# 2018-07-12 {#u20180712}
 
 * vragenlijst bijgewerkt (interne aanpassingen): RAND-36 versie 1
 * SQLite export: Add question_option_key to response_values for scale, select and radio questions.
 
-# 2018-07-05 #{u20180705}
+# 2018-07-05 {#u20180705}
 
 * vragenlijst toegevoegd: hoegekis.nl - Lezing ADHD Follow-up
 * vragenlijst toegevoegd: hoegekis.nl - Lezing ADHD Nameting
@@ -120,12 +119,12 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst bijgewerkt (routing aangepast): Vragen over het meegemaakt hebben van traumatische gebeurtenissen
 * SqlExport: Added questionnaires with questions, options and scores.
 
-# 2018-06-27 #{u20180627}
+# 2018-06-27 {#u20180627}
 
 * De admin omgeving heeft nu voor de gebruikers die alle rechten hebben de mogelijkheid om dataverwijderingsverzoeken in te dienen. Met deze pagina kan op een geauthenticeerde manier worden verzocht om alle data te verwijderen voor een bepaalde client in RoQua.
 * vragenlijst bijgewerkt (validaties verwijderd): Labbepalingen ROM-GPS
 
-# 2018-06-22 #{u20180622}
+# 2018-06-22 {#u20180622}
 
 * Probleem verholpen waardoor RoQua een lopende invulsessie zou kunnen opruimen. Clienten zouden nu minder vaak de melding moeten krijgen dat er iets mis ging bij het opslaan van de vragenlijst.
 * vragenlijst toegevoegd: Ketamine onderzoek tussenpagina (120 min.)
@@ -139,7 +138,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst bijgewerkt (minor tekst aanpassing): Majeed vragenlijst bekkenletsel pre-injury
 * vragenlijst bijgewerkt (ook voor ouders invulbaar gemaakt): Perceived Stress Scale (PSS)
 
-# 2018-06-14 #{u20180614}
+# 2018-06-14 {#u20180614}
 
 * vragenlijst bijgewerkt (ook voor behandelaren): Groningen Frailty Indicator (GFI)
 * vragenlijst bijgewerkt (ook voor behandelaren): Instrumentele Activiteiten in het Dagelijks Leven - Zelfrapportage (iADL)
@@ -149,7 +148,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst toegevoegd: Kostenvragenlijst follow-up
 * vragenlijst bijgewerkt (score berekening robuust gemaakt): EuroQol Gezondheidsvragenlijst 3-level versie
 
-# 2018-06-07 #{u20180607}
+# 2018-06-07 {#u20180607}
 
 * vragenlijst toegevoegd: Young Schema Questionnaire - Verkorte versie (90 items)
 * vragenlijst bijgewerkt (bar charts ipv radar charts): CBCL lijsten
@@ -235,7 +234,6 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst bijgewerkt (afsluit tekst toegevoegd): Behandelresultaat psychomotorische therapie
 * vragenlijst bijgewerkt (afsluit tekst toegevoegd): Doelen en wensen t.a.v. psychomotorische therapie
 * vragenlijst bijgewerkt (typo's): Pain Disability Index (PDI-DLV)
-
 
 # 2018-04-05 {#u20180405}
 
