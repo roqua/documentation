@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-09-13 {#u20190913}
+
+* vragenlijst bijgewerkt (10 eigen vragen toegevoegd): Dagboek fixed design
+* vragenlijst bijgewerkt (kleine aanpassing): Psychopharmacagebruik Ketaminestudie
+* Added Petra wizard for automatic protocols (needs to be configured)
+
 # 2018-09-10 {#u20180910}
 * vragenlijst toegevoegd: Reden van deelname aan DNA-sneldiagnostiek en vervolg zwangerschap
 * vragenlijst toegevoegd: Beleving uitslag DNA sneldiagnostiek
