@@ -40,6 +40,7 @@ respondent_id         | foreign key to respondent who the answers belong to.
 entered_by_id         | foreign key to professional who typed in the answer if the respondent didn't do it directly (so copying from paper or doing an interview)
 questionnaire_key     | roqua-key of questionnaire (in a few cases different from quby-key)
 questionnaire_variant | roqua-key of specific questionnaire variant (e.g. bulk version)
+requester_id          | foreign key to professional who prepared the response in the RoQua epd interface
 observation_time      | deprecated
 
 ### response_values
