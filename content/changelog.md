@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-09-19 {#u20170919}
+
+* vragenlijst toegevoegd: Polikliniek lichttherapie winterdepressie
+* Fout opgelost waardoor de laatst ingevuld datum niet altijd klopte bij het klaarzetten van een lijst
+* Voortaan wordt het team op een response ook gezet als hij is klaargezet vanuit een automatisch protocol (als ze gestart zijn na vandaag).
+
 # 2018-09-13 {#u20190913}
 
 * vragenlijst bijgewerkt (10 eigen vragen toegevoegd): Dagboek fixed design
