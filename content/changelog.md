@@ -17,7 +17,14 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-# 2018-09-19 {#u20170919}
+# 2018-09-25 {u20180925}
+
+* Admin: Lijst vragenlijsten toont nu ook alle lijsten waarvoor betaald moet worden.
+* RoQua verstuurt nu minder ORU berichten waar geen inhoudelijke wijzigingen in zitten ten opzichte van het vorige bericht.
+* Sqlite export bevat nu in de responses tabel een verwijzing naar de medewerker die een response heeft klaargezet (requester_id) (geef ons 2 dagen om hem ook op oude antwoorden te zetten)
+* Laden van vagenlijsten veel sneller gemaakt (vooral te merken na nieuwe deploys)
+
+# 2018-09-19 {#u20180919}
 
 * vragenlijst toegevoegd: Polikliniek lichttherapie winterdepressie
 * Fout opgelost waardoor de laatst ingevuld datum niet altijd klopte bij het klaarzetten van een lijst
