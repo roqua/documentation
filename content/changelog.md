@@ -17,7 +17,14 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
-# 2018-09-25 {u20180925}
+# 2018-09-27 {#u20180927}
+
+* vragenlijst toegevoegd: Avonddagboek onderzoek Chronotherapie
+* vragenlijst bijgewerkt (vraag tekst aangepast): Klanttevredenheidslijst Jongere - Accare
+* vragenlijst bijgewerkt (typefout hersteld): Nederlandse Persoonlijkheidsvragenlijst 2-R
+* vragenlijst bijgewerkt (routering aangepast): F1 05b Uitgewerkte vragenlijsten baseline meting
+
+# 2018-09-25 {#u20180925}
 
 * Admin: Lijst vragenlijsten toont nu ook alle lijsten waarvoor betaald moet worden.
 * RoQua verstuurt nu minder ORU berichten waar geen inhoudelijke wijzigingen in zitten ten opzichte van het vorige bericht.
