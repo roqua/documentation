@@ -30,6 +30,11 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * vragenlijst bijgewerkt (grafieken toegevoegd): PCL-5 - PTSS checklist DSM-5 - versie 1.1
 * vragenlijst bijgewerkt (typefout hersteld): Dagboek fixed design
 * vragenlijst bijgewerkt (intern herschreven): Vier Dimensionele Klachtenlijst
+* vragenlijst bijgewerkt (paar aanpassingen): Dagboek semi-random beep design
+* vragenlijst toegevoegd: 'Medicatie op Maat' in de polikliniek farmacogenetica - Patiënt lijst T2
+* vragenlijst toegevoegd: 'Medicatie op Maat' in de polikliniek farmacogenetica - Vragenlijst apotheker in het UMCG - T2
+* vragenlijst toegevoegd: 'Medicatie op Maat' in de polikliniek farmacogenetica - Vragenlijst deelnemende artsen - T2
+* vragenlijst toegevoegd: 'Medicatie op Maat' in de polikliniek farmacogenetica - Vragenlijst niet-deelnemende artsen
 * Sqlite export: Fixed an error where for bulk-versions, the key of the bulk version was exported as the questionnaire_variant.
 
 # 2018-09-27 {#u20180927}
