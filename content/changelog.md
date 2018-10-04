@@ -17,6 +17,21 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-10-04 {#u20181004}
+
+* vragenlijst toegevoegd: Radiotherapie Neurologie Level III Neurological function
+* vragenlijst toegevoegd: Radiotherapie Neurologie Patient Characteristics
+* vragenlijst toegevoegd: Radiotherapie Neurologie Tumor Characteristics
+* vragenlijst toegevoegd: Radiotherapie Neurologie Level II Endocrine function
+* vragenlijst toegevoegd: Radiotherapie Neurologie Follow Up Status
+* vragenlijst toegevoegd: Radiotherapie Neurologie Level I Clinical status
+* vragenlijst toegevoegd: Radiotherapie Neurologie Treatment Characteristics
+* vragenlijst toegevoegd: Junior Nederlandse Persoonlijkheidsvragenlijst 2 (NPV-J-2)
+* vragenlijst bijgewerkt (grafieken toegevoegd): PCL-5 - PTSS checklist DSM-5 - versie 1.1
+* vragenlijst bijgewerkt (typefout hersteld): Dagboek fixed design
+* vragenlijst bijgewerkt (intern herschreven): Vier Dimensionele Klachtenlijst
+* Sqlite export: Fixed an error where for bulk-versions, the key of the bulk version was exported as the questionnaire_variant.
+
 # 2018-09-27 {#u20180927}
 
 * vragenlijst toegevoegd: Avonddagboek onderzoek Chronotherapie
