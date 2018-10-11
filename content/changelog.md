@@ -19,15 +19,21 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 # 2018-10-11 {#u20181011}
 
-* vragenlijst bijgewerkt (alarm toegevoegd): Vragenlijst over zelfdoding en zelfbeschadiging - screening en vervolgvragen
-* vragenlijst toegevoegd: Vragenlijst naar Zorggebruik, Ziekte en Werk, Deel III
-* vragenlijst toegevoegd: Vragenlijst Toepassen van Ontspanning (VTO)
-* vragenlijst bijgewerkt (typefout): Vragenlijst executieve functies voor 5- tot 18-jarigen - Zelfrapportage (BRIEF)
-* vragenlijst toegevoegd: Vragenlijst naar Zorggebruik, Ziekte en Werk, Deel II
-* vragenlijst toegevoegd: Vragenlijst naar Zorggebruik, Ziekte en Werk, Deel I
-* vragenlijst bijgewerkt (anonymous): 6 DNA-sneldiagnostiek Genetica lijsten
 * vragenlijst toegevoegd: Schokverwerkingsvragenlijst voor kinderen - Ouder-versie 4-18 (SVLK-K)
+* vragenlijst bijgewerkt (anonymous): 6 DNA-sneldiagnostiek Genetica lijsten
+* vragenlijst toegevoegd: Vragenlijst naar Zorggebruik, Ziekte en Werk, Deel I
+* vragenlijst toegevoegd: Vragenlijst naar Zorggebruik, Ziekte en Werk, Deel II
+* vragenlijst bijgewerkt (typefout): Vragenlijst executieve functies voor 5- tot 18-jarigen - Zelfrapportage (BRIEF)
+* vragenlijst toegevoegd: Vragenlijst Toepassen van Ontspanning (VTO)
+* vragenlijst toegevoegd: Vragenlijst naar Zorggebruik, Ziekte en Werk, Deel III
+* vragenlijst bijgewerkt (alarm toegevoegd): Vragenlijst over zelfdoding en zelfbeschadiging - screening en vervolgvragen
+* vragenlijst toegevoegd: Schokverwerkingsvragenlijst voor kinderen - Kind-versie 8-18 (SVLK-K)
+* vragenlijst toegevoegd: Vragenlijst over seksueel functioneren bij vrouwen (FSFI)
+* vragenlijst toegevoegd: Vragenlijst over seksuele onvrede bij vrouwen - Herziene versie (FSDS-R)
+* vragenlijst toegevoegd: Slaap Diagnose Lijst - Insomnie subschaal (SDL-Insomnia)
+* vragenlijst bijgewerkt (optie aangepast): Multidimensional Scale of Perceived Social Support - Trails NEXT
 * Bugfix: Toon geen anonieme antwoorden meer in uitkomst grafieken
+* Het verzenden van een test oru bericht voor een bepaalde vragenlijst via de admin omgeving was stuk. Dit is verbeterd.
 
 # 2018-10-04 {#u20181004}
 
