@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-10-18 {#u20181018}
+
+* Het via de admin omgeving versturen van een test oru bericht voor een vragenlijst deed dit (alsnog) vaak niet, dit is verholpen.
+
 # 2018-10-11 {#u20181011}
 
 * vragenlijst toegevoegd: Schokverwerkingsvragenlijst voor kinderen - Ouder-versie 4-18 (SVLK-K)
