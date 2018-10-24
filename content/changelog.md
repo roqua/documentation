@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-10-24 {#u20181024}
+* Medicatie op maat vragenlijsten zijn nu in Medoq voor deelnemers klaar te zetten (toegevoegd aan 'patient' tabblad)
+* vragenlijst bijgewerkt (extra vraag toegevoegd): Sociale ondersteuning door partner
+* vragenlijst bijgewerkt (inleidende teksten verduidelijkt): ASR en DISP Trails NEXT
+* vragenlijst bijgewerkt (kleine tekst aanpassingen): Langdurige/recente moeilijkheden Trails NEXT
+
 # 2018-10-18 {#u20181018}
 
 * Het via de admin omgeving versturen van een test oru bericht voor een vragenlijst deed dit (alsnog) vaak niet, dit is verholpen.
