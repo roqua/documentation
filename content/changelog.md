@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-10-25 {#u20181025}
+
+* vragenlijst bijgewerkt (typefout): CBCL 1½-5 Trails NEXT
+* vragenlijst bijgewerkt (outcome description aangepast): Autisme Spectrum Vragenlijst
+* vragenlijst bijgewerkt (vraag teksten toegevoegd): Children's Depression Inventory 2 - Zelfrapportagelijst (CDI-2)
+* vragenlijst bijgewerkt (score aangepast): Schokverwerkingsvragenlijst voor kinderen - Kind-versie 8-18 (SVLK-K)
+* vragenlijst bijgewerkt (score aangepast): Schokverwerkingsvragenlijst voor kinderen - Ouder-versie 4-18 (SVLK-K)
+* vragenlijst toegevoegd: The Children's Behavior Questionnaire (CBQ)
+* vragenlijst toegevoegd: SDQ Trails NEXT - Ouder versie
+* vragenlijst toegevoegd: Childhood Executive Function Inventory (CHEXI) Trails NEXT
+
 # 2018-10-24 {#u20181024}
 * Medicatie op maat vragenlijsten zijn nu in Medoq voor deelnemers klaar te zetten (toegevoegd aan 'patient' tabblad)
 * vragenlijst bijgewerkt (extra vraag toegevoegd): Sociale ondersteuning door partner
