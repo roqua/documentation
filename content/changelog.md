@@ -17,6 +17,21 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-11-02 {#u20181102}
+
+* Het vernieuwde TREAT rapport is nu beschikbaar gemaakt voor lentis, ucp, ggz drenthe en ggz friesland.
+* vragenlijst toegevoegd: Intoxicaties Hoofd en Hals Oncologie
+* vragenlijst toegevoegd: Hoofd/hals oncologie - Vragen sociale omstandigheden
+* vragenlijst toegevoegd: Screening valrisico
+* vragenlijst toegevoegd: Beoordeling Delirium
+* vragenlijst toegevoegd: Instrumentele Algemene Dagelijkse Levensverrichtingen (iADL)
+* vragenlijst toegevoegd: Timed Up & Go Test (2 metingen)
+* vragenlijst bijgewewrkt (copyright aangepast): Schokverwerkingsvragenlijst voor kinderen - Ouder-versie 4-18 (SVLK-K)
+* vragenlijst bijgewewrkt (copyright aangepast): Schokverwerkingsvragenlijst voor kinderen - Kind-versie 8-18 (SVLK-K)
+* vragenlijst bijgewewrkt (copyright aangepast): Junior Nederlandse Persoonlijkheidsvragenlijst 2 (NPV-J-2)
+* vragenlijst bijgewewrkt (titel en extra normen): Depression Anxiety Stress Scales (DASS-21) versie 2010
+* vragenlijst toegevoegd: Ervaringenlijst Beschermd wonen - Versie 2.1 (CQi)
+
 # 2018-10-25 {#u20181025}
 
 * vragenlijst bijgewerkt (typefout): CBCL 1½-5 Trails NEXT
