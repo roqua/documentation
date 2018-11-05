@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-11-05 {#u20181105}
+
+* Twee fouten aan het Treat rapport zijn nu verbeterd.
+
 # 2018-11-02 {#u20181102}
 
 * Het vernieuwde TREAT rapport is nu beschikbaar gemaakt voor lentis, ucp, ggz drenthe en ggz friesland.
