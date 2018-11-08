@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-11-08 {#u20181108}
+
+* Versie updates van bibliotheken om security vulnerabilities te verhelpen
+* vragenlijst bijgewerkt (score berekening aangepast): Short Form 12 versie 2 (voorheen SF-6D)
+* vragenlijst bijgewerkt (vragen op verplicht gezet): Münchener Chronotype Vragenlijst (MCTQs-NL) incl. SI en SQ
+* vragenlijst bijgewerkt (diverse aanpassingen): Gestandaardiseerde Mini-Mental State Examiniation (MMSE)
+* vragenlijst toegevoegd: Hostility vragenlijst - Trails NEXT
+* vragenlijst toegevoegd: Barthel Index (BI)
+* vragenlijst bijgewerkt (typo): Ervaringenlijst Beschermd wonen - Versie 2.1 (CQi)
+* vragenlijst toegevoegd: Radiotherapie Medische Voorgeschiedenis
+* vragenlijst toegevoegd: Vragenlijst over emotieregulatie bij kinderen en jongeren (FEEL-KJ)
+
 # 2018-11-05 {#u20181105}
 
 * Twee fouten aan het Treat rapport zijn nu verbeterd.
