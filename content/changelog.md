@@ -19,7 +19,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 # 2018-11-22 {#u20181122}
 
-* Het is nu mogelijk om in de admin omgeving bij uitnodigingstemplates meerdere gekoppelde protocollen te kiezen. Als "Toon template alleen voor gekoppelde protocollen" wordt aangevinkt zal het uitnodigingstemplate niet bij automatische protocollen anders dan de gekozen protocollen te zien zijn. Wat betreft handmatig klaarzetten van lijsten zal deze optie het template weghalen onder het kopje 'Generieke templates'.
+* Het is nu mogelijk om in de admin omgeving bij uitnodigingstemplates meerdere gekoppelde protocollen te kiezen. Als "Toon template alleen voor gekoppelde protocollen" wordt aangevinkt zal het uitnodigingstemplate niet bij automatische protocollen anders dan de gekozen protocollen te zien zijn. Wat betreft handmatig aanmaken van uitnodigingen zal deze optie het template weghalen onder het kopje 'Generieke templates'.
 * vragenlijst toegevoegd: A trial Fibrillation Effect on QualiTy-of-life Questionnaire (AFEQT)
 * vragenlijst toegevoegd: Vragenlijst voor mensen met een beenamputatie - Nazorg
 * vragenlijst toegevoegd: Somatic Symptom Disorder Attitude questionnaire
