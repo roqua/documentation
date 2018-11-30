@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-11-29 {#u20181129}
+* De labels "Klinisch/Niet klinisch" bij grafieken met een normwaarde worden nu ook op de juiste plek geplaatst als de grafiek niet bij 0 begint. De normwaarde (de scheiding tussen kleurgebieden) lag al wel op de correcte waarde.
+* Hyperlinks (zoals de inlogcode) in gedownloadde Word uitnodigingsbrieven worden voortaan in zwart getoond.
+* In de emailfouten pagina van de admin omgeving werd de kolom 'verzonden door' alsnog niet gevuld in het geval van automatische protocollen, dit is vanaf deze uitrol voor nieuw verstuurde mails opgelost
+
 # 2018-11-22 {#u20181122}
 
 * Het is nu mogelijk om in de admin omgeving bij uitnodigingstemplates meerdere gekoppelde protocollen te kiezen. Als "Toon template alleen voor gekoppelde protocollen" wordt aangevinkt zal het uitnodigingstemplate niet bij automatische protocollen anders dan de gekozen protocollen te zien zijn. Wat betreft handmatig aanmaken van uitnodigingen zal deze optie het template weghalen onder het kopje 'Generieke templates'.
@@ -41,7 +46,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 # 2018-11-16 {#u20181116}
 
 * Probleem waarbij ingevulde phamous labwaarden in het TREAT rapport als niet ingevuld werden gezien is opgelost.
-* In de emailfouten pagina van de admin omgeving werd de kolom 'verzonden door' niet gevuld, dit is vanaf deze uitrol voor nieuw verstuurde mails verstuurd opgelost
+* In de emailfouten pagina van de admin omgeving werd de kolom 'verzonden door' niet gevuld, dit is vanaf deze uitrol voor nieuw verstuurde mails opgelost
 * vragenlijst bijgewerkt (grafiek toegevoegd): EuroQol EQ-6D
 * vragenlijst bijgewerkt (score berekeningen aangepast): PCL-5 - PTSS checklist DSM-5 - versie 1.1
 * vragenlijst bijgewerkt (score berekeningen aangepast): Multidimensionele Vermoeidheids Index (MVI-20)
