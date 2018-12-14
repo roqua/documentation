@@ -17,6 +17,41 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2018-12-14 {#u20181214}
+
+* MATE vragenlijsten bleken gebaseerd op versie 2.0. Versienummer is toegevoegd aan deze vragenlijsten om dit aan te geven.
+* vragenlijst toegevoegd: Nederlandse vragenlijst voor eetgedrag bij kinderen - Zelfrapportage (NVE-K)
+* vragenlijst toegevoegd: Nederlandse vragenlijst voor eetgedrag bij kinderen - Ouderrapportage (NVE-K)
+* vragenlijst toegevoegd: De Zelfredzaamheidschaal voor jeugdigen (ZRJ) Uitwonend
+* vragenlijst toegevoegd: De Zelfredzaamheidschaal voor jeugdigen (ZRJ) Thuiswonend
+* vragenlijst bijgewerkt (inleiding aangepast): Hospital Anxiety and Depression Scale (HADS)
+* vragenlijst toegevoegd: Neuropathic Pain diagnostic questionnaire (DN4) - 10 item Zelfrapportage
+* vragenlijst toegevoegd: Group Climate Questionnaire (GCQ-S)
+* vragenlijst toegevoegd: Verstaanbaarheid in de context (ICS)
+* vragenlijst toegevoegd: Nasal Obstruction Symptom Evaluation (NOSE) - ouder versie
+* vragenlijst toegevoegd: Oral Symptoms Scale (OSS)
+* vragenlijst toegevoegd: Nasal Obstruction Symptom Evaluation (NOSE)
+* vragenlijst bijgewerkt: MATE 1: Middelen: Gebruik
+* vragenlijst bijgewerkt (HTML verwijderd): Utrechtse Schaal voor Evaluatie van Revalidatie-Participatie (USER-P)
+* vragenlijst bijgewerkt (HTML verwijderd): USER-P voor donoren Transplantlines
+* vragenlijst toegevoegd: Limited Reparenting-Refamilying Questionnaire (LRRQ)
+* vragenlijst toegevoegd: FACT Jeugd - Vragenlijst Zorggebruik Follow-up
+* vragenlijst toegevoegd: Cliënttevredenheid ouder/verzorger FACT-jeugd - Follow-up
+* vragenlijst toegevoegd: Suicidal Ideation Attributes Scale (SIDAS)
+* vragenlijst bijgewerkt (sneltoetsen aan): The Warwick-Edinburgh Mental Well-being Scale (WEMWBS)
+* vragenlijst bijgewerkt (sneltoetsen aan): Brief Symptom Inventory (BSI)
+* vragenlijst bijgewerkt (sneltoetsen aan): Multidimensional Assessment of Interoceptive Awareness (MAIA) versie Scheffers, Bosscher, & van Dixhoorn
+* vragenlijst bijgewerkt (sneltoetsen aan): Vragenlijst alcohol gebruik - NL versie Schippers & Broekman
+* vragenlijst bijgewerkt (sneltoetsen aan): Lichamelijke activiteit - SFT trial
+* vragenlijst bijgewerkt: Persoonlijkheidsvragenlijst SIPP-SF (verkorte versie)
+* vragenlijst bijgewerkt: Vragen over het meegemaakt hebben van traumatische gebeurtenissen
+* vragenlijst toegevoegd: Medication Adherence Report Scale (MARS) 6 item versie
+* vragenlijst toegevoegd: Vragenlijst over pesten  - Leerkracht versie
+* vragenlijst toegevoegd: Cystic Fibrosis Vragenlijst (CFQ-R) - algemene vragen selfreport en interview
+* vragenlijst toegevoegd: Oor gezondheidsvragenlijst MKA
+* vragenlijst bijgewerkt: Vragenlijst werkhervatting TOP onderzoek CIP
+* vragenlijst bijgewerkt: Vragen over het verbreken van de relatie
+
 # 2018-12-06 {#u20181206}
 * De vereiste om een geboortejaar op te geven op de verwijderingsverzoeken pagina is weggehaald. Het blijft sterk aangeraden om het geboortejaar op te geven bij een verwijderingsverzoek zodat wij kunnen controleren of het verwijderingsverzoek voor het juiste dossier wordt ingediend.
 * vragenlijst toegevoegd: ACE-27
