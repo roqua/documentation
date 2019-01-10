@@ -19,26 +19,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 # 2019-01-10 {#u20190110}
 
-* vragenlijst bijgewerkt (diverse aanpassingen): Somatic Symptom Disorder Attitude questionnaire
-* vragenlijst bijgewerkt (minor aanpassingen): Medical Consumption Questionnaire (iMCQ) tijdsperiode 10 weken
-* vragenlijst bijgewerkt (minor aanpassingen): Medical Consumption Questionnaire (iMCQ)
-* vragenlijst bijgewerkt (tekstuele aanpassingen): Productivity Costs Questionnaire (iPCQ)
-* vragenlijst bijgewerkt (aangepast voor 2019): Functionele Remissie
-* vragenlijst toegevoegd: VAS-scale symptom intensity & interference due to symptoms
-* vragenlijst bijgewerkt (aangepast voor 2019): Reden No-Show 2016-2019
-* vragenlijst bijgewerkt (aangepast voor 2019): Phamous Conclusie en Beleid 2016-2019
-* vragenlijst bijgewerkt (aangepast voor 2019): Phamous GAF 2016-2019
-* vragenlijst bijgewerkt (aangepast voor 2019): Phamous Lichamelijk Onderzoek 2016-2019
-* vragenlijst bijgewerkt (aangepast voor 2019): Phamous Medicatie 2016-2019
-* vragenlijst bijgewerkt (hotkeys aan): LASA Lichamelijke gezondheid
-* vragenlijst bijgewerkt (aangepast voor 2019): Phamous Algemeen 2016-2019
-* vragenlijst bijgewerkt (paar minor tekst aanpassingen): Basisanamnese Demografische gegevens
-* vragenlijst bijgewerkt (o.a. validaties toegevoegd): Medicatie en behandeling Mophar
-* vragenlijst bijgewerkt (optie toegevoegd): GGZ Centraal - adolescenten met borderline persoonlijkheidsstoornis - jongeren
-* vragenlijst bijgewerkt (minor tekst aanpassing): Algemene vragen deelnemers GRIP
-* vragenlijst bijgewerkt (vraag verwijderd): Determinants of Implementation Behaviour Questionnaire (DIBQ) versie GRIP
-* vragenlijst bijgewerkt (respondent type aangepast): Vragenlijst over emotieregulatie bij kinderen en jongeren (FEEL-KJ)
-* vragenlijst bijgewerkt (inleiding aangepast): E-health attitude Questionnaire versie GRIP
+* rapport toegevoegd: Phamous rapport huisarts 2019 en berekeningen
 
 # 2018-12-20 {#u20181220}
 
