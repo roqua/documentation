@@ -17,6 +17,26 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-01-11 {#u20190111}
+
+* API: access denied foutmeldingen geven nu een reden terug
+* vragenlijst bijgewerkt (code optimalisatie): Medicatie en behandeling Mophar
+* vragenlijst toegevoegd: Welbevinden DNA sneldiagnostiek
+* vragenlijst toegevoegd: MATE versie 2.1 - 1: Middelen: Gebruik
+* vragenlijst bijgewerkt (domeinen ingesteld): Dagboek semi-random beep design
+* vragenlijst toegevoegd: Davos Assessment van Cognitieve Biases Schaal (DACOBS)
+* vragenlijst toegevoegd: Green Achterdochtige Gedachten Schaal (GPTS)
+* vragenlijst toegevoegd: Pediatrische Vragenlijst Kwaliteit van Leven voor tieners van 13-18 jaar - Ouderrapportage (PedsQL 4.0)
+* vragenlijst toegevoegd: Pediatrische Vragenlijst Kwaliteit van Leven voor kinderen van 8-12 jaar - Ouderrapportage (PedsQL 4.0)
+* vragenlijst toegevoegd: Pediatrische Vragenlijst Kwaliteit van Leven voor tieners van 13-18 jaar - Zelfrapportage (PedsQL 4.0)
+* vragenlijst toegevoegd: Pediatrische Vragenlijst Kwaliteit van Leven voor kinderen van 8-12 jaar - Zelfrapportage (PedsQL 4.0)
+* vragenlijst toegevoegd: Dagboek Vermoeidheid MATCH studie (AMC)
+* vragenlijst toegevoegd: Dagboek Depressie MATCH studie (AMC)
+* vragenlijst toegevoegd: Dagboek Angst voor terugkeer MATCH studie (AMC)
+* vragenlijst toegevoegd: Algemene opmerkingen patientvragenlijst (anoniem)
+* vragenlijst toegevoegd: Phamous Labbepalingen 2018/2019
+
+
 # 2019-01-10 {#u20190110}
 
 * rapport toegevoegd: Phamous rapport huisarts 2019 en berekeningen
