@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-01-18 {#u20190118}
+
+* Het Treat rapport is geschikt gemaakt voor de Phamous 2019 metingen.
+* vragenlijst bijgewerkt (titel aangepast): Tevredenheid met Accare - Jongere (12 t/m 17 jaar)
+* vragenlijst toegevoegd: Vulva-poli - Deel 5 - Irritantia - Allergenen
+* vragenlijst toegevoegd: Vulva-poli - Deel 4 - Partner-Vrijen-Anticonceptie-Bevallingen incl FSFI en FSD-R
+* vragenlijst toegevoegd: Vulva-poli - Deel 3 - Urinewegen-Menstruatie
+* vragenlijst toegevoegd: Internationale Prostaat Symptoom Score (IPSS)
+* vragenlijst toegevoegd: Trauma Therapie Studie - onderzoeksnummer en SCIL
+* vragenlijst bijgewerkt (titel aangepast): Tevredenheid met Accare - Ouders (kinderen 0 - 15 jaar)
+
 # 2019-01-11 {#u20190111}
 
 * API: access denied foutmeldingen geven nu een reden terug
