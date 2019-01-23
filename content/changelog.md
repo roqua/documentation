@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-01-23 {#u20190123}
+
+* Fout verbeterd waarbij extra teksten voor rapporten wegvielen na hergenereren van het rapport.
+* Verbeterde weergave van flags bij bekijken van een protocolsubscriptie.
+
 # 2019-01-18 {#u20190118}
 
 * Het Treat rapport is geschikt gemaakt voor de Phamous 2019 metingen.
