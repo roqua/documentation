@@ -17,6 +17,31 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-01-25 {#u20190125}
+
+* vragenlijst bijgewerkt (tekst aangepast): Vulva-poli - Deel 5 - Irritantia - Allergenen
+* vragenlijst bijgewerkt (vragen op verplicht gezet): Vulva-poli - Deel 4 - Partner-Vrijen-Anticonceptie-Bevallingen incl FSFI en FSD-R
+* vragenlijst toegevoegd: Vulva-poli - Deel 2 - Hoofdklacht
+* vragenlijst toegevoegd: Vulva-poli - Deel 1 - Algemeen
+* vragenlijst bijgewerkt: Neuropathic Pain diagnostic questionnaire (DN4) - 10 item Zelfrapportage
+* vragenlijst toegevoegd: Pijnrevalidatie Beatrixoord - Leefsituatie, opleiding en werk
+* vragenlijst toegevoegd: Pijnrevalidatie Uitkomstmaten Follow-up
+* vragenlijst toegevoegd: Pijnrevalidatie Beatrixoord - Overige vragen intake
+* vragenlijst toegevoegd: Pijnrevalidatie Beatrixoord - Onderzoek en behandeling tot nu toe
+* vragenlijst toegevoegd: Pijnrevalidatie Beatrixoord Algemene pijnvragen
+* vragenlijst toegevoegd: Young Schema Questionnaire - Verkorte versie (90 items - 18 schema's) - Schematherapie en Depressie onderzoek
+* vragenlijst toegevoegd: Schema Mode Inventory (versie 1) - Schematherapie en Depressie onderzoek
+* vragenlijst toegevoegd: Schema Coping Vragenlijst - Schematherapie en Depressie onderzoek
+* vragenlijst toegevoegd: Invulinstructie - Schematherapie en Depressie onderzoek
+* vragenlijst toegevoegd: Inventory of Depressive Symptoms - Clinician rated (IDS-C) - Schematherapie en Depressie onderzoek
+* vragenlijst bijgewerkt (teksten aangepast): Dagboek Depressie MATCH studie (AMC)
+* vragenlijst bijgewerkt (teksten aangepast): Dagboek Angst voor terugkeer MATCH studie (AMC)
+* vragenlijst bijgewerkt (ochtend- avond-vlaggen toegevoegd): Dagboek Vermoeidheid MATCH studie (AMC)
+* vragenlijst bijgewerkt (interpretatie labels aangepast): PCL-5 - PTSS checklist DSM-5 - versie 1.1
+* vragenlijst toegevoegd: Screening PRINCE studie
+* vragenlijst bijgewerkt (inleiding aangepast): Pain Catastrophizing Scale (PCS) Dutch Version
+* vragenlijst bijgewerkt (gemiddeldes toegevoegd): Difficulties in Emotion Regulation Scale (DERS)
+
 # 2019-01-23 {#u20190123}
 
 * Fout verbeterd waarbij extra teksten voor rapporten wegvielen na hergenereren van het rapport.
