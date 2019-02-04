@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-02-04 {#u20190204}
+
+* Bugfix: Toon alle medicatie in het rapport Phamous Huisarts 2019
+
 # 2019-01-31 {#u20190131}
 * Als een emailadres wordt verwijderd in het EPD of in Medoq zal dit er nu voor zorgen dat er geen emails meer worden uitgezonden naar dat adres en het adres uit RoQua verwijderd wordt. Automatische protocollen blijven in een dergelijk geval nog steeds actief vragenlijsten klaarzetten, enkel het uitzenden van emails wordt hier door beinvloed.
 * vragenlijst bijgewerkt (diverse aanpassingen): Vulva-poli - Deel 2 - Hoofdklacht
