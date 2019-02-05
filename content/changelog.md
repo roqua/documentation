@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-02-05 {#u20190205}
+
+* vragenlijst bijgewerkt (floats ipv integers): Asthma Control Questionnaire (ACQ)
+* vragenlijst bijgewerkt (bug fix): Vulva-poli - Deel 4 - Partner-Vrijen-Anticonceptie-Bevallingen incl FSFI en FSD-R
+* vragenlijst bijgewerkt (interpretatie toegevoegd): Transplant Effects Questionnaire (TxEQ)
+
 # 2019-02-04 {#u20190204}
 
 * Bugfix: Toon alle medicatie in het rapport Phamous Huisarts 2019
