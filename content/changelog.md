@@ -17,6 +17,15 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-02-07 {#u20190207}
+
+* vragenlijst toegevoegd: Working Alliance Inventory-Short Revised (WAI-SR)
+* vragenlijst toegevoegd: Dysfunctional Attitudes Scale (DAS-A-17)
+* vragenlijst toegevoegd: Therap-i Langdurige moeilijkheden (LLDQ)
+* vragenlijst bijgewerkt (dubbele spatie): Beoordeling Delirium
+* vragenlijst bijgewerkt (tekst aanpassing): Utrechtse Schaal voor Evaluatie van Revalidatie (USER)
+* vragenlijst bijgewerkt (typefout): Structured Clinical Interview DSM 5 Persoonlijkheidsvragenlijst (SCID-5-PV)
+
 # 2019-02-05 {#u20190205}
 
 * vragenlijst bijgewerkt (floats ipv integers): Asthma Control Questionnaire (ACQ)
