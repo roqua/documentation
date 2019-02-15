@@ -17,6 +17,18 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-02-15 {#u20190215}
+
+* vragenlijst toegevoegd: Patient Benefit Index - Standard (PBI-S)
+* vragenlijst bijgewerkt (velden aangepast): Radiotherapie Risicofactoren (half)jaarlijkse follow-up
+* vragenlijst bijgewerkt (aanpassing inleiding): Radiotherapie Hart- en longziekten (half)jaarlijkse follow-up
+* vragenlijst bijgewerkt (aanpassing inleiding): Hospital Anxiety and Depression Scale (HADS)
+* vragenlijst toegevoegd: Transplantlines zorgen over de donatie
+* vragenlijst toegevoegd: Transplantlines verwachtingen van donatie
+* vragenlijst toegevoegd: Transplantlines beweegredenen voor donatie
+* vragenlijst toegevoegd: Transplantlines beslissing om te doneren (Regret scale)
+* vragenlijst toegevoegd: Transplantlines terugblik op de donatie
+
 # 2019-02-12 {#u20190212}
 
 * Fixed issue met ordening van lijsten bij direct invullen.
