@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-02-26 {#u20190226}
+
+* Verwijderingsverzoeken ingediend via de admin omgeving kunnen nu worden uitgevoerd door het RoQua team.
+* vragenlijst toegevoegd: Verkorte Nederlandse Persoonlijkheidsvragenlijst (VNPV)
+* vragenlijst toegevoegd: Dutch Measure for quantification of Treatment Resistance in Depression (DM-TRD)
+* vragenlijst toegevoegd: Leuven Itch Scale (LIS)
+* vragenlijst toegevoegd: Schema Mode Inventory (versie 1) - Schematherapie en Depressie onderzoek
+* vragenlijst bijgewerkt (eigen-vraag formuleringen aangepast): Diary Flexible Interface Therap-i (FIT)
+* vragenlijst bijgewerkt (eigen-vraag formuleringen aangepast): Diary Flexible Interface Therap-i (FIT)
+* vragenlijst bijgewerkt (descriptions toegevoegd): Vulva-poli - Deel 2 - Hoofdklacht
+
 # 2019-02-15 {#u20190215}
 
 * vragenlijst toegevoegd: Patient Benefit Index - Standard (PBI-S)
