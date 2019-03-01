@@ -17,6 +17,17 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-03-01 {#u20190301}
+* Indien de tijd van de pc van de gebruiker achterloopt konden er voor net klaargezette lijsten een aantal rijen aan 'Invulbaar vanaf' momenten komen te staan. Dit had geen invloed op de invulbaarheid. De rijen aan momenten zijn teruggebracht tot 1 moment.
+* vragenlijst toegevoegd: Therap-i Happiness Index
+* vragenlijst toegevoegd: Therap-i Demographics
+* vragenlijst bijgewerkt: Basisanamnese Medicatie en behandeling huidige klachten
+* vragenlijst toegevoegd: Questionnaire Self-management in Recovery of Depression (QSRD)
+* vragenlijst toegevoegd: Codeerblad RAF GGZ Jeugd - QM versie 2013
+* vragenlijst bijgewerkt: Patient Benefit Index - Standard (PBI-S)
+* vragenlijst toegevoegd: Patiënten gezondheidsvragenlijst - 2 items
+* Snelheidsoptimalisatie voor het ophalen van invullingen via de api
+
 # 2019-02-26 {#u20190226}
 
 * Verwijderingsverzoeken ingediend via de admin omgeving kunnen nu worden uitgevoerd door het RoQua team.
