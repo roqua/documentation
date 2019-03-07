@@ -17,6 +17,23 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-03-07 {#u20190307}
+
+* vragenlijst toegevoegd: CSP-DNA dagboek
+* vragenlijst bijgewerkt (values aangepast): Vragenlijst over pesten - Leerkracht versie
+* vragenlijst toegevoegd: Bekkenpijncentrum Defecatie Man
+* vragenlijst toegevoegd: Bekkenpijncentrum Mictieverloop Man
+* vragenlijst toegevoegd: Bekkenpijncentrum Bekkenbodempijn, seksuele disfunctie man
+* vragenlijst toegevoegd: Bekkenpijncentrum Aanvullende anamnese man
+* vragenlijst toegevoegd: Centrum voor Pijn UMCG Middelengebruik
+* vragenlijst toegevoegd: Centrum voor Pijn - Rode vlaggen
+* vragenlijst toegevoegd: Borderline Personality Disorder Severity Index (BPDSI)
+* vragenlijst bijgewerkt (vraag toegevoegd): Pijncentrum UMCG evaluatie invullen vragenlijst
+* vragenlijst bijgewerkt (paar vragen op hidden gezet): Sociale leven en werkzaamheden Pijncentrum
+* vragenlijst bijgewerkt (nu ook alleen jaartallen invullen): Centrum voor Pijn UMCG Algemene vragen
+* vragenlijst bijgewerkt (BMI toegevoegd): Persoonsgegevens PROM Kwaliteitsregistratie Pijngeneeskunde
+* vragenlijst bijgewerkt (interpretatie toegevoegd): Hospital Anxiety and Depression Scale (HADS) - Versie Spinhoven et al
+
 # 2019-03-01 {#u20190301}
 * Indien de tijd van de pc van de gebruiker achterloopt konden er voor net klaargezette lijsten een aantal rijen aan 'Invulbaar vanaf' momenten komen te staan. Dit had geen invloed op de invulbaarheid. De rijen aan momenten zijn teruggebracht tot 1 moment.
 * vragenlijst toegevoegd: Therap-i Happiness Index
