@@ -20,6 +20,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 # 2019-03-20 {#u20190320}
 
 * Alle bulk lijsten zijn uit de protocollen gehaald. Dit ter voorbereiding op het samenvoegen van deze lijsten met hun normale lijsten.
+* Admin dashboard statistieken sneller gemaakt.
 * vragenlijst toegevoegd: Patient Benefit Index - Standard (PBI-S) - Nut van de behandeling
 * vragenlijst toegevoegd: Patient Benefit Index - Standard (PBI-S) - Belang van behandeldoelen
 * vragenlijst toegevoegd: Mini-Cog screener voor dementie
