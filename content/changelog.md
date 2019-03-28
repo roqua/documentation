@@ -17,6 +17,22 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-03-28 {#u20190328}
+
+* performance verbeterd in de uitkomstenpagina voor dossiers met veel invullingen
+* automatisch protocollen: optie voor starttijd toegevoegd aan de random scheduler
+* vragenlijst toegevoegd: Demografische gegevens FRAIL studie UMCG
+* vragenlijst bijgewerkt: Dagboek Angst voor terugkeer MATCH studie (AMC)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Lichaamsbeweging - Lengte en gewicht)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Financien)
+* vragenlijst toegevoegd: Vragenlijst Sociale Communicatie - Huidige toestand (SCQ)
+* vragenlijst toegevoegd: Neuropsychiatrische Vragenlijst-Questionnaire voor Dementie (NPI-Q)
+* vragenlijst toegevoegd: Lichamelijke Vaardigheden Schaal (LIVAS)
+* vragenlijst bijgewerkt (typo's): Radiotherapie Medische Voorgeschiedenis
+* vragenlijst bijgewerkt (2 vragen onderdrukt): Transplantlines nierdonatie - Pijnklachten op dit moment
+* vragenlijst toegevoegd: Body Investement Scale (BIS)
+* vragenlijst toegevoegd: C4EB Medicatie vragenlijst
+
 # 2019-03-20 {#u20190320}
 
 * Alle bulk lijsten zijn uit de protocollen gehaald. Dit ter voorbereiding op het samenvoegen van deze lijsten met hun normale lijsten.
