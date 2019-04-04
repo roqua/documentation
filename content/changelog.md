@@ -17,6 +17,22 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-04-04 {#u20190404}
+
+* Sortering van email bounces in de admin omgeving is hersteld
+* vragenlijst toegevoegd: Therap-i Medicatie en behandeling
+* vragenlijst toegevoegd: Algemene vragen onderzoek 'Mentale gezondheid op de werkvloer'
+* vragenlijst bijgewerkt (titels aangepast): Pijn Expertise Centrum UMCG Sociaal Leven
+* vragenlijst bijgewerkt (private gezet en respondent aangepast): Patiënten gezondheidsvragenlijst - 2 items
+* vragenlijst bijgewerkt (private gezet en respondent aangepast): Screening valrisico
+* vragenlijst toegevoegd: Werkbeleving - Utrechtse Bevlogenheids Schaal (UBES)
+* vragenlijst toegevoegd: Vragen over algemene gezondheid
+* vragenlijst toegevoegd: Relatie met direct leidinggevende, relaties met collega's
+* vragenlijst toegevoegd: Charlson Comorbiditeit Index (CCI)
+* vragenlijst toegevoegd: VBBA onderdelen: Leermogelijkheden, Afwisseling, Toekomstonzekerheid
+* vragenlijst toegevoegd: VBBA onderdelen: Werktempo, Werkhoeveelheid, Zelfstandheid in het werk
+* vragenlijst toegevoegd: VBBA onderdelen: Geestelijke belasting, Emotionele belasting en Lichamelijke inspanning
+
 # 2019-03-28 {#u20190328}
 
 * performance verbeterd in de uitkomstenpagina voor dossiers met veel invullingen
