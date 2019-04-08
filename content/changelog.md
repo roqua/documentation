@@ -19,6 +19,9 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 # 2019-04-08 {#u20190408}
 
+* vragenlijst toegevoegd: PIE=M Diagnose
+* vragenlijst toegevoegd: Physical Activity Readiness Questionnaire (PAR-Q)
+* vragenlijst toegevoegd: PIE=M Algemene Vragen
 * vragenlijst bijgewerkt (vraag aangepast): Nederlandse Verkorte MMPI (NVM) Persoonlijkheidskenmerken
 
 # 2019-04-04 {#u20190404}
