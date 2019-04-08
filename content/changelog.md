@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-04-08 {#u20190408}
+
+* vragenlijst bijgewerkt (vraag aangepast): Nederlandse Verkorte MMPI (NVM) Persoonlijkheidskenmerken
+
 # 2019-04-04 {#u20190404}
 
 * Sortering van email bounces in de admin omgeving is hersteld
