@@ -19,10 +19,10 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
 # 2019-04-10 {#u20190410}
 
-* Het is nu mogelijk om per protocolmeting een afwijkend respondenttype voor vragenlijsten in te stellen. De lijst wordt dan onder een andere respondentsoorttabs aangeboden voor die protocolmeting.
 * Automatische dagboekprotocollen die over middernacht heen vragenlijsten klaar zetten zonden de notificaties niet uit voor de lijsten na middernacht. Dit is verbeterd.
 
 Technisch: 
+* Performance in uitkomstenpagina verder verbeterd.
 * Excepties bij het aanmaken van de SQL exports zorgen er nu voor dat het maken van die SQL export wordt uitgesteld.
 
 # 2019-04-08 {#u20190408}
