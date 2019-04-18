@@ -17,6 +17,9 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-04-18 {#u20190418}
+
+
 # 2019-04-10 {#u20190410}
 
 * Automatische dagboekprotocollen die over middernacht heen vragenlijsten klaar zetten zonden de notificaties niet uit voor de lijsten na middernacht. Dit is verbeterd.
