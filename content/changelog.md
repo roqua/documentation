@@ -17,6 +17,11 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-04-19 {#u20190419}
+
+* Caps 5 totaalscore bevatte een fout, deze is verbeterd
+* Performance voor rapporten en de uitkomsten pagina is verbeterd
+
 # 2019-04-18 {#u20190418}
 
 * De print knop bij invullingen is vervangen door een 'download als pdf' knop. Het pdf bestand is betrouwbaarder dan internetbrowsers bij het printen.
