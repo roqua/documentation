@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-04-26 {#u20190426}
+
+* Vragenlijsten zonder complete invullingen werden getoond in het selectiemenu in het uitkomstenscherm. Dit is verbeterd.
+
 # 2019-04-25 {#u20190425}
 
 * vragenlijst toegevoegd: PIE=M Informed Consent
