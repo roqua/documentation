@@ -17,6 +17,22 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-05-02 {#u20190502}
+
+* vragenlijst bijgewerkt: Jongerenvragenlijst TRAILS T7 (Financien)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Werk-privé balans en Beleving van werk)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Werk partner)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Werkverleden)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Introductie, Algemeen en Opleiding)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Zorggebruik)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Evaluatie - Partnervraag)
+* vragenlijst toegevoegd: Tevredenheid met werk (MANSA aanvulling)
+* vragenlijst bijgewerkt: Mood Disorder Questionnaire (MDQ-NL)
+* vragenlijst bijgewerkt (vraag verplaatst): Diary Flexible Interface Therap-i (FIT)
+* Phamous 2019 report: Show missing antipsychotic depot 2 medication
+* Phamous 2019 report: Hide sections without answers
+
+
 # 2019-04-26 {#u20190426}
 
 * Vragenlijsten zonder complete invullingen werden getoond in het selectiemenu in het uitkomstenscherm. Dit is verbeterd.
