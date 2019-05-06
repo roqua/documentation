@@ -2,9 +2,6 @@ source "http://rubygems.org"
 
 gem 'nanoc', '~> 3.8'
 
-# For deployment
-gem 'fog'
-
 gem 'builder'
 gem 'coderay'
 gem 'kramdown'
