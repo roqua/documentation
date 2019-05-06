@@ -1,0 +1,39 @@
+<%= render 'en/_head' %>
+
+<%
+  # Autodiscover current section by traversing up the parent stack until we meet a parent
+  # that has a short enough URL to be a section document
+  @section = @item
+  while @section.identifier.count("/") > 3
+    @section = @section.parent
+  end
+%>
+
+
+<body class="rom">
+  <%= render 'en/_header' %>
+
+  <div class="sub-nav">
+    <h2>
+      <strong><%= @section[:title] %></strong>
+      <%= ": #{@item[:title]}" if @item != @section %>
+      <%= status_label(@item) %>
+    </h2>
+  </div>
+
+  <div id="wrapper">
+    <div class="content">
+      <%= yield %>
+    </div>
+
+    <div id="js-sidebar" class="sidebar-shell">
+      <%= sidebar(@item) %>
+      <div class="sidebar-module notice">
+        <p>This website is a <a href="https://github.com/roqua/developer" target="_blank">public GitHub repository</a>. Please help us by forking the project and adding to it.</p>
+      </div>
+    </div><!-- /sidebar-shell -->
+  </div><!-- #wrapper -->
+
+  <%= render 'en/_footer' %>
+</body>
+</html>

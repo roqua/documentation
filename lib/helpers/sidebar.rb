@@ -26,7 +26,7 @@ module SidebarHelper
   def sidebar(item)
     area = item
     ancestors = [area]
-    while area.identifier.count("/") > 2
+    while area.identifier.count("/") > 3
       area = area.parent
       ancestors << area
     end

@@ -24,7 +24,8 @@ compile '*' do
     filter :erb
     filter :kramdown, :toc_levels => [2,3], input: 'GFM', hard_wrap: false
     filter :colorize_syntax, :colorizers => {:javascript => :pygmentsrb}
-    layout item[:layout] || 'default'
+    language = item.identifier&.split('/')[1]
+    layout item[:layout] || "#{(language&.size&.> 0) ? "#{language}/default" : 'none'}"
     filter :relativize_paths, :type => :html
   end
 end

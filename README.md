@@ -12,4 +12,4 @@ Running guard start a local server and recompiles the doc files when changed.
 
 ### Publish to http://docs.roqua.net
 
-The rendered version is hosted in an S3 bucket. CircleCI will deploy there when all tests pass.
+The rendered version is hosted from Gitlab.
