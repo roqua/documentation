@@ -17,6 +17,24 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-05-09 {#u20190509}
+
+* vragenlijst toegevoegd: Accare inleidende tekst
+* vragenlijst toegevoegd: Eating Disorders Inventory 3 (EDI-3)
+* vragenlijst toegevoegd: Beck Depression Inventory Second edition - Nederlandse versie – Herziene editie (BDI-II-NL-R)
+* vragenlijst bijgewerkt: Vragenlijst insectenallergie UMCG
+* vragenlijst bijgewerkt: CSP-DNA dagboek
+* vragenlijst bijgewerkt: Vragenlijst voor ouders naar gezondheid en welzijn van kinderen
+* vragenlijst bijgewerkt: Vragenlijst naar gezondheid en welzijn van kinderen
+* vragenlijst toegevoegd: Multidimensional Assessment of Interoceptive Awareness, Version 2 (MAIA-2)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Middelengebruik)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Werk, Werkloosheid en Waarde van werk)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Internet, Sociale media en Gaming)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Vrije tijd)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Gebeurtenissen)
+* vragenlijst toegevoegd: Jongerenvragenlijst TRAILS T7 (Zorgtaken)
+* Respondent metadata wordt nu ook in de previews van uitnodigingen (voor het klikken van 'Aanmaken') getoond.
+
 # 2019-05-02 {#u20190502}
 
 * vragenlijst bijgewerkt: Jongerenvragenlijst TRAILS T7 (Financien)
