@@ -17,6 +17,10 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-05-15 {#u20190515}
+
+* Bugfix: Gebruik juiste URL voor vragenlijst preview in admin sectie
+
 # 2019-05-09 {#u20190509}
 
 * vragenlijst toegevoegd: Accare inleidende tekst
