@@ -1508,7 +1508,7 @@ Release notes:
 
 * vragenlijst toegevoegd: Pain Disability Index (PDI-DLV)
 * Het is nu mogelijk nonresponses van een dossier op te halen via de api.
-* De API om een vragenlijstdefinitie op te vragen stuurt nu bij SBG-lijsten ook informatie mee over welke SBG-keys bij welke RoQua-keys horen. Zie [API-documentatie](http://docs.roqua.net/developer/rom/global/questionnaires/) voor een voorbeeld.
+* De API om een vragenlijstdefinitie op te vragen stuurt nu bij SBG-lijsten ook informatie mee over welke SBG-keys bij welke RoQua-keys horen. Zie [API-documentatie](/en/developer/rom/global/questionnaires/) voor een voorbeeld.
 
 # 2017-02-07 {#u20170207}
 
