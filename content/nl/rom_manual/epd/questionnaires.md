@@ -16,15 +16,24 @@ Je krijgt links in het scherm een lijst van beschikbare metingen te zien, gegroe
 
 <img src="/assets/images/screenshots/dossier_quests1.png" />
 
-Er verschijnt een pagina met tabs voor elk type respondent. Om vragenlijsten klaar te zetten voor de patiënt selecteer je de gewenste lijsten en klik je op de "Klaarzetten"-knop. Het klaarzetten van vragenlijsten voor andere respondenten, zoals ouders, leerkrachten of mantelzorgers, kun je op dezelfde wijze doen onder de bijbehorende tabs.  Het invoeren van bulk of behandelaarlijsten gebeurt via het tabje "Medewerker" uiterst links.
+Er verschijnt een pagina met tabs voor elk type respondent. Om vragenlijsten klaar te zetten voor de patiënt selecteer je de gewenste lijsten en klik je op de "Klaarzetten…"-knop. Het klaarzetten van vragenlijsten voor andere respondenten, zoals ouders, leerkrachten of mantelzorgers, kun je op dezelfde wijze doen onder de bijbehorende tabs.  Het invoeren van behandelaarlijsten gebeurt via het tabje "Medewerker" uiterst links.
+
+<ul class="hints hints-sidebar">
+  <li> Bij elke vragenlijst staat aangegeven wanneer deze voor het laatst ingevuld is. Dit kan handig zijn om te beoordelen of het nodig is deze lijst opnieuw klaar te zetten.</li>
+</ul>
 
 <img src="/assets/images/screenshots/dossier_quests3.png" />
 
-<ul class="hints">
-  <li> Bij elke vragenlijst staat aangegeven wanneer deze voor het laatst ingevuld is. Dit kan handig zijn om te beoordelen of het nodig is deze lijst opnieuw klaar te zetten.</li>
-  <li> Klik op de knop "Klaarzetten en Brief Aanmaken" om meteen ook een uitnodigingsbrief aan te maken voor de geselecteerde respondent. Meer hierover in de sectie "Uitnodigingsbrieven aanmaken".</li>
-  <li> Bij het klaarzetten kun je ook aangeven vanaf wanneer de vragenlijsten moeten klaarstaan. De geselecteerde lijsten zijn dan pas vanaf de gekozen datum in te vullen.</li>
+Op het tweede scherm kun je extra opties opgeven, zoals het versturen van een uitnodiging/herinnering en het klaarzetten voor de toekomst.
+
+<ul class="hints hints-sidebar">
+  <li>Bij het klaarzetten kun je ook aangeven vanaf wanneer de vragenlijsten moeten klaarstaan. De geselecteerde lijsten zijn dan pas vanaf de gekozen datum in te vullen.</li>
+  <li>Als voor de respondent geen email in ons systeem bekend is, zul je de optie om een uitnodiging te sturen niet zien.</li>
+  <li>De herinnering wordt alleen verstuurd als de lijst nog niet is ingevuld.</li>
+  <li>De uitnodiging die standaard is geselecteerd is een instelling van het protocol en kan aangepast worden door de roquacoordinator van je instelling.</li>
 </ul>
+
+<img src="/assets/images/screenshots/dossier_quests3b.png" />
 
 De klaargezette vragenlijsten verschijnen in een overzicht bovenaan de timeline.
 
