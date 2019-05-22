@@ -17,6 +17,12 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+# 2019-05-22 {#u20190522}
+
+* Klaarzetten van lijsten: uitnodiging selecteren:
+  * houdt nu rekening met het geselecteerde team
+  * bevat niet meer de protocolspecifieke uitnodigingen van andere protocollen. 
+
 # 2019-05-20 {#u20190520}
 
 * Klaarzetten van lijsten gebeurd nu in 2 schermen en heeft extra opties
