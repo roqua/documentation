@@ -22,6 +22,7 @@ zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 * Klaarzetten van lijsten: uitnodiging selecteren:
   * houdt nu rekening met het geselecteerde team
   * bevat niet meer de protocolspecifieke uitnodigingen van andere protocollen. 
+  * Sorteert op alfabet.
 
 # 2019-05-20 {#u20190520}
 
