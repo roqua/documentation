@@ -1,0 +1,38 @@
+<%= render 'nl/_head' %>
+
+<%
+  # Autodiscover current section by traversing up the parent stack until we meet a parent
+  # that has a short enough URL to be a section document
+  @section = @item
+  while @section.identifier.count("/") > 3
+    @section = @section.parent
+  end
+%>
+
+
+<body class="rom">
+  <%= render 'nl/_header' %>
+
+  <div class="sub-nav">
+    <h2>
+      <strong><%= @section[:title] %></strong>
+      <%= ": #{@item[:title]}" if @item != @section %>
+      <%= status_label(@item) %>
+    </h2>
+  </div>
+
+  <div id="wrapper">
+    <div class="content">
+      <%= yield %>
+    </div>
+
+    <div id="js-sidebar" class="sidebar-shell">
+      <div class="sidebar-module notice">
+        <p>Deze handleiding is een <a href="https://gitlab.roqua.nl/pages/documentation" target="_blank">publieke GitLab repository</a>. Help ons door de repo te forken en te verbeteren.</p>
+      </div>
+    </div><!-- /sidebar-shell -->
+  </div><!-- #wrapper -->
+
+  <%= render 'nl/_footer' %>
+</body>
+</html>
