@@ -116,7 +116,7 @@ h6 {
   color: #666;
 }
 
-a {
+a:link {
   color: #4183C4;
   text-decoration: none;
 }

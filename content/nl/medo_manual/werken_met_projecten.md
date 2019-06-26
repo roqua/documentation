@@ -10,13 +10,13 @@ sort: 200
 
 In dit overzicht staan de projecten waar u toegang toe hebt.
 
-<img src='/assets/images/screenshots/medo/projectoverzicht.png' />
+<img src='/assets/images/screenshots/medo/nl/projectoverzicht.png' />
 
 ## Projectgegevens
 
 In dit overzicht staan de gegevens en de instellingen van het project.
 
-<img src='/assets/images/screenshots/medo/projectpagina.png' />
+<img src='/assets/images/screenshots/medo/nl/projectpagina.png' />
 
 ## Projectinstellingen
 
@@ -37,4 +37,4 @@ Selecteer hier welke velden verplicht zijn bij het
 Kies welke velden zichtbaar moeten zijn bij het aanmaken van een deelnemer:
 alleen verplichte velden of alle velden.
 
-<img src='/assets/images/screenshots/medo/projectinstellingen.png' />
+<img src='/assets/images/screenshots/medo/nl/projectinstellingen.png' />
