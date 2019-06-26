@@ -14,7 +14,7 @@ mogelijk om door de tabel te zoeken, waarbij door data van meerdere kolommen
 gezocht kan worden. Als u verzamelaar of coördinator bent kunt u de voornaam,
 achternaam en het e-mailadres van deelnemers bekijken.
 
-<img src='/assets/images/screenshots/medo/deelnemerslijst.png' />
+<img src='/assets/images/screenshots/medo/nl/deelnemerslijst.png' />
 
 ### Privacy
 
@@ -43,6 +43,22 @@ met daarin alle gegevens van de deelnemers, dat in o.a. Excel te openen is.
   project probeert te importeren. Daardoor zal ongewenste dubbele data ontstaan.
 </div>
 
+## Deelnemer weergeven
+
+Door te klikken op een van de deelnemers in het deelnemerslijst, komt u op de
+pagina met de Uitgebreide informatie over de deelnemer. Deze informatie is
+opgesplitst in geanonimiseerde gegevens en persoonsgegevens. Alleen
+verzamelaars en coördinatoren kunnen de persoonsgegevens bekijken. De anonieme
+gegevens kunnen wel door onderzoekers bekeken worden.
+
+<img src='/assets/images/screenshots/medo/nl/deelnemersdetail.png' />
+
+## Vragenlijsten, protocollen en uitnodigingen beheren
+
+Vragenlijsten en protocollen klaarzetten of uitnodigingen versturen doet u via
+[RoQua](../../rom_manual/epd/). RoQua wordt ingeladen via de pagina 'Deelnemer weergeven'.
+Druk op **Open in RoQua** om dashboard voor deze deelnemer te openen.
+
 ## Deelnemer toevoegen
 
 Klik op **+ Deelnemer toevoegen** wanneer u een nieuwe deelnemer aan het project
@@ -68,20 +84,4 @@ veld te definieren. Waarde wordt gebruikt om de waarde van het veld op te slaan.
   De naam van het veld mag alleen kleine letters of een underscore bevatten.
 </div>
 
-<img src='/assets/images/screenshots/medo/nieuwe-deelnemer.png' />
-
-## Deelnemer weergeven
-
-Door te klikken op een van de deelnemers in het deelnemerslijst, komt u op de
-pagina met de Uitgebreide informatie over de deelnemer. Deze informatie is
-opgesplitst in geanonimiseerde gegevens en persoonsgegevens. Alleen
-verzamelaars en coördinatoren kunnen de persoonsgegevens bekijken. De anonieme
-gegevens kunnen wel door onderzoekers bekeken worden.
-
-<img src='/assets/images/screenshots/medo/deelnemersdetail.png' />
-
-## Vragenlijsten, protocollen en uitnodigingen beheren
-
-Vragenlijsten en protocollen klaarzetten of uitnodigingen versturen doet u via
-[RoQua](../../rom_manual/epd/). RoQua wordt ingeladen via de pagina 'Deelnemer weergeven'.
-Druk op **Open in RoQua** om dashboard voor deze deelnemer te openen.
+<img src='/assets/images/screenshots/medo/nl/nieuwe-deelnemer.png' />
