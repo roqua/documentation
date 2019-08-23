@@ -1,13 +1,13 @@
 source "http://rubygems.org"
 
-gem 'nanoc', '~> 3.8'
+gem 'nanoc'
 
 gem 'builder'
 gem 'coderay'
 gem 'kramdown'
 gem 'mime-types'
 gem 'nokogiri'
-gem 'pygments.rb'
+gem 'rouge'
 gem 'rake'
 gem 'thin'
 gem 'activesupport', require: false
