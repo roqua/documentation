@@ -1,4 +1,4 @@
-image: "roqua/roqua-build-images:ruby-2.5"
+image: "registry.roqua.nl/roqua/roqua-build-images:ruby-2.5"
 
 cache:
   paths:
