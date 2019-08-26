@@ -10,7 +10,7 @@ gem 'nokogiri'
 gem 'rouge'
 gem 'rake'
 gem 'thin'
-gem 'activesupport', require: false
+gem 'activesupport', '< 6.0', require: false
 gem 'yajl-ruby'
 
 group :development do
