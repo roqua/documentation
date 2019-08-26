@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
-gem 'nanoc'
-
+gem 'nanoc', '< 4.0'
+gem 'colored' # missing in nanoc 3.8 gemspec but required in its lib/nanoc/extra/checking/runner.rb
 gem 'builder'
 gem 'coderay'
 gem 'kramdown'

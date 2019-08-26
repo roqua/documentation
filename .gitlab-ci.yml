@@ -16,7 +16,7 @@ test:
   - bundle install --path vendor
   - bundle exec nanoc compile -v
   - bundle exec rake test
-  - bundle exec rake validate:links:internal
+  - bundle exec nanoc check ilinks
   - mv output public
   artifacts:
     paths:
