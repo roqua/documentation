@@ -19,15 +19,23 @@ achternaam en het e-mailadres van deelnemers bekijken.
 ### Privacy
 
 Door de optie *Persoonsgegevens tonen* uit te vinken kunnen deze gegevens ook verborgen
-worden. Klik op een rij om meer informatie over de deelnemer te bekijken, en naar RoQua te gaan.
+worden. Dubbelklik op een rij om meer informatie over de deelnemer te bekijken, en naar RoQua te gaan.
 
 ### Statistieken
 
-Rechts in de tabel zijn drie statistieken opgenomen:
+Rechts in de tabel zijn vier statistieken opgenomen:
 
+* **Active Protocollen** geeft aan hoeveel actieve protocollen er zijn voor deze deelnemer
 * **Gemiste Metingen** geeft aan hoeveel metingen er gemist zijn
 * **Ingevulde Metingen** geeft aan hoeveel er ingevuld zijn
 * **Totaal Metingen** geeft aan hoeveel metingen er in totaal klaargezet zijn
+
+### Metadata
+
+De metadata velden zijn direct aan te passen in het overzicht. Klik eenmaal op het
+metadata veld en druk op de enter toets. Er verschijnt nu een invoer veld waar een
+nieuwe waarde ingevoerd kan worden. Druk opnieuw op de enter toets om de nieuwe
+waarde op te slaan.
 
 ### Import en Export
 
@@ -35,7 +43,9 @@ Ook is het voor verzamelaars en coördinatoren mogelijk om de deelnemerslijst te
 exporteren en nieuwe deelnemers te importeren. Als u op de **Lijst importeren**
 knop drukt krijgt u een pagina te zien met toelichting over het aan te leveren
 csv-bestand. Door op **Lijst exporteren** te drukken krijgt u een csv-bestand
-met daarin alle gegevens van de deelnemers, dat in o.a. Excel te openen is.
+met daarin alle gegevens van de deelnemers, dat in o.a. Excel te openen is. U dient
+eerst de gewenste deelnemers te selecteren met de checkboxes links in de tabel.
+U kunt alle deelnemers selecteren door op de bovenste checkbox in de header te klikken.
 
 <div class="alert alert-error">
   <strong>Let op!</strong>
@@ -43,9 +53,15 @@ met daarin alle gegevens van de deelnemers, dat in o.a. Excel te openen is.
   project probeert te importeren. Daardoor zal ongewenste dubbele data ontstaan.
 </div>
 
+### Bulk aanmelding
+
+Selecteer deelnemers via de checkboxes links in de tabel, of gebruik de checkbox
+helemaal bovenin om alle deelnemers te selecteren, en klik op de *Bulk aanmelding*
+knop om meerdere deelnemers tegelijkertijd te abonneren op een protocol in RoQua.
+
 ## Deelnemer weergeven
 
-Door te klikken op een van de deelnemers in het deelnemerslijst, komt u op de
+Door te dubbelklikken op een van de deelnemers in het deelnemerslijst, komt u op de
 pagina met de Uitgebreide informatie over de deelnemer. Deze informatie is
 opgesplitst in geanonimiseerde gegevens en persoonsgegevens. Alleen
 verzamelaars en coördinatoren kunnen de persoonsgegevens bekijken. De anonieme

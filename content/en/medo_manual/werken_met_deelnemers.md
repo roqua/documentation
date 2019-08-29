@@ -14,28 +14,39 @@ This page contains a table of project participants. Clicking on the column heade
 
 ### Privacy
 
-By clicking on the checkbox *Show personal data*, you can change the visibility of the table columns containing personal information. Clicking on a row in the table shows more information about the participant and allows opening RoQua for that participant.
+By clicking on the checkbox *Show personal data*, you can change the visibility of the table columns containing personal information. Double-clicking on a row in the table shows more information about the participant and allows opening RoQua for that participant.
 
 ### Statistics
 
-There are three statistics to be found on the right hand of the table:
+There are four statistics to be found on the right hand of the table:
 
+* **Active Protocols** show how many active protocols there are for the participant
 * **Expired Measurements** shows how many measurements are expired (not filled in before their expiry date)
 * **Completed Measurements** shows how many measurements are filled in
 * **Total Measurements** shows how many measurements were prepared in total
 
+### Metadata
+
+Metadata fields can be edited directly in the overview. Click on a metadata field and press enter.
+Enter a new value in the input field and press enter again to save the new value.
+
 ### Import and Export
 
-Collectors and coordinators are allowed to export the list of participants and import participants from a CSV file. Clicking on the **Import List** button brings you to a page explaining the file format for importing participants. The **Export list** button downloads a CSV-file with all personal information (excluding filled out responses) of the participants. This exported file is suitable for opening in Excel.
+Collectors and coordinators are allowed to export the list of participants and import participants from a CSV file. Clicking on the **Import List** button brings you to a page explaining the file format for importing participants. The **Export list** button downloads a CSV-file with all personal information (excluding filled out responses) of the participants. This exported file is suitable for opening in Excel. You have to select participants first with the checkboxes at the left of the table. Click on the topmost checkbox to select all participants.
+
 
 <div class="alert alert-error">
   <strong>Attention!</strong>
-  Do not import an exported file of participants. Importing any file will only create new participants for every row, so this will duplicate the participants already present. 
+  Do not import an exported file of participants. Importing any file will only create new participants for every row, so this will duplicate the participants already present.
 </div>
+
+### Bulk subscription
+
+Select participants with the checkboxes on the left, or use the topmost checkbox to select all participants, and click on the *Bulk subscription* button to subscribe participants to a protocol in RoQua.
 
 ## Showing participants
 
-By clicking on a row in the participant index, a page with extended information about the participant is show. This page is split up between anonymized and personal information. Only collectors and coordinators are allowed to view the personal information. Anonymized information can be viewed by researchers.
+By double-clicking on a row in the participant index, a page with extended information about the participant is show. This page is split up between anonymized and personal information. Only collectors and coordinators are allowed to view the personal information. Anonymized information can be viewed by researchers.
 
 <img src='/assets/images/screenshots/medo/en/deelnemersdetail.png' />
 
