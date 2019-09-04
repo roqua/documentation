@@ -18,7 +18,7 @@ achternaam en het e-mailadres van deelnemers bekijken.
 
 ### Privacy
 
-Door de optie *Persoonsgegevens tonen* uit te vinken kunnen deze gegevens ook verborgen
+Door de optie *Identificerende gegevens tonen* uit te vinken kunnen deze gegevens ook verborgen
 worden. Dubbelklik op een rij om meer informatie over de deelnemer te bekijken, en naar RoQua te gaan.
 
 ### Statistieken
@@ -36,6 +36,9 @@ De metadata velden zijn direct aan te passen in het overzicht. Klik eenmaal op h
 metadata veld en druk op de enter toets. Er verschijnt nu een invoer veld waar een
 nieuwe waarde ingevoerd kan worden. Druk opnieuw op de enter toets om de nieuwe
 waarde op te slaan.
+
+Gebruik de 'Standaard weergave' knop na het toevoegen van een nieuw metadata veld
+om het nieuwe veld te tonen.
 
 ### Import en Export
 

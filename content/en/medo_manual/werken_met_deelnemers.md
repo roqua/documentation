@@ -14,7 +14,7 @@ This page contains a table of project participants. Clicking on the column heade
 
 ### Privacy
 
-By clicking on the checkbox *Show personal data*, you can change the visibility of the table columns containing personal information. Double-clicking on a row in the table shows more information about the participant and allows opening RoQua for that participant.
+By clicking on the checkbox *Show identifying data*, you can change the visibility of the table columns containing personal information. Double-clicking on a row in the table shows more information about the participant and allows opening RoQua for that participant.
 
 ### Statistics
 
@@ -29,6 +29,8 @@ There are four statistics to be found on the right hand of the table:
 
 Metadata fields can be edited directly in the overview. Click on a metadata field and press enter.
 Enter a new value in the input field and press enter again to save the new value.
+
+If you add a new metadata field you have to reset to the 'Default view' to see the new metadata fields.
 
 ### Import and Export
 
