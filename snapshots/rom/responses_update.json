@@ -1,12 +1,12 @@
 {
   "request": {
     "request_method": "PUT",
-    "path": "/api/v1/dossiers/epd_id_resp_update/responses/5",
+    "path": "/api/v1/dossiers/epd_id_resp_update/responses/23",
     "body": {
-      "questionnaire_key": "key_resp_upd",
       "answer_data": {
         "answer": "data"
-      }
+      },
+      "questionnaire_key": "key_resp_upd"
     }
   },
   "response": {
@@ -14,24 +14,27 @@
     "headers": {
       "X-XSS-Protection": "1; mode=block",
       "X-Content-Type-Options": "nosniff",
-      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "X-Download-Options": "noopen",
+      "X-Permitted-Cross-Domain-Policies": "none",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Cache-Control": "no-cache, no-store",
       "Pragma": "no-cache",
       "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
       "Location": "",
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": {
-      "id": 5,
-      "respondent_id": null,
-      "name": null,
-      "questionnaire_name": null,
+      "id": 23,
+      "respondent_id": 34,
+      "name": "questionnaire",
+      "questionnaire_name": "questionnaire",
       "questionnaire_key": "key_resp_upd",
-      "open_from": null,
+      "open_from": "2015-01-31T13:30:55.000+01:00",
       "open_till": null,
       "requesters": [
 
       ],
-      "completer_type": null,
+      "completer_type": "patient",
       "completed_at": "2015-01-31T13:30:55.000+01:00",
       "status": "completed",
       "completing_url": null,
@@ -44,6 +47,28 @@
             "score": true,
             "label": "Totaalscore",
             "value": 37,
+            "interpretation": "i",
+            "clin_interp": "ci",
+            "referenced_values": [
+
+            ]
+          },
+          "sub_1": {
+            "score": true,
+            "label": "Subscore 1",
+            "value": 17,
+            "interpretation": "s1i",
+            "clin_interp": "s1ci",
+            "referenced_values": [
+
+            ]
+          },
+          "sub_2": {
+            "score": true,
+            "label": "Subscore 2",
+            "value": 20,
+            "interpretation": "s2i",
+            "clin_interp": "s2ci",
             "referenced_values": [
 
             ]

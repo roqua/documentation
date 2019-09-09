@@ -1,7 +1,7 @@
 {
   "request": {
     "request_method": "GET",
-    "path": "/api/v1/measurements/1.json",
+    "path": "/api/v1/measurements/101.json",
     "body": {
     }
   },
@@ -10,21 +10,24 @@
     "headers": {
       "X-XSS-Protection": "1; mode=block",
       "X-Content-Type-Options": "nosniff",
-      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "X-Download-Options": "noopen",
+      "X-Permitted-Cross-Domain-Policies": "none",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Cache-Control": "no-cache, no-store",
       "Pragma": "no-cache",
       "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": {
-      "id": 1,
-      "name": "Measurement 0",
+      "id": 101,
+      "name": "Measurement 1",
       "description": null,
       "active": true,
       "label": "intake",
-      "protocol_id": 1,
+      "protocol_id": 114,
       "questionnaires": [
         {
-          "id": 1,
+          "id": 343,
           "key": "roqua_simple",
           "quby_key": "simple",
           "name": "Simpele Vragenlijst"

@@ -10,21 +10,24 @@
     "headers": {
       "X-XSS-Protection": "1; mode=block",
       "X-Content-Type-Options": "nosniff",
-      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "X-Download-Options": "noopen",
+      "X-Permitted-Cross-Domain-Policies": "none",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Cache-Control": "no-cache, no-store",
       "Pragma": "no-cache",
       "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": [
       {
-        "id": 6,
+        "id": 28,
         "key": "v201501-1",
         "name": null,
         "hash": "xuhoh-cisif-nodon-mazon-fusen",
         "version": "2015-01-31T13:25:55.000+01:00"
       },
       {
-        "id": 5,
+        "id": 27,
         "key": "v201501",
         "name": null,
         "hash": "xuhoh-cisif-nodon-mazon-fusen",

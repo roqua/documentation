@@ -1,7 +1,7 @@
 {
   "request": {
     "request_method": "GET",
-    "path": "/api/v1/dossiers/epd_id_0/respondents",
+    "path": "/api/v1/dossiers/epd_id_2006/respondents",
     "body": {
     }
   },
@@ -10,16 +10,20 @@
     "headers": {
       "X-XSS-Protection": "1; mode=block",
       "X-Content-Type-Options": "nosniff",
-      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "X-Download-Options": "noopen",
+      "X-Permitted-Cross-Domain-Policies": "none",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Cache-Control": "no-cache, no-store",
       "Pragma": "no-cache",
       "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
       "Content-Type": "application/json; charset=utf-8"
     },
     "body": [
       {
-        "id": 1,
+        "id": 19,
         "label": "Patiënt",
-        "respondent_type": "patient"
+        "respondent_type": "patient",
+        "sbg_code": "01"
       }
     ]
   }
