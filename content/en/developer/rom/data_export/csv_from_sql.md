@@ -7,7 +7,7 @@ title: Generating a csv export from the sql export
 
 Creating a csv export from the sql export can give you more freedom or stability in it's output.
 
-As a starting point we describe here how to generate the csv_export as can be downloaded on [data_exports/download](responses). We start with an export_version, a description of each column in the csv, then for each response and each column we fetch the required data.
+As a starting point we describe here how to generate the csv_export as can be downloaded on [data_export/download](../responses). We start with an export_version, a description of each column in the csv, then for each response and each column we fetch the required data.
 
 For the details it's best to look at the code of our reference implementation, start at [write_response, via get_value](https://gitlab.roqua.nl/roqua/roqua-csv_export/blob/master/lib/roqua/csv_export/csv_export_questionnaire_version.rb) follow to the [response methods](https://gitlab.roqua.nl/roqua/roqua-csv_export/blob/master/lib/roqua/csv_export/models/response.rb) and the [meta data methods](https://gitlab.roqua.nl/roqua/roqua-csv_export/blob/master/lib/roqua/csv_export/meta_data.rb).
 
@@ -47,7 +47,7 @@ Each export_version has per questionnaire and per columns a hash with:
 
 ### Step 2: download je de sql_export.
 
-See [SQL Export page](sql_export)
+See [SQL Export page](../sql_export)
 
 ### Step 3: Use the gem to generate the code
 
