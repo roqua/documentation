@@ -101,6 +101,11 @@ $(function() {
   if (url) {
     var id = url[1]
     var selectedHeader = document.getElementById(id);
+    if (!selectedHeader) {
+      id = id.split('/').slice(0, -2).join('/') + '/'
+      selectedHeader = document.getElementById(id);
+      console.log(id)
+    }
     if (selectedHeader) {
       var topicGuides = $(selectedHeader).find('.js-guides li')
       topicGuides.slideToggle(100)
