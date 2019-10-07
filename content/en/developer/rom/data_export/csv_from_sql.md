@@ -45,7 +45,7 @@ Each export_version has per questionnaire and per columns a hash with:
 }
 ```
 
-### Step 2: download je de sql_export.
+### Step 2: download the sql_export.
 
 See [SQL Export page](../sql_export)
 
