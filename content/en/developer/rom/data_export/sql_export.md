@@ -30,6 +30,18 @@ Attribute             | Description
 type                  | patient, parent, second_parent, teacher, caregiver, profess. second_parent will likely be merged into parent in the future.
 label                 | human readable specifier. e.g. Moeder, Medewerker, Buurman.
 
+### protocol_subscriptions
+
+A protocol subscription is when an automatic protocol is activated for a dossier. The same protocol can be subscribed multiple times for one dossier, but only once the previous subscription has been stopped (either automatically upon completion, or by cancelling manually).
+
+Attribute             | Description
+----------------------|-----------------
+dossier_id            | foreign key to the dossier which is subscribed to this protocol
+protocol_id           | foreign key to the protocol that is subscribed to
+start_at              | the first day that responses will be created on
+stop_at               | the last day that responses will be created on
+status                | `scheduled` when the automatic protocol is activated but the first questionnaires haven't been prepared yet (usually because at time of export, `start_at` was in the future; `started` while the protocol is ongoing; `paused` when the protocol is on hold for a while (currently not feature exposed in the API or UI); `stopped` when stopped (either because `stop_at` is in the past, or because it was stopped manually in the UI)
+
 ### responses
 
 A Response the set of answers to one fill out of a questionnaire. Most attributes descriptions can be found at [response endpoint](../../dossier/responses/#response-attributes)
