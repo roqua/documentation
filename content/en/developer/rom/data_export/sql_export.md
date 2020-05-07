@@ -40,7 +40,7 @@ dossier_id            | foreign key to the dossier which is subscribed to this p
 protocol_id           | foreign key to the protocol that is subscribed to
 start_at              | the first day that responses will be created on
 stop_at               | the last day that responses will be created on
-status                | `a` while active (even if start_at is in the future), `s` when stopped (either because stop_at is in the past, or because it was stopped manually in the UI)
+status                | `scheduled` when the automatic protocol is activated but the first questionnaires haven't been prepared yet (usually because at time of export, `start_at` was in the future; `started` while the protocol is ongoing; `paused` when the protocol is on hold for a while (currently not feature exposed in the API or UI); `stopped` when stopped (either because `stop_at` is in the past, or because it was stopped manually in the UI)
 
 ### responses
 
