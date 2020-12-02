@@ -96,12 +96,11 @@ The library we use to sign and validate requests is open source and can be found
 
 ## TODO
 
-* Explain the sorting procedure for the HMAC message better. Possibly just do it like Twitter does (see references)
+* Explain the sorting procedure for the HMAC message better.
 * Explain the procedure for URL-encoding query parameters?
 
 ## References
 
-* [Twitter API Authentication](https://developer.twitter.com/en/docs/basics/authentication/overview)
 * [Using HMAC to authenticate Web service requests](http://rc3.org/2011/12/02/using-hmac-to-authenticate-web-service-requests/)
 * [Why you should never ever use hash functions for message authentication](http://blog.jcoglan.com/2012/06/09/why-you-should-never-use-hash-functions-for-message-authentication/)
 * [RFC 4868 - HMAC-SHA256, SHA384, and SHA512 in IPsec](http://tools.ietf.org/html/rfc4868#page-17)

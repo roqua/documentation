@@ -14,5 +14,5 @@ task :test => [:clean, :compile] do
                               alt_ignore: [/screenshots/],
                               # Disable checking external links on atom feed.
                               # It references new items that have not been deployed yet when checking links on CI
-                              url_ignore: [/changelog/, /feed/]).run
+                              url_ignore: [/changelog/, /feed/, /roqua.zendesk.com/]).run
 end
