@@ -1365,21 +1365,22 @@ li.api-status img {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
 
+/*
   #header-wrapper {
     background-image: url(../assets/images/header@2x.png);
     background-size: 8px 61px;
   }
 
-/*  #header .logo {
+  #header .logo {
     background-image: url(/assets/images/logo_developer@2x.png);
     background-size: 186px 27px;
   }
-*/
+
   #searchfield {
     background-image: url(/assets/images/search@2x.png);
     background-size: 13px 13px;
   }
-
+*/
   .cancel-search {
     background-image: url(/assets/images/cancel@2x.png);
     background-size: 14px 14px;
