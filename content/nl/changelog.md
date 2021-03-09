@@ -18,6 +18,8 @@ overzicht te vinden is van alle kleine wijzigingen die we maken aan onze softwar
 releasenotes op ons helpdesk-portaal is de bewoording op deze pagina vaak wat technischer van aard. Als u
 zich afvraagt wat iets nou precies betekent leggen we het uiteraard graag uit.
 
+**Merk op:** Meldingen van toegevoegde of gewijzigde vragenlijsten staan vanaf oktober 2020 niet meer in deze changelog maar in RoQua-admin onder "ROM-config" "Vragenlijst-releasenotes".  
+
 <% sorted_articles.select {|post| post[:status] != 'draft' }.each do |post| %>
   <div class='post'>
     <h1><%= post[:title] %></h1>

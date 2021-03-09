@@ -13,6 +13,8 @@ Is usually updated every hour. Download is a sqlite .db file.
 
 ## Schema
 
+**Note:** For a thorough analysis of the schema check out the [interactive schema representation](https://pages.roqua.info/sqlite-export-schema/) generated with SchemaSpy of our demo sqlite export db.
+
 ### dossiers
 
 Attribute           | Description
