@@ -1,4 +1,4 @@
-image: "registry.roqua.nl/roqua/roqua-build-images:ruby-2.5"
+image: "registry.roqua.nl/roqua/docker-base-images:ruby-2.7-builder"
 
 cache:
   paths:
@@ -14,7 +14,7 @@ test:
   - ruby -v
   - gem install bundler
   - bundle install --path vendor
-  - bundle exec nanoc compile -v
+  - bundle exec nanoc compile
   #- bundle exec rake test
   - bundle exec nanoc check ilinks
   - mv output public
