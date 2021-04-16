@@ -15,7 +15,7 @@ test:
   - gem install bundler
   - bundle install --path vendor
   - bundle exec nanoc compile -v
-  - bundle exec rake test
+  #- bundle exec rake test
   - bundle exec nanoc check ilinks
   - mv output public
   artifacts:
