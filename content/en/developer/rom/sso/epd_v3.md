@@ -90,6 +90,8 @@ In addition to the list of required parameters above, we also support the follow
 
 ### `user_lastname` - Lastname of the professional
 
+### `user_email` - Email of the professional
+
 ## Example implementation, both client and server
 
 The library we use to sign and validate requests is open source and can be found [on Github](https://github.com/roqua/authmac). In that library, we have an example web server implemented in [this file](https://github.com/roqua/authmac/blob/master/example/app.rb). This web server is running [on Heroku](http://roqua-urlspec.herokuapp.com), where you can use it to validate your own requests. In that case, use `http://roqua-urlspec.herokuapp.com/auth` as base URL, instead of the one documented above.
