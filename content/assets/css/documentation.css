@@ -990,7 +990,7 @@ body .content table td {
      Pre/Code Styles
 ------------------------------------------------------------------------------*/
 
-code {white-space: nowrap;}
+/*code {white-space: nowrap;}*/
 
 pre {
   border: 1px solid #cacaca;

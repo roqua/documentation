@@ -1,35 +1,13 @@
 ---
-title: FHIR GraphQL endpoint
+title: FHIR
 ---
 
-* TOC
-  {:toc}
+Every organization has a FHIR endpoint available under the url `https://organization_key.rom.roqua.nl/medmij_fhir/Observation`, or `https://organization_key.rom.roqua-staging.nl/medmij_fhir/Observation` for the staging environment. Access to this endpoint is authenticated through the [api token mechanism](../overview/authentication/). RoQua production and staging environments have separate databases with separate administrator panels, at `https://organization_key.rom.roqua.nl/admin` and `https://organization_key.rom.roqua-staging.nl/admin` respectively. Each environment thus needs its own ApiTokens to be configured through the respective administrator panels.
 
-Every organization has a FHIR GraphQL endpoint available under the url `https://organization_key.rom.roqua.nl/fhir/$graphql`, or `https://organization_key.rom.roqua-staging.nl/fhir/$graphql` for the staging environment. Access to this endpoint is authenticated through the [api token mechanism](../overview/authentication/). RoQua production and staging environments have separate databases with separate administrator panels, at `https://organization_key.rom.roqua.nl/admin` and `https://organization_key.rom.roqua-staging.nl/admin` respectively. Each environment thus needs its own ApiTokens to be configured through the respective administrator panels.
 
-Currently, only the FHIR GGZ Algemene Meting endpoint of the [MedMij standard](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.01/FHIR_GGZ) is implemented. FHIR GraphQL endpoints do not necessarily return regular FHIR resources, but this implementation returns an observation bundle that validates as regular FHIR resources. However, resources are wrapped in a `"data": { "ObservationBundle": {..etc..}}` attribute to conform as a GraphQL response.
+Currently, only the FHIR GGZ Algemene Meting endpoint of the [MedMij standard](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.01/FHIR_GGZ) is implemented. Only the last 50 questionnaire responses will be returned as observations. Since response values are transformed into individual observations, the exact amount of observation resources returned varies.
 
-The observation bundle is retrievable with the following GraphQL query. Returning the individual question answers and scores as contained references for the `related targets` instead of as `components` is WIP.
-```graphql
-query {
-  ObservationBundle { resourceType type total entry { resource {
-    resourceType
-    id
-    status
-    category { text coding (system: "http://hl7.org/fhir/observation-category", code: "survey") { system code }}
-    code { text coding { system code } }
-    subject  {
-      identifier (value: "fhir_test_dossier") { type { coding (system: "http://hl7.org/fhir/v2/0203", code: "MR") {system, code} }, value }
-      display
-    }
-    meta { lastUpdated, profile }
-    category { text }
-    effectiveDateTime
-    component {
-      ... on StringComponent { valueString code { text coding { system code } } }
-    }
-  } } }
-}
-```
+To request the observation bundle for an organization's dossier, send a GET request to the endpoint with the subject id as the 'subject' parameter. The subject id should be the same identifier used for the clientid in the [EPD SSO connection](/en/developer/rom/sso/epd_v3/) for that organization.
 
-The `subject identifier value` parameter is filled with the EPD dossier number of the client of which observations should be returned. The number should correspond to the EPD number system that is used for the other RoQua EPD connections. Only the last 50 responses will be returned as observations.
+An equivalent curl command to retrieve subject `2075` with the authentication token `token_key` and its secret `token_secret`would be: `curl 'https://demo.rom.roqua-staging.nl/medmij_fhir/Observation?subject=2075' -H 'Content-Type: application/json' -u token_key:token_secret`.
+Please take care to securely store and use the token secret, since it provides access to dossier data.
