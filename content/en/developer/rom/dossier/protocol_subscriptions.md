@@ -55,7 +55,8 @@ Name | Type | Description
 Name | Type | Description
 -----|------|--------------
 `dossier_id`   | `string`  | **Required**. Unique identifier for the patient to be subscribed.
-`protocol_key` | `string`  | **Required**. Key uniquely identifying the protocol of interest as specified in RoQua.
+`protocol_key` | `string`  | **Required** unless protocol_id given. Key uniquely identifying the protocol of interest as specified in RoQua.
+`protocol_id` | `integer`  | **Required** unless protocol_key given. Key uniquely identifying the protocol of interest as specified in RoQua.
 `start_at`     | `integer` | The Unix time when the first measurement should be prepared. Defaults to the current time.
 `flags`        | `hash`    | Boolean flags that are passed in when a questionnaire is being filled out.
 `textvars`     | `hash`    | String textvars that are passed in when a questionnaire is being filled out.
