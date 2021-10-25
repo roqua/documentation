@@ -22,7 +22,7 @@ test:
     paths:
     - public
 
-pages:
+deploy:
   stage: post-test
   only:
     - master
