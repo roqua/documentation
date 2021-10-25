@@ -36,7 +36,7 @@ deploy:
     - echo "$SSH_PRIVATE_KEY" | ssh-add -
   script:
     - echo 'Deploying to Antagonist'
-    - rsync -atv --delete ./public/ roquadocs@141.138.168.34:~/public_html
+    - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./public/ roquadocs@141.138.168.34:~/public_html
   artifacts:
     paths:
     - public
