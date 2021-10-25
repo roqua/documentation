@@ -34,7 +34,8 @@ deploy:
     - echo "Host *\n\tStrictHostKeyChecking no" >> ~/.ssh/config
     - echo "$SSH_PRIVATE_KEY" | ssh-add -
   script:
-    - echo 'Deploying to GitLab Pages'
+    - echo 'Deploying to Antagonist'
+    - rsync -atv --delete ./public/ roquadocs@141.138.168.34:~/public_html
   artifacts:
     paths:
     - public
