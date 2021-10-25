@@ -28,6 +28,11 @@ pages:
     - master
   dependencies:
     - test
+  before_script:
+    - apk update && apk add openssh-client rsync
+    - eval $(ssh-agent -s)
+    - echo "Host *\n\tStrictHostKeyChecking no" >> ~/.ssh/config
+    - echo "$SSH_PRIVATE_KEY" | ssh-add -
   script:
     - echo 'Deploying to GitLab Pages'
   artifacts:
