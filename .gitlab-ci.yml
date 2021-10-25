@@ -10,6 +10,12 @@ stages:
 
 test:
   stage: test
+  before_script:
+    - apk update && apk add openssh-client rsync
+    - eval $(ssh-agent -s)
+    - mkdir ~/.ssh
+    - echo "Host *\n\tStrictHostKeyChecking no" >> ~/.ssh/config
+    - echo "$SSH_PRIVATE_KEY" | ssh-add -
   script:
   - ruby -v
   - gem install bundler
@@ -18,6 +24,8 @@ test:
   #- bundle exec rake test
   - bundle exec nanoc check ilinks
   - mv output public
+  - echo 'Deploying to Antagonist'
+  - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./public/ roquadocs@141.138.168.34:~/public_html
   artifacts:
     paths:
     - public
@@ -36,7 +44,7 @@ deploy:
     - echo "$SSH_PRIVATE_KEY" | ssh-add -
   script:
     - echo 'Deploying to Antagonist'
-    - rsync -atv --delete ./public/ roquadocs@141.138.168.34:~/public_html
+    - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./public/ roquadocs@141.138.168.34:~/public_html
   artifacts:
     paths:
     - public
