@@ -17,7 +17,7 @@ JWT Header:
 | header | content |
 |--------|---------|
 | typ | (required) `JWT` |
-| alg | (required) `RS512` |
+| alg | (required) `RS256` or `RS512` |
 | kid | (required) The `consumer_key` as given when uploading the public key into the RoQua Admin |
 
 Payload claims:
