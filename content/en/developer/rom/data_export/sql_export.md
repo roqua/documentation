@@ -11,6 +11,12 @@ title: SQL Export
 
 Is usually updated every hour. Download is a sqlite .db file.
 
+**Note:** The GET request will return a redirect to a location on our storage server. If fetching automatically, make sure to follow the redirect (`Location:` header). E.g. with cURL:
+
+```
+curl -L -u consumer_key:consumer_secret -O https://demo.rom.roqua.nl/api/v1/data_exports/download_sql
+```
+
 ## Schema
 
 **Note:** For a thorough analysis of the schema check out the [interactive schema representation](https://roqua.info/sqlite-export-schema/) generated with SchemaSpy of our demo sqlite export db.
