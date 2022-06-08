@@ -9,7 +9,10 @@ Running guard start a local server and recompiles the doc files when changed.
     bundle exec guard
     open http://localhost:9093/
 
+This can be unworkably slow to react to file changes under osx. To run manually:
+
+Run `bundle exec nanoc compile`
 
 ### Publish to http://docs.roqua.net
 
-The rendered version is hosted from Gitlab.
+The rendered version is hosted on Gitlab. Any changes to the master branch will become live as soon as the CI pipeline finishes.
