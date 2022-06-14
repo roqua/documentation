@@ -22,7 +22,7 @@ Name | Type | Description
 `completed_before`         | `time`             | Only return responses filled out before the specified time
 `completed_after`          | `time`             | Only return responses filled out after the specified time
 `respondent_type`          | `string`           | Only return responses whose `completer_type` equals the given value
-`status`                   | `string`           | \['completed', 'aborted', 'open', 'scheduled'] Only return responses whose `status` equals the given value
+`status`                   | `string`           | \['completed', 'aborted', 'open', 'scheduled'\] Only return responses whose `status` equals the given value
 `protocol_subscription_id` | `string`           | Only return responses associated to the protocol subscription with the given id
 
 ### Response
@@ -58,7 +58,7 @@ Name                  | Type      | Description
 Name             | Type     | Description
 -----------------|----------|--------------
 `scores`         | `hash`   | Hash containing a hash for each calculated score, index on the score key. Each score contains a `value` entry when the score was calculated successfully and may contain extra key value pairs for interpretation and t-scores. See the outcome description of each questionnaire for more information on the calculated scores.
-`action`         | `string` | ['attention', 'alarm'] Whether the calculated outcome requires extra attention or whether it is alarming.
+`action`         | `string` | \['attention', 'alarm'\] Whether the calculated outcome requires extra attention or whether it is alarming.
 `alarm`          | `array`  | Array containing all question keys giving rise to the `alarm` flag.
 `attention`      | `array`  | Array containing all question keys giving rise to the `attention` flag.
 `complete`       | `string` | String indicating the percentage a questionnaire has been completed. Either '100%' or  `null` when a questionnaire is fully completed, depending on whether the questionnaire has a definition for 'completeness'.
@@ -80,11 +80,11 @@ To store an externally captured response perform a POST request to the path bene
 
 Name | Type | Description
 ---- |------|--------------
-`questionnaire_key` | `string`  | [Required] Key uniquely identifying the questionnaire in the ROM application
-`answer_data`       | `hash`    | [Required] Hash storing the answered option key for every question key
+`questionnaire_key` | `string`  | \[Required\] Key uniquely identifying the questionnaire in the ROM application
+`answer_data`       | `hash`    | \[Required\] Hash storing the answered option key for every question key
 `started_at`        | `integer` | The Unix time when the questionnaire was started being filled out (greater or equal to 31 december 1999)
 `filled_out_at`     | `integer` | The Unix time when the questionnaire was filled out (greater or equal to 31 december 1999)
-`respondent`        | `string`  | \['patient'(default) \| 'parent' \| 'second_parent' \| 'teacher' \| 'caregiver'] String identifying the respondent which filled out the questionnaire
+`respondent`        | `string`  | \['patient'(default) \| 'parent' \| 'second_parent' \| 'teacher' \| 'caregiver' \| 'profess'\] String identifying the respondent which filled out the questionnaire
 
 ### Response
 
@@ -110,8 +110,8 @@ The `:id` in the path is the id of the pending response to store the data with.
 
 Name | Type | Description
 ---- |------|--------------
-`questionnaire_key` | `string`  | [Required] Key uniquely identifying the questionnaire in the ROM application
-`answer_data`       | `hash`    | [Required] Hash storing the answered option key for every question key
+`questionnaire_key` | `string`  | \[Required\] Key uniquely identifying the questionnaire in the ROM application
+`answer_data`       | `hash`    | \[Required\] Hash storing the answered option key for every question key
 `started_at`        | `integer` | The Unix time when the questionnaire was started being filled out (greater or equal to 31 december 1999)
 `filled_out_at`     | `integer` | The Unix time when the questionnaire was filled out (greater or equal to 31 december 1999)
 
