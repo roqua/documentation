@@ -4,11 +4,11 @@ title: Authentication
 
 ## API
 
-The REST API supports two authentication schemes.
+The REST API supports two authentication schemes. Access to the API is controlled by [API tokens](../../../../rom_manual/admin/integration/api_tokens) in [RoQua-Admin](https://rom.roqua.nl/manage). When opting for JWT tokens, please provide us with your public key so we can hook it to the API token.
 
 ### API: JWT tokens
 
-JWT tokens can be used for the REST API and the GraphQL API.
+JWT tokens can be used for the REST API (and in the GraphQL API to-be).
 
 These must be sent in an `Authorization: Bearer <TOKEN_HERE>` header.
 
