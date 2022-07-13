@@ -85,6 +85,7 @@ Name | Type | Description
 `started_at`        | `integer` | The Unix time when the questionnaire was started being filled out (greater or equal to 31 december 1999)
 `filled_out_at`     | `integer` | The Unix time when the questionnaire was filled out (greater or equal to 31 december 1999)
 `respondent`        | `string`  | \['patient'(default) \| 'parent' \| 'second_parent' \| 'teacher' \| 'caregiver' \| 'profess'\] String identifying the respondent which filled out the questionnaire
+`entered_by`        | `string` | \[Optional, blank means response was entered by the respondent themselves.\] The user id of the professional that entered the response into the system. For responses that were not entered directly by the respondent. The user id should correspond to the user id of that professional that is used in the [EPD SSO](../../../rom/sso/epd_v3/) connection. In the case of a 'profess' respondent, the implication is that this professional was the evaluator/originator of the response data, but this is not a strict requirement.
 
 ### Response
 
