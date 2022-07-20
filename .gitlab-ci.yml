@@ -37,6 +37,7 @@ deploy:
   script:
     - echo 'Deploying to Antagonist'
     - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./public/ $SSH_USER@$SERVER_IP:~/public_html
+    - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./public/ deploy@168.119.126.75:~/roqua_docs/html
   artifacts:
     paths:
     - public
