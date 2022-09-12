@@ -92,6 +92,26 @@ In addition to the list of required parameters above, we also support the follow
 
 ### `user_email` - Email of the professional
 
+## Deep link
+
+By default the user is sent to the `timeline` after login, which shows the recent activity for the dossier. But it is also possible to go to send the user to a specific page in the application by specifying the `area` to go to.
+
+### area=fill_out_wizard - Preparing a questionnaire for a respondent to fill_out
+
+* `measurement_id` - optional - illegal id is same as empty, but with error notice - find in url when editing measurement in the admin interface
+* `respondent_type` - optional - (patient/parent/profess/teacher/caregiver) illegal type means the user will get a clear message and the option to choose a different one.
+
+### area=outcome - answers and scores for questionnaires
+
+* `questionnaire_id` - optional - illegal id is same as empty, but with error notice - find in admin -> rom-config -> vragenlijstoverzicht in url (different between staging and production)
+* `questionnaire_key` - optional - illegal key is same as empty, but with error notice - find in admin -> rom-config -> vragenlijstoverzicht, next to title (same in all environments)
+* `outcome_section` - optional - (overview/scores/charts/answers) illegal section is same as empty, but with error notice
+
+### area=report - page to preview and create a report.
+
+* `report_template_id` - optional - illegal id is same as empty, but with error notice - find in url when editing the report in the admin interface
+* `report_template_key` - optional - illegal key is same as empty, but with error notice - find in form when editing the report in the admin interface
+
 ## Example implementation, both client and server
 
 The library we use to sign and validate requests is open source and can be found [on Github](https://github.com/roqua/authmac). In that library, we have an example web server implemented in [this file](https://github.com/roqua/authmac/blob/master/example/app.rb). This web server is running [on Heroku](http://roqua-urlspec.herokuapp.com), where you can use it to validate your own requests. In that case, use `http://roqua-urlspec.herokuapp.com/auth` as base URL, instead of the one documented above.
