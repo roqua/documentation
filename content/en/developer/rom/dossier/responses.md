@@ -34,6 +34,7 @@ Name | Type | Description
 Name                  | Type      | Description
 ----------------------|-----------|--------------
 `id`                  | `integer` | Id uniquely identifying the reponse record.
+`external_id`         | `string`  | The ID provided when submitting this response via POST or PUT. Null if this response was created/completed via RoQua.
 `respondent_id`       | `integer` | Id of [respondent](../respondents) who the response belong to (not always the person who typed them into the system)
 `completed_at`        | `string`  | An ISO 8601 formatted string that indicates when the response was completed, or `null` if this response is not yet completed.
 `completer_type`      | `string`  | Describes who the response was prepared for, e.g. ad_hoc_professional for bulk versions of patient lists. Can be `patient`, `ad_hoc_professional`, `parent`, `second_parent` or `teacher`. More types might be added later, therefore it is advised that API consumers select the desired types, and not reject the undesired types.
@@ -81,6 +82,7 @@ To store an externally captured response perform a POST request to the path bene
 Name | Type | Description
 ---- |------|--------------
 `questionnaire_key` | `string`  | \[Required\] Key uniquely identifying the questionnaire in the ROM application
+`external_id`       | `string`  | \[Required\] ID as managed by the external application that "owns" this response
 `answer_data`       | `hash`    | \[Required\] Hash storing the answered option key for every question key
 `started_at`        | `integer` | The Unix time when the questionnaire was started being filled out (greater or equal to 31 december 1999)
 `filled_out_at`     | `integer` | The Unix time when the questionnaire was filled out (greater or equal to 31 december 1999)
@@ -103,9 +105,9 @@ The created response is returned. See the section on listing all responses for a
 
 To store external data on an existent pending response perform a put request to the path beneath.
 The `:dossier_id` in the path is the unique identifier of the dossier to store the response with.
-The `:id` in the path is the id of the pending response to store the data with.
+The `:external_id` in the path is the same `external_id` as given to the POST API call.
 
-    PUT /api/v1/dossiers/:dossier_id/responses/:id
+    PUT /api/v1/dossiers/:dossier_id/responses/:external_id
 
 ### Parameters
 
