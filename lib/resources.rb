@@ -66,6 +66,11 @@ module GitHub
           </div>)
       end
 
+      def img(name)
+        %(<div class="screenshot">
+            <img src="/assets/images/#{name}" />
+          </div>)
+      end
 
       def strftime(time, format = DefaultTimeFormat)
         attribute_to_time(time).strftime(format)
