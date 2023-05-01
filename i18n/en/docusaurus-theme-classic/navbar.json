@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "RoQua Documentatie",
+    "description": "The title in the navbar"
+  },
+  "item.label.Gebruikershandleiding": {
+    "message": "Gebruikershandleiding",
+    "description": "Navbar item with label Gebruikershandleiding"
+  },
+  "item.label.Technische handleiding": {
+    "message": "Technische handleiding",
+    "description": "Navbar item with label Technische handleiding"
+  },
+  "item.label.Releasenotes": {
+    "message": "Releasenotes",
+    "description": "Navbar item with label Releasenotes"
+  }
+}

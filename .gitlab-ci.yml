@@ -5,29 +5,23 @@ cache:
     - vendor/ruby
 
 stages:
-  - test
-  - post-test
+  - build
+  - upload
 
-test:
-  stage: test
+build:
+  stage: build
+  image: node
   script:
-  - ruby -v
-  - gem install bundler
-  - bundle install --path vendor
-  - bundle exec nanoc compile
-  #- bundle exec rake test
-  - bundle exec nanoc check ilinks
-  - mv output public
+  - npm install
+  - npm run build
   artifacts:
     paths:
-    - public
+    - build
 
 deploy:
-  stage: post-test
+  stage: upload
   only:
-    - master
-  dependencies:
-    - test
+    - mv-docusaurus
   before_script:
     - apk update && apk add openssh-client rsync
     - eval $(ssh-agent -s)
@@ -36,7 +30,7 @@ deploy:
     - echo "$SSH_PRIVATE_KEY" | ssh-add -
   script:
     - echo 'Deploying to Antagonist'
-    - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./public/ $SSH_USER@$SERVER_IP:~/roqua_docs/html
+    - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./build/ $SSH_USER@$SERVER_IP:~/roqua_docs2/html
   artifacts:
     paths:
     - public

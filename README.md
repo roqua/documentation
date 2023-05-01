@@ -1,18 +1,41 @@
-## RoQua Public Documentation
+# Website
 
-This repository contains user manuals and API documentation for RoQua's products. The nicely formatted version [can be found here](http://docs.roqua.net/).
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Local development / preview
+### Installation
 
-Running guard start a local server and recompiles the doc files when changed.
+```
+$ yarn
+```
 
-    bundle exec guard
-    open http://localhost:9093/
+### Local Development
 
-This can be unworkably slow to react to file changes under osx. To run manually:
+```
+$ yarn start
+```
 
-Run `bundle exec nanoc compile`
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Publish to http://docs.roqua.net
+### Build
 
-The rendered version is hosted on Gitlab. Any changes to the master branch will become live as soon as the CI pipeline finishes.
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
