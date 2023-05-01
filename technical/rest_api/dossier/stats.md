@@ -3,9 +3,6 @@ title: Stats
 status: draft
 ---
 
-* TOC
-{:toc}
-
 Stats that are generated over different aspects of a dossier.
 
 ## Stats

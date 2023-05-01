@@ -3,9 +3,6 @@ title: Respondents
 status: draft
 ---
 
-* TOC
-{:toc}
-
 Respondents are people that fill out questionnaires. The default respondent is the patient, but there's also profess, parent, second_parent, teacher and caregiver.
 
 - In the future second_parent will be merged into parent.

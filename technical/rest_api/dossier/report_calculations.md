@@ -3,9 +3,6 @@ title: Report Calculations
 status: draft
 ---
 
-* TOC
-{:toc}
-
 ## Calculations over multiple responses.
 
 ### Calculate over specific responses.

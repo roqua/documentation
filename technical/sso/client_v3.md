@@ -3,9 +3,6 @@ title: Respondents using HMAC
 status: stable
 ---
 
-* TOC
-{:toc}
-
 When used in conjunction with an client portal, RoQua has an authentication scheme that relies on the portal to open a URL that will authenticate a user and start completing all pending questionnaires for the given dossier number.
 
 This signature is generated as a hash of all parameters in the URL, as well as an organization specific secret key. RoQua can then validate the request by calculating the hash itself, and comparing it against the given hash. This protects against tampering with the URL.

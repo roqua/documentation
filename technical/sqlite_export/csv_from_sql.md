@@ -2,9 +2,6 @@
 title: Generating a csv export from the sql export
 ---
 
-* TOC
-{:toc}
-
 Creating a csv export from the sql export can give you more freedom or stability in it's output.
 
 As a starting point we describe here how to generate the csv_export as can be downloaded on [data_export/download](../responses). We start with an export_version, a description of each column in the csv, then for each response and each column we fetch the required data.

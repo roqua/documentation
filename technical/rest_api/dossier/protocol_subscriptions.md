@@ -2,9 +2,6 @@
 title: Protocol Subscriptions
 ---
 
-* TOC
-{:toc}
-
 Manage protocol subscriptions for individual patients.
 
 ## List active protocol subscriptions for a patient

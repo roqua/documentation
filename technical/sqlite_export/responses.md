@@ -2,9 +2,6 @@
 title: Responses
 ---
 
-* TOC
-{:toc}
-
 All exports contain the data up until last night.
 
 An export version defines which answers are exported and the names of the columns. When a questionnaire changes, a new export version is created.

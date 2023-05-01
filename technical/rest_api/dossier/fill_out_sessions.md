@@ -2,10 +2,6 @@
 title: Fill Out Sessions
 ---
 
-* TOC
-{:toc}
-
-
 ## Start a fill out session.
 
     POST /api/v1/dossiers/:dossier_id/fill_out_sessions/

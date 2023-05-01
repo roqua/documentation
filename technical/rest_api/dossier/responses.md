@@ -3,9 +3,6 @@ title: Responses
 status: draft
 ---
 
-* TOC
-{:toc}
-
 Responses are questionnaire completions, although they need not be filled out yet. Upon creating an invitation, responses for all selected questionnaires are created. At this point, the responses have status `new`. When the patient fills out the questionnaire for the answer, its status will change to `completed`.
 
 ## List all responses for dossier

@@ -2,9 +2,6 @@
 title: Non-response
 ---
 
-* TOC
-{:toc}
-
 For various reasons, patients will not always want to participate in ROM. This is recorded in the responses files as a number in the `questkey_non_response` column:
 
 %= csv <<-CSV

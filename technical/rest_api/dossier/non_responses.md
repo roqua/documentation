@@ -3,9 +3,6 @@ title: NonResponses
 status: draft
 ---
 
-* TOC
-{:toc}
-
 NonResponses are wrappers around responses that haven't been filled out. They are needed for SBG and follow that format.
 
 They are created:

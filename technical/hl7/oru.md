@@ -3,9 +3,6 @@ title: HL7 2.4 ORU^R01
 status: stable
 ---
 
-* TOC
-{:toc}
-
 This document describes the types of ORU messages RoQua sends out. The list of
 examples when the ORUs are triggered are not exhaustive, and the given ORU-messages
 serve as examples. For details, please refer to the HL7 v2.4 specification.
