@@ -4,52 +4,52 @@ title: Non-response
 
 For various reasons, patients will not always want to participate in ROM. This is recorded in the responses files as a number in the `questkey_non_response` column:
 
-%= csv <<-CSV
+```csv
 "roqua_id";"patient_id";"...";"ors_id";"...";"ors_non_response";"..."
 "";"1234";"...";"167";"...";"2";"..."
-CSV
-%>
+```
 
 If a value is present in this column, it means that the patient either did not get contacted for a ROM measurement, did not reply, or did not want to complete the measurement. If the column is empty, it means that either the response was completed, or is still pending completion.
 
 This number can be traced to the `nonrespons/nonrespons.json` in the downloaded export. This file contains a list of all recorded non-responses. This is stored in a seperate file since multiple entries in the CSV can have the same non-response identifier (because non-response can be registered for multiple questionnaires at once).
 
-%= json [
+```json
+[
   {
-    "id" => 1,
-    "timestamp" => "2015-09-24T00:00:00.000+02:00",
-    "reden_non_respons" => "Patiënt is wel benaderd voor de ROM meting, maar: Patiënt is niet in staat tot responderen.",
-    "reason_group" => "Patiënt is wel benaderd voor de ROM meting, maar:",
-    "reason_code" => "02",
-    "reason_option" => "Patiënt is niet in staat tot responderen.",
-    "reason_other" => "",
-    "data" => {
-      "reden_non_respons" => "Patiënt is wel benaderd voor de ROM meting, maar: Patiënt is niet in staat tot responderen.",
-      "reason_group" => "Patiënt is wel benaderd voor de ROM meting, maar:",
-      "reason_code" => "02",
-      "reason_option" => "Patiënt is niet in staat tot responderen.",
-      "reason_other" => ""
+    "id": 1,
+    "timestamp": "2015-09-24T00:00:00.000+02:00",
+    "reden_non_respons": "Patiënt is wel benaderd voor de ROM meting, maar: Patiënt is niet in staat tot responderen.",
+    "reason_group": "Patiënt is wel benaderd voor de ROM meting, maar:",
+    "reason_code": "02",
+    "reason_option": "Patiënt is niet in staat tot responderen.",
+    "reason_other": "",
+    "data": {
+      "reden_non_respons": "Patiënt is wel benaderd voor de ROM meting, maar: Patiënt is niet in staat tot responderen.",
+      "reason_group": "Patiënt is wel benaderd voor de ROM meting, maar:",
+      "reason_code": "02",
+      "reason_option": "Patiënt is niet in staat tot responderen.",
+      "reason_other": ""
     }
   },
   {
-    "id" => 2,
-    "timestamp" => "2015-09-24T00:00:00.000+02:00",
-    "reden_non_respons" => "Patiënt is niet benaderd voor de ROM meting, omdat: Andere reden, namelijk:",
-    "reason_group" => "Patiënt is niet benaderd voor de ROM meting, omdat:",
-    "reason_code" => "10",
-    "reason_option" => "Andere reden, namelijk:",
-    "reason_other" => "another reason people can specify",
-    "data" => {
-      "reden_non_respons" => "Patiënt is niet benaderd voor de ROM meting, omdat: Andere reden, namelijk:",
-      "andere_reden" => "another reason people can specify",
-      "reason_group" => "Patiënt is niet benaderd voor de ROM meting, omdat:",
-      "reason_code" => "10",
-      "reason_option" => "Andere reden, namelijk:",
-      "reason_other" => "another reason people can specify"
+    "id": 2,
+    "timestamp": "2015-09-24T00:00:00.000+02:00",
+    "reden_non_respons": "Patiënt is niet benaderd voor de ROM meting, omdat: Andere reden, namelijk:",
+    "reason_group": "Patiënt is niet benaderd voor de ROM meting, omdat:",
+    "reason_code": "10",
+    "reason_option": "Andere reden, namelijk:",
+    "reason_other": "another reason people can specify",
+    "data": {
+      "reden_non_respons": "Patiënt is niet benaderd voor de ROM meting, omdat: Andere reden, namelijk:",
+      "andere_reden": "another reason people can specify",
+      "reason_group": "Patiënt is niet benaderd voor de ROM meting, omdat:",
+      "reason_code": "10",
+      "reason_option": "Andere reden, namelijk:",
+      "reason_other": "another reason people can specify"
     }
   }
 ]
-%>
+```
 
 ### Attributes
 
