@@ -1,3 +1,0 @@
----
-title: Dossier-specific data
----

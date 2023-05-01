@@ -1,8 +1,0 @@
-<% en_item = @items.find{|item| item.identifier == @item.identifier.sub('/nl/', '/en/')} %>
-<% nl_item = @items.find{|item| item.identifier == @item.identifier.sub('/en/', '/nl/')} %>
-<% if en_item %>
-  <input type="button" id="en-lang" value="EN">
-<% end %>
-<% if nl_item %>
-  <input type="button" id="nl-lang" value="NL">
-<% end %>
