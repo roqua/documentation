@@ -30,7 +30,7 @@ deploy:
     - echo "$SSH_PRIVATE_KEY" | ssh-add -
   script:
     - echo 'Deploying to Antagonist'
-    - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./build/ $SSH_USER@$SERVER_IP:~/roqua_docs2/html
+    - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./build/ $SSH_USER@$SERVER_IP:~/roqua_docs/html
   artifacts:
     paths:
     - public
