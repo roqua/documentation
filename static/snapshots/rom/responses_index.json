@@ -1,0 +1,319 @@
+{
+  "request": {
+    "request_method": "GET",
+    "path": "/api/v1/dossiers/epd_id_index/responses",
+    "body": {
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": [
+      {
+        "id": 2,
+        "respondent_id": 5,
+        "name": "Questionnaire With Flags",
+        "questionnaire_name": "Questionnaire With Flags",
+        "questionnaire_key": "quest1",
+        "open_from": null,
+        "open_till": null,
+        "requesters": [
+
+        ],
+        "completer_type": "patient",
+        "completed_at": null,
+        "status": "open",
+        "completing_url": "http://default.example.com/client/session/new?token=fedca987",
+        "values": {
+        },
+        "outcome": {
+          "scores": {
+          },
+          "action": null,
+          "alarm": null,
+          "attention": null,
+          "complete": null
+        },
+        "flags": {
+          "female": false,
+          "with_flags_hides_v_1_flag": true
+        },
+        "textvars": {
+        },
+        "started_at": null,
+        "measurement_id": null,
+        "non_response_id": null
+      },
+      {
+        "id": 3,
+        "respondent_id": 5,
+        "name": "Questionnaire With Textvars",
+        "questionnaire_name": "Questionnaire With Textvars",
+        "questionnaire_key": "quest2",
+        "open_from": null,
+        "open_till": null,
+        "requesters": [
+
+        ],
+        "completer_type": "patient",
+        "completed_at": null,
+        "status": "open",
+        "completing_url": "http://default.example.com/client/session/new?token=fedca987",
+        "values": {
+        },
+        "outcome": {
+          "scores": {
+          },
+          "action": null,
+          "alarm": null,
+          "attention": null,
+          "complete": null
+        },
+        "flags": {
+        },
+        "textvars": {
+          "with_textvars_var1": "{{with_textvars_var1}}",
+          "with_textvars_var2": "var2_default",
+          "with_textvars_var3": "var3_default"
+        },
+        "started_at": null,
+        "measurement_id": null,
+        "non_response_id": null
+      },
+      {
+        "id": 4,
+        "respondent_id": 5,
+        "name": "OQ-45",
+        "questionnaire_name": "OQ-45",
+        "questionnaire_key": "oq45",
+        "open_from": null,
+        "open_till": null,
+        "requesters": [
+          {
+            "epd_id": "epdid_0"
+          }
+        ],
+        "completer_type": null,
+        "completed_at": "2015-01-27T13:30:55.000+01:00",
+        "status": "completed",
+        "completing_url": null,
+        "values": {
+          "v_1": 4,
+          "v_2": 3,
+          "v_3": 2,
+          "v_4": 3,
+          "v_5": 3,
+          "v_6": 2,
+          "v_7": 3,
+          "v_8": 4,
+          "v_9": 2,
+          "v_10": 2,
+          "v_11": 3,
+          "v_12": 4,
+          "v_13": 2,
+          "v_14": 3,
+          "v_15": 4,
+          "v_16": 2,
+          "v_18": 3,
+          "v_19": 4,
+          "v_20": 3,
+          "v_21": 2,
+          "v_22": 3,
+          "v_23": 4,
+          "v_24": 2,
+          "v_25": 3,
+          "v_26": 4,
+          "v_27": 3,
+          "v_28": 3,
+          "v_29": 2,
+          "v_30": 3,
+          "v_31": 4,
+          "v_32": 2,
+          "v_33": 3,
+          "v_34": 4,
+          "v_35": 2,
+          "v_36": 3,
+          "v_37": 4,
+          "v_38": 2,
+          "v_39": 3,
+          "v_40": 4,
+          "v_41": 4,
+          "v_42": 3,
+          "v_43": 2,
+          "v_44": 3,
+          "v_45": 3,
+          "v_46": 4
+        },
+        "outcome": {
+          "scores": {
+            "totaal": {
+              "score": true,
+              "label": "Totaal",
+              "value": 135,
+              "norm": ">= 55",
+              "interpretation": "Klinisch",
+              "tscore": 110,
+              "tscore_interpretation": "Zeer hoog",
+              "oru_flag": "HH",
+              "global": true,
+              "referenced_values": [
+                "v_1",
+                "v_2",
+                "v_3",
+                "v_4",
+                "v_5",
+                "v_6",
+                "v_7",
+                "v_8",
+                "v_9",
+                "v_10",
+                "v_11",
+                "v_12",
+                "v_13",
+                "v_14",
+                "v_15",
+                "v_16",
+                "v_18",
+                "v_19",
+                "v_20",
+                "v_21",
+                "v_22",
+                "v_23",
+                "v_24",
+                "v_25",
+                "v_26",
+                "v_27",
+                "v_28",
+                "v_29",
+                "v_30",
+                "v_31",
+                "v_32",
+                "v_33",
+                "v_34",
+                "v_35",
+                "v_36",
+                "v_37",
+                "v_38",
+                "v_39",
+                "v_40",
+                "v_41",
+                "v_42",
+                "v_43",
+                "v_44",
+                "v_45",
+                "v_46"
+              ]
+            },
+            "psychisch": {
+              "score": true,
+              "label": "Psychisch Onwelbevinden",
+              "value": 74,
+              "norm": ">= 33",
+              "interpretation": "Klinisch",
+              "tscore": 102,
+              "tscore_interpretation": "Zeer hoog",
+              "oru_flag": "HH",
+              "referenced_values": [
+                "v_2",
+                "v_3",
+                "v_5",
+                "v_6",
+                "v_8",
+                "v_9",
+                "v_10",
+                "v_11",
+                "v_13",
+                "v_15",
+                "v_23",
+                "v_24",
+                "v_25",
+                "v_26",
+                "v_28",
+                "v_30",
+                "v_32",
+                "v_34",
+                "v_35",
+                "v_36",
+                "v_37",
+                "v_41",
+                "v_42",
+                "v_43",
+                "v_46"
+              ]
+            },
+            "interpers": {
+              "score": true,
+              "label": "Interpersoonlijk Functioneren",
+              "value": 33,
+              "norm": ">= 12",
+              "interpretation": "Klinisch",
+              "tscore": 99,
+              "tscore_interpretation": "Zeer hoog",
+              "oru_flag": "HH",
+              "referenced_values": [
+                "v_1",
+                "v_7",
+                "v_16",
+                "v_18",
+                "v_19",
+                "v_20",
+                "v_21",
+                "v_27",
+                "v_31",
+                "v_38",
+                "v_44"
+              ]
+            },
+            "sociaal": {
+              "score": true,
+              "label": "Sociale Rolvervulling",
+              "value": 28,
+              "norm": ">= 10",
+              "interpretation": "Klinisch",
+              "tscore": 116,
+              "tscore_interpretation": "Zeer hoog",
+              "oru_flag": "HH",
+              "referenced_values": [
+                "v_4",
+                "v_12",
+                "v_14",
+                "v_22",
+                "v_29",
+                "v_33",
+                "v_39",
+                "v_40",
+                "v_45"
+              ]
+            }
+          },
+          "action": "alarm",
+          "alarm": [
+            "v_8",
+            "v_11",
+            "v_27",
+            "v_33",
+            "v_45"
+          ],
+          "attention": [
+
+          ],
+          "complete": null
+        },
+        "flags": {
+        },
+        "textvars": {
+        },
+        "started_at": "2015-01-31T13:30:55.000+01:00",
+        "measurement_id": null,
+        "non_response_id": null
+      }
+    ]
+  }
+}

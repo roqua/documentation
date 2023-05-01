@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.HL7 v2.4": {
+    "message": "HL7 v2.4",
+    "description": "The label for category HL7 v2.4 in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.REST API": {
+    "message": "REST API",
+    "description": "The label for category REST API in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Dossier-specific data": {
+    "message": "Dossier-specific data",
+    "description": "The label for category Dossier-specific data in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Global": {
+    "message": "Global",
+    "description": "The label for category Global in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.SQLite Export": {
+    "message": "SQLite Export",
+    "description": "The label for category SQLite Export in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Single Sign On": {
+    "message": "Single Sign On",
+    "description": "The label for category Single Sign On in sidebar docsSidebar"
+  }
+}

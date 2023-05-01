@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.EPD-module": {
+    "message": "EPD-module",
+    "description": "The label for category EPD-module in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Beheermodule": {
+    "message": "Adminmodule",
+    "description": "The label for category Beheermodule in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.ROM-config": {
+    "message": "ROM-config",
+    "description": "The label for category ROM-config in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Integratie": {
+    "message": "Integration",
+    "description": "The label for category Integratie in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Overig": {
+    "message": "Other",
+    "description": "The label for category Overig in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Medoq": {
+    "message": "Medoq",
+    "description": "The label for category Medoq in sidebar docsSidebar"
+  }
+}

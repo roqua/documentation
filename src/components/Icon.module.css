@@ -1,0 +1,5 @@
+.icon {
+  vertical-align: middle;
+  margin: 0;
+  max-height: 21px; /* Keep in sync with line-height */
+}
