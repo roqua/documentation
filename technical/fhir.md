@@ -23,7 +23,7 @@ Access to this endpoint is authenticated through the [api token mechanism](../ov
 
 Currently only Observation bundles describing Honos+ questionnaire responses can be processed by this API. At the time of implementation, there were no official Dutch FHIR codings for the response values of the Honos+. The response value coding used in the example json below is what is implemented for the current API, but we are interested in efforts to standardize these codings. Please let us (and others) know about any efforts for standardization.
 
-Only document bundles that contain all observation entries (answer values) needed to construct one RoQua questionnaire response are accepted. This [json file example](/assets/files/honos_plus_fhir.json) would make a RoQua Honos+ response.
+Only document bundles that contain all observation entries (answer values) needed to construct one RoQua questionnaire response are accepted. This [json file example](/files/honos_plus_fhir.json) would make a RoQua Honos+ response.
 
 An equivalent curl command to push this Honos+ response to demo staging with the authentication token `token_key` and its secret `token_secret` would be: `curl -d @honos_plus_fhir.json -X PUT -H 'Content-Type: application/json' -u token_key:token_secret 'https://demo.rom.roqua-staging.nl/medmij_fhir/Bundle/30002596-395f-430f-aac8-abdb6de37104'`
 Please take care to securely store and use the token secret, since it provides access to dossier data.
