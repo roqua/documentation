@@ -21,7 +21,7 @@ build:
 deploy:
   stage: upload
   only:
-    - mv-docusaurus
+    - master
   before_script:
     - apk update && apk add openssh-client rsync
     - eval $(ssh-agent -s)
