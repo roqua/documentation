@@ -1,11 +1,8 @@
----
-title: Fill Out Sessions
----
+# Fill Out Sessions
 
 ## Start a fill out session.
 
     POST /api/v1/dossiers/:dossier_id/fill_out_sessions/
-
 
 ### Parameters
 
@@ -23,40 +20,40 @@ ids corresponding with aborted responses is provided, filling out will be resume
 
 ### Success
 
-%= headers 200 %>
-%= json fill_out_url: 'https://roqua.dev/fill_out/session/login?fill_out_session_key=fcecc8dd96fa7eb1&hmac=a1bd635d733b18cc034eb7f8d1f75daf6951dad23feb7c2ec8fe6257a590908a&nonce=6dae8fb5601ccfb81d7cbedb5986fd25&timestamp=1399363374' %>
-
-
-### When basic HTTP authentication fails
-
-%= headers 401 %>
-%= no_body %>
-
-
-### When no `dossier_id` is provided
-
-%= headers 404 %>
-%= no_body %>
+<snapshot json={{
+  request: {
+    request_method: "POST",
+    path: "/api/v1/dossiers/:dossier_id/fill_out_sessions"
+  },
+  response: {
+    status: 200,
+    body: {
+      fill_out_url: 'https://roqua.dev/fill_out/session/login?fill_out_session_key=fcecc8dd96fa7eb1&hmac=a1bd635d733b18cc034eb7f8d1f75daf6951dad23feb7c2ec8fe6257a590908a&nonce=6dae8fb5601ccfb81d7cbedb5986fd25&timestamp=1399363374'
+    }
+  }
+}} />
 
 ### When no questionnaire keys or answer ids are provided.
 
-%= snapshot_response('rom', 'fill_out_session_missing_questionnaire_key') %>
+<snapshot json={require('@site/static/snapshots/rom/fill_out_session_missing_questionnaire_key')} />
 
 ### When no questionnaire exists for one of the `questionnaire_key`s provided
 
-%= headers 404 %>
-%= no_body %>
-
+<snapshot json={{
+  request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/fill_out_sessions"},
+  response: {status: 404}
+}} />
 
 ### When no aborted answer exists for one of the `answer_id`s provided
 
-%= headers 404 %>
-%= no_body %>
-
+<snapshot json={{
+  request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/fill_out_sessions"},
+  response: {status: 404}
+}} />
 
 ### When no `return_to` url is provided
 
-%= snapshot_response('rom', 'fill_out_session_missing_return_to') %>
+<snapshot json={require('@site/static/snapshots/rom/fill_out_session_missing_return_to')} />
 
 ## Progress page
 

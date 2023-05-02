@@ -17,74 +17,80 @@ Name | Type | Description
 
 ### Response
 
-%= headers 200 %>
-%= json "1234567890" =>
-  {
-    "responses" => {
-      "total" => 2,
-      "completed" => 10,
-      "aborted" => 10,
-      "expired" => 10,
-      "pending" => 10,
-      "scheduled" => 10,
-      "open" => 10
-    },
-    "invitations" => {
-      "total"     => 10,
-      "active"    => 10,
-      "expired"   => 10,
-      "unexpired" => 10
-    },
-    "protocol_subscriptions" => {
-      "total"          => 2,
-      "to_be_prepared" => 2,
-      "to_be_stopped"  => 0
-    }
+<snapshot json={{
+  request: {
+    request_method: "GET",
+    path: "/api/v1/dossier/:epd_ids/stats"
   },
-  "1234567891" =>
-  {
-    "responses" => {
-      "total" => 2,
-      "completed" => 10,
-      "aborted" => 10,
-      "expired" => 10,
-      "pending" => 10,
-      "scheduled" => 10,
-      "open" => 10
-    },
-    "invitations" => {
-      "total"     => 10,
-      "active"    => 10,
-      "expired"   => 10,
-      "unexpired" => 10
-    },
-    "protocol_subscriptions" => {
-      "total"          => 2,
-      "to_be_prepared" => 2,
-      "to_be_stopped"  => 0
-    }
-  },
-  "1234567892" =>
-  {
-    "responses" => {
-      "total" => 2,
-      "completed" => 5,
-      "aborted" => 10,
-      "expired" => 10,
-      "pending" => 10,
-      "scheduled" => 10,
-      "open" => 10
-    },
-    "invitations" => {
-      "total"     => 10,
-      "active"    => 10,
-      "expired"   => 10,
-      "unexpired" => 10
-    },
-    "protocol_subscriptions" => {
-      "total"          => 2,
-      "to_be_prepared" => 2,
-      "to_be_stopped"  => 0
+  response: {
+    status: 200,
+    body: {
+      "1234567890": {
+        "responses": {
+          "total": 2,
+          "completed": 10,
+          "aborted": 10,
+          "expired": 10,
+          "pending": 10,
+          "scheduled": 10,
+          "open": 10
+        },
+        "invitations": {
+          "total"    : 10,
+          "active"   : 10,
+          "expired"  : 10,
+          "unexpired": 10
+        },
+        "protocol_subscriptions": {
+          "total"         : 2,
+          "to_be_prepared": 2,
+          "to_be_stopped" : 0
+        }
+      },
+      "1234567891": {
+        "responses": {
+          "total": 2,
+          "completed": 10,
+          "aborted": 10,
+          "expired": 10,
+          "pending": 10,
+          "scheduled": 10,
+          "open": 10
+        },
+        "invitations": {
+          "total"    : 10,
+          "active"   : 10,
+          "expired"  : 10,
+          "unexpired": 10
+        },
+        "protocol_subscriptions": {
+          "total"         : 2,
+          "to_be_prepared": 2,
+          "to_be_stopped" : 0
+        }
+      },
+      "1234567892": {
+        "responses": {
+          "total": 2,
+          "completed": 5,
+          "aborted": 10,
+          "expired": 10,
+          "pending": 10,
+          "scheduled": 10,
+          "open": 10
+        },
+        "invitations": {
+          "total"    : 10,
+          "active"   : 10,
+          "expired"  : 10,
+          "unexpired": 10
+        },
+        "protocol_subscriptions": {
+          "total"         : 2,
+          "to_be_prepared": 2,
+          "to_be_stopped" : 0
+        }
+      }
     }
   }
-%>
+}} />

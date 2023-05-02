@@ -33,21 +33,35 @@ Name                | Type               | Description
 
 ### Success
 
-%= headers 200 %>
-%= json 'results' => {'key' => 'value'}, 'response_ids' => [1, 6] %>
-
+<snapshot json={{
+  request: {
+    request_method: "GET",
+    path: "/api/v1/dossiers/:dossier_id/report_calculations?calculator=test&response_ids[]=1&response_ids[]=6"
+  },
+  response: {
+    status: 200,
+    body: {
+      results: {key: 'value'},
+      response_ids: [1, 6]
+    }
+  }
+}} />
 
 ### When validations fail
 
-%= headers 422 %>
-%= json errors: {
-           filters: {
-             questionnaire_keys: ['blank'],
-           }
-         }
-%>
-
-### When no dossier_id is provided
-
-%= headers 404 %>
-%= no_body %>
+<snapshot json={{
+  request: {
+    request_method: "GET",
+    path: "/api/v1/dossiers/:dossier_id/report_calculations?calculator=test&response_ids[]=1&response_ids[]=6"
+  },
+  response: {
+    status: 422,
+    body: {
+      errors: {
+        filters: {
+          questionnaire_keys: ['blank'],
+        }
+      }
+    }
+  }
+}} />

@@ -6,8 +6,6 @@ See [protocols](protocols) for a general description.
 
 <snapshot json={require('@site/static/snapshots/rom/measurements_show.json')} />
 
-%= snapshot_response('rom', 'measurements_show') %>
-
 ### Measurement Attributes
 
 Name                  | Type      | Description

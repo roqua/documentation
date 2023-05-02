@@ -24,7 +24,7 @@ Name | Type | Description
 
 ### Response
 
-%= snapshot_response('rom', 'responses_index') %>
+<snapshot json={require("@site/static/snapshots/rom/responses_index")} />
 
 ### Response Attributes
 
@@ -90,13 +90,14 @@ Name | Type | Description
 
 The created response is returned. See the section on listing all responses for an explanation of the response object attribute fields.
 
-%= snapshot_request('rom', 'responses_create') %>
-%= snapshot_response('rom', 'responses_create') %>
+<snapshot json={require("@site/static/snapshots/rom/responses_create")} />
 
 ### When no questionnaire exists for the `questionnaire_key` provided
 
-%= headers 404 %>
-%= no_body %>
+<snapshot json={{
+  request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/responses"},
+  response: {status: 404}
+}} />
 
 ## Update a response
 
@@ -119,20 +120,25 @@ Name | Type | Description
 
 The created response is returned. See the section on listing all responses for an explanation of the response object attribute fields.
 
-%= snapshot_request('rom', 'responses_update') %>
-%= snapshot_response('rom', 'responses_update') %>
+<snapshot json={require("@site/static/snapshots/rom/responses_update")} />
 
 ### When the response already stores data updating is not allowed
 
-%= headers 403 %>
-%= no_body %>
+<snapshot json={{
+  request: {request_method: "PUT", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
+  response: {status: 403}
+}} />
 
 ### When no response exists for the `id` provided
 
-%= headers 404 %>
-%= no_body %>
+<snapshot json={{
+  request: {request_method: "PUT", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
+  response: {status: 404}
+}} />
 
 ### When no questionnaire exists for the `questionnaire_key` provided
 
-%= headers 404 %>
-%= no_body %>
+<snapshot json={{
+  request: {request_method: "PUT", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
+  response: {status: 404}
+}} />

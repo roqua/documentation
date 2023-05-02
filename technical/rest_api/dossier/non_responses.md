@@ -18,7 +18,7 @@ See SBG definition: https://www.sbggz.nl/MDS?contentitem=cded80f9-83e4-4159-8596
 
 ### Response
 
-%= snapshot_response('rom', 'non_responses_show') %>
+<snapshot json={require("@site/static/snapshots/rom/non_responses_show")} />
 
 ### Response Attributes
 
