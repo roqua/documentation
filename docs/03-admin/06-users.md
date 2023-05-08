@@ -4,11 +4,17 @@ Met behulp van deze interface kun je de RoQua gebruikersaccounts beheren. We heb
 
 ## Admin-gebruikers
 
-Admin-gebruikers hebben toegang tot de beheersomgeving van RoQua. Deze accounts werken op basis van emailadres, en 1 account worden gekoppeld aan meerdere organisaties tegelijk.
+Admin-gebruikers hebben toegang tot de beheersomgeving van RoQua. Deze accounts werken op basis van emailadres, en 1 account kan worden gekoppeld aan meerdere organisaties tegelijk.
 
 ### Login
 
 Authenticatie is standaard op basis van emailadres, wachtwoord en een tijdelijke code vanuit een authenticator-app op de telefoon.
+
+In de praktijk raken gebruikers zo nu en dan hun authenticator-app kwijt, vaak wanneer ze van telefoon wisselen en vergeten deze app opnieuw in te stellen voordat ze de oude telefoon leeg gooien. In zo'n geval kan je met de knop "MFA verwijderen" de configuratie van de authenticator-app verwijderen bij een gebruiker.
+
+:::caution
+Let op voor phishing aanvallen: wanneer een aanvaller het wachtwoord van een gebruiker heeft achterhaald, is de volgende stap om een beheerder zo ver te krijgen om de tweede authenticatiefactor van het account te laten verwijderen. Het is daarom uitermate van belang om elk verzoek hiertoe onafhankelijk te verifieren. Dat de afzender van een email goed lijkt is niet voldoende, dat is zeer makkelijk te vervalsen.
+:::
 
 Daarnaast kunnen we ook koppelen met een Azure AD koppeling, of andere OAuth provider naar keuze. In dat geval kan de gebruiker inloggen met het systeem van de organisatie zelf, en is er bij ons geen los wachtwoordbeheer. Voordeel hieraan is ook dat bij uitdiensttreding het account aan de kant van de organisatie wordt afgesloten en daarmee ook meteen RoQua ontoegankelijk is.
 
