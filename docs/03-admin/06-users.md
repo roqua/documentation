@@ -32,7 +32,7 @@ Elke gebruiker heeft bij een organisatie een set aan rechten. Zonder rechten kan
 * **Afdelingen**:
 * **E-mailfouten**:
 * **E-mailconfiguratie**:
-* **Dossiers omnummeren/**samenvoegen****:
+* **Dossiers omnummeren/samenvoegen**:
 
 ## EPD-gebruikers
 
