@@ -78,7 +78,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'RoQua Documentatie',
+        title: 'RoQua Docs',
         logo: {
           alt: 'RoQua Logo',
           src: 'img/logo.svg',
@@ -88,13 +88,13 @@ const config = {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'Gebruikershandleiding',
+            label: 'User Manual',
           },
           {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'Technische handleiding',
+            label: 'Technical documentation',
             docsPluginId: 'technical'
           },
           {
