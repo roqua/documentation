@@ -11,6 +11,8 @@ In order to ensure URLs cannot be used more than once, a nonce must be supplied 
 
 A [reference implementation](https://github.com/roqua/authmac) is available. See the *[Example](#example-implementation-both-client-and-server)* section below for more information.
 
+**Note**: Currently, this can only be used for logging in the *patient* themselves. Any related respondents (parents, caretakers etc) can not currently log in with HMAC SSO.
+
 ## SSO URL
 
 To open RoQua patient interface for a given dossier, tell a browser
@@ -31,7 +33,7 @@ The value of this parameter should be `3` if you are implementing the specificat
 
 ### `consumer_key` - The API consumer key you were issued.
 
-All parties that should be able to generate valid SSO requests are issued two strings: a `consumer_key` and a `consumer_secret`. The consumer key is sent as a parameter, so that we know which secret to use while validating the HMAC for the request. These pairs of keys can be generated in the RoQua Admin. The `consumer_secret` is only shown once after generating, if you forget the key or secret you must invalide the old pair and generate a new pair.
+All parties that should be able to generate valid SSO requests are issued two strings: a `consumer_key` and a `consumer_secret`. The consumer key is sent as a parameter, so that we know which secret to use while validating the HMAC for the request. These pairs of keys can be generated in the RoQua Admin. The `consumer_secret` is only shown once after generating, if you forget the key or secret you must invalidate the old pair and generate a new pair.
 
 ### `nonce` - Randomly generated unique token
 
@@ -69,6 +71,7 @@ value-of-bar|value-of-foo|1359373315
 
 Given a secret `very-secret`, this message would result in the following HMAC: `7ada2feaa64e7af5665b5ad92530f64983fdb3c0`.
 
+
 ## Optional parameters
 
 In addition to the list of required parameters above, we also support the following list of optional parameters. Remember that it's fine to send parameters we don't have listed in this document, they will be used in the validation of the HMAC, but will be ignored otherwise.
@@ -78,6 +81,19 @@ In addition to the list of required parameters above, we also support the follow
 ### `progress_url` - URL of your [progress page](../../dossier/fill_out_sessions/#progress-page).
 
 ### `stylesheet` - If given, this CSS URL will be loaded after our built-in stylesheets to allow some customization of the look and feel.
+
+
+## Deep link
+
+By default the user is sent to the `default` after login, which shows the recent activity for the dossier. But it is also possible to go to send the user to a specific page in the application by specifying the `area` to go to.
+
+### area=default
+
+If there are no self-initiable questionnaires, the client is sent to fill out all their pending questionnaires. If there are self-initiable questionnaires, the client is sent to the `dashboard` instead.
+
+### area=dashboard
+
+A screen where the user can choose to start completing their pending questionnaires, and self-initiable questionnaire. They can download any reports that have been marked as patient-visible. In the future more functionality will be added.
 
 
 ## Example implementation, both client and server
