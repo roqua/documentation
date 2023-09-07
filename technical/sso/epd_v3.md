@@ -10,7 +10,7 @@ This signature is generated as a hash of all parameters in the URL, as well as a
 
 In order to ensure URLs cannot be used more than once, a nonce must be supplied as one of the parameters.
 
-A [reference implementation](https://github.com/roqua/authmac) is available. See the *[Example](#example-implementation-both-client-and-server)* section below for more information.
+A [reference implementation](https://github.com/roqua/authmac) is available. See the _[Example](#example-implementation-both-client-and-server)_ section below for more information.
 
 ## SSO URL
 
@@ -20,7 +20,6 @@ window or frame to navigate to:
     https://:ggzname.rom.roqua.nl/session/create_from_epd
 
 Where :ggzname is the name RoQua has given to your organization. The domain should be the same as the domain of the admin area on which the [SSO-tokens](/nl/rom_manual/admin/integration/sso_tokens/) are generated.
-
 
 ## Required parameters
 
@@ -90,25 +89,29 @@ In addition to the list of required parameters above, we also support the follow
 
 ### `user_email` - Email of the professional
 
+### previous_clientid - Old Identifier
+
+If no patient with `clientid` exists, we will check if we have a record under `previous_clientid`. If so, we will rename that to the given `clientid` and proceed with login.
+
 ## Deep link
 
 By default the user is sent to the `timeline` after login, which shows the recent activity for the dossier. But it is also possible to go to send the user to a specific page in the application by specifying the `area` to go to.
 
 ### area=fill_out_wizard - Preparing a questionnaire for a respondent to fill_out
 
-* `measurement_id` - optional - illegal id is same as empty, but with error notice - find in url when editing measurement in the admin interface
-* `respondent_type` - optional - (patient/parent/profess/teacher/caregiver) illegal type means the user will get a clear message and the option to choose a different one.
+- `measurement_id` - optional - illegal id is same as empty, but with error notice - find in url when editing measurement in the admin interface
+- `respondent_type` - optional - (patient/parent/profess/teacher/caregiver) illegal type means the user will get a clear message and the option to choose a different one.
 
 ### area=outcome - answers and scores for questionnaires
 
-* `questionnaire_id` - optional - illegal id is same as empty, but with error notice - find in admin -> rom-config -> vragenlijstoverzicht in url (different between staging and production)
-* `questionnaire_key` - optional - illegal key is same as empty, but with error notice - find in admin -> rom-config -> vragenlijstoverzicht, next to title (same in all environments)
-* `outcome_section` - optional - (overview/scores/charts/answers) illegal section is same as empty, but with error notice
+- `questionnaire_id` - optional - illegal id is same as empty, but with error notice - find in admin -> rom-config -> vragenlijstoverzicht in url (different between staging and production)
+- `questionnaire_key` - optional - illegal key is same as empty, but with error notice - find in admin -> rom-config -> vragenlijstoverzicht, next to title (same in all environments)
+- `outcome_section` - optional - (overview/scores/charts/answers) illegal section is same as empty, but with error notice
 
 ### area=report - page to preview and create a report.
 
-* `report_template_id` - optional - illegal id is same as empty, but with error notice - find in url when editing the report in the admin interface
-* `report_template_key` - optional - illegal key is same as empty, but with error notice - find in form when editing the report in the admin interface
+- `report_template_id` - optional - illegal id is same as empty, but with error notice - find in url when editing the report in the admin interface
+- `report_template_key` - optional - illegal key is same as empty, but with error notice - find in form when editing the report in the admin interface
 
 ## Example implementation, both client and server
 
@@ -116,11 +119,11 @@ The library we use to sign and validate requests is open source and can be found
 
 ## TODO
 
-* Explain the sorting procedure for the HMAC message better.
-* Explain the procedure for URL-encoding query parameters?
+- Explain the sorting procedure for the HMAC message better.
+- Explain the procedure for URL-encoding query parameters?
 
 ## References
 
-* [Using HMAC to authenticate Web service requests](http://rc3.org/2011/12/02/using-hmac-to-authenticate-web-service-requests/)
-* [Why you should never ever use hash functions for message authentication](http://blog.jcoglan.com/2012/06/09/why-you-should-never-use-hash-functions-for-message-authentication/)
-* [RFC 4868 - HMAC-SHA256, SHA384, and SHA512 in IPsec](http://tools.ietf.org/html/rfc4868#page-17)
+- [Using HMAC to authenticate Web service requests](http://rc3.org/2011/12/02/using-hmac-to-authenticate-web-service-requests/)
+- [Why you should never ever use hash functions for message authentication](http://blog.jcoglan.com/2012/06/09/why-you-should-never-use-hash-functions-for-message-authentication/)
+- [RFC 4868 - HMAC-SHA256, SHA384, and SHA512 in IPsec](http://tools.ietf.org/html/rfc4868#page-17)
