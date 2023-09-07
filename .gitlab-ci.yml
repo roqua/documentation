@@ -1,4 +1,4 @@
-image: "registry.roqua.nl/roqua/docker-base-images:ruby-2.7-builder"
+image: "node:latest"
 
 cache:
   paths:
@@ -12,13 +12,14 @@ build:
   stage: build
   image: node
   script:
-  - npm install
-  - npm run build
+    - npm install
+    - npm run build
   artifacts:
     paths:
-    - build
+      - build
 
 deploy:
+  image: "registry.roqua.nl/roqua/docker-base-images:ruby-2.7-builder"
   stage: upload
   only:
     - master
@@ -33,4 +34,4 @@ deploy:
     - rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./build/ $SSH_USER@$SERVER_IP:~/roqua_docs/html
   artifacts:
     paths:
-    - public
+      - public
