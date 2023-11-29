@@ -142,3 +142,12 @@ The created response is returned. See the section on listing all responses for a
   request: {request_method: "PUT", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
   response: {status: 404}
 }} />
+
+## Delete a response
+
+Responses can only be deleted by `external_id`, and thus only responses that were originally uploaded via the API can be deleted.
+
+<snapshot json={{
+  request: {request_method: "DELETE", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
+  response: {status: 204}
+}} />
