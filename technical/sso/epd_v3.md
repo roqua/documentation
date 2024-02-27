@@ -89,7 +89,7 @@ In addition to the list of required parameters above, we also support the follow
 
 ### `user_email` - Email of the professional
 
-### previous_clientid - Old Identifier
+### `previous_clientid` - Old Identifier
 
 If no patient with `clientid` exists, we will check if we have a record under `previous_clientid`. If so, we will rename that to the given `clientid` and proceed with login.
 
