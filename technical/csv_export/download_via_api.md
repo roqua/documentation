@@ -1,5 +1,5 @@
 ---
-title: Responses
+title: Download via API
 ---
 
 All exports contain the data up until last night.
@@ -40,27 +40,9 @@ An export version defines which answers are exported and the names of the column
   }
 }} />
 
+The returned data is a ZIP-file with a CSV-file for each questionnaire, and a `non_responses.json` for the non-response data.
+
 ## Download a specific export version
 
     GET /api/v1/data_exports/:data_export_id
-
-## Download the latest sql export
-
-<snapshot json={{
-  request: {
-    request_method: "GET",
-    path: "/api/v1/data_exports/download_sql"
-  },
-  response: {
-    status: 200,
-    headers: {
-      "Content-Type": "application/zip",
-      "Content-Disposition": "attachment; filename=\"demo.db\"",
-      "Content-Transfer-Encoding": "binary"
-    },
-    body: "THE BINARY DATA"
-  }
-}} />
-
-Is usually updated every hour. Download is a sqlite .db file.
 
