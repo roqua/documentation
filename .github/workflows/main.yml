@@ -3,7 +3,7 @@ name: Build site
 on: push
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,3 +20,27 @@ jobs:
 
       - name: Build site
         run: npm run build
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: build
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: build
+
+      - uses: GuillaumeFalourd/setup-rsync@v1.2
+        with:
+          ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - run: rsync --version
+      # - run: rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }}:~/roqua_docs/html
