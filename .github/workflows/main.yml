@@ -29,7 +29,7 @@ jobs:
           retention-days: 1
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: deploys
     needs: build
 
     steps:
@@ -39,6 +39,20 @@ jobs:
           name: build
           path: build
 
+
+      - name: Rsync Deployer
+        uses: imajeetyadav/rsync-deployer@1.0.0
+        with:
+          HOST: ${{ secrets.SERVER_IP }}
+          USERNAME: ${{ secrets.SSH_USER }}
+          KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SOURCE_PATH: "./build/"
+          TARGET_PATH: "~/roqua_docs/html/"
+          PORT: 22
+          RSYNC_PARAMETERS: ""
+          DELETE_OPTION: "true"
+          EXCLUDE_LIST: ".git, .github"
+          DRY_RUN: "true"
       - uses: GuillaumeFalourd/setup-rsync@v1.2
         with:
           ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
