@@ -43,5 +43,4 @@ jobs:
         with:
           ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - run: rsync --version
-      # - run: rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }}:~/roqua_docs/html
+      - run: rsync -av -e "ssh -o StrictHostKeyChecking=no" --delete ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }}:~/roqua_docs/html
