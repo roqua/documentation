@@ -51,7 +51,6 @@ jobs:
           RSYNC_PARAMETERS: ""
           DELETE_OPTION: "true"
           EXCLUDE_LIST: ".git, .github"
-          DRY_RUN: "true"
       # - uses: GuillaumeFalourd/setup-rsync@v1.2
       #   with:
       #     ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
