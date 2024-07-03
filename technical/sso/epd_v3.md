@@ -93,6 +93,10 @@ In addition to the list of required parameters above, we also support the follow
 
 If no patient with `clientid` exists, we will check if we have a record under `previous_clientid`. If so, we will rename that to the given `clientid` and proceed with login.
 
+### `locale` - Language of the interface for the professional.
+
+Support for `nl` or `en`. Defaults to `nl`. If an unknown language is given, this parameter is ignored. The professional can override this within our interface, but it will be saved to this given value every time they login, so only pass it if your sure it's the language they want.
+
 ## Deep link
 
 By default the user is sent to the `timeline` after login, which shows the recent activity for the dossier. But it is also possible to go to send the user to a specific page in the application by specifying the `area` to go to.
