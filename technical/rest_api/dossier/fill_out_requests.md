@@ -30,7 +30,8 @@ Name               | Type      | Description
 Name                | Type               | Description
 --------------------|--------------------|------------
 `questionnaire_keys`| `array of string`  | **Required**. List of questionnaires that need to be filled out.
-`respondent_type`   | `string`           | Defaults to `patient_version`.
+`respondent_id`     | `integer`          | Id of the respondent that should fill out the questionnaire.
+`respondent_type`   | `string`           | \['patient_version'(default) \| 'profess_version'\] String identifying the respondent that should fill out the questionnaires. can be used instead of respondent_id.
 `callback_url`      | `string`           | URL to call on events (see below).
 `reminders`         | `array of integer` | List of offsets in seconds after open_from to make a reminder callback.
 `open_from`         | `integer`          | Unix timestamp for when the questionnaires can be filled out. Defaults to Time.now
