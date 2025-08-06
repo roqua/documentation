@@ -24,7 +24,7 @@ Wanneer u op de knop 'Verstuur e-mail voor het maken van een account' klikt, zal
 <screenshot src="/screenshots/client_portal_login_1.png" />
 
 Eenmaal aangemaakt, dan wordt de respondent doorverwezen naar de login pagina. De respondent kan inloggen met de 8-cijferige login code en het wachtwoord die hun hebben ingevuld. Eenmaal ingelogd voor de eerste keer, dan moet de respondent een 2-factor authenticatie instellen.
-<screenshot src="/screenshots/client_portal_login_3.png" />
+<screenshot src="/screenshots/client_portal_login_2.png" />
 
 Na het instellen van een 2-factor authenticatie, wordt de gebruiker naar het portaal doorgestuurd, maar heeft de respondent nog geen toegang. De respondent moet namelijk (als extra verificatie) nog een goedkeuring krijgen van de behandelaar. Dit gebeurt weer op dezelfde 'beheer login' pagina op het EPD. Klik hier op 'Respondent login activeren'.
 <screenshot src="/screenshots/client_portal_manage_login_2.png" />
