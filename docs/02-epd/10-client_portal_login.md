@@ -1,12 +1,12 @@
-# Client Portal Login
+# Client respondent login
 
-Vanaf nu kunnen respondenten ook inloggen via een wachtwoord op het cliënten portaal. Dit brengt extra voordelen met zich mee, zoals het inzien van ingevulde antwoorden van vragenlijsten, als het inzien van rapporten.
+Respondenten kunnen ook inloggen via een wachtwoord op het cliënten portaal. Dit brengt extra voordelen met zich mee, zoals het inzien van ingevulde vragenlijsten en rapporten. Echter staat deze optie niet standaard aangevinkt. Om dit aan te zetten moet dit ingesteld worden bij de organizatie settings van uw organizatie.
 
-Om naar het cliënten portaal te gaan, logt u in op:
+Om naar het cliënten portaal te gaan, logt een patient in op:
 https://rom.roqua.nl/client/login
 <screenshot src="/screenshots/client_portal_login.png" />
 
-Voordat een respondent toegang kan krijgen, moet deze eerst een account toegediend krijgen van een behandelaar. Hieronder wordt uitgelegd hoe je als behandelaar een account kan toedienen aan een respondent.
+Voordat een respondent toegang kan krijgen, moet deze eerst een account toegediend krijgen van een behandelaar. Hieronder wordt uitgelegd hoe je als behandelaar een account kan aanmaken voor een respondent. Dit is op dit moment nog een beetje complex in verband met de veiligheid en de mogelijkheden van ons systeem, hiervoor onze excuses.
 
 Wanneer u op het EPD bent, kunt u linksboven op het potlood icoontje klikken om naar de pagina te gaan om dossiergegevens bij te werken.
 <screenshot src="/screenshots/client_portal_navbar.png" />
@@ -27,9 +27,9 @@ Eenmaal aangemaakt, dan wordt de respondent doorverwezen naar de login pagina. D
 <screenshot src="/screenshots/client_portal_login_3.png" />
 
 Na het instellen van een 2-factor authenticatie, wordt de gebruiker naar het portaal doorgestuurd, maar heeft de respondent nog geen toegang. De respondent moet namelijk (als extra verificatie) nog een goedkeuring krijgen van de behandelaar. Dit gebeurt weer op dezelfde 'beheer login' pagina op het EPD. Klik hier op 'Respondent login activeren'.
-<screenshot src="/screenshots/client_portal_manage_login_4.png" />
+<screenshot src="/screenshots/client_portal_manage_login_2.png" />
 
 Een respondent account kan op dezelfde manier ook weer gedeactiveerd worden.
-<screenshot src="/screenshots/client_portal_manage_login_5.png" />
+<screenshot src="/screenshots/client_portal_manage_login_3.png" />
 
 Nadat een respondent login is geactiveerd kan de respondent gebruik maken van de login features.
