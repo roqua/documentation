@@ -39,9 +39,18 @@ export function formatHttpRequest(request: RequestData): string {
 export function formatCurlCommand(request: RequestData): string {
   const { request_method, path, body } = request;
   const hasBody = body && Object.keys(body).length > 0 && ['POST', 'PUT', 'PATCH'].includes(request_method.toUpperCase());
-  const url = `${BASE_URL}${path}`;
   
-  let curlCommand = `curl -X ${request_method.toUpperCase()} "${url}" \\\n`;
+  // Extract common path parameters as variables
+  let curlCommand = '';
+  if (path.includes(':dossier_id')) {
+    curlCommand += `DOSSIER_ID="your_dossier_id"\n`;
+  }
+  
+  // Replace path parameters with variable references
+  let urlPath = path.replace(':dossier_id', '$DOSSIER_ID');
+  const url = `${BASE_URL}${urlPath}`;
+  
+  curlCommand += `curl -X ${request_method.toUpperCase()} "${url}" \\\n`;
   curlCommand += `  -u "username:password"`;
   
   if (hasBody) {
@@ -58,10 +67,15 @@ export function formatCurlCommand(request: RequestData): string {
 export function formatPowerShellCommand(request: RequestData): string {
   const { request_method, path, body } = request;
   const hasBody = body && Object.keys(body).length > 0 && ['POST', 'PUT', 'PATCH'].includes(request_method.toUpperCase());
-  const url = `${BASE_URL}${path}`;
   
   let psCommand = `$username = "username"\n`;
   psCommand += `$password = "password"\n`;
+  
+  // Extract common path parameters as variables
+  if (path.includes(':dossier_id')) {
+    psCommand += `$dossierId = "your_dossier_id"\n`;
+  }
+  
   psCommand += `$base64AuthInfo = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $username, $password)))\n\n`;
   
   psCommand += `$headers = @{\n`;
@@ -91,6 +105,10 @@ export function formatPowerShellCommand(request: RequestData): string {
     psCommand += bodyEntries;
     psCommand += `\n} | ConvertTo-Json\n\n`;
   }
+  
+  // Replace path parameters with variable references
+  let urlPath = path.replace(':dossier_id', '$dossierId');
+  const url = `${BASE_URL}${urlPath}`;
   
   psCommand += `Invoke-RestMethod -Uri "${url}" \`\n`;
   psCommand += `  -Method ${request_method.toUpperCase()} \`\n`;
