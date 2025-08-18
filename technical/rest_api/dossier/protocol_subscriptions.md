@@ -53,7 +53,16 @@ Name | Type | Description
 ### Success
 
 <snapshot json={{
-  request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions"},
+  request: {
+    request_method: "POST",
+    path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions",
+    body: {
+      protocol_id: 123,
+      start_at: 1392389004,
+      flags: {dagboek_roker: false},
+      textvars: {dagboek_hoofdprobleem: "Slaaptekort"}
+    }
+  },
   response: {
     status: 200,
     body: {

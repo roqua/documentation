@@ -1,0 +1,125 @@
+.requestTabs {
+  margin-bottom: 1rem;
+}
+
+.tabList {
+  display: flex;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  margin-bottom: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.tabList::-webkit-scrollbar {
+  height: 3px;
+}
+
+.tabList::-webkit-scrollbar-track {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.tabList::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-emphasis-400);
+  border-radius: 3px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-700);
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.tab:hover {
+  color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.tab:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: -2px;
+  border-radius: 3px;
+}
+
+.tabActive {
+  color: var(--ifm-color-primary);
+  border-bottom-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.tabPanel {
+  margin-top: 0;
+}
+
+.tabPanelActive {
+  display: block;
+}
+
+.tabPanelHidden {
+  display: none;
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .tab {
+  color: var(--ifm-color-emphasis-600);
+}
+
+[data-theme='dark'] .tab:hover {
+  color: var(--ifm-color-primary-light);
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .tabActive {
+  color: var(--ifm-color-primary-light);
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+  .tab {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .tabList {
+    border-bottom-width: 1px;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .tab {
+    border: 1px solid var(--ifm-color-emphasis-400);
+    margin-right: 2px;
+  }
+  
+  .tabActive {
+    border-color: var(--ifm-color-primary);
+    border-width: 2px;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .tab {
+    transition: none;
+  }
+}
+
+/* Focus visible for better keyboard navigation */
+.tab:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+.tab:focus:not(:focus-visible) {
+  outline: none;
+}

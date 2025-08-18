@@ -1,5 +1,6 @@
 import CodeBlock from '@theme/CodeBlock';
 import React from 'react';
+import RequestTabs from './RequestTabs';
 import styles from "./Snapshot.module.css";
 
 const STATUSES = {
@@ -37,7 +38,7 @@ type Snapshot = {
 export const Request = ({snapshot}) => {
   return <>
     <h3>Sample request</h3>
-    <Headers snapshot={snapshot} />
+    <RequestTabs request={snapshot.request} />
   </>
 }
 
