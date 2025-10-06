@@ -1,24 +1,13 @@
+---
+sort: 500
+---
+
 # Non-Responses
 
 Soms worden klaargezette vragenlijsten niet ingevuld door een patiënt of wordt hij of zij niet benaderd voor een ROM meting. De redenen voor deze non-respons kunnen geregistreerd worden in RoQua. Ze komen dan in de data-export terecht en kunnen aan het SBG gerapporteerd worden.
 
 ## Patiënt wel benaderd
 
-Wanneer je op het kruisje naast de naam van een klaarstaande vragenlijst klikt, verschijnt een scherm waarin je de reden non-respons kunt aangeven.
-
-<screenshot src="/screenshots/dossier_quests6.png" />
-
-:::tip
-Wanneer je rechts op de knop "Verwijder Alle" klikt, wordt de opgegeven "reden non-respons" aan alle verwijderde vragenlijsten geassocieerd.
-:::
-
-Kies een bijpassende reden en klik op "Ok" om deze op te slaan.
-
-<screenshot src="/screenshots/dossier_quests7.png" />
-
-:::tip
-Wanneer je de optie "Geen non-respons registreren." geselecteerd laat staan en op "Ok" klikt, wordt de klaarstaande vragenlijst verwijderd zonder een reden op te slaan.
-:::
 
 ### Non-Respons Automatische Protocollen
 

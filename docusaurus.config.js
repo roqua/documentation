@@ -118,7 +118,7 @@ const config = {
         title: "RoQua Docs",
         logo: {
           alt: "RoQua Logo",
-          src: "img/logo.svg",
+          src: "img/roqua-q.png",
         },
         items: [
           {
