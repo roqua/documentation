@@ -1,6 +1,6 @@
 # Klaargezette vragenlijsten beheren
 
-<screenshot src="/screenshots/epd/overview_pending_responses_page.png" />
+<Screenshot src="/screenshots/epd/overview_pending_responses_page.png" />
 
 ## Volgorde aanpassen
 
@@ -12,6 +12,6 @@ Om te zorgen dat bepaalde vragenlijsten niet meer worden afgenomen wanneer de re
 
 RoQua vraagt dan om aan te geven wat de reden voor verwijdering is.
 
-<screenshot src="/screenshots/epd/create-nonresponse-for-pending.png" />
+<Screenshot src="/screenshots/epd/create-nonresponse-for-pending.png" />
 
 Kies een bijpassende reden en klik op "Ok" om deze op te slaan. Wanneer je de optie "Geen reden registreren." geselecteerd laat staan en op "Ok" klikt, wordt de klaarstaande vragenlijst verwijderd zonder een reden op te slaan. In de lijst met recente gebeurtenissen bij het dossier verschijnt dan geen "non-respons" regel.

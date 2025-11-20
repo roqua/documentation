@@ -2,7 +2,7 @@
 title: Download via API
 ---
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "GET",
     path: "/api/v1/data_exports/download_sql"

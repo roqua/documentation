@@ -7,11 +7,11 @@ Within a protocol it is possible to prefill some answers, when a **professional*
 
 To configure this, start with the questionnaires of a measurement, and click on the wrench:
 
-<screenshot src="/screenshots/prefillers/edit_measured_questionnaire_button.png" />
+<Screenshot src="/screenshots/prefillers/edit_measured_questionnaire_button.png" />
 
 On the next page there's a list of prefillers at the bottom. Each prefiller is for 1 specific question of the questionnaire (but not every question needs to be prefilled):
 
-<screenshot src="/screenshots/prefillers/prefillers_list.png" />
+<Screenshot src="/screenshots/prefillers/prefillers_list.png" />
 
 Choose the type of prefiller you want to create, or manage existing prefillers using their buttons.
 
@@ -19,7 +19,7 @@ Choose the type of prefiller you want to create, or manage existing prefillers u
 
 The form for this type of prefiller looks like:
 
-<screenshot src="/screenshots/prefillers/prior_response_form.png" />
+<Screenshot src="/screenshots/prefillers/prior_response_form.png" />
 
 * _"Field to prefill":_ which question do you want to prefill
 * _"Copy from":_ from which question in the previous completion do you want to copy the answer
@@ -29,7 +29,7 @@ The form for this type of prefiller looks like:
 
 The form for this type of prefiller looks like:
 
-<screenshot src="/screenshots/prefillers/fhir_prefiller_form.png" />
+<Screenshot src="/screenshots/prefillers/fhir_prefiller_form.png" />
 
 * _"Field to prefill":_ which question do you want to prefill
 * _"Fhir endpoint":_ Setting up the connection to a FHIR server is handled for you by RoQua support, but once set up you can choose which FHIR server to query here. You'll probably only have one.

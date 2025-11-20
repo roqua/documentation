@@ -2,7 +2,7 @@
 
 ## Get current service health
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "GET",
     path: "/api/v1/service_health"

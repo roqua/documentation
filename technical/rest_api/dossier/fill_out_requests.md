@@ -5,7 +5,7 @@ At opened/reminder/expired a callback is made to the callback url.
 
 ## Create a FillOutRequest
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "POST",
     path: "/api/v1/dossiers/:dossier_id/fill_out_request"

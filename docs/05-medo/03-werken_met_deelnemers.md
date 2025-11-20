@@ -8,7 +8,7 @@ mogelijk om door de tabel te zoeken, waarbij door data van meerdere kolommen
 gezocht kan worden. Als u verzamelaar of coördinator bent kunt u de voornaam,
 achternaam en het e-mailadres van deelnemers bekijken.
 
-<screenshot src='/screenshots/medo/nl/deelnemerslijst.png' />
+<Screenshot src='/screenshots/medo/nl/deelnemerslijst.png' />
 
 ### Privacy
 
@@ -44,7 +44,7 @@ opgesplitst in geanonimiseerde gegevens en persoonsgegevens. Alleen
 verzamelaars en coördinatoren kunnen de persoonsgegevens bekijken. De anonieme
 gegevens kunnen wel door onderzoekers bekeken worden.
 
-<screenshot src='/screenshots/medo/nl/deelnemersdetail.png' />
+<Screenshot src='/screenshots/medo/nl/deelnemersdetail.png' />
 
 ## Vragenlijsten, protocollen en uitnodigingen beheren
 
@@ -76,4 +76,4 @@ veld te definieren. Waarde wordt gebruikt om de waarde van het veld op te slaan.
   De naam van het veld mag alleen kleine letters of een underscore bevatten.
 :::
 
-<screenshot src='/screenshots/medo/nl/nieuwe-deelnemer.png' />
+<Screenshot src='/screenshots/medo/nl/nieuwe-deelnemer.png' />

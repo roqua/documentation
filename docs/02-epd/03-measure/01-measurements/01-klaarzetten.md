@@ -1,6 +1,6 @@
 # Klaarzetten
 
-<screenshot src="/screenshots/epd/measure-klaarzetten.png" />
+<Screenshot src="/screenshots/epd/measure-klaarzetten.png" />
 
 Op het tweede scherm kun je extra opties opgeven, zoals het versturen van een uitnodiging/herinnering en het klaarzetten voor de toekomst.
 

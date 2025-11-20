@@ -20,7 +20,7 @@ ids corresponding with aborted responses is provided, filling out will be resume
 
 ### Success
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "POST",
     path: "/api/v1/dossiers/:dossier_id/fill_out_sessions"
@@ -35,25 +35,25 @@ ids corresponding with aborted responses is provided, filling out will be resume
 
 ### When no questionnaire keys or answer ids are provided.
 
-<snapshot json={require('@site/static/snapshots/rom/fill_out_session_missing_questionnaire_key')} />
+<Snapshot json={require('@site/static/snapshots/rom/fill_out_session_missing_questionnaire_key')} />
 
 ### When no questionnaire exists for one of the `questionnaire_key`s provided
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/fill_out_sessions"},
   response: {status: 404}
 }} />
 
 ### When no aborted answer exists for one of the `answer_id`s provided
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/fill_out_sessions"},
   response: {status: 404}
 }} />
 
 ### When no `return_to` url is provided
 
-<snapshot json={require('@site/static/snapshots/rom/fill_out_session_missing_return_to')} />
+<Snapshot json={require('@site/static/snapshots/rom/fill_out_session_missing_return_to')} />
 
 ## Progress page
 

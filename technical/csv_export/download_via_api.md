@@ -8,7 +8,7 @@ An export version defines which answers are exported and the names of the column
 
 ## List all export versions
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "GET",
     path: "/api/v1/data_exports.json"
@@ -24,7 +24,7 @@ An export version defines which answers are exported and the names of the column
 
 ## Download the latest export version
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "GET",
     path: "/api/v1/data_exports/download"

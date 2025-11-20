@@ -1,6 +1,6 @@
 # Direct Invullen
 
-<screenshot src="/screenshots/epd/measure-direct-invullen.png" />
+<Screenshot src="/screenshots/epd/measure-direct-invullen.png" />
 
 Soms is het wenselijk om een vragenlijst direct namens een respondent in te kunnen vullen. Dit kan door een vragenlijst te selecteren en op de knop Direct invullen te klikken. Er verschijnt nu een scherm waarin u de gewenste situatie kunt kiezen.
 

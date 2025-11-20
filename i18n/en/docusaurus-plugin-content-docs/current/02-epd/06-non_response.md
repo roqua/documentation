@@ -9,7 +9,7 @@ Sometimes prepared questionnaires are not completed by a patient or he or she is
 
 When you click on the cross next to the name of a prepared questionnaire, a screen appears in which you can indicate the reason for non-response.
 
-<screenshot src="/screenshots/dossier_quests6.png" />
+<Screenshot src="/screenshots/dossier_quests6.png" />
 
 <ul class="hints">
   <li> When you right-click the "Delete All" button, the specified "reason non-response" is associated with all deleted questionnaires.</li>
@@ -21,7 +21,7 @@ Choose a matching reason and click "Ok" to save it
   <li> When you leave the option "Do not register non-response." selected and click on "Ok", the prepared questionnaire will be deleted without saving a reason.</li>
 </ul>
 
-<screenshot src="/screenshots/dossier_quests7.png" />
+<Screenshot src="/screenshots/dossier_quests7.png" />
 
 ### Non-Response Automatic Protocols
 
@@ -31,11 +31,11 @@ When a set of questionnaires is prepared by an automatic protocol (see below), t
 
 If a patient has not been invited for a ROM measurement, registering the reason for non-response is as follows: click the "Questionnaire" button at the top of the timeline.
 
-<screenshot src="/screenshots/dossier_quests9.png" />
+<Screenshot src="/screenshots/dossier_quests9.png" />
 
 Select the missed ROM measurement.
 
-<screenshot src="/screenshots/dossier_quests1.png" />
+<Screenshot src="/screenshots/dossier_quests1.png" />
 
 Select the questionnaires for which a reason non-response must be registered and click on the "Non-Response" button at the bottom.
 
@@ -43,7 +43,7 @@ Select the questionnaires for which a reason non-response must be registered and
   <li> Select another respondent's tab in case of parent or teacher questionnaires, for example.</li>
 </ul>
 
-<screenshot src="/screenshots/dossier_quests8.png" />
+<Screenshot src="/screenshots/dossier_quests8.png" />
 
 Select the reason for non-response and click "Save".
 
@@ -51,4 +51,4 @@ Select the reason for non-response and click "Save".
   <li> If the non-response concerns a measurement from the past, the date of non-response can be specified under the heading "Date Measurement".</li>
 </ul>
 
-<screenshot src="/screenshots/dossier_quests10.png" />
+<Screenshot src="/screenshots/dossier_quests10.png" />

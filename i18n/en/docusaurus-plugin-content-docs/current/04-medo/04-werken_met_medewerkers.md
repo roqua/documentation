@@ -8,4 +8,4 @@ Clicking **Invite User** shows a form for supplying the email address and the de
 
 You are only allowed to invite users with an email address on a domain that matches the configured **allowed domain names** of the project. The list of allowed domain names are configured by the RoQua team.
 
-<screenshot src='/screenshots/medo/en/medewerkerslijst.png' />
+<Screenshot src='/screenshots/medo/en/medewerkerslijst.png' />

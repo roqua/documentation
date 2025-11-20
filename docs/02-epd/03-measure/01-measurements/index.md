@@ -5,7 +5,7 @@ sort: 100
 
 # Handmatig klaarzetten
 
-<screenshot src="/screenshots/epd/measure-measurement.png" />
+<Screenshot src="/screenshots/epd/measure-measurement.png" />
 
 Binnen een meting zitten vragenlijsten die voor verschillende types respondenten geschikt zijn. In de screenshot hierboven zie je bijvoorbeeld dat er vragenlijsten zijn voor de behandelaar of andere medewerker van je organisatie, en vragenlijsten zijn voor de mantelzorger van de cliënt.
 
@@ -13,17 +13,17 @@ Daaronder staat een tabel met de vragenlijsten.
 
 ### Medewerkervragenlijsten
 
-<screenshot src="/screenshots/epd/measure-professional-controls.png" />
+<Screenshot src="/screenshots/epd/measure-professional-controls.png" />
 
 Helemaal aan het einde staan de opties om verder te gaan. Voor medewerkers is er alleen de keuze voor "Invullen". Binnen RoQua worden medewerkerlijsten direct in beantwoord en ingevuld.
 
-<screenshot src="/screenshots/epd/measure-professional.png" />
+<Screenshot src="/screenshots/epd/measure-professional.png" />
 
 Voordat je aan het invullen van de vragenlijsten begint kun je eventueel nog aangeven dat de antwoorden die je gaat geven niet van nu zijn, maar van een eerdere datum, en dat je ze nu retroactief aan het invoeren bent.
 
 ### Cliënt en andere respondenten
 
-<screenshot src="/screenshots/epd/measure-respondent-controls.png" />
+<Screenshot src="/screenshots/epd/measure-respondent-controls.png" />
 
 Voor alle andere typen respondenten is de meest gebruikelijke route dat je de vragenlijsten klaar voor afname, en krijgt de respondent daarna een link waarmee ze ingevuld kunnen worden. Hiervoor kies je de knop "Klaarzetten..."
 

@@ -13,10 +13,10 @@ or [1Password](https://1password.com/pricing/).
 
 We also ask you to configure a phone number on making your Medoq account. If you lose access to your two factor authentication app, send us an email explaining the problem. We will call this number to verify your identity and allow you to configure a new two factor authentication app.
 
-You will be guided through the two factor setup process through the Medoq website. 
+You will be guided through the two factor setup process through the Medoq website.
 
 ## Account configuration
 
 In the lower left of the menu, press **Account** to change your account configuration. To change your account configuration you will need to supply your current password. Configuring a new password is optional.
 
-<screenshot src='/screenshots/medo/en/accountinstellingen.png' />
+<Screenshot src='/screenshots/medo/en/accountinstellingen.png' />

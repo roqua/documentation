@@ -9,7 +9,7 @@ In the patient settings you can:
 - Add respondents
 
 Click on the patient settings button at the top op the page:
-<screenshot src="/screenshots/patient_settings_button.png" />
+<Screenshot src="/screenshots/patient_settings_button.png" />
 
 ## Add respondents
 

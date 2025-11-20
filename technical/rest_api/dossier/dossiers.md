@@ -2,7 +2,7 @@
 
 ## Get a single dossier
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "GET",
     path: "/api/v1/dossiers/$ID"

@@ -16,7 +16,7 @@ Name | Type | Description
 
 ### Success
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "GET", path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions"},
   response: {
     status: 200,
@@ -52,7 +52,7 @@ Name | Type | Description
 
 ### Success
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "POST",
     path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions",
@@ -98,21 +98,21 @@ Name | Type | Description
 
 ### When no protocol exists with the `protocol_key` provided
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions"},
   response: {status: 404}
 }} />
 
 ### When a flag does not exist within the protocol
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions"},
   response: {status: 422, body: {errors: {base: ['flag_does_not_exist']}}}
 }} />
 
 ### When a flag is set to an invalid value
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions"},
   response: {status: 422, body: {errors: {base: ['flag_value_invalid']}}}
 }} />
@@ -132,7 +132,7 @@ Name | Type | Description
 
 ### Success
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "DELETE", path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions/:id"},
   response: {
     status: 200,
@@ -149,7 +149,7 @@ Name | Type | Description
 
 ### When no protocol subscription exists with the given `id`
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "DELETE", path: "/api/v1/dossiers/:dossier_id/protocol_subscriptions/:id"},
   response: {status: 404}
 }} />

@@ -15,7 +15,7 @@ Respondents are people that fill out questionnaires. The default respondent is t
 
 ### Response
 
-<snapshot json={require("@site/static/snapshots/rom/respondents_show")} />
+<Snapshot json={require("@site/static/snapshots/rom/respondents_show")} />
 
 ### Response Attributes
 

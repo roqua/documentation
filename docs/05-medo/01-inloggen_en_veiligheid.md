@@ -30,4 +30,4 @@ Door linksonder op **Account** te klikken kunt u uw gebruikersaccount
 aanpassen. Om de gegevens te wijzigen dient u altijd uw oude wachtwoord in
 te vullen. Het invullen van een nieuw wachtwoord is optioneel.
 
-<screenshot src="/screenshots/medo/nl/accountinstellingen.png" />
+<Screenshot src="/screenshots/medo/nl/accountinstellingen.png" />

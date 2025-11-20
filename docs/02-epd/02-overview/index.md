@@ -8,7 +8,7 @@ Dit is normaal gesproken de pagina waarop je uit komt wanneer je RoQua opstart. 
 
 Bovenin de overzichtspagina wordt per respondent aangegeven welke vragenlijsten klaar staan om ingevuld te worden en wat de bijbehorende inlogcode is.
 
-<screenshot src="/screenshots/epd/overview_pending_section.png" />
+<Screenshot src="/screenshots/epd/overview_pending_section.png" />
 
 <ul class="hints">
   <li>De volgorde waarin de vragenlijsten hier staan is ook de volgorde waarin de respondent ze moet invullen.</li>
@@ -21,16 +21,16 @@ Bovenin de overzichtspagina wordt per respondent aangegeven welke vragenlijsten 
 
 Als er automatische protocollen actief zijn voor deze cliënt, dan zie je die hier staan. Automatische protocollen zorgen ervoor dat er op regelmatige tijdstippen automatisch vragenlijsten klaargezet worden. In deze sectie zie je welke protocollen er draaien en wanneer de volgende afname is.
 
-<screenshot src="/screenshots/epd/overview_autoprotocol_section.png" />
+<Screenshot src="/screenshots/epd/overview_autoprotocol_section.png" />
 
 ## Invulbaar op eigen initiatief
 
 Indien ingesteld, zie je hier welke vragenlijsten de cliënt op eigen initiatief kan invullen. Deze vragenlijsten hoeven niet klaargezet te worden door een zorgverlener, maar kunnen door de respondent zelf opgestart worden wanneer zij dat willen.
 
-<screenshot src="/screenshots/epd/overview_selfinit_section.png" />
+<Screenshot src="/screenshots/epd/overview_selfinit_section.png" />
 
 ## Recente activiteiten
 
 Deze sectie toont een chronologische lijst van alle gebeurtenissen bij deze cliënt. Hier zie je bijvoorbeeld welke vragenlijsten er ingevuld zijn, wanneer er uitnodigingen verstuurd zijn, en wanneer er rapporten gegenereerd zijn.
 
-<screenshot src="/screenshots/epd/overview_timeline.png" />
+<Screenshot src="/screenshots/epd/overview_timeline.png" />

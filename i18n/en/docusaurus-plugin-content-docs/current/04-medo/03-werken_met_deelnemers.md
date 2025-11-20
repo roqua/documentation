@@ -4,7 +4,7 @@
 
 This page contains a table of project participants. Clicking on the column headers sorts the table according to that column. The search bar allows searching through multiple columns simultaneously. If you are a collector or coordinator, you are allowed to view the name and email address of participants in this table.
 
-<screenshot src='/screenshots/medo/en/deelnemerslijst.png' />
+<Screenshot src='/screenshots/medo/en/deelnemerslijst.png' />
 
 ### Privacy
 
@@ -30,7 +30,7 @@ Collectors and coordinators are allowed to export the list of participants and i
 
 By clicking on a row in the participant index, a page with extended information about the participant is show. This page is split up between anonymized and personal information. Only collectors and coordinators are allowed to view the personal information. Anonymized information can be viewed by researchers.
 
-<screenshot src='/screenshots/medo/en/deelnemersdetail.png' />
+<Screenshot src='/screenshots/medo/en/deelnemersdetail.png' />
 
 ## Administering questionnaires, subscriptions and invitations
 
@@ -52,4 +52,4 @@ Metadata allows you to record information about participants that does not fit t
   The name of a metadata field may only contain lowercase characters and underscores.
 :::
 
-<screenshot src='/screenshots/medo/en/nieuwe-deelnemer.png' />
+<Screenshot src='/screenshots/medo/en/nieuwe-deelnemer.png' />

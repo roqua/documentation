@@ -4,13 +4,13 @@
 
 In dit overzicht staan de projecten waar u toegang toe hebt.
 
-<screenshot src='/screenshots/medo/nl/projectoverzicht.png' />
+<Screenshot src='/screenshots/medo/nl/projectoverzicht.png' />
 
 ## Projectgegevens
 
 In dit overzicht staan de gegevens en de instellingen van het project.
 
-<screenshot src='/screenshots/medo/nl/projectpagina.png' />
+<Screenshot src='/screenshots/medo/nl/projectpagina.png' />
 
 ## Projectinstellingen
 
@@ -31,4 +31,4 @@ Selecteer hier welke velden verplicht zijn bij het
 Kies welke velden zichtbaar moeten zijn bij het aanmaken van een deelnemer:
 alleen verplichte velden of alle velden.
 
-<screenshot src='/screenshots/medo/nl/projectinstellingen.png' />
+<Screenshot src='/screenshots/medo/nl/projectinstellingen.png' />

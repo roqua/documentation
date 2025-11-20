@@ -5,7 +5,7 @@ Hier kun je enkele instellingen maken voor de RoQua-applicatie zoals de weergave
 ## Actieve functies
 
 <div style={{height: "230px", overflow: "hidden"}}>
-  <screenshot src="/screenshots/instellingen.png" />
+  <Screenshot src="/screenshots/instellingen.png" />
 </div>
 
 <ul>
@@ -15,7 +15,7 @@ Hier kun je enkele instellingen maken voor de RoQua-applicatie zoals de weergave
 
 ## Migreren ORU-koppeling
 
-<screenshot src="/screenshots/instellingen.png" />
+<Screenshot src="/screenshots/instellingen.png" />
 
 Voer de volgende stappen uit voor het migreren van de ORU-koppeling naar het meest recente exportformaat:
 

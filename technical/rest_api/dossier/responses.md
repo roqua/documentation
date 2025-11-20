@@ -24,7 +24,7 @@ Name | Type | Description
 
 ### Response
 
-<snapshot json={require("@site/static/snapshots/rom/responses_index")} />
+<Snapshot json={require("@site/static/snapshots/rom/responses_index")} />
 
 ### Response Attributes
 
@@ -90,11 +90,11 @@ Name | Type | Description
 
 The created response is returned. See the section on listing all responses for an explanation of the response object attribute fields.
 
-<snapshot json={require("@site/static/snapshots/rom/responses_create")} />
+<Snapshot json={require("@site/static/snapshots/rom/responses_create")} />
 
 ### When no questionnaire exists for the `questionnaire_key` provided
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "POST", path: "/api/v1/dossiers/:dossier_id/responses"},
   response: {status: 404}
 }} />
@@ -120,25 +120,25 @@ Name | Type | Description
 
 The created response is returned. See the section on listing all responses for an explanation of the response object attribute fields.
 
-<snapshot json={require("@site/static/snapshots/rom/responses_update")} />
+<Snapshot json={require("@site/static/snapshots/rom/responses_update")} />
 
 ### When the response already stores data updating is not allowed
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "PUT", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
   response: {status: 403}
 }} />
 
 ### When no response exists for the `id` provided
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "PUT", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
   response: {status: 404}
 }} />
 
 ### When no questionnaire exists for the `questionnaire_key` provided
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "PUT", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
   response: {status: 404}
 }} />
@@ -147,7 +147,7 @@ The created response is returned. See the section on listing all responses for a
 
 Responses can only be deleted by `external_id`, and thus only responses that were originally uploaded via the API can be deleted.
 
-<snapshot json={{
+<Snapshot json={{
   request: {request_method: "DELETE", path: "/api/v1/dossiers/:dossier_id/responses/:external_id"},
   response: {status: 204}
 }} />

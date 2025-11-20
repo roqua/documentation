@@ -12,7 +12,7 @@ De afdelingen en welke protocollen en uitnodigingstemplates daar bij horen worde
 De naam van de afdeling die was geselecteerd op het moment van het klaarzetten van een vragenlijst valt
 door in de dataexport onder de &lt;vragenlijstsleutel&gt;_location kolom.
 
-<screenshot src="/screenshots/admin_team_index.png" />
+<Screenshot src="/screenshots/admin_team_index.png" />
 
 <ul class="hints">
   <li>De naam van een afdeling is vrij te kiezen. Er kan bijvoorbeeld voor een locatienaam
@@ -30,7 +30,7 @@ Bij het openen van de afdelingen pagina in de admin omgeving wordt een lijst van
 Er kunnen nieuwe afdelingen worden aangemaakt met de knop 'Maak nieuwe afdeling aan'. Bestaande afdelingen kunnen
 een andere naam worden gegeven met de 'Bewerk' knop of verwijderd worden met het prullenbak icoon.
 
-<screenshot src="/screenshots/admin_team_new.png" />
+<Screenshot src="/screenshots/admin_team_new.png" />
 
 Bij het aanmaken van een afdeling moet een naam worden opgegeven. Het email adres dat wordt opgegeven
 bij 'afzenderadres e-mails' wordt als afzender opgenomen bij uitnodigingen die per email worden verstuurd door
@@ -45,13 +45,13 @@ het ROM-config menu.
 
 ## Uitnodigingstemplate koppelen aan een afdeling
 
-<screenshot src="/screenshots/admin_team_invitation_template.png" />
+<Screenshot src="/screenshots/admin_team_invitation_template.png" />
 
 Uitnodigingstemplates kunnen aan 1 afdeling gekoppeld worden. Deze uitnodigingstemplate zal dan bij het versturen per
 email het afzenderadres gebruiken dat is ingesteld bij de afdeling.
 
 ## Protocollen koppelen aan afdelingen
 
-<screenshot src="/screenshots/admin_team_protocol.png" />
+<Screenshot src="/screenshots/admin_team_protocol.png" />
 
 Protocollen kunnen aan meerdere afdelingen tegelijk gehangen worden.

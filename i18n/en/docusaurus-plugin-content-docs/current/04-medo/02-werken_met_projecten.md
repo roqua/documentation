@@ -2,15 +2,15 @@
 
 ## Projects
 
-The project overview shows you which projects you have access to. 
+The project overview shows you which projects you have access to.
 
-<screenshot src='/screenshots/medo/en/projectoverzicht.png' />
+<Screenshot src='/screenshots/medo/en/projectoverzicht.png' />
 
 ## Project settings
 
-This page shows some information about the project. Questionnaire responses can be downloaded by pressing the **Download export** button. 
+This page shows some information about the project. Questionnaire responses can be downloaded by pressing the **Download export** button.
 
-<screenshot src='/screenshots/medo/en/projectpagina.png' />
+<Screenshot src='/screenshots/medo/en/projectpagina.png' />
 
 ## Settings
 
@@ -28,4 +28,4 @@ Select which fields should be required when [administering participants](../werk
 
 Choose which fields will be visible to the user administrating participants. Only required default and configured metadata fields or all fields.
 
-<screenshot src='/screenshots/medo/en/projectinstellingen.png' />
+<Screenshot src='/screenshots/medo/en/projectinstellingen.png' />

@@ -1,6 +1,6 @@
 # Cliëntgegevens
 
-<screenshot src="/screenshots/epd/dossier-index.png" />
+<Screenshot src="/screenshots/epd/dossier-index.png" />
 
 ## Demografische gegevens
 
