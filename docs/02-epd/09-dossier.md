@@ -8,7 +8,7 @@ Dit gaat over de basisdemografie van de cliënt waarover dit dossier gaat. We he
 
 ## Respondenten
 
-Een dossier in RoQua heeft altijd 1 respondent: de cliënt zelf. Daarnaast zijn er meer respondenten aan te maken, van verschillende types.
+Een dossier in RoQua begint altijd met 1 respondent: de cliënt zelf. Daarnaast zijn er meer respondenten aan te maken, van verschillende types.
 
 NB: We werken toe naar een situatie waarin je een onbeperkt aantal respondenten van hetzelfde type kunt toevoegen. Op dit moment is dat nog niet mogelijk.
 
