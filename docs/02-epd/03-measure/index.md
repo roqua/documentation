@@ -2,8 +2,6 @@
 
 Bovenaan elk scherm in RoQua staat de knop "Nieuwe Meting".
 
-
-
 <screenshot src="/screenshots/epd/measure-page.png" />
 
 Onderin staat de lijst van alle protocollen die binnen jouw organisatie geconfigureerd zijn. Binnen een protocol kunnen twee dingen zitten:
@@ -15,11 +13,12 @@ Onderin staat de lijst van alle protocollen die binnen jouw organisatie geconfig
 ## Favorieten
 
 :::tip
+<img src="/icons/star-icon.png" style={{float: "right", border: "1px solid black"}} />
 Waarschijnlijk werk je het meest met een kleine set aan protocollen. Bij die protocollen kun je dan op het Ster-knopje klikken om ze te markeren als favoriet. Protocollen die jij een ster geeft verschijnen voor je bovenin de lijst, en staan ook meteen opengeklapt.
 :::
 
 ## Zoeken en filteren
 
-
+<screenshot src="/screenshots/epd/measure-filters.png" />
 
 
