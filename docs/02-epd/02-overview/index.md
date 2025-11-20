@@ -11,7 +11,7 @@ Boven de timeline wordt per respondent aangegeven welke vragenlijsten klaar staa
 <screenshot src="/screenshots/epd/overview_pending_section.png" />
 
 <ul class="hints">
-  <li>De volgorde waarin de vragenlijsten hier staan is ook de volgorde waarin de respondent ze zal krijgen.</li>
+  <li>De volgorde waarin de vragenlijsten hier staan is ook de volgorde waarin de respondent ze moet invullen.</li>
   <li>Wil je vragenlijsten niet meer afnemen, of de volgorde aanpassen? Via de knop <a href="/docs/epd/overview/pending-responses">"Aanpassen"</a> bovenin kom je op een pagina waarin je dit kunt. Daar staat ook wat meer informatie, zoals wie de lijst heeft klaargezet en op welke datum dat was.</li>
   <li>Het is in RoQua ook mogelijk om vragenlijsten alvast klaar te zetten voor later. Die zie je hier ook staan.</li>
 </ul>
