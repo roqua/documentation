@@ -4,7 +4,7 @@ See [protocols](protocols) for a general description.
 
 ## Get a single measurement
 
-<snapshot json={require('@site/static/snapshots/rom/measurements_show.json')} />
+<Snapshot json={require('@site/static/snapshots/rom/measurements_show.json')} />
 
 ### Measurement Attributes
 

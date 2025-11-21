@@ -33,7 +33,7 @@ Name                | Type               | Description
 
 ### Success
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "GET",
     path: "/api/v1/dossiers/:dossier_id/report_calculations?calculator=test&response_ids[]=1&response_ids[]=6"
@@ -49,7 +49,7 @@ Name                | Type               | Description
 
 ### When validations fail
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "GET",
     path: "/api/v1/dossiers/:dossier_id/report_calculations?calculator=test&response_ids[]=1&response_ids[]=6"

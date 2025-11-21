@@ -5,15 +5,15 @@
 Wanneer je RoQua voor het eerst opent vanuit het EPD, wordt je gevraagd je persoonlijke gegevens in te vullen. Je naamgegevens kunnen binnen de applicatie worden gebruikt voor het genereren van brieven en uitnodigingen aan de patiënt.
 
 :::note
-Bij sommige klanten verschijnt het voorkeuren scherm niet bij het eerste gebruik. Je kunt het dan openen via het <icon name="preferences_icon" />-icoontje linksonder in de RoQua interface.
+Bij sommige klanten verschijnt het voorkeuren scherm niet bij het eerste gebruik. Je kunt het dan openen via het <Icon name="preferences_icon" />-icoontje linksonder in de RoQua interface.
 :::
 
 Voer je gegevens in en klik op "Medewerker Updaten".
 
-<screenshot src="/screenshots/eerste_gebruik_1.png" />
+<Screenshot src="/screenshots/eerste_gebruik_1.png" />
 
 :::tip
-Je kunt je gegevens later nog bijwerken door op het <icon name="preferences_icon" />-icoontje te klikken en te kiezen voor 'Mijn gegevens' in de RoQua interface.
+Je kunt je gegevens later nog bijwerken door op het <Icon name="preferences_icon" />-icoontje te klikken en te kiezen voor 'Mijn gegevens' in de RoQua interface.
 :::
 
 ## Afdeling
@@ -28,4 +28,4 @@ Vervolgens wordt je gevraagd de afdeling te selecteren waarin je werkzaam bent. 
 </ul>
 :::
 
-<screenshot src="/screenshots/eerste_gebruik_2.png" />
+<Screenshot src="/screenshots/eerste_gebruik_2.png" />

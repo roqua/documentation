@@ -8,7 +8,7 @@ Automatic protocols can be subscribed to, to fill out questionnaire every month 
 
 ## Get a single protocol
 
-<snapshot json={require("@site/snapshots/rom/protocols_show.json")} />
+<Snapshot json={require("@site/snapshots/rom/protocols_show.json")} />
 
 ### Response Attributes
 

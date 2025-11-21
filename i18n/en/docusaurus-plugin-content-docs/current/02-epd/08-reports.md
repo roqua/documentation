@@ -7,11 +7,11 @@ The "Reports" button at the top of the timeline gives access to the reporting fu
 
 Are there no report templates available for your organization within the RoQua application or do they not offer the desired content? Please indicate this to your ROM coordinator.
 
-<screenshot src="/screenshots/dossier_reports0.png" />
+<Screenshot src="/screenshots/dossier_reports0.png" />
 
 Select the desired report template via the drop-down menu.
 
-<screenshot src="/screenshots/dossier_reports1.png" />
+<Screenshot src="/screenshots/dossier_reports1.png" />
 
 RoQua automatically selects the most recently completed questionnaires. When you adjust this selection, you can make the change in the preview visible by clicking on the "Update Preview" button. Click on the "Create Report" button to finalize the content.
 
@@ -19,7 +19,7 @@ RoQua automatically selects the most recently completed questionnaires. When you
   <li> When a time period is specified for the template, all questionnaires that are filled in within this time period are automatically selected.</li>
 </ul>
 
-<screenshot src="/screenshots/dossier_reports2.png" />
+<Screenshot src="/screenshots/dossier_reports2.png" />
 
 The report is added at the top of the timeline and can be printed or downloaded as a Word file. Click on the white arrow on the left next to the report to return to the timeline
 
@@ -28,4 +28,4 @@ The report is added at the top of the timeline and can be printed or downloaded 
   <li> Click the red button at the top right to permanently delete a report.</li>
 </ul>
 
-<screenshot src="/screenshots/dossier_reports3.png" />
+<Screenshot src="/screenshots/dossier_reports3.png" />

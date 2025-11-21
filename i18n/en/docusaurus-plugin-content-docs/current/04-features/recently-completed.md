@@ -1,0 +1,3 @@
+# Recently completed questionnaires
+
+Employees with access to the admin interface can [set a time span](/docs/admin/rom_config/protocols#tijdspanne) for questionnaires that determines how long a previously completed questionnaire remains valid. If this is set for a questionnaire, and the questionnaire has been completed within that period, then the questionnaire will appear at the bottom when [preparing](/docs/epd/measure/measurements) in a group of "recently completed lists". It is then probably not necessary to have this list completed now. How long a list is considered "recent" differs per questionnaire and sometimes also per protocol.

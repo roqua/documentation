@@ -3,15 +3,15 @@
 When you first open RoQua from the EPR, you will be asked to enter your personal details. Your name data can be used within the application to generate letters and invitations to the patient.
 
 :::note
-  In some locations, the preference screen does not appear the first time you use it. You can then open it via the <icon name="preferences_icon" />-icon in the bottom left of the RoQua interface.
+  In some locations, the preference screen does not appear the first time you use it. You can then open it via the <Icon name="preferences_icon" />-icon in the bottom left of the RoQua interface.
 :::
 
 Enter your details and click on "Update employee".
 
-<screenshot src="/screenshots/eerste_gebruik_1.png" />
+<Screenshot src="/screenshots/eerste_gebruik_1.png" />
 
 :::tip
-You can update your data later by clicking on the <icon name="preferences_icon" />-icon and choosing "My data" in the RoQua interface.
+You can update your data later by clicking on the <Icon name="preferences_icon" />-icon and choosing "My data" in the RoQua interface.
 :::
 
 You will then be asked to select the department in which you work. This choice is stored under your personal RoQua account, so you don't have to repeat this step again and again.
@@ -24,4 +24,4 @@ You will then be asked to select the department in which you work. This choice i
 </ul>
 :::
 
-<screenshot src="/screenshots/eerste_gebruik_2.png" />
+<Screenshot src="/screenshots/eerste_gebruik_2.png" />

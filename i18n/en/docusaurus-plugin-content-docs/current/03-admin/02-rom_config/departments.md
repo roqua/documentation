@@ -10,7 +10,7 @@ The departments and their associated protocols and invitation templates are defi
 
 The name of the department that was selected at the moment a questionnaire was prepared will fall through in the data export in the \<vragenlijstsleutel\>_location column.
 
-<screenshot src="/screenshots/admin_team_index.png" />
+<Screenshot src="/screenshots/admin_team_index.png" />
 
 <ul class="hints">
   <li>The name of a department can be chosen freely. For instance, a location name can be chosen, but it is also possible to use departments to distinguish a different management level.</li>
@@ -20,7 +20,7 @@ The name of the department that was selected at the moment a questionnaire was p
 
 When opening the department page in the Admin environment, a list of existing departments is shown. New departments can be created using the button 'Create new department'. Existing departments can be renamed using the button 'Edit' or removed using the trash can icon.
 
-<screenshot src="/screenshots/admin_team_new.png" />
+<Screenshot src="/screenshots/admin_team_new.png" />
 
 When creating a new department, a name must be specified. The e-mail address that is specified under 'Sender address e-mails' will be included as the sender address for invitations sent by e-mail by employees who selected this department when creating the invitation. However, it is strongly recommended to leave this field empty unless you are certain that the internet domain that manages the specified e-mail address correctly authorizes RoQua to use it as the sender address. If the domain does not give permission (the default setting), there is a good chance that these mails will be classified as SPAM.
 
@@ -28,12 +28,12 @@ After pressing 'Create Department', the department is created and invitation tem
 
 ## Linking invitation templates to a department
 
-<screenshot src="/screenshots/admin_team_invitation_template.png" />
+<Screenshot src="/screenshots/admin_team_invitation_template.png" />
 
 Invitation templates can be linked to 1 department. This invitation template will subsequently use the e-mail address that has been specified for this department.
 
 ## Linking protocols to departments
 
-<screenshot src="/screenshots/admin_team_protocol.png" />
+<Screenshot src="/screenshots/admin_team_protocol.png" />
 
 Protocols can be linked to multiple departments simultaneously.

@@ -5,7 +5,7 @@ sort: 100
 
 Here you can edit the templates that are used to invite a patient or other respondent.
 
-<screenshot src="/screenshots/uitnodigingen.png" />
+<Screenshot src="/screenshots/uitnodigingen.png" />
 
 <ul class="hints">
   <li>Click on the name of an invitation to see what it will look like.</li>
@@ -20,7 +20,7 @@ The name must be an unambiguous identification of the template, since employees 
 
 Use the 'Template' text field to specify the content for the invitation. You can use template variables for, for example, the address and the name of the patient. See the text under the tab "Help" or use existing invitations as an example.
 
-<screenshot src="/screenshots/uitnodigingen2.png" />
+<Screenshot src="/screenshots/uitnodigingen2.png" />
 
 <ul class="hints">
   <li>Specifying linked protocols for a template makes it appear at the top of the list when choosing templates in the context of a linked protocol.</li>

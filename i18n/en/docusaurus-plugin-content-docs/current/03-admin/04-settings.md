@@ -7,7 +7,7 @@ Here you can make some settings for the RoQua application such as the display of
 
 ## Active functions
 
-<screenshot src="/screenshots/instellingen.png" />
+<Screenshot src="/screenshots/instellingen.png" />
 
 <ul>
   <li><strong>Fill-in period</strong> indicates the time after which the labels of the prepared questionnaires will turn red. This is for the attention of employees, but has no further consequences.</li>
@@ -16,7 +16,7 @@ Here you can make some settings for the RoQua application such as the display of
 
 ## Migrating ORU connection
 
-<screenshot src="/screenshots/instellingen.png" />
+<Screenshot src="/screenshots/instellingen.png" />
 
 Perform the following steps to migrate the ORU connection to the most recent export format:
 

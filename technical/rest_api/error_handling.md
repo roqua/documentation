@@ -2,7 +2,7 @@
 
 ## When basic HTTP authentication fails
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "GET",
     path: "/api/v1/some_resource"
@@ -14,7 +14,7 @@
 
 ## When validations fail
 
-<snapshot json={{
+<Snapshot json={{
   request: {
     request_method: "POST",
     path: "/api/v1/some_resource"

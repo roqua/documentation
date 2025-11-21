@@ -7,7 +7,7 @@ Occasionally, an existing client dossier receives a new client number within the
 
 In the RoQua Admin environment these two actions are classified under "Dossier number change". The Admin environment also contains an overview of all historical actions.
 
-<screenshot src="/screenshots/admin_dossier_epd_id_changes_index.png" />
+<Screenshot src="/screenshots/admin_dossier_epd_id_changes_index.png" />
 
 ## Performing renumbering dossiers
 
@@ -17,4 +17,4 @@ In the RoQua Admin environment these two actions are classified under "Dossier n
    <li>If the new dossier number is already in use, confirmation of the merge is requested first. This yellow block appears after the first click on "Create dossier number change", but only if the new number is already known. </li>
 </ul>
 
-<screenshot src="/screenshots/admin_dossier_epd_id_changes_merge_confirmation.png" />
+<Screenshot src="/screenshots/admin_dossier_epd_id_changes_merge_confirmation.png" />

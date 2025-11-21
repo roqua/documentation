@@ -7,11 +7,11 @@ Binnen een protocol is het mogelijk om, wanneer een **medewerker** een lijst zel
 
 Om dit te configureren begin je bij de vragenlijsten van een meting, en klik je bij de vragenlijst die je wil voorinvullen op de steeksleutel:
 
-<screenshot src="/screenshots/prefillers/edit_measured_questionnaire_button.png" />
+<Screenshot src="/screenshots/prefillers/edit_measured_questionnaire_button.png" />
 
 Op de volgende pagina staat onderaan een lijst van voorinvullers. Elke voorinvuller is voor 1 specifieke vraag van de vragenlijst:
 
-<screenshot src="/screenshots/prefillers/prefillers_list.png" />
+<Screenshot src="/screenshots/prefillers/prefillers_list.png" />
 
 Daar kun je kiezen welke soort voorinvuller je wil maken. Per vraag moet je een losse voorinvuller maken. Met de plus-knoppen bovenin maak je nieuwe voorinvullers, en bestaande kun je bewerken en verwijderen met de knoppen rechts.
 
@@ -19,7 +19,7 @@ Daar kun je kiezen welke soort voorinvuller je wil maken. Per vraag moet je een 
 
 Bij een voorinvuller die een waarde overneemt uit de vorige invulling ziet het formulier er als volgt uit:
 
-<screenshot src="/screenshots/prefillers/prior_response_form.png" />
+<Screenshot src="/screenshots/prefillers/prior_response_form.png" />
 
 * _"In te vullen veld":_ welke vraag wil je voorinvullen
 * _"Over te nemen vanuit":_ uit welke vraag van de vorige invulling wil je de waarde pakken. Meestal is dit dezelfde vraag.
@@ -29,7 +29,7 @@ Bij een voorinvuller die een waarde overneemt uit de vorige invulling ziet het f
 
 Bij een labwaarden-koppeling ziet het formulier er als volgt uit:
 
-<screenshot src="/screenshots/prefillers/fhir_prefiller_form.png" />
+<Screenshot src="/screenshots/prefillers/fhir_prefiller_form.png" />
 
 * _"In te vullen veld":_ welke vraag wil je voorinvullen
 * _"Fhir endpoint":_ Het tot stand brengen van de koppeling met de labwaarden-server wordt door RoQua ingericht, in dit veld zijn alle ingerichte servers te kiezen. Meestal is hier maar 1 keuze (of geen enkele, als er geen koppelingen zijn)

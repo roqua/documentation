@@ -7,7 +7,7 @@ Here you can adjust the templates used for generating reports. With reports it i
 
 Click on the "Create a new report template" button to add a new template.
 
-<screenshot src="/screenshots/reports.png" />
+<Screenshot src="/screenshots/reports.png" />
 
 <ul class="hints">
   <li>Click on the "Edit" button to edit an existing template.</li>
@@ -21,7 +21,7 @@ By specifying a time span, a selection of questionnaires that have been complete
 
 Next, the questionnaires to which a report template relates can be selected. The report can then only show outcomes for the questionnaires that have been specified here.
 
-<screenshot src="/screenshots/reports_new.png" />
+<Screenshot src="/screenshots/reports_new.png" />
 
 Click on the "Create report template" button to proceed to defining the content of the template.
 
@@ -29,7 +29,7 @@ A report can display graphs and tables with calculated scale scores or the answe
 
 Click "Update Report Template" to save the changes. These changes take effect immediately.
 
-<screenshot src="/screenshots/reports_update.png" />
+<Screenshot src="/screenshots/reports_update.png" />
 
 <ul class="hints">
   <li>Click on the "Edit" link to adjust the selection of questionnaires.</li>
@@ -38,7 +38,7 @@ Click "Update Report Template" to save the changes. These changes take effect im
 
 After updating a template, an example report appears. Here, you can see if the template has been modified as desired. Click on the "View as form" button for a form view of the report.
 
-<screenshot src="/screenshots/reports_view.png" />
+<Screenshot src="/screenshots/reports_view.png" />
 
 <ul class="hints">
   <li>Note any "Liquid errors" in the example. These indicate that there are errors in the template.</li>

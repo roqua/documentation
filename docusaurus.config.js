@@ -47,8 +47,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/",
+          editUrl: "https://github.com/roqua/documentation/edit/master/",
         },
         blog: {
           blogSidebarCount: 50,
@@ -118,7 +117,7 @@ const config = {
         title: "RoQua Docs",
         logo: {
           alt: "RoQua Logo",
-          src: "img/logo.svg",
+          src: "img/roqua-q.png",
         },
         items: [
           {
