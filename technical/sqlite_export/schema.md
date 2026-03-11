@@ -1,5 +1,15 @@
 # Schema
 
+:::danger
+
+This file includes anonymous data!
+
+The sqlite database is only for database administrators/automators.
+
+Always check the hide_pii_from_researchers and hide_values_from_professionals in the responses table and skip make sure you don't accidentally make anonymous data available.
+:::
+
+:::info
 ## Major Release V2 (2025-12)
 
 **We are switching to v2 of our sqlite database, which is about half the size. We've made it forward compatible. Incompatible changes are:**
@@ -12,6 +22,8 @@
   ```
 * Removed anonymous from responses, use hide_pii_from_researchers and hide_values_from_professionals instead. They are already present in v1 and have been for years.
 * `questions.type` changed date => date_parts, check_box => multi_select, radio/select/scale => single_select, string/textarea => text. integer and float remained the same. Add renames for the new/old values as needed before you switch to v2.
+:::
+
 
 ## Schema v2
 
