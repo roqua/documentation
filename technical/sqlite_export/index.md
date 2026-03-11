@@ -6,6 +6,15 @@ Besides our real-time integration via ORU, we also provide:
 * [Hourly sqlite exports](sql_export)
 * [A way to generate your own csv from the sqlite export](csv_from_sql)
 
+:::danger
+
+This file includes anonymous data!
+
+The sqlite database is only for database administrators/automators.
+
+Always check the hide_pii_from_researchers and hide_values_from_professionals in the responses table and skip make sure you don't accidentally make anonymous data available.
+:::
+
 ## Download the latest sql export
 
     GET /api/v1/data_exports/download_sql
