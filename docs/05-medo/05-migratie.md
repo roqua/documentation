@@ -53,9 +53,10 @@ In RoQua Admin zijn beide nummers zichtbaar in de kolom **Patiëntnummer**: het 
 
 Het `md-`-nummer is het werkelijke patiëntnummer waaronder alles is opgeslagen. Het onderzoeksnummer is intern opgeslagen als een apart veld. Wanneer je een dossier bewerkt, zie je ze dan ook op twee verschillende plekken: het patiëntnummer bovenaan en het onderzoeksnummer onderaan bij "Custom Metadata".
 
-<Screenshot src="/screenshots/medo-migration/dossier-edit-md-id.png" />
-
-<Screenshot src="/screenshots/medo-migration/dossier-edit-onderzoeksnummer.png" />
+<ScreenshotRow>
+  <Screenshot src="/screenshots/medo-migration/dossier-edit-md-id.png" />
+  <Screenshot src="/screenshots/medo-migration/dossier-edit-onderzoeksnummer.png" />
+</ScreenshotRow>
 
 Voor nieuwe dossiers die je rechtstreeks in RoQua aanmaakt geldt dit onderscheid niet — daar vul je gewoon je eigen onderzoeksnummer in als patiëntnummer.
 

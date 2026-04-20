@@ -1,6 +1,6 @@
 // Import the original mapper
 import Icon from '@site/src/components/Icon';
-import Screenshot from '@site/src/components/Screenshot';
+import Screenshot, { ScreenshotRow } from '@site/src/components/Screenshot';
 import Snapshot from '@site/src/components/Snapshot';
 import MDXComponents from '@theme-original/MDXComponents';
 
@@ -11,6 +11,7 @@ export default {
   // Custom components available globally without importing them
   Icon,
   Screenshot,
+  ScreenshotRow,
   Snapshot
 };
 
