@@ -31,7 +31,7 @@ In RoQua heet dit **[Ongekoppelde dossiers](../admin/dossiers)**. "Ongekoppeld" 
 | Deelnemer toevoegen | **Maak dossier** |
 | Stats verversen | Niet meer nodig — statistieken zijn altijd actueel |
 | Lijst importeren / Lijst exporteren | **Importeren** / **Exporteren** |
-| Bulk aanmelden | **Automatische protocollen in bulk starten** (in het linkermenu) |
+| Bulk aanmelden | **Uitnodigen in bulk** (voor handmatige protocollen) of **Automatische protocollen in bulk starten** (beide in het linkermenu) |
 | Onderzoeksnummer (kolom) | **Patiëntnummer** |
 
 #### Navigeren binnen een dossier
