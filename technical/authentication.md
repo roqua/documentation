@@ -31,8 +31,38 @@ Note that the `sub` claim is optional in some cases, but not in all. Trying to a
 
 ## HTTP Basic
 
-Authentication for `/api` and `/fhir/$graphql` is done by HTTP Basic authentication over SSL.
+HTTP Basic authentication over SSL is supported for `/api` and `/fhir/$graphql`.
 
-Through `/admin/api_tokens/new` [(manual)](../../../../rom_manual/admin/integration/api_tokens/) you can create an api_token. The provided `consumer_key` is used as the username and the returned  `consumer_secret` is used as the password for HTTP Basic authentication.
+### Creating an API token
 
-When creating a right you can specify which endpoints it gives access to and allows you to specify the ip's that can access the api with that token.
+Create a token via `/admin/api_tokens/new` [(manual)](../../../../rom_manual/admin/integration/api_tokens/). After creation you receive:
+
+| Credential | Use as |
+|------------|--------|
+| `consumer_key` | HTTP Basic username |
+| `consumer_secret` | HTTP Basic password (shown only once — store it securely) |
+
+### Sending the credentials
+
+Virtually every HTTP client and library has built-in support for HTTP Basic auth — use it rather than constructing the header yourself. For example, `curl` has the `-u` flag, Python's `requests` accepts an `auth=` tuple, and most SDKs expose a `basicAuth` option:
+
+```sh
+curl -u "$CONSUMER_KEY:$CONSUMER_SECRET" https://rom.roqua.nl/api/...
+```
+
+If you do need to build the header by hand, combine the credentials as `consumer_key:consumer_secret`, Base64-encode the result, and send it as:
+
+```
+Authorization: Basic <base64(consumer_key:consumer_secret)>
+```
+
+Note that Base64 is an encoding, not encryption — anyone who intercepts the header can trivially recover the credentials. What makes HTTP Basic safe to use here is that the API is only served over HTTPS, so the header is encrypted in transit. Never send these credentials over plain HTTP.
+
+### Scoping access
+
+When configuring a right on the token you can:
+
+- restrict which endpoints the token can access, and
+- allow-list the IP addresses that may use the token.
+
+Requests that fall outside these restrictions are rejected before reaching the endpoint.
