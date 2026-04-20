@@ -43,6 +43,22 @@ In RoQua zijn er twee knoppen per dossier:
 - **Open** — opent de dossierweergave (was "Open in RoQua" in Medo)
 - **Bewerk** — om gegevens zoals naam en e-mailadres aan te passen (niet zichtbaar in voorbeeldmodus)
 
+#### Onderzoeksnummer en patiëntnummer
+
+In Medo voerde je bij het aanmaken van een deelnemer een **onderzoeksnummer** in. Achter de schermen genereerde Medo daarnaast een intern **patiëntnummer** dat begint met `md-`. Dit `md-`-nummer was al zichtbaar in RoQua (linksboven bij het openen van een dossier) en in de data-exports.
+
+In RoQua Admin zijn beide nummers zichtbaar in de kolom **Patiëntnummer**: het onderzoeksnummer staat bovenaan (groter weergegeven), met het `md-`-nummer eronder.
+
+<Screenshot src="/screenshots/medo-migration/dossier-table-two-types-of-ids.png" />
+
+Het `md-`-nummer is het werkelijke patiëntnummer waaronder alles is opgeslagen. Het onderzoeksnummer is intern opgeslagen als een apart veld. Wanneer je een dossier bewerkt, zie je ze dan ook op twee verschillende plekken: het patiëntnummer bovenaan en het onderzoeksnummer onderaan bij "Custom Metadata".
+
+<Screenshot src="/screenshots/medo-migration/dossier-edit-md-id.png" />
+
+<Screenshot src="/screenshots/medo-migration/dossier-edit-onderzoeksnummer.png" />
+
+Voor nieuwe dossiers die je rechtstreeks in RoQua aanmaakt geldt dit onderscheid niet — daar vul je gewoon je eigen onderzoeksnummer in als patiëntnummer.
+
 ### Medewerkers → Admin-gebruikers
 
 De pagina **Medewerkers** in Medo heet in RoQua **[Admin-gebruikers](../admin/users)**.
