@@ -1,6 +1,6 @@
 # Migratie van Medo naar RoQua
 
-De beheeromgeving van RoQua is het afgelopen jaar flink uitgebreid met onder andere deelnemersbeheer, organisatie-specifieke deelnemersinfovelden, bulkacties en betere rapportages. Daarom brengen we alle projectbeheer samen in één systeem en sluiten we Medo.
+Voor het gebruik van RoQua zonder koppeling met een elektronisch patiëntendossier, zoals voor onderzoeksprojecten met gezonde vrijwilligers of patiënten die bij een externe instelling in zorg zijn, maakten we altijd gebruik van Medo. Medo werd dan gebruikt om deelnemers te beheren, bulk-acties te starten of data te exporteren. De afgelopen twee jaar hebben we dit soort functionaliteit toegevoegd aan de beheeromgeving van RoQua. In de loop van de tijd zijn steeds meer nieuwe onderzoeksprojecten hiervan gebruik gaan maken. We zijn nu op een punt beland waarop het onderhouden van Medo niet langer zinvol is. Daarom brengen we alle projectbeheer samen in één systeem en sluiten we Medo.
 
 Net zoals in Medo heeft elk dossier in de RoQua beheeromgeving een knop waarmee RoQua wordt geopend. Vanaf dat punt verandert er niets. Vragenlijsten versturen en uitkomsten inzien werkt hetzelfde. Voor deelnemers verandert er ook niets — zij blijven uitnodigingen ontvangen via e-mail en sms, precies zoals voorheen. De migratie heeft dus alleen betrekking op de beheerkant.
 
