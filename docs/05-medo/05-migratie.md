@@ -2,7 +2,7 @@
 
 De beheeromgeving van RoQua is het afgelopen jaar flink uitgebreid met onder andere deelnemersbeheer, organisatie-specifieke deelnemersinfovelden, bulkacties en betere rapportages. Daarom brengen we alle projectbeheer samen in één systeem en sluiten we Medo.
 
-Voor deelnemers verandert er niets — zij blijven uitnodigingen ontvangen via e-mail en sms, precies zoals voorheen. De migratie heeft alleen betrekking op de beheerkant.
+Net zoals in Medo heeft elk dossier in de RoQua beheeromgeving een knop waarmee RoQua wordt geopend. Vanaf dat punt verandert er niets. Vragenlijsten versturen en uitkomsten inzien werkt hetzelfde. Voor deelnemers verandert er ook niets — zij blijven uitnodigingen ontvangen via e-mail en sms, precies zoals voorheen. De migratie heeft dus alleen betrekking op de beheerkant.
 
 ## Waar vind ik wat?
 
