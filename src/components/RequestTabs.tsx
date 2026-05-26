@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import CodeBlock from '@theme/CodeBlock';
-import { formatHttpRequest, formatCurlCommand, formatPowerShellCommand, RequestData } from './RequestFormatters';
+import { formatHttpRequest, formatCurlCommand, formatPowerShellCommand, RequestData, ResponseData } from './RequestFormatters';
 import styles from './RequestTabs.module.css';
 
 interface RequestTabsProps {
   request: RequestData;
+  response?: ResponseData;
 }
 
 type TabType = 'http' | 'curl' | 'powershell';
@@ -15,7 +16,7 @@ const TABS = [
   { id: 'powershell' as TabType, label: 'PowerShell', language: 'powershell' },
 ];
 
-export const RequestTabs: React.FC<RequestTabsProps> = ({ request }) => {
+export const RequestTabs: React.FC<RequestTabsProps> = ({ request, response }) => {
   const [activeTab, setActiveTab] = useState<TabType>('http');
 
   const getFormattedRequest = (tabType: TabType): string => {
@@ -23,7 +24,7 @@ export const RequestTabs: React.FC<RequestTabsProps> = ({ request }) => {
       case 'http':
         return formatHttpRequest(request);
       case 'curl':
-        return formatCurlCommand(request);
+        return formatCurlCommand(request, response);
       case 'powershell':
         return formatPowerShellCommand(request);
       default:

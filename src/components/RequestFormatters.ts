@@ -10,6 +10,19 @@ export interface RequestData {
   body?: any;
 }
 
+export interface ResponseData {
+  status?: number;
+  headers?: { [key: string]: string };
+  body?: any;
+}
+
+function getDownloadFilename(response?: ResponseData): string | null {
+  const disposition = response?.headers?.["Content-Disposition"];
+  if (!disposition || !/attachment/i.test(disposition)) return null;
+  const match = disposition.match(/filename\s*=\s*"?([^"]+)"?/i);
+  return match ? match[1] : null;
+}
+
 /**
  * Formats a request as a plain HTTP request
  */
@@ -36,28 +49,34 @@ export function formatHttpRequest(request: RequestData): string {
 /**
  * Formats a request as a cURL command
  */
-export function formatCurlCommand(request: RequestData): string {
+export function formatCurlCommand(request: RequestData, response?: ResponseData): string {
   const { request_method, path, body } = request;
-  const hasBody = body && Object.keys(body).length > 0 && ['POST', 'PUT', 'PATCH'].includes(request_method.toUpperCase());
-  
+  const method = request_method.toUpperCase();
+  const hasBody = body && Object.keys(body).length > 0 && ['POST', 'PUT', 'PATCH'].includes(method);
+  const downloadFilename = getDownloadFilename(response);
+
   // Extract common path parameters as variables
   let curlCommand = '';
   if (path.includes(':dossier_id')) {
     curlCommand += `DOSSIER_ID="your_dossier_id"\n`;
   }
-  
+
   // Replace path parameters with variable references
   let urlPath = path.replace(':dossier_id', '$DOSSIER_ID');
   const url = `${BASE_URL}${urlPath}`;
-  
-  curlCommand += `curl -X ${request_method.toUpperCase()} "${url}" \\\n`;
+
+  const flags: string[] = [];
+  if (method !== 'GET') flags.push(`-X ${method}`);
+  if (downloadFilename) flags.push('-L', `-o "${downloadFilename}"`);
+
+  curlCommand += `curl ${flags.length ? flags.join(' ') + ' ' : ''}"${url}" \\\n`;
   curlCommand += `  -u "username:password"`;
-  
+
   if (hasBody) {
     curlCommand += ` \\\n  -H "Content-Type: application/json"`;
     curlCommand += ` \\\n  -d '${JSON.stringify(body, null, 2)}'`;
   }
-  
+
   return curlCommand;
 }
 
