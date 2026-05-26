@@ -26,7 +26,7 @@ Is usually updated every hour. Download is a sqlite .db file.
 The GET request will return a redirect to a location on our storage server. If fetching automatically, make sure to follow the redirect (`Location:` header). E.g. with cURL:
 
 ```
-curl -L -u consumer_key:consumer_secret -O https://demo.rom.roqua.nl/api/v1/data_exports/download_sql
+curl -L -u consumer_key:consumer_secret -o output.sqlite https://demo.rom.roqua.nl/api/v1/data_exports/download_sql
 ```
 :::
 

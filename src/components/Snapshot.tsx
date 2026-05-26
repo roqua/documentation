@@ -38,7 +38,7 @@ type Snapshot = {
 export const Request = ({snapshot}) => {
   return <>
     <h3>Sample request</h3>
-    <RequestTabs request={snapshot.request} />
+    <RequestTabs request={snapshot.request} response={snapshot.response} />
   </>
 }
 
