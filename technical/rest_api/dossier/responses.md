@@ -18,7 +18,8 @@ Name | Type | Description
 `questionnaire_keys`       | 'array of strings' | Only return responses on questionnaires whose key is listed
 `completed_before`         | `time`             | Only return responses filled out before the specified time
 `completed_after`          | `time`             | Only return responses filled out after the specified time
-`respondent_type`          | `string`           | Only return responses whose `completer_type` equals the given value
+`respondent_type`          | `string`           | **Deprecated.** Only return responses whose `completer_type` equals the given value. Use `respondent_id` instead.
+`respondent_id`            | `integer`          | Only return responses belonging to the given [respondent](../respondents).
 `status`                   | `string`           | \['completed', 'aborted', 'open', 'scheduled'\] Only return responses whose `status` equals the given value
 `protocol_subscription_id` | `string`           | Only return responses associated to the protocol subscription with the given id
 
@@ -83,7 +84,8 @@ Name | Type | Description
 `answer_data`       | `hash`    | \[Required\] Hash storing the answered option key for every question key
 `started_at`        | `integer` | The Unix time when the questionnaire was started being filled out (greater or equal to 31 december 1999)
 `filled_out_at`     | `integer` | The Unix time when the questionnaire was filled out (greater or equal to 31 december 1999)
-`respondent`        | `string`  | \['patient'(default) \| 'profess'\] String identifying the respondent which filled out the questionnaire.
+`respondent_type`   | `string`  | \['patient'(default) \| 'profess'\] String identifying the respondent which filled out the questionnaire.
+`respondent`        | `string`  | **Deprecated.** Alias for `respondent_type`.
 `entered_by`        | `string` | \[Optional, blank means response was entered by the respondent themselves.\] The user id of the professional that entered the response into the system. For responses that were not entered directly by the respondent. The user id should correspond to the user id of that professional that is used in the [EPD SSO](../../../rom/sso/epd_v3/) connection. In the case of a 'profess' respondent, the implication is that this professional was the evaluator/originator of the response data, but this is not a strict requirement.
 
 ### Response
