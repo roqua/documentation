@@ -22,9 +22,5 @@
   "sidebar.docsSidebar.category.Overig": {
     "message": "Other",
     "description": "The label for category Overig in sidebar docsSidebar"
-  },
-  "sidebar.docsSidebar.category.Medoq": {
-    "message": "Medoq",
-    "description": "The label for category Medoq in sidebar docsSidebar"
   }
 }
