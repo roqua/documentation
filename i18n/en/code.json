@@ -1,6 +1,6 @@
 {
   "homepage.intro": {
-    "message": "This site contains the user documentation for RoQua, as well as the technical, integration-partner documentation. It also described Medoq, a mini-EPO for research projects."
+    "message": "This site contains the user documentation for RoQua, as well as the technical, integration-partner documentation."
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
