@@ -1,0 +1,16 @@
+/*
+ * Site accent colour, carried over from the Docusaurus theme, which set
+ * --ifm-color-primary to oklch(0.454 0.135 254) in light mode and
+ * oklch(0.68 0.16 254) in dark mode. Starlight's `:root` holds the dark theme.
+ */
+:root {
+  --sl-color-accent-low: oklch(0.3 0.07 254);
+  --sl-color-accent: oklch(0.68 0.16 254);
+  --sl-color-accent-high: oklch(0.86 0.07 254);
+}
+
+:root[data-theme="light"] {
+  --sl-color-accent-low: oklch(0.92 0.04 254);
+  --sl-color-accent: oklch(0.454 0.135 254);
+  --sl-color-accent-high: oklch(0.32 0.1 254);
+}

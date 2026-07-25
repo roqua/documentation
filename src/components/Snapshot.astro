@@ -1,0 +1,20 @@
+---
+import { Code } from "astro-expressive-code/components";
+import RequestTabs from "./RequestTabs.astro";
+import type { RequestData, ResponseData } from "./RequestFormatters";
+
+interface Props {
+  json: {
+    request: RequestData;
+    response: ResponseData;
+  };
+}
+
+const { json } = Astro.props;
+const body = json.response?.body;
+---
+
+<h3>Sample request</h3>
+<RequestTabs request={json.request} response={json.response} />
+
+{body !== undefined && <Code code={JSON.stringify(body, null, 2)} lang="json" />}
