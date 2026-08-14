@@ -1,0 +1,30 @@
+---
+interface Props {
+  src: string;
+  alt?: string;
+}
+
+const { src, alt = "" } = Astro.props;
+---
+
+<div class="screenshot">
+  <img src={src} alt={alt} />
+</div>
+
+<style>
+  .screenshot {
+    max-width: 100%;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid var(--sl-color-gray-5);
+    margin: 12px auto;
+    text-align: center;
+  }
+
+  .screenshot img {
+    margin: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+</style>

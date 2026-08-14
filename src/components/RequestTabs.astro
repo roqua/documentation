@@ -1,0 +1,35 @@
+---
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+import { Code } from "astro-expressive-code/components";
+import {
+  formatHttpRequest,
+  formatCurlCommand,
+  formatPowerShellCommand,
+  type RequestData,
+  type ResponseData,
+} from "./RequestFormatters";
+
+interface Props {
+  request: RequestData;
+  response?: ResponseData;
+}
+
+const { request, response } = Astro.props;
+
+const tabs = [
+  { label: "HTTP", lang: "http", code: formatHttpRequest(request) },
+  { label: "cURL", lang: "bash", code: formatCurlCommand(request, response) },
+  { label: "PowerShell", lang: "powershell", code: formatPowerShellCommand(request) },
+];
+---
+
+{/* syncKey keeps every request on the page on the same format once the reader picks one. */}
+<Tabs syncKey="request-format">
+  {
+    tabs.map((tab) => (
+      <TabItem label={tab.label}>
+        <Code code={tab.code} lang={tab.lang} title={`${tab.label} Request`} />
+      </TabItem>
+    ))
+  }
+</Tabs>

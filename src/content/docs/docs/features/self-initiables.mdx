@@ -1,0 +1,101 @@
+---
+title: Vragenlijsten op eigen initiatief
+---
+
+import Screenshot from "@components/Screenshot.astro";
+
+Normaal gesproken vult een respondent alleen vragenlijsten in die een medewerker
+voor hen heeft klaargezet. Met "eigen initiatief" geef je een respondent daarnaast
+het recht om bepaalde vragenlijsten zelf op te starten, zo vaak als ze willen, zonder
+dat er iets voor klaargezet hoeft te worden.
+
+Dit is bijvoorbeeld bruikbaar voor een korte lijst die een cliënt zelf mag invullen
+op een moment dat het voor hen relevant is, in plaats van alleen op de momenten die
+in een protocol vastliggen.
+
+## Instellen
+
+Het recht om op eigen initiatief in te vullen moet eerst per meting van een protocol
+beschikbaar gesteld worden in de Beheermodule. Zolang dat niet gebeurd is, zien
+medewerkers de knop uit de volgende stap niet staan.
+
+:::note
+Het beheerscherm waarin dit per meting wordt aangezet is nog niet beschreven in de
+[handleiding voor protocollen](/docs/admin/rom_config/protocols). Neem in de
+tussentijd contact met ons op als je dit voor een protocol wilt laten aanzetten.
+:::
+
+## Wat de medewerker ziet
+
+Is de functie voor een meting beschikbaar, dan staat er bij het kiezen van
+vragenlijsten voor een cliënt of andere respondent een extra knop naast
+"Klaarzetten…", "Direct invullen" en "Non-Respons":
+
+<Screenshot src="/screenshots/epd/selfinit_enable.png" />
+
+Selecteer de vragenlijsten die de respondent zelf mag opstarten en klik op
+**"Eigen initiatief toestaan"**. Anders dan bij klaarzetten maak je hiermee geen
+losse afname aan: je geeft een doorlopend recht af.
+
+Welke respondenten dit recht hebben, en voor welke lijsten, staat daarna op de
+overzichtspagina van het dossier onder het kopje "Invulbaar op eigen initiatief":
+
+<Screenshot src="/screenshots/epd/overview_selfinit_section.png" />
+
+Via de knop "Aanpassen" bij deze sectie kun je het recht ook weer intrekken.
+
+## Wat de respondent merkt
+
+De respondent gebruikt gewoon de invullink en inlogcode die ze al hadden. Naast de
+vragenlijsten die op dat moment voor hen klaarstaan, zien ze een apart blok met de
+lijsten die ze op eigen initiatief mogen invullen:
+
+<Screenshot src="/screenshots/client_selfinit_fill_out.png" />
+
+Ze kunnen deze lijsten invullen wanneer ze willen, en herhaald. Elke invulling levert
+een gewone respons op, die net als alle andere invullingen in de tijdlijn van het
+dossier en in de uitkomsten verschijnt.
+
+:::note
+Een respondent heeft nog steeds een geldige inlogcode nodig. Het recht op eigen
+initiatief geeft op zichzelf geen toegang.
+:::
+
+## Wat er in de data terechtkomt
+
+Responses die op eigen initiatief zijn ingevuld komen in de data-export en de API
+terecht als gewone responses. Ze horen niet bij een klaargezette meting, wat betekent
+dat de protocol- en metinggegevens er anders uit kunnen zien dan bij een reguliere
+afname.
+
+:::note
+Hoe deze responses zich precies onderscheiden in de
+[CSV-export](/technical/csv_export/) en de [REST API](/technical/rest_api/) is nog
+niet uitgezocht en beschreven. Als je hier tegenaan loopt bij het verwerken van je
+data, laat het ons weten — dan pakken we dit met voorrang op.
+:::
+
+## Randgevallen en valkuilen
+
+* Het recht is **doorlopend** en verloopt niet vanzelf. Wil je dat een respondent een
+  lijst niet meer kan opstarten, dan moet je het recht actief intrekken via
+  "Aanpassen" op de overzichtspagina.
+* Een respondent kan dezelfde lijst **meerdere keren** invullen. Houd daar rekening
+  mee bij analyses die uitgaan van één invulling per meetmoment.
+
+## Nog uit te zoeken
+
+Deze pagina is samengesteld uit de oorspronkelijke aankondiging en de bestaande
+schermbeschrijvingen. De volgende punten zijn nog niet geverifieerd:
+
+* In welk beheerscherm de functie per meting wordt aangezet, en of dit per meting of
+  per vragenlijst binnen een meting gaat.
+* Wat er precies achter de knop "Aanpassen" bij "Invulbaar op eigen initiatief" zit.
+* Of het toekennen van het recht een uitnodiging naar de respondent stuurt, of dat je
+  dit zelf moet communiceren.
+* Hoe deze responses herkenbaar zijn in de data-export en de API.
+* De twee schermafbeeldingen hierboven van de knop en de respondentweergave komen uit
+  2021 en tonen de oude vormgeving. Ze moeten vervangen worden zodra er gegenereerde
+  schermafbeeldingen voor deze functie zijn.
+
+

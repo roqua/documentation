@@ -1,0 +1,17 @@
+---
+// Lays out several <Screenshot> components side by side.
+---
+
+<div class="screenshot-row">
+  <slot />
+</div>
+
+<style>
+  .screenshot-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin: 12px 0;
+    flex-wrap: wrap;
+  }
+</style>
