@@ -1,0 +1,159 @@
+---
+/**
+ * The blue search hero from the "Ronde 1" design, shown on pages with `hero`
+ * frontmatter (the two landing pages). The search box and the quick chips are
+ * the primary way in; the box opens Starlight's search dialog.
+ */
+
+const { entry, locale } = Astro.locals.starlightRoute;
+const { title = entry.data.title, tagline } = entry.data.hero ?? {};
+
+const base = locale ? `/${locale}` : "";
+const isEnglish = locale === "en";
+
+const placeholder = isEnglish
+  ? "Search for a page, field name or endpoint"
+  : "Zoek een pagina, veldnaam of endpoint";
+
+const chips = [
+  {
+    label: isEnglish ? "preparing questionnaires" : "vragenlijst klaarzetten",
+    href: `${base}/docs/epd/measure/measurements/klaarzetten/`,
+  },
+  { label: isEnglish ? "API token" : "API-token", href: `${base}/docs/admin/integration/api_tokens/` },
+  { label: isEnglish ? "non-response" : "non-respons", href: `${base}/docs/epd/measure/measurements/non-respons/` },
+  { label: isEnglish ? "CSV field names" : "CSV-veldnamen", href: `${base}/technical/csv_export/` },
+];
+---
+
+<section class="rq-hero">
+  <div class="rq-hero-inner">
+    <h1 id="_top" set:html={title} />
+    {tagline && <p class="rq-hero-tagline" set:html={tagline} />}
+    <button class="rq-hero-search" data-rq-open-search>
+      <svg
+        aria-hidden="true"
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+      >
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+      </svg>
+      <span class="rq-hero-search-label">{placeholder}</span>
+      <kbd>Ctrl K</kbd>
+    </button>
+    <div class="rq-hero-chips">
+      {chips.map((chip) => <a href={chip.href}>{chip.label}</a>)}
+    </div>
+  </div>
+</section>
+
+<script>
+  const trigger = document.querySelector("[data-rq-open-search]");
+  trigger?.addEventListener("click", (event) => {
+    // Don't let this click bubble to Starlight's outside-click handler, which
+    // would close the search dialog right after it opens.
+    event.stopPropagation();
+    document.querySelector<HTMLButtonElement>("site-search button")?.click();
+  });
+</script>
+
+<style>
+  .rq-hero {
+    /* Full-bleed band: stretch out of the centered content column. */
+    margin: -1.5rem calc(50% - 50vw) 0;
+    padding: 4.5rem 1.5rem;
+    background: linear-gradient(180deg, oklch(0.68 0.16 254), oklch(0.6 0.17 254));
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.08);
+  }
+
+  .rq-hero-inner {
+    max-width: 56rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(1.75rem, 1.2rem + 2vw, 2.25rem);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    color: #fff;
+  }
+
+  .rq-hero-tagline {
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: rgb(255 255 255 / 0.9);
+    max-width: 35rem;
+    text-wrap: pretty;
+  }
+
+  .rq-hero-search {
+    width: 100%;
+    max-width: 37.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    height: 3.25rem;
+    margin-top: 0.5rem;
+    padding: 0 1.125rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow:
+      0 4px 6px -1px rgb(0 0 0 / 0.08),
+      0 2px 4px -2px rgb(0 0 0 / 0.06);
+    color: var(--rq-muted, hsl(215.4 16.3% 46.9%));
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  .rq-hero-search-label {
+    flex: 1;
+    text-align: start;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .rq-hero-search kbd {
+    font-size: 0.75rem;
+    font-family: inherit;
+    border: 1px solid oklch(0.9 0.013 255.5);
+    border-radius: 0.25rem;
+    padding: 2px 6px;
+  }
+
+  .rq-hero-chips {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.25rem;
+  }
+  .rq-hero-chips a {
+    height: 1.75rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.75rem;
+    border-radius: 9999px;
+    border: 1px solid rgb(255 255 255 / 0.45);
+    color: #fff;
+    font-size: 0.8125rem;
+    text-decoration: none;
+  }
+  .rq-hero-chips a:hover {
+    background: rgb(255 255 255 / 0.12);
+  }
+</style>
