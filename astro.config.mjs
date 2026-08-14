@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightLinksValidator from "starlight-links-validator";
 
 export default defineConfig({
   site: "https://docs.roqua.net",
@@ -14,6 +15,13 @@ export default defineConfig({
 
   integrations: [
     starlight({
+      plugins: [
+        starlightLinksValidator({
+          // Same-page and relative links are fine; only flag links whose
+          // target page doesn't exist.
+          errorOnRelativeLinks: false,
+        }),
+      ],
       title: {
         nl: "RoQua Documentatie",
         en: "RoQua Documentation",
