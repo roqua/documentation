@@ -16,7 +16,10 @@ They are created:
 See SBG definition: https://www.sbggz.nl/MDS?contentitem=cded80f9-83e4-4159-8596-9d04c7fde64f#Reden-non-response
 
 ## Get a single non_response
-    GET /api/v1/dossier/:epd_id/non_responses/:id
+
+```
+GET /api/v1/dossier/:epd_id/non_responses/:id
+```
 
 ### Response
 
@@ -34,6 +37,9 @@ Name                  | Type      | Description
 `reason_other`        | `string`  | user entered text.
 
 ## Get all non_responses for a dossier
-    GET /api/v1/dossier/:epd_id/non_responses
+
+```
+GET /api/v1/dossier/:epd_id/non_responses
+```
 
 Returns an array of hashes of the same format as show.
