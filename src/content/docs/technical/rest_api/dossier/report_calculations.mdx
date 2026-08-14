@@ -9,11 +9,15 @@ import Snapshot from "@components/Snapshot.astro";
 
 ### Calculate over specific responses.
 
-    GET /api/v1/dossiers/:dossier_id/report_calculations?calculator=test&response_ids[]=1&response_ids[]=6
+```
+GET /api/v1/dossiers/:dossier_id/report_calculations?calculator=test&response_ids[]=1&response_ids[]=6
+```
 
 ### Calculate over responses defined by filters
 
-    GET /api/v1/dossiers/:dossier_id/report_calculations?calculator=test&filters[questionnaire_keys][]=rand361
+```
+GET /api/v1/dossiers/:dossier_id/report_calculations?calculator=test&filters[questionnaire_keys][]=rand361
+```
 
 ### Parameters
 
