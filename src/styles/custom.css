@@ -3,15 +3,43 @@
  * top bar on every page, and the grey/blue token set from the design.
  */
 
+/*
+ * Starlight's `:root` holds the dark theme. The dark palette is "Ronde 2" of
+ * the design: a blue-grey base on the same blue hue, primary blue lifted to
+ * oklch(0.74 0.13 254) for contrast on dark, and the hero gradient deepened
+ * rather than lightened.
+ */
 :root {
   --sl-font: "Roboto Variable", system-ui, sans-serif;
 
-  --sl-color-accent-low: oklch(0.3 0.07 254);
-  --sl-color-accent: oklch(0.68 0.16 254);
-  --sl-color-accent-high: oklch(0.86 0.07 254);
+  --sl-color-accent-low: oklch(0.36 0.12 256);
+  --sl-color-accent: oklch(0.46 0.14 254);
+  --sl-color-accent-high: oklch(0.74 0.13 254);
 
-  /* Muted body copy, matching the design's secondary text. */
-  --rq-muted: hsl(215.4 16.3% 46.9%);
+  --sl-color-white: oklch(0.94 0.008 250);
+  --sl-color-gray-1: oklch(0.88 0.012 251);
+  --sl-color-gray-2: oklch(0.8 0.015 253);
+  --sl-color-gray-3: oklch(0.7 0.018 255);
+  --sl-color-gray-4: oklch(0.5 0.024 259);
+  --sl-color-gray-5: oklch(0.34 0.028 262);
+  --sl-color-gray-6: oklch(0.195 0.024 262);
+  --sl-color-gray-7: oklch(0.155 0.022 262);
+  --sl-color-black: oklch(0.245 0.026 262);
+
+  /* Design tokens that differ per scheme but not along Starlight's gray axis. */
+  --rq-border: oklch(0.34 0.028 262);
+  --rq-topbar-bg: oklch(0.155 0.022 262);
+  /* Accent for underlines on dark surfaces (top bar, code frame tabs). */
+  --rq-topbar-active: oklch(0.46 0.14 254);
+  --rq-hero-gradient: linear-gradient(180deg, oklch(0.46 0.14 254), oklch(0.36 0.12 256));
+  --rq-code-bg: oklch(0.155 0.022 262);
+  --rq-code-tabbar-bg: oklch(0.205 0.024 262);
+
+  /* One border colour everywhere, per the design. */
+  --sl-color-hairline-light: var(--rq-border);
+  --sl-color-hairline: var(--rq-border);
+  /* Inline code chips use the recessed surface in both schemes. */
+  --sl-color-bg-inline-code: var(--sl-color-gray-6);
 }
 
 :root[data-theme="light"] {
@@ -28,6 +56,13 @@
   --sl-color-gray-6: oklch(0.95 0.0034 247.86);
   --sl-color-gray-7: oklch(0.97 0.003 247.86);
   --sl-color-black: #ffffff;
+
+  --rq-border: oklch(0.9 0.013 255.5);
+  --rq-topbar-bg: oklch(0.21 0.04 266);
+  --rq-topbar-active: oklch(0.68 0.16 254);
+  --rq-hero-gradient: linear-gradient(180deg, oklch(0.68 0.16 254), oklch(0.6 0.17 254));
+  --rq-code-bg: oklch(0.21 0.04 266);
+  --rq-code-tabbar-bg: oklch(0.26 0.035 266);
 }
 
 /* ---------------------------------------------------------------- top bar */
@@ -38,7 +73,7 @@
  * right on-dark colors without overriding their components.
  */
 header.header {
-  --sl-color-bg-nav: oklch(0.21 0.04 266);
+  --sl-color-bg-nav: var(--rq-topbar-bg);
   --sl-color-white: #ffffff;
   --sl-color-gray-1: rgb(255 255 255 / 0.85);
   --sl-color-gray-2: rgb(255 255 255 / 0.72);
@@ -47,7 +82,7 @@ header.header {
   --sl-color-gray-5: rgb(255 255 255 / 0.25);
   --sl-color-gray-6: rgb(255 255 255 / 0.1);
   --sl-color-gray-7: rgb(255 255 255 / 0.06);
-  --sl-color-black: oklch(0.21 0.04 266);
+  --sl-color-black: var(--rq-topbar-bg);
   --sl-color-text-accent: #ffffff;
   --sl-color-hairline-shade: transparent;
 
@@ -96,6 +131,8 @@ header.header site-search kbd {
   background: transparent;
   color: var(--sl-color-text-accent);
   font-weight: 500;
+  /* A straight edge: without this the shadow follows the link's rounded corners. */
+  border-radius: 0;
   box-shadow: inset 3px 0 0 0 var(--sl-color-text-accent);
 }
 [dir="rtl"] #starlight__sidebar a[aria-current="page"],
@@ -162,13 +199,15 @@ header.header site-search kbd {
   color: var(--sl-color-gray-1);
 }
 .starlight-aside--caution {
+  --sl-color-asides-border: oklch(0.82 0.15 95);
+  --sl-color-asides-text-accent: oklch(0.82 0.15 95);
+  background: oklch(0.82 0.15 95 / 0.12);
+  color: var(--sl-color-gray-1);
+}
+:root[data-theme="light"] .starlight-aside--caution {
   --sl-color-asides-border: oklch(0.6 0.225 95);
   --sl-color-asides-text-accent: oklch(0.6 0.225 95);
   background: oklch(0.9 0.165 98 / 0.14);
-  color: var(--sl-color-gray-1);
-}
-:root[data-theme="dark"] .starlight-aside--caution {
-  --sl-color-asides-text-accent: oklch(0.8 0.16 95);
 }
 
 /* Tables: full-width bordered cards with a grey header row. */
@@ -332,7 +371,7 @@ header.header site-search kbd {
   padding: 0 1.125rem;
   border-radius: 0.375rem;
   background: var(--sl-color-text-accent);
-  color: var(--sl-color-bg);
+  color: #fff;
   font-size: 0.9375rem;
   font-weight: 500;
   text-decoration: none;

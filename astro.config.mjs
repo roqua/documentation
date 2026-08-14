@@ -43,20 +43,21 @@ export default defineConfig({
         PageTitle: "./src/components/PageTitle.astro",
       },
 
-      // Code blocks are dark in both themes, per the design.
+      // Code blocks are dark in both themes, per the design; the exact navy
+      // differs per scheme, so the values live in CSS variables in custom.css.
       expressiveCode: {
         themes: ["github-dark"],
         styleOverrides: {
           borderRadius: "0.5rem",
           borderColor: "var(--sl-color-hairline)",
-          codeBackground: "oklch(0.21 0.04 266)",
+          codeBackground: "var(--rq-code-bg)",
           frames: {
-            editorTabBarBackground: "oklch(0.26 0.035 266)",
-            editorActiveTabBackground: "oklch(0.21 0.04 266)",
+            editorTabBarBackground: "var(--rq-code-tabbar-bg)",
+            editorActiveTabBackground: "var(--rq-code-bg)",
             editorActiveTabIndicatorTopColor: "transparent",
-            editorActiveTabIndicatorBottomColor: "oklch(0.68 0.16 254)",
-            terminalBackground: "oklch(0.21 0.04 266)",
-            terminalTitlebarBackground: "oklch(0.26 0.035 266)",
+            editorActiveTabIndicatorBottomColor: "var(--rq-topbar-active)",
+            terminalBackground: "var(--rq-code-bg)",
+            terminalTitlebarBackground: "var(--rq-code-tabbar-bg)",
             terminalTitlebarBorderBottomColor: "rgb(255 255 255 / 0.08)",
           },
         },
