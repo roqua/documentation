@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/01/30/",
+  "source": "@site/changelog/roqua/production/2018-01-30.md",
+  "title": "2018-01-30",
+  "description": "* Het is nu mogelijk om uitnodigingen als PDF te downloaden. Hiermee kunnen eventuele printproblemen van de gebruikte browser/epdapplicatie omzeild worden.",
+  "date": "2018-01-30T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.11,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-01-30T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-02-02",
+    "permalink": "/changelog/roqua/production/2018/02/02/"
+  },
+  "nextItem": {
+    "title": "2018-01-26",
+    "permalink": "/changelog/roqua/production/2018/01/26/"
+  }
+}

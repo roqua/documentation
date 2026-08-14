@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/11/16/",
+  "source": "@site/changelog/roqua/production/2016-11-16.md",
+  "title": "2016-11-16",
+  "description": "* Voortaan is de manager-rol niet meer nodig om in te loggen in RoQua Admin. Zonder expliciete rechten kunnen medewerkers echter alleen de overzichtspagina zien. Ook moet er uiteraard wel al een RoQua Admin-wachtwoord voor deze medewerkers zijn ingesteld.",
+  "date": "2016-11-16T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.39,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-11-16T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-11-17",
+    "permalink": "/changelog/roqua/production/2016/11/17/"
+  },
+  "nextItem": {
+    "title": "2016-11-14",
+    "permalink": "/changelog/roqua/production/2016/11/14/"
+  }
+}

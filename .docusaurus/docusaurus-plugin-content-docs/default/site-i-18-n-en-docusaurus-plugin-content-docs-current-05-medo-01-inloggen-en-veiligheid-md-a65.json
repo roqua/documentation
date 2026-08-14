@@ -1,0 +1,25 @@
+{
+  "id": "medo/inloggen_en_veiligheid",
+  "title": "Logging in and security",
+  "description": "First use",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/05-medo/01-inloggen_en_veiligheid.md",
+  "sourceDirName": "05-medo",
+  "slug": "/medo/inloggen_en_veiligheid",
+  "permalink": "/en/docs/medo/inloggen_en_veiligheid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/05-medo/01-inloggen_en_veiligheid.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Medoq",
+    "permalink": "/en/docs/medo/"
+  },
+  "next": {
+    "title": "Administering projects",
+    "permalink": "/en/docs/medo/werken_met_projecten"
+  }
+}

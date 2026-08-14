@@ -1,0 +1,24 @@
+{
+  "unversionedId": "epd/overview/timeline/notifications",
+  "id": "epd/overview/timeline/notifications",
+  "title": "notifications",
+  "description": "",
+  "source": "@site/docs/02-epd/02-overview/timeline/notifications.md",
+  "sourceDirName": "02-epd/02-overview/timeline",
+  "slug": "/epd/overview/timeline/notifications",
+  "permalink": "/docs/epd/overview/timeline/notifications",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/02-overview/timeline/notifications.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "completed-responses",
+    "permalink": "/docs/epd/overview/timeline/completed-responses"
+  },
+  "next": {
+    "title": "protocol-subscriptions",
+    "permalink": "/docs/epd/overview/timeline/protocol-subscriptions"
+  }
+}

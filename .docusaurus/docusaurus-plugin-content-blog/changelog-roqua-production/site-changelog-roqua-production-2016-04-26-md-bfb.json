@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/04/26/",
+  "source": "@site/changelog/roqua/production/2016-04-26.md",
+  "title": "2016-04-26",
+  "description": "* HMAC token authenticatie geeft nu specifiekere meldingen bij fouten.",
+  "date": "2016-04-26T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.26,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-04-26T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-05-06",
+    "permalink": "/changelog/roqua/production/2016/05/06/"
+  },
+  "nextItem": {
+    "title": "2016-04-21",
+    "permalink": "/changelog/roqua/production/2016/04/21/"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmanual=globalThis.webpackChunkmanual||[]).push([[93829],{26284:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/en/changelog/roqua/production/page/63","page":63,"postsPerPage":10,"totalPages":63,"totalCount":624,"previousPage":"/en/changelog/roqua/production/page/62","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

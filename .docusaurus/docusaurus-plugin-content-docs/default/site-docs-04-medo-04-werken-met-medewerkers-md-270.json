@@ -1,0 +1,21 @@
+{
+  "id": "medo/werken_met_medewerkers",
+  "title": "Werken met medewerkers",
+  "description": "Medewerkers",
+  "source": "@site/docs/04-medo/04-werken_met_medewerkers.md",
+  "sourceDirName": "04-medo",
+  "slug": "/medo/werken_met_medewerkers",
+  "permalink": "/docs/medo/werken_met_medewerkers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/04-medo/04-werken_met_medewerkers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Werken met deelnemers",
+    "permalink": "/docs/medo/werken_met_deelnemers"
+  }
+}

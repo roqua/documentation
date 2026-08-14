@@ -1,0 +1,24 @@
+{
+  "id": "features/prefill-with-prior-response",
+  "title": "Copy answers from a previous completion of the same questionnaire",
+  "description": "This section of the manual still needs to be written.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/04-features/prefill-with-prior-response.md",
+  "sourceDirName": "04-features",
+  "slug": "/features/prefill-with-prior-response",
+  "permalink": "/en/docs/features/prefill-with-prior-response",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/04-features/prefill-with-prior-response.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Automatically fill in lab results",
+    "permalink": "/en/docs/features/lab-results"
+  },
+  "next": {
+    "title": "Recently completed questionnaires",
+    "permalink": "/en/docs/features/recently-completed"
+  }
+}

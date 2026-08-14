@@ -1,0 +1,26 @@
+{
+  "id": "rest_api/dossier/stats",
+  "title": "Stats",
+  "description": "Stats that are generated over different aspects of a dossier.",
+  "source": "@site/technical/rest_api/dossier/stats.md",
+  "sourceDirName": "rest_api/dossier",
+  "slug": "/rest_api/dossier/stats",
+  "permalink": "/technical/rest_api/dossier/stats",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Stats",
+    "status": "draft"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Responses",
+    "permalink": "/technical/rest_api/dossier/responses"
+  },
+  "next": {
+    "title": "REST API Error Handling",
+    "permalink": "/technical/rest_api/error_handling"
+  }
+}

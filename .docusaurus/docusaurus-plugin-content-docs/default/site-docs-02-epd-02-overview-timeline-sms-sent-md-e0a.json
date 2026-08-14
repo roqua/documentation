@@ -1,0 +1,24 @@
+{
+  "unversionedId": "epd/overview/timeline/sms-sent",
+  "id": "epd/overview/timeline/sms-sent",
+  "title": "sms-sent",
+  "description": "",
+  "source": "@site/docs/02-epd/02-overview/timeline/sms-sent.md",
+  "sourceDirName": "02-epd/02-overview/timeline",
+  "slug": "/epd/overview/timeline/sms-sent",
+  "permalink": "/docs/epd/overview/timeline/sms-sent",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/02-overview/timeline/sms-sent.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "report",
+    "permalink": "/docs/epd/overview/timeline/report"
+  },
+  "next": {
+    "title": "Vragenlijsten afnemen",
+    "permalink": "/docs/epd/measure/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/04/13/",
+  "source": "@site/changelog/roqua/production/2018-04-13.md",
+  "title": "2018-04-13",
+  "description": "* RoQua gebruikt nu de samengestelde achternaam in plaats van de gegeven achternaam voor clienten van het UMCG.",
+  "date": "2018-04-13T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.53,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-04-13T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-04-19",
+    "permalink": "/changelog/roqua/production/2018/04/19/"
+  },
+  "nextItem": {
+    "title": "2018-04-05",
+    "permalink": "/changelog/roqua/production/2018/04/05/"
+  }
+}

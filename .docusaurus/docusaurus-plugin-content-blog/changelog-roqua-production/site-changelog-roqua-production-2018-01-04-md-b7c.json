@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/01/04/",
+  "source": "@site/changelog/roqua/production/2018-01-04.md",
+  "title": "2018-01-04",
+  "description": "* Het bereik waarin afnamedatum van een vragenlijst kan worden ingesteld is vergroot naar 20 jaar geleden.",
+  "date": "2018-01-04T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.08,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-01-04T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-01-12",
+    "permalink": "/changelog/roqua/production/2018/01/12/"
+  },
+  "nextItem": {
+    "title": "2017-12-28",
+    "permalink": "/changelog/roqua/production/2017/12/28/"
+  }
+}

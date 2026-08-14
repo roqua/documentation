@@ -1,0 +1,25 @@
+{
+  "id": "sqlite_export/csv_from_sql",
+  "title": "Generating a csv export from the sql export",
+  "description": "Creating a csv export from the sql export can give you more freedom or stability in it's output.",
+  "source": "@site/technical/sqlite_export/csv_from_sql.md",
+  "sourceDirName": "sqlite_export",
+  "slug": "/sqlite_export/csv_from_sql",
+  "permalink": "/technical/sqlite_export/csv_from_sql",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Generating a csv export from the sql export"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "SQLite Export",
+    "permalink": "/technical/sqlite_export/"
+  },
+  "next": {
+    "title": "Download via API",
+    "permalink": "/technical/sqlite_export/download_via_api"
+  }
+}

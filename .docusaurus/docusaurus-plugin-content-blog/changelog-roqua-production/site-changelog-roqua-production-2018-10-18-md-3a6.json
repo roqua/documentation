@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/10/18/",
+  "source": "@site/changelog/roqua/production/2018-10-18.md",
+  "title": "2018-10-18",
+  "description": "* Het via de admin omgeving versturen van een test oru bericht voor een vragenlijst deed dit (alsnog) vaak niet, dit is verholpen.",
+  "date": "2018-10-18T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.11,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-10-18T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-10-24",
+    "permalink": "/changelog/roqua/production/2018/10/24/"
+  },
+  "nextItem": {
+    "title": "2018-10-11",
+    "permalink": "/changelog/roqua/production/2018/10/11/"
+  }
+}

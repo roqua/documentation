@@ -1,0 +1,25 @@
+{
+  "id": "admin/settings",
+  "title": "Instellingen",
+  "description": "Hier kun je enkele instellingen maken voor de RoQua-applicatie zoals de weergave van een link naar de handleiding in de RoQua interface en of behandelaren gevraagd zullen worden om hun persoonlijke gegevens als zij voor het eerst van RoQua gebruik maken. Verder kun je opgeven na welke periode klaarstaande vragenlijsten een rood label krijgen en welk exportformaat gebruikt wordt voor het verzenden van ORU-berichten.",
+  "source": "@site/docs/03-admin/04-settings.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/settings",
+  "permalink": "/docs/admin/settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/04-settings.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Data-exports",
+    "permalink": "/docs/admin/data_exports"
+  },
+  "next": {
+    "title": "Integratie",
+    "permalink": "/docs/admin/integration/"
+  }
+}

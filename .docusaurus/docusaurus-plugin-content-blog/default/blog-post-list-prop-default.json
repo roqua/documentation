@@ -1,0 +1,17 @@
+{
+  "title": "Blog",
+  "items": [
+    {
+      "title": "Vernieuwde startpagina",
+      "permalink": "/blog/20250318-new-timeline",
+      "unlisted": false,
+      "date": "2025-03-18T00:00:00.000Z"
+    },
+    {
+      "title": "Eigen initiatief vragenlijsten",
+      "permalink": "/blog/20210915-self-initiables",
+      "unlisted": false,
+      "date": "2021-09-15T00:00:00.000Z"
+    }
+  ]
+}

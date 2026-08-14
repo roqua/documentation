@@ -1,0 +1,25 @@
+{
+  "id": "sqlite_export/download_via_api",
+  "title": "Download via API",
+  "description": "<Snapshot json={{",
+  "source": "@site/technical/sqlite_export/download_via_api.md",
+  "sourceDirName": "sqlite_export",
+  "slug": "/sqlite_export/download_via_api",
+  "permalink": "/technical/sqlite_export/download_via_api",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Download via API"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Generating a csv export from the sql export",
+    "permalink": "/technical/sqlite_export/csv_from_sql"
+  },
+  "next": {
+    "title": "Non-response",
+    "permalink": "/technical/sqlite_export/nonresponse"
+  }
+}

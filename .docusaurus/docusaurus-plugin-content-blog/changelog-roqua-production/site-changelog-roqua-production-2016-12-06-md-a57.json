@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/12/06/",
+  "source": "@site/changelog/roqua/production/2016-12-06.md",
+  "title": "2016-12-06",
+  "description": "* Organizatie optie toegevoegd om team selectie verplicht te maken voor je lijsten kunt klaarzetten.",
+  "date": "2016-12-06T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.1,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-12-06T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-12-08",
+    "permalink": "/changelog/roqua/production/2016/12/08/"
+  },
+  "nextItem": {
+    "title": "2016-12-01",
+    "permalink": "/changelog/roqua/production/2016/12/01/"
+  }
+}

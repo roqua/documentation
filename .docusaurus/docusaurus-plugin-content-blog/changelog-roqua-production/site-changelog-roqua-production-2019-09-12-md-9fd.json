@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/09/12/",
+  "source": "@site/changelog/roqua/production/2019-09-12.md",
+  "title": "2019-09-12",
+  "description": "* Organizaties worden nu niet meer kast gevoelig gesorteerd in het backoffice overzicht.",
+  "date": "2019-09-12T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.86,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-09-12T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-09-16",
+    "permalink": "/changelog/roqua/production/2019/09/16/"
+  },
+  "nextItem": {
+    "title": "2019-09-04",
+    "permalink": "/changelog/roqua/production/2019/09/04/"
+  }
+}

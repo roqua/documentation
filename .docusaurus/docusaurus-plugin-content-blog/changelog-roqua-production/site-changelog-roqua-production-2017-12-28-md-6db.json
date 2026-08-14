@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/12/28/",
+  "source": "@site/changelog/roqua/production/2017-12-28.md",
+  "title": "2017-12-28",
+  "description": "* Bug fix om protocollen te kunnen starten in het volgende jaar.",
+  "date": "2017-12-28T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.08,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-12-28T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-01-04",
+    "permalink": "/changelog/roqua/production/2018/01/04/"
+  },
+  "nextItem": {
+    "title": "2017-12-21",
+    "permalink": "/changelog/roqua/production/2017/12/21/"
+  }
+}

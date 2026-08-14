@@ -1,0 +1,25 @@
+{
+  "id": "admin/users",
+  "title": "Gebruikers",
+  "description": "Met behulp van deze interface kun je de RoQua gebruikersaccounts beheren. We hebben twee soorten accounts: admin-gebruikers en EPD-gebruikers.",
+  "source": "@site/docs/03-admin/06-users.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/users",
+  "permalink": "/docs/admin/users",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/06-users.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Single sign-on tokens",
+    "permalink": "/docs/admin/integration/sso_tokens"
+  },
+  "next": {
+    "title": "Overig",
+    "permalink": "/docs/admin/other/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "admin/overview",
+  "title": "Overview",
+  "description": "On this page you can see a number of statistics regarding your RoQua data set.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/01-overview.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/overview",
+  "permalink": "/en/docs/admin/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/01-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Overview",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Beheermodule",
+    "permalink": "/en/docs/admin/"
+  },
+  "next": {
+    "title": "ROM-config",
+    "permalink": "/en/docs/admin/rom_config/"
+  }
+}

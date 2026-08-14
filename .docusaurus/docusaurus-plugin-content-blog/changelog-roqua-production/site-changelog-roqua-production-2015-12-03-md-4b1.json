@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/12/03/",
+  "source": "@site/changelog/roqua/production/2015-12-03.md",
+  "title": "2015-12-03",
+  "description": "Fixed .main not scrolling in Internet Explorer",
+  "date": "2015-12-03T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.04,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-12-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-01-13",
+    "permalink": "/changelog/roqua/production/2016/01/13/"
+  },
+  "nextItem": {
+    "title": "2015-12-02",
+    "permalink": "/changelog/roqua/production/2015/12/02/"
+  }
+}

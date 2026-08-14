@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/01/15/",
+  "source": "@site/changelog/roqua/production/2018-01-15.md",
+  "title": "2018-01-15",
+  "description": "* Het aflopen danwel stopzetten van een automatisch protocol wordt nu in de tijdslijn van een dossier getoond",
+  "date": "2018-01-15T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.14,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-01-15T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-01-18",
+    "permalink": "/changelog/roqua/production/2018/01/18/"
+  },
+  "nextItem": {
+    "title": "2018-01-12",
+    "permalink": "/changelog/roqua/production/2018/01/12/"
+  }
+}

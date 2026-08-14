@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/09/16/",
+  "source": "@site/changelog/roqua/production/2019-09-16.md",
+  "title": "2019-09-16",
+  "description": "* De perfomance van de uitkomstenpagina bij het tonen van een vragenlijst met veel invullingen is verbeterd.",
+  "date": "2019-09-16T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.22,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-09-16T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-09-18",
+    "permalink": "/changelog/roqua/production/2019/09/18/"
+  },
+  "nextItem": {
+    "title": "2019-09-12",
+    "permalink": "/changelog/roqua/production/2019/09/12/"
+  }
+}

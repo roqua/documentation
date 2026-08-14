@@ -1,0 +1,758 @@
+{
+  "id": "30002596-395f-430f-aac8-abdb6de37104",
+  "meta": {
+    "lastUpdated": "2022-04-19T14:44:52+02:00"
+  },
+  "resourceType": "Bundle",
+  "type": "document",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/STU3/Composition"
+          ]
+        },
+        "resourceType": "Composition",
+        "status": "final",
+        "type": {
+          "text": "HoNOS+"
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "identifier": {
+            "system": "###patient identifier system corresponding to RoQua EPD SSO Dossier id###",
+            "value": "9999999001"
+          },
+          "display": "Arie Achterweg"
+        },
+        "date": "2022-04-19",
+        "author": [
+          {
+            "reference": "Practitioner/60135cee-4a69-43c4-b4a3-46f1e2a7622d",
+            "display": "Medewerker",
+            "identifier": {
+              "system": "###professional identifier system corresponding to RoQua EPD SSO professional id###",
+              "value": "prof_12345"
+            }
+          }
+        ],
+        "title": "HoNOS+ vragenlijst",
+        "section": [
+          {
+            "entry": [
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-1",
+                "display": "Health of the Nation Outcome Scale Plus item 1 - aggressive/disruptive behavior (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-2",
+                "display": "Health of the Nation Outcome Scale Plus item 2 - non-accidental self injury (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-3",
+                "display": "Health of the Nation Outcome Scale Plus item 3 - alcohol/drug problem (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-4",
+                "display": "Health of the Nation Outcome Scale Plus item 4 - cognitive problems (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-5",
+                "display": "Health of the Nation Outcome Scale Plus item 5 - physical illness/disability (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-6",
+                "display": "Health of the Nation Outcome Scale Plus item 6 - hallucinations/delusions (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-7",
+                "display": "Health of the Nation Outcome Scale Plus item 7 - depressed mood (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-8",
+                "display": "Health of the Nation Outcome Scale Plus item 8 - other mental/behavioral problems (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-9",
+                "display": "Health of the Nation Outcome Scale Plus item 9 - relationship problems (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-10",
+                "display": "Health of the Nation Outcome Scale Plus item 10 - activities of daily living (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-11",
+                "display": "Health of the Nation Outcome Scale Plus item 11 - living conditions (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-12",
+                "display": "Health of the Nation Outcomes Scale Plus item 12 - occupation/activities (assessment scale)"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-13",
+                "display": "Health of the Nation Outcomes Scale Plus item 13"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-A",
+                "display": "Health of the Nation Outcomes Scale Plus item A"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-B",
+                "display": "Health of the Nation Outcomes Scale Plus item B"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-C",
+                "display": "Health of the Nation Outcomes Scale Plus item C"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-D",
+                "display": "Health of the Nation Outcomes Scale Plus item D"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-E",
+                "display": "Health of the Nation Outcomes Scale Plus item E"
+              },
+              {
+                "reference": "Observation/30002596-395f-430f-aac8-abdb6de37104-Q",
+                "display": "Health of the Nation Outcomes Scale Plus item Q"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-1",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-1",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV01",
+              "display": "Health of the Nation Outcome Scale Plus item 1 - aggressive/disruptive behavior (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 0,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA01"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-2",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-2",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV02",
+              "display": "Health of the Nation Outcome Scale Plus item 2 - non-accidental self injury (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 0,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA06"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-3",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-3",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV03",
+              "display": "Health of the Nation Outcome Scale Plus item 3 - alcohol/drug problem (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 0,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA11"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-4",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-4",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV04",
+              "display": "Health of the Nation Outcome Scale Plus item 4 - cognitive problems (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 4,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA20"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-5",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-5",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV05",
+              "display": "Health of the Nation Outcome Scale Plus item 5 - physical illness/disability (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 2,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA23"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-6",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-6",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV06",
+              "display": "Health of the Nation Outcome Scale Plus item 6 - hallucinations/delusions (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 3,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA29"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-7",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-7",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV07",
+              "display": "Health of the Nation Outcome Scale Plus item 7 - depressed mood (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 0,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA31"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-8",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-8",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV08",
+              "display": "Health of the Nation Outcome Scale Plus item 8 - other mental/behavioral problems (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 4,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA40"
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "https://code24.nl/fhir/CodingSystem/HoNOSItem8Question",
+                  "code": "I8",
+                  "display": "Health of the Nation Outcome Scale Plus item 8 - supplement"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://code24.nl/fhir/CodingSystem/HoNOSItem8Answer",
+                  "code": "K",
+                  "display": "Overig"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-9",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-9",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV09",
+              "display": "Health of the Nation Outcome Scale Plus item 9 - relationship problems (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 3,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA44"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-10",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-10",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV10",
+              "display": "Health of the Nation Outcome Scale Plus item 10 - activities of daily living (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 1,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA47"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-11",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-11",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV11",
+              "display": "Health of the Nation Outcome Scale Plus item 11 - living conditions (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 3,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA54"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-12",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-12",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV12",
+              "display": "Health of the Nation Outcomes Scale Plus item 12 - occupation/activities (assessment scale)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 1,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA57"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-13",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-13",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV13",
+              "display": "Health of the Nation Outcomes Scale Plus item 13"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 0,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA61"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-A",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-A",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV14",
+              "display": "Health of the Nation Outcomes Scale Plus item A"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 1,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA67"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-B",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-B",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV15",
+              "display": "Health of the Nation Outcomes Scale Plus item B"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 0,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA71"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-C",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-C",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV16",
+              "display": "Health of the Nation Outcomes Scale Plus item C"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 0,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA76"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-D",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-D",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV17",
+              "display": "Health of the Nation Outcomes Scale Plus item D"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 2,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA83"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-E",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-E",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV18",
+              "display": "Health of the Nation Outcomes Scale Plus item E"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 3,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA89"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30002596-395f-430f-aac8-abdb6de37104-Q",
+      "resource": {
+        "id": "30002596-395f-430f-aac8-abdb6de37104-Q",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-GeneralMeasurement"
+          ]
+        },
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSQuestion",
+              "code": "HV19",
+              "display": "Health of the Nation Outcomes Scale Plus item Q"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f3d1d155-5485-49fd-b470-c9f8228bcd40",
+          "display": "Arie Achterweg"
+        },
+        "effectiveDateTime": "2022-04-19T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 1,
+          "system": "https://zorgprestatiemodel.nl/fhir/CodingSystem/HoNOSAnswer",
+          "code": "HA92"
+        }
+      }
+    }
+  ]
+}

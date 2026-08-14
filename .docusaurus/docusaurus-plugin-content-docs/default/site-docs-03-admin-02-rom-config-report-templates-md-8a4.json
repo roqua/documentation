@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/report_templates",
+  "title": "Rapporttemplates",
+  "description": "Hier kun je de templates die gebruikt worden voor het genereren van rapporten aanpassen. Met rapporten is het mogelijk de resultaten van verschillende vragenlijsten te combineren in één document. Zo zou je bijvoorbeeld de outcome  van een vragenlijst die door verschillende respondenten ingevuld is ter vergelijking onder elkaar kunnen plaatsen. Wanneer een template eenmaal aangemaakt is, kunnen medewerker via de RoQua EPD-interface rapporten genereren voor een selectie aan ingevulde vragenlijsten.",
+  "source": "@site/docs/03-admin/02-rom_config/report_templates.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/report_templates",
+  "permalink": "/docs/admin/rom_config/report_templates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/report_templates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Rapporttemplates",
+    "sort": 200
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Vragenlijstenoverzicht",
+    "permalink": "/docs/admin/rom_config/questionnaires"
+  },
+  "next": {
+    "title": "Data-exports",
+    "permalink": "/docs/admin/data_exports"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "epd/measure/measurements/direct-invullen",
+  "title": "Fill out directly",
+  "description": "Sometimes it is desirable to be able to complete a questionnaire directly on behalf of a respondent. This can be done by selecting a questionnaire and clicking the Fill out directly button. A screen now appears in which you can choose the desired situation.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/03-measure/01-measurements/02-direct-invullen.md",
+  "sourceDirName": "02-epd/03-measure/01-measurements",
+  "slug": "/epd/measure/measurements/direct-invullen",
+  "permalink": "/en/docs/epd/measure/measurements/direct-invullen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/01-measurements/02-direct-invullen.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Prepare",
+    "permalink": "/en/docs/epd/measure/measurements/klaarzetten"
+  },
+  "next": {
+    "title": "Non-response",
+    "permalink": "/en/docs/epd/measure/measurements/non-respons"
+  }
+}

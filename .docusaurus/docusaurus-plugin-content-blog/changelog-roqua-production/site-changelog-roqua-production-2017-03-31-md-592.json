@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/03/31/",
+  "source": "@site/changelog/roqua/production/2017-03-31.md",
+  "title": "2017-03-31",
+  "description": "* De pagina om antwoorden te bekijken is opgeknapt.",
+  "date": "2017-03-31T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.45,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-03-31T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-04-03",
+    "permalink": "/changelog/roqua/production/2017/04/03/"
+  },
+  "nextItem": {
+    "title": "2017-03-23",
+    "permalink": "/changelog/roqua/production/2017/03/23/"
+  }
+}

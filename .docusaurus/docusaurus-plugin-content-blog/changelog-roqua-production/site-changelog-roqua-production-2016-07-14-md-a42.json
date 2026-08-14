@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/07/14/",
+  "source": "@site/changelog/roqua/production/2016-07-14.md",
+  "title": "2016-07-14",
+  "description": "* De knoppen op de pagina om vragenlijsten klaar te zetten scollen nu mee in het venster, waardoor je niet meer helemaal naar onderen hoeft te scrollen om op deze knoppen te drukken.",
+  "date": "2016-07-14T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.32,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-07-14T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-09-08",
+    "permalink": "/changelog/roqua/production/2016/09/08/"
+  },
+  "nextItem": {
+    "title": "2016-06-30",
+    "permalink": "/changelog/roqua/production/2016/06/30/"
+  }
+}

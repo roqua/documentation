@@ -1,0 +1,21 @@
+{
+  "id": "glossary",
+  "title": "Glossary",
+  "description": "In deze handleiding zullen we regelmatig termen gebruiken die wellicht niet precies overeenkomen met hoe het bij jullie op de werkvloer genoemd word.",
+  "source": "@site/docs/06-glossary.md",
+  "sourceDirName": ".",
+  "slug": "/glossary",
+  "permalink": "/docs/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/06-glossary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Recent ingevulde vragenlijsten",
+    "permalink": "/docs/features/recently-completed"
+  }
+}

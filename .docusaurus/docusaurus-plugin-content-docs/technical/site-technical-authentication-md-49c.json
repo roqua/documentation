@@ -1,0 +1,23 @@
+{
+  "id": "authentication",
+  "title": "API Authentication",
+  "description": "The REST API supports two authentication schemes. Access to the API is controlled by API tokens in RoQua-Admin. When opting for JWT tokens, please provide us with your public key so we can hook it to the API token.",
+  "source": "@site/technical/authentication.md",
+  "sourceDirName": ".",
+  "slug": "/authentication",
+  "permalink": "/technical/authentication",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Technical Documentation",
+    "permalink": "/technical/"
+  },
+  "next": {
+    "title": "CSV Export",
+    "permalink": "/technical/csv_export/"
+  }
+}

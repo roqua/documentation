@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/01/11/",
+  "source": "@site/changelog/roqua/production/2019-01-11.md",
+  "title": "2019-01-11",
+  "description": "* API: access denied foutmeldingen geven nu een reden terug",
+  "date": "2019-01-11T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.77,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-01-11T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-01-18",
+    "permalink": "/changelog/roqua/production/2019/01/18/"
+  },
+  "nextItem": {
+    "title": "2019-01-10",
+    "permalink": "/changelog/roqua/production/2019/01/10/"
+  }
+}

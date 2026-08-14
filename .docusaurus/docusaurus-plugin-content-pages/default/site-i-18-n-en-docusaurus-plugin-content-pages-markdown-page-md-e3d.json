@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/en/markdown-page",
+  "source": "@site/i18n/en/docusaurus-plugin-content-pages/markdown-page.md",
+  "description": "this is english",
+  "frontMatter": {},
+  "unlisted": false
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "epd/measure/invitations",
+  "id": "epd/measure/invitations",
+  "title": "Uitnodigingsbrieven",
+  "description": "Normaal gesproken kun je uitnodingsbrieven tegelijk met het klaarzetten van vragenlijsten maken en versturen. Het kan echter zijn dat dit niet gedaan is, en daarom heeft RoQua ook een losse pagina om dit achteraf alsnog te doen. Dit zit onder het Menu -> Uitnodigingsbrieven.",
+  "source": "@site/docs/02-epd/03-measure/03-invitations.md",
+  "sourceDirName": "02-epd/03-measure",
+  "slug": "/epd/measure/invitations",
+  "permalink": "/docs/epd/measure/invitations",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/03-measure/03-invitations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sort": 400
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Auto-protocollen",
+    "permalink": "/docs/epd/measure/automatic_protocols"
+  },
+  "next": {
+    "title": "Non-Responses",
+    "permalink": "/docs/epd/measure/non_response"
+  }
+}

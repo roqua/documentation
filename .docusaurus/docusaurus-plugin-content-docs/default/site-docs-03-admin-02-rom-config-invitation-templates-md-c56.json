@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/invitation_templates",
+  "title": "Uitnodigingstemplates",
+  "description": "Hier kun je de templates die gebruikt worden voor het uitnodigen van een patiënt of andere respondent aanpassen.",
+  "source": "@site/docs/03-admin/02-rom_config/invitation_templates.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/invitation_templates",
+  "permalink": "/docs/admin/rom_config/invitation_templates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/invitation_templates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Uitnodigingstemplates",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Afdelingen",
+    "permalink": "/docs/admin/rom_config/departments"
+  },
+  "next": {
+    "title": "Voorinvullers",
+    "permalink": "/docs/admin/rom_config/prefillers/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/04/10/",
+  "source": "@site/changelog/roqua/production/2019-04-10.md",
+  "title": "2019-04-10",
+  "description": "* Automatische dagboekprotocollen die over middernacht heen vragenlijsten klaar zetten zonden de notificaties niet uit voor de lijsten na middernacht. Dit is verbeterd.",
+  "date": "2019-04-10T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.25,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-04-10T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-04-18",
+    "permalink": "/changelog/roqua/production/2019/04/18/"
+  },
+  "nextItem": {
+    "title": "2019-04-08",
+    "permalink": "/changelog/roqua/production/2019/04/08/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/01/23/",
+  "source": "@site/changelog/roqua/production/2019-01-23.md",
+  "title": "2019-01-23",
+  "description": "* Fout verbeterd waarbij extra teksten voor rapporten wegvielen na hergenereren van het rapport.",
+  "date": "2019-01-23T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.11,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-01-23T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-01-25",
+    "permalink": "/changelog/roqua/production/2019/01/25/"
+  },
+  "nextItem": {
+    "title": "2019-01-18",
+    "permalink": "/changelog/roqua/production/2019/01/18/"
+  }
+}

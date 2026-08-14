@@ -1,0 +1,23 @@
+{
+  "id": "rest_api/dossier/dossiers",
+  "title": "Dossiers",
+  "description": "Get a single dossier",
+  "source": "@site/technical/rest_api/dossier/dossiers.md",
+  "sourceDirName": "rest_api/dossier",
+  "slug": "/rest_api/dossier/dossiers",
+  "permalink": "/technical/rest_api/dossier/dossiers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Dossier-specific data",
+    "permalink": "/technical/rest_api/dossier/"
+  },
+  "next": {
+    "title": "Fill Out Requests",
+    "permalink": "/technical/rest_api/dossier/fill_out_requests"
+  }
+}

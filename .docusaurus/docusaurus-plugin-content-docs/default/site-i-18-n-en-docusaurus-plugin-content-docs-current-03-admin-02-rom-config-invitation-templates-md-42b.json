@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/invitation_templates",
+  "title": "Invitation templates",
+  "description": "Here you can edit the templates that are used to invite a patient or other respondent.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/02-rom_config/invitation_templates.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/invitation_templates",
+  "permalink": "/en/docs/admin/rom_config/invitation_templates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/invitation_templates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Invitation templates",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Departments",
+    "permalink": "/en/docs/admin/rom_config/departments"
+  },
+  "next": {
+    "title": "Prefillers",
+    "permalink": "/en/docs/admin/rom_config/prefillers/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "admin/data_exports",
+  "title": "Data-exports",
+  "description": "De links onder de header \"Bestand\" geven toegang tot de meest recent gegenereerde dataexport. Deze export wordt 's nachts aangemaakt en bevat daarom alle vragenlijsten die ingevuld werden vóór afgelopen middernacht. De codeboeken kun je in het gedownloade bestand onder de submap \"codebooks\" terugvinden.",
+  "source": "@site/docs/03-admin/03-data_exports.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/data_exports",
+  "permalink": "/docs/admin/data_exports",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/03-data_exports.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Rapporttemplates",
+    "permalink": "/docs/admin/rom_config/report_templates"
+  },
+  "next": {
+    "title": "Instellingen",
+    "permalink": "/docs/admin/settings"
+  }
+}

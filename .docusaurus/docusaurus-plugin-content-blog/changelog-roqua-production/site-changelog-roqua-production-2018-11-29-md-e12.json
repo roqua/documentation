@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/11/29/",
+  "source": "@site/changelog/roqua/production/2018-11-29.md",
+  "title": "2018-11-29",
+  "description": "* De labels \"Klinisch/Niet klinisch\" bij grafieken met een normwaarde worden nu ook op de juiste plek geplaatst als de grafiek niet bij 0 begint. De normwaarde (de scheiding tussen kleurgebieden) lag al wel op de correcte waarde.",
+  "date": "2018-11-29T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.42,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-11-29T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-12-06",
+    "permalink": "/changelog/roqua/production/2018/12/06/"
+  },
+  "nextItem": {
+    "title": "2018-11-22",
+    "permalink": "/changelog/roqua/production/2018/11/22/"
+  }
+}

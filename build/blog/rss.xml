@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>RoQua Documentation Blog</title>
+        <link>https://docs.roqua.net/blog</link>
+        <description>RoQua Documentation Blog</description>
+        <lastBuildDate>Tue, 18 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>nl</language>
+        <item>
+            <title><![CDATA[Vernieuwde startpagina]]></title>
+            <link>https://docs.roqua.net/blog/20250318-new-timeline</link>
+            <guid>https://docs.roqua.net/blog/20250318-new-timeline</guid>
+            <pubDate>Tue, 18 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Volgende week dinsdag (25 maart 2025) rollen we een visuele facelift uit van onze startpagina voor medewerkers. Hoewel de nieuwe startpagina functioneel weinig verschilt ten opzichte van de huidige pagina, willen we de ROM/RoQua-coördinatoren hier wel vooraf van op de hoogte brengen. Deze update staat inmiddels op de acceptatieomgeving.]]></description>
+            <content:encoded><![CDATA[<p>Volgende week dinsdag (25 maart 2025) rollen we een visuele facelift uit van onze startpagina voor medewerkers. Hoewel de nieuwe startpagina functioneel weinig verschilt ten opzichte van de huidige pagina, willen we de ROM/RoQua-coördinatoren hier wel vooraf van op de hoogte brengen. Deze update staat inmiddels op de acceptatieomgeving.</p>
+<img src="https://docs.roqua.net/blog-img/new-timeline.png" alt="Een screenshot van de nieuwe timeline">
+<p>Visueel wordt de startpagina hiermee in lijn gebracht met onze andere geüpdatete pagina's. Deze stijl gebruiken we bijvoorbeeld al bij het beheren van de respondenten, bij het maken van uitnodigingen en op de “Nieuwe meting”-pagina.
+Op functioneel gebied zijn er enkele aanpassingen:</p>
+<ol><li><p>De navigatiebalk links naast de tijdlijn is komen te vervallen. In plaats daarvan staan bij elke ingevulde vragenlijst knoppen om de invulling te openen en de uitkomsten te bekijken. Een nieuwe (eenmalige of herhaalde) meting kan worden aangemaakt via de knop “+ Nieuwe meting” rechtsboven. Alle opties staan ook onder de knop “Menu” rechtsboven.</p></li><li><p>Het veranderen van de volgorde en het annuleren van klaarstaande vragenlijsten is verplaatst naar een nieuwe pagina speciaal voor deze functies. Je vindt deze onder de “Aanpassen” knop in het segment “Aankomende vragenlijsten”. Deze eigen pagina geeft ons ademruimte om de gebruikerservaring te verbeteren; zo kun je nu zien wanneer een lijst is klaargezet en door wie, zodat je beter kunt bepalen of het een oude lijst is die inmiddels weg kan.</p><img src="https://docs.roqua.net/blog-img/new-timeline-pending-responses.png" alt="Screenshot van de pagina waar je klaarstaande vragenlijsten kunt beheren"></li><li><p>Het beheren van inlogcodes van respondenten is verplaatst naar de algemene respondent-beheerpagina. Je kunt deze vinden onder het potloodje linksboven, en door daarna naar “Beheer login” bij de betreffende respondent te gaan. We werken aan extra login-opties waardoor een eigen pagina het meest logisch is.</p><img src="https://docs.roqua.net/blog-img/new-timeline-manage-tokens.png" alt="Screenshot van de pagina waar je inlogcodes kunt beheren"></li></ol>
+<p>Dit is een grote en heel zichtbare stap in onze ontwikkeling naar een nieuwe stijl. Het doel hiervan is om RoQua gebruiksvriendelijker te maken. Er zullen dus meer pagina’s gaan volgen. Feedback is welkom op <a href="mailto:support@roqua.nl"></a><a href="mailto:support@roqua.nl" target="_blank" rel="noopener noreferrer" class="">support@roqua.nl</a>. Mocht je functies missen of suggesties hebben, laat het ons dan vooral weten.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eigen initiatief vragenlijsten]]></title>
+            <link>https://docs.roqua.net/blog/20210915-self-initiables</link>
+            <guid>https://docs.roqua.net/blog/20210915-self-initiables</guid>
+            <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Er is nu een mogelijkheid om respondenten op eigen initiatief vragenlijsten in te laten vullen.]]></description>
+            <content:encoded><![CDATA[<p>Er is nu een mogelijkheid om respondenten op eigen initiatief vragenlijsten in te laten vullen.</p>
+<p>Als dit voor de meting van dit protocol door een coördinator is aangezet, komt er een extra knop beschikbaar bij het klaarzetten van de lijst(en): "Eigen initiatief toestaan".</p>
+<p><img decoding="async" loading="lazy" src="https://roqua-announcements.s3.eu-west-1.amazonaws.com/self_report_enable.png" alt="Aanzetten" class="img_ev3q"></p>
+<p>Als je hier op klikt krijgt de respondent voortaan als ze de normale invullink volgen naast hun klaarstaande lijsten ook altijd de mogelijkheid deze lijst(en) in te vullen, zo vaak als ze maar willen.</p>
+<p><img decoding="async" loading="lazy" src="https://roqua-announcements.s3.eu-west-1.amazonaws.com/self_report_fill_out.png" alt="Aanzetten" class="img_ev3q"></p>
+<p>Bovenaan de overzichtspagina kan het recht om op eigen initiatief te mogen invullen weer ingetrokken worden.</p>
+<p><img decoding="async" loading="lazy" src="https://roqua-announcements.s3.eu-west-1.amazonaws.com/self_report_timeline.png" alt="Aanzetten" class="img_ev3q"></p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

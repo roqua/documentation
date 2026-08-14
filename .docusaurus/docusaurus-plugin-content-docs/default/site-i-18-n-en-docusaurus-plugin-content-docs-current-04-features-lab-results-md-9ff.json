@@ -1,0 +1,24 @@
+{
+  "id": "features/lab-results",
+  "title": "Automatically fill in lab results",
+  "description": "We are currently working on a change to this feature. As soon as that is ready we will write the manual for this.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/04-features/lab-results.md",
+  "sourceDirName": "04-features",
+  "slug": "/features/lab-results",
+  "permalink": "/en/docs/features/lab-results",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/04-features/lab-results.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "RoQua Features",
+    "permalink": "/en/docs/features/"
+  },
+  "next": {
+    "title": "Copy answers from a previous completion of the same questionnaire",
+    "permalink": "/en/docs/features/prefill-with-prior-response"
+  }
+}

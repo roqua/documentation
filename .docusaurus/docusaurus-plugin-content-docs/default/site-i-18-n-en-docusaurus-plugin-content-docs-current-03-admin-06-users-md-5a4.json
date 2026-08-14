@@ -1,0 +1,25 @@
+{
+  "id": "admin/users",
+  "title": "Users",
+  "description": "Using this interface you can maintain the RoQua user accounts. We have two types of account: admin users and EPR users.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/06-users.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/users",
+  "permalink": "/en/docs/admin/users",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/06-users.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Single sign-on tokens",
+    "permalink": "/en/docs/admin/integration/sso_tokens"
+  },
+  "next": {
+    "title": "Overig",
+    "permalink": "/en/docs/admin/other/"
+  }
+}

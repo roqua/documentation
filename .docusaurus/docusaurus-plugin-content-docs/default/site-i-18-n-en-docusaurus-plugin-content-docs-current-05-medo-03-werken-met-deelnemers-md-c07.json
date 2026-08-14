@@ -1,0 +1,25 @@
+{
+  "id": "medo/werken_met_deelnemers",
+  "title": "Working with participants",
+  "description": "Participant overview",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/05-medo/03-werken_met_deelnemers.md",
+  "sourceDirName": "05-medo",
+  "slug": "/medo/werken_met_deelnemers",
+  "permalink": "/en/docs/medo/werken_met_deelnemers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/05-medo/03-werken_met_deelnemers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Administering projects",
+    "permalink": "/en/docs/medo/werken_met_projecten"
+  },
+  "next": {
+    "title": "Administering users",
+    "permalink": "/en/docs/medo/werken_met_medewerkers"
+  }
+}

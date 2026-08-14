@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/08/10/",
+  "source": "@site/changelog/roqua/production/2017-08-10.md",
+  "title": "2017-08-10",
+  "description": "* vragenlijst toegevoegd: spnl - Sensory profile - pearson, payper_completion",
+  "date": "2017-08-10T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.24,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-08-10T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-08-11",
+    "permalink": "/changelog/roqua/production/2017/08/11/"
+  },
+  "nextItem": {
+    "title": "2017-08-03",
+    "permalink": "/changelog/roqua/production/2017/08/03/"
+  }
+}

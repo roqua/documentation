@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/08/20/",
+  "source": "@site/changelog/roqua/production/2019-08-20.md",
+  "title": "2019-08-20",
+  "description": "* Fixed a bug that made data exports fail after a questionnaire was removed from the system.",
+  "date": "2019-08-20T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.08,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-08-20T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-08-26",
+    "permalink": "/changelog/roqua/production/2019/08/26/"
+  },
+  "nextItem": {
+    "title": "2019-08-14",
+    "permalink": "/changelog/roqua/production/2019/08/14/"
+  }
+}

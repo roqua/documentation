@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmanual=globalThis.webpackChunkmanual||[]).push([[96715],{56616:a=>{a.exports=JSON.parse('{"authors":[{"name":"Marten","key":"marten","page":null,"count":0},{"name":"Erwin","key":"erwin","page":null,"count":0}]}')}}]);

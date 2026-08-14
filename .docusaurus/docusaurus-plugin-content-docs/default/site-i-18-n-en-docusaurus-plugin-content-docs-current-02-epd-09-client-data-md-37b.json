@@ -1,0 +1,25 @@
+{
+  "id": "epd/client-data",
+  "title": "Client data",
+  "description": "Demographic data",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/09-client-data.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/client-data",
+  "permalink": "/en/docs/epd/client-data",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/09-client-data.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Reports",
+    "permalink": "/en/docs/epd/reports"
+  },
+  "next": {
+    "title": "Client respondent login",
+    "permalink": "/en/docs/epd/client-portal-login"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/02/26/",
+  "source": "@site/changelog/roqua/production/2019-02-26.md",
+  "title": "2019-02-26",
+  "description": "* Verwijderingsverzoeken ingediend via de admin omgeving kunnen nu worden uitgevoerd door het RoQua team.",
+  "date": "2019-02-26T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.42,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-02-26T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-03-01",
+    "permalink": "/changelog/roqua/production/2019/03/01/"
+  },
+  "nextItem": {
+    "title": "2019-02-15",
+    "permalink": "/changelog/roqua/production/2019/02/15/"
+  }
+}

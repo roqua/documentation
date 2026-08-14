@@ -1,0 +1,25 @@
+{
+  "id": "rest_api/dossier/protocol_subscriptions",
+  "title": "Protocol Subscriptions",
+  "description": "Manage protocol subscriptions for individual patients.",
+  "source": "@site/technical/rest_api/dossier/protocol_subscriptions.md",
+  "sourceDirName": "rest_api/dossier",
+  "slug": "/rest_api/dossier/protocol_subscriptions",
+  "permalink": "/technical/rest_api/dossier/protocol_subscriptions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Protocol Subscriptions"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "NonResponses",
+    "permalink": "/technical/rest_api/dossier/non_responses"
+  },
+  "next": {
+    "title": "Report Calculations",
+    "permalink": "/technical/rest_api/dossier/report_calculations"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "request_method": "GET",
+    "path": "/api/v1/data_exports",
+    "body": {
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff",
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": [
+      {
+        "id": 6,
+        "key": "v201501-1",
+        "name": null,
+        "hash": "xuhoh-cisif-nodon-mazon-fusen",
+        "version": "2015-01-31T13:25:55.000+01:00"
+      },
+      {
+        "id": 5,
+        "key": "v201501",
+        "name": null,
+        "hash": "xuhoh-cisif-nodon-mazon-fusen",
+        "version": "2015-01-31T13:20:55.000+01:00"
+      }
+    ]
+  }
+}

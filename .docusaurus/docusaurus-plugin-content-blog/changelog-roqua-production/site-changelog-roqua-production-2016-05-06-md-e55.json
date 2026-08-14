@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/05/06/",
+  "source": "@site/changelog/roqua/production/2016-05-06.md",
+  "title": "2016-05-06",
+  "description": "* Dagboekvragenlijsten worden voortaan voor andere vragenlijsten aangeboden voor invulling.",
+  "date": "2016-05-06T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.35,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-05-06T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-05-11",
+    "permalink": "/changelog/roqua/production/2016/05/11/"
+  },
+  "nextItem": {
+    "title": "2016-04-26",
+    "permalink": "/changelog/roqua/production/2016/04/26/"
+  }
+}

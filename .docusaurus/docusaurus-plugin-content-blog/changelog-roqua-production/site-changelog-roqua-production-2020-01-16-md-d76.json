@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/01/16/",
+  "source": "@site/changelog/roqua/production/2020-01-16.md",
+  "title": "2020-01-16",
+  "description": "* vragenlijst toegevoegd (npi_q): Neuropsychiatrische Vragenlijst-Questionnaire (NPI-Q)",
+  "date": "2020-01-16T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 1.03,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-01-16T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-01-24",
+    "permalink": "/changelog/roqua/production/2020/01/24/"
+  },
+  "nextItem": {
+    "title": "2020-01-07",
+    "permalink": "/changelog/roqua/production/2020/01/07/"
+  }
+}

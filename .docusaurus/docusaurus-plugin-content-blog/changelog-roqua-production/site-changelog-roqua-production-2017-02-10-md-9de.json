@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/02/10/",
+  "source": "@site/changelog/roqua/production/2017-02-10.md",
+  "title": "2017-02-10",
+  "description": "* vragenlijst toegevoegd: Pain Disability Index (PDI-DLV)",
+  "date": "2017-02-10T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.28,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-02-10T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-02-14",
+    "permalink": "/changelog/roqua/production/2017/02/14/"
+  },
+  "nextItem": {
+    "title": "2017-02-07",
+    "permalink": "/changelog/roqua/production/2017/02/07/"
+  }
+}

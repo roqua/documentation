@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/04/19/",
+  "source": "@site/changelog/roqua/production/2019-04-19.md",
+  "title": "2019-04-19",
+  "description": "* Caps 5 totaalscore bevatte een fout, deze is verbeterd",
+  "date": "2019-04-19T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.09,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-04-19T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-04-25",
+    "permalink": "/changelog/roqua/production/2019/04/25/"
+  },
+  "nextItem": {
+    "title": "2019-04-18",
+    "permalink": "/changelog/roqua/production/2019/04/18/"
+  }
+}

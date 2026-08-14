@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/01/27/",
+  "source": "@site/changelog/roqua/production/2017-01-27.md",
+  "title": "2017-01-27",
+  "description": "* De voorstelling van de antwoorden in het uitkomsten venster van RoQua en bijbehorende printout is gewijzigd. Er wordt nu gebruik gemaakt van een compactere 2 kolommen lay-out.",
+  "date": "2017-01-27T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.14,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-01-27T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-02-01",
+    "permalink": "/changelog/roqua/production/2017/02/01/"
+  },
+  "nextItem": {
+    "title": "2017-01-25",
+    "permalink": "/changelog/roqua/production/2017/01/25/"
+  }
+}

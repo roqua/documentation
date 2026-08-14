@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/03/08/",
+  "source": "@site/changelog/roqua/production/2018-03-08.md",
+  "title": "2018-03-08",
+  "description": "* Het is nu mogelijk om op de hoofdpagina van de admin omgeving door te klikken naar een voorbeeld van hoe een beschikbare vragenlijst er uit ziet bij het invullen. Hiermee zijn ook lijsten te bekijken die nog niet aan een protocol gekoppeld zijn.",
+  "date": "2018-03-08T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.65,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-03-08T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-03-13",
+    "permalink": "/changelog/roqua/production/2018/03/13/"
+  },
+  "nextItem": {
+    "title": "2018-02-22",
+    "permalink": "/changelog/roqua/production/2018/02/22/"
+  }
+}

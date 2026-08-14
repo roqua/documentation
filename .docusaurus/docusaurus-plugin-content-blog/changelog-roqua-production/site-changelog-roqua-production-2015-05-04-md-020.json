@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/05/04/",
+  "source": "@site/changelog/roqua/production/2015-05-04.md",
+  "title": "2015-05-04",
+  "description": "* SQLite-export downloadbaar gemaakt in de Admin (initieel op aanvraag)",
+  "date": "2015-05-04T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.08,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-05-04T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-05-20",
+    "permalink": "/changelog/roqua/production/2015/05/20/"
+  },
+  "nextItem": {
+    "title": "2015-05-01",
+    "permalink": "/changelog/roqua/production/2015/05/01/"
+  }
+}

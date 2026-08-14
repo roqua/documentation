@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/04/16/",
+  "source": "@site/changelog/roqua/production/2020-04-16.md",
+  "title": "2020-04-16",
+  "description": "* IP filters van organisaties staan nu als losse records in de database. Dit in voorbereiding op het beheerbaar maken via de admin-omgeving.",
+  "date": "2020-04-16T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.53,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-04-16T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-04-23",
+    "permalink": "/changelog/roqua/production/2020/04/23/"
+  },
+  "nextItem": {
+    "title": "2020-04-10",
+    "permalink": "/changelog/roqua/production/2020/04/10/"
+  }
+}

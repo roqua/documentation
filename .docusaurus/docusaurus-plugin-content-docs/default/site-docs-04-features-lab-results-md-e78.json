@@ -1,0 +1,24 @@
+{
+  "id": "features/lab-results",
+  "title": "Labbepalingen automatisch invullen",
+  "description": "We zijn momenteel bezig met een wijziging aan deze functie. Zodra dat klaar is zullen we de handleiding hiervoor schrijven.",
+  "source": "@site/docs/04-features/lab-results.md",
+  "sourceDirName": "04-features",
+  "slug": "/features/lab-results",
+  "permalink": "/docs/features/lab-results",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/04-features/lab-results.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Functies van RoQua",
+    "permalink": "/docs/features/"
+  },
+  "next": {
+    "title": "Antwoorden uit een vorige invulling van dezelfde vragenlijst overnemen",
+    "permalink": "/docs/features/prefill-with-prior-response"
+  }
+}

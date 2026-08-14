@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/01/13/",
+  "source": "@site/changelog/roqua/production/2017-01-13.md",
+  "title": "2017-01-13",
+  "description": "* Probleem waarbij de menubalk aan de zijkant van RoQua niet verscheen in oude browsers is opgelost",
+  "date": "2017-01-13T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.6,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-01-13T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-01-20",
+    "permalink": "/changelog/roqua/production/2017/01/20/"
+  },
+  "nextItem": {
+    "title": "2017-01-11",
+    "permalink": "/changelog/roqua/production/2017/01/11/"
+  }
+}

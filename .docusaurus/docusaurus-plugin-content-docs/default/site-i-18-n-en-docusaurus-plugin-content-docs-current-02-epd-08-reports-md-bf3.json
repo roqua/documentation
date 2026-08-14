@@ -1,0 +1,28 @@
+{
+  "id": "epd/reports",
+  "title": "Reports",
+  "description": "The \"Reports\" button at the top of the timeline gives access to the reporting functionality of RoQua. This makes it possible to combine the given answers or a table or graph of the calculated scale scores for different questionnaires into one document. This document can then be printed or downloaded for communication with colleagues and patients or for discussing patients in a team context. The Phamous letter to the general practitioner is an example of such a document.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/08-reports.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/reports",
+  "permalink": "/en/docs/epd/reports",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/08-reports.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Reports",
+    "sort": 700
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Outcome",
+    "permalink": "/en/docs/epd/outcome"
+  },
+  "next": {
+    "title": "Client data",
+    "permalink": "/en/docs/epd/client-data"
+  }
+}

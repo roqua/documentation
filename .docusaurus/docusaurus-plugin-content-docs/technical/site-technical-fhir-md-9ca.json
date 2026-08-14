@@ -1,0 +1,25 @@
+{
+  "id": "fhir",
+  "title": "FHIR",
+  "description": "Retrieving RoQua responses as Observations",
+  "source": "@site/technical/fhir.md",
+  "sourceDirName": ".",
+  "slug": "/fhir",
+  "permalink": "/technical/fhir",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "FHIR"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Non-response",
+    "permalink": "/technical/csv_export/nonresponse"
+  },
+  "next": {
+    "title": "HL7 v2.4",
+    "permalink": "/technical/hl7/"
+  }
+}

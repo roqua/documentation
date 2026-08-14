@@ -1,0 +1,574 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "docsSidebar": [
+      {
+        "type": "link",
+        "label": "Handleiding",
+        "href": "/docs/index",
+        "docId": "index"
+      },
+      {
+        "type": "category",
+        "label": "EPD-module",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Eerste gebruik",
+            "href": "/docs/epd/first_use",
+            "docId": "epd/first_use"
+          },
+          {
+            "type": "category",
+            "label": "Overzicht",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Klaargezette vragenlijsten beheren",
+                "href": "/docs/epd/overview/pending-responses",
+                "docId": "epd/overview/pending-responses"
+              }
+            ],
+            "href": "/docs/epd/overview/"
+          },
+          {
+            "type": "category",
+            "label": "Vragenlijsten afnemen",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Handmatige metingen",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Klaarzetten",
+                    "href": "/docs/epd/measure/measurements/klaarzetten",
+                    "docId": "epd/measure/measurements/klaarzetten"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Direct Invullen",
+                    "href": "/docs/epd/measure/measurements/direct-invullen",
+                    "docId": "epd/measure/measurements/direct-invullen"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Non-respons",
+                    "href": "/docs/epd/measure/measurements/non-respons",
+                    "docId": "epd/measure/measurements/non-respons"
+                  }
+                ],
+                "href": "/docs/epd/measure/measurements/"
+              },
+              {
+                "type": "link",
+                "label": "Auto-protocollen",
+                "href": "/docs/epd/measure/automatic_protocols",
+                "docId": "epd/measure/automatic_protocols"
+              },
+              {
+                "type": "link",
+                "label": "Uitnodigingsbrieven",
+                "href": "/docs/epd/measure/notifications",
+                "docId": "epd/measure/notifications"
+              }
+            ],
+            "href": "/docs/epd/measure/"
+          },
+          {
+            "type": "link",
+            "label": "Uitkomsten",
+            "href": "/docs/epd/outcome",
+            "docId": "epd/outcome"
+          },
+          {
+            "type": "link",
+            "label": "Rapporten",
+            "href": "/docs/epd/reports",
+            "docId": "epd/reports"
+          },
+          {
+            "type": "link",
+            "label": "Cliëntgegevens",
+            "href": "/docs/epd/dossier",
+            "docId": "epd/dossier"
+          },
+          {
+            "type": "link",
+            "label": "Client respondent login",
+            "href": "/docs/epd/client_portal_login",
+            "docId": "epd/client_portal_login"
+          }
+        ],
+        "href": "/docs/epd/"
+      },
+      {
+        "type": "category",
+        "label": "Beheermodule",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overzicht",
+            "href": "/docs/admin/overview",
+            "docId": "admin/overview"
+          },
+          {
+            "type": "category",
+            "label": "ROM-config",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Afdelingen",
+                "href": "/docs/admin/rom_config/departments",
+                "docId": "admin/rom_config/departments"
+              },
+              {
+                "type": "link",
+                "label": "Uitnodigingstemplates",
+                "href": "/docs/admin/rom_config/invitation_templates",
+                "docId": "admin/rom_config/invitation_templates"
+              },
+              {
+                "type": "link",
+                "label": "Voorinvullers",
+                "href": "/docs/admin/rom_config/prefillers/",
+                "docId": "admin/rom_config/prefillers/index"
+              },
+              {
+                "type": "link",
+                "label": "Protocollen",
+                "href": "/docs/admin/rom_config/protocols",
+                "docId": "admin/rom_config/protocols"
+              },
+              {
+                "type": "link",
+                "label": "Vragenlijstenoverzicht",
+                "href": "/docs/admin/rom_config/questionnaires",
+                "docId": "admin/rom_config/questionnaires"
+              },
+              {
+                "type": "link",
+                "label": "Rapporttemplates",
+                "href": "/docs/admin/rom_config/report_templates",
+                "docId": "admin/rom_config/report_templates"
+              }
+            ],
+            "href": "/docs/admin/rom_config/"
+          },
+          {
+            "type": "link",
+            "label": "Data-exports",
+            "href": "/docs/admin/data_exports",
+            "docId": "admin/data_exports"
+          },
+          {
+            "type": "link",
+            "label": "Instellingen",
+            "href": "/docs/admin/settings",
+            "docId": "admin/settings"
+          },
+          {
+            "type": "category",
+            "label": "Integratie",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "API tokens",
+                "href": "/docs/admin/integration/api_tokens",
+                "docId": "admin/integration/api_tokens"
+              },
+              {
+                "type": "link",
+                "label": "Single sign-on tokens",
+                "href": "/docs/admin/integration/sso_tokens",
+                "docId": "admin/integration/sso_tokens"
+              }
+            ],
+            "href": "/docs/admin/integration/"
+          },
+          {
+            "type": "link",
+            "label": "Gebruikers",
+            "href": "/docs/admin/users",
+            "docId": "admin/users"
+          },
+          {
+            "type": "category",
+            "label": "Overig",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Dossiers omnummeren",
+                "href": "/docs/admin/other/dossier_epd_id_changes",
+                "docId": "admin/other/dossier_epd_id_changes"
+              }
+            ],
+            "href": "/docs/admin/other/"
+          },
+          {
+            "type": "link",
+            "label": "Dossiers",
+            "href": "/docs/admin/dossiers",
+            "docId": "admin/dossiers"
+          }
+        ],
+        "href": "/docs/admin/"
+      },
+      {
+        "type": "category",
+        "label": "Functies van RoQua",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "prefill-with-fhir",
+            "href": "/docs/features/prefill-with-fhir",
+            "docId": "features/prefill-with-fhir"
+          },
+          {
+            "type": "link",
+            "label": "prefill-with-prior-response",
+            "href": "/docs/features/prefill-with-prior-response",
+            "docId": "features/prefill-with-prior-response"
+          },
+          {
+            "type": "link",
+            "label": "Recent ingevulde vragenlijsten",
+            "href": "/docs/features/recently-completed",
+            "docId": "features/recently-completed"
+          }
+        ],
+        "href": "/docs/features/"
+      },
+      {
+        "type": "category",
+        "label": "Medoq",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Inloggen en veiligheid",
+            "href": "/docs/medo/inloggen_en_veiligheid",
+            "docId": "medo/inloggen_en_veiligheid"
+          },
+          {
+            "type": "link",
+            "label": "Werken met projecten",
+            "href": "/docs/medo/werken_met_projecten",
+            "docId": "medo/werken_met_projecten"
+          },
+          {
+            "type": "link",
+            "label": "Werken met deelnemers",
+            "href": "/docs/medo/werken_met_deelnemers",
+            "docId": "medo/werken_met_deelnemers"
+          },
+          {
+            "type": "link",
+            "label": "Werken met medewerkers",
+            "href": "/docs/medo/werken_met_medewerkers",
+            "docId": "medo/werken_met_medewerkers"
+          }
+        ],
+        "href": "/docs/medo/"
+      },
+      {
+        "type": "link",
+        "label": "Glossary",
+        "href": "/docs/glossary",
+        "docId": "glossary"
+      }
+    ]
+  },
+  "docs": {
+    "admin/data_exports": {
+      "id": "admin/data_exports",
+      "title": "Data-exports",
+      "description": "De links onder de header \"Bestand\" geven toegang tot de meest recent gegenereerde dataexport. Deze export wordt 's nachts aangemaakt en bevat daarom alle vragenlijsten die ingevuld werden vóór afgelopen middernacht. De codeboeken kun je in het gedownloade bestand onder de submap \"codebooks\" terugvinden.",
+      "sidebar": "docsSidebar"
+    },
+    "admin/dossiers": {
+      "id": "admin/dossiers",
+      "title": "Dossiers",
+      "description": "Ongekoppelde dossiers",
+      "sidebar": "docsSidebar"
+    },
+    "admin/index": {
+      "id": "admin/index",
+      "title": "Beheermodule",
+      "description": "Eerste gebruik",
+      "sidebar": "docsSidebar"
+    },
+    "admin/integration/api_tokens": {
+      "id": "admin/integration/api_tokens",
+      "title": "API tokens",
+      "description": "Aanmaken",
+      "sidebar": "docsSidebar"
+    },
+    "admin/integration/index": {
+      "id": "admin/integration/index",
+      "title": "Integratie",
+      "description": "RoQua kent twee integratie-methoden: de HTTP API waarmee onze applicatie",
+      "sidebar": "docsSidebar"
+    },
+    "admin/integration/sso_tokens": {
+      "id": "admin/integration/sso_tokens",
+      "title": "Single sign-on tokens",
+      "description": "Aanmaken",
+      "sidebar": "docsSidebar"
+    },
+    "admin/other/dossier_epd_id_changes": {
+      "id": "admin/other/dossier_epd_id_changes",
+      "title": "Dossiers omnummeren",
+      "description": "Af en toe komt het voor dat binnen het EPD een bestaand cliëntendossier een nieuw clientnummer gekregen heeft, of dat een cliënt per ongeluk twee dossiers had, en dat de data van beide moet worden samengevoegd.",
+      "sidebar": "docsSidebar"
+    },
+    "admin/other/index": {
+      "id": "admin/other/index",
+      "title": "Overig",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "admin/overview": {
+      "id": "admin/overview",
+      "title": "Overzicht",
+      "description": "Op deze pagina zie je een aantal statistieken over je RoQua dataset.",
+      "sidebar": "docsSidebar"
+    },
+    "admin/rom_config/departments": {
+      "id": "admin/rom_config/departments",
+      "title": "Afdelingen",
+      "description": "Afdelingen aanmaken",
+      "sidebar": "docsSidebar"
+    },
+    "admin/rom_config/index": {
+      "id": "admin/rom_config/index",
+      "title": "ROM-config",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "admin/rom_config/invitation_templates": {
+      "id": "admin/rom_config/invitation_templates",
+      "title": "Uitnodigingstemplates",
+      "description": "Hier kun je de templates die gebruikt worden voor het uitnodigen van een patiënt of andere respondent aanpassen.",
+      "sidebar": "docsSidebar"
+    },
+    "admin/rom_config/prefillers/index": {
+      "id": "admin/rom_config/prefillers/index",
+      "title": "Voorinvullers",
+      "description": "Binnen een protocol is het mogelijk om, wanneer een medewerker een lijst zelf gaat invullen, hierin sommige vragen alvast te laten invullen. Momenteel ondersteunen we hierin twee soorten:",
+      "sidebar": "docsSidebar"
+    },
+    "admin/rom_config/protocols": {
+      "id": "admin/rom_config/protocols",
+      "title": "Protocollen",
+      "description": "In het overzicht van protocollen is te zien welke protocollen er zijn, en welke metingen dat protocol heeft. Ook is het hier mogelijk een nieuw protocol te maken. Doorklikken op de naam van het protocol biedt toegang tot het beheren van metingen van dat protocol, terwijl doorklikken op de naam van een meting rechtstreeks naar het beheren van die meting gaat, alwaar vragenlijsten kunnen worden toegewezen aan die meting.",
+      "sidebar": "docsSidebar"
+    },
+    "admin/rom_config/questionnaires": {
+      "id": "admin/rom_config/questionnaires",
+      "title": "Vragenlijstenoverzicht",
+      "description": "Op deze pagina is een overzicht te vinden van alle vragenlijsten die binnen RoQua geïmplementeerd zijn. Ook is hier te vinden of een vragenlijst een licentie vereist of dat het vrij te gebruiken is. Dit overzicht houdt geen rekening met speciale regelingen die u mogelijk heeft getroffen met de rechtenhouders van gelicenceerde vragenlijsten.",
+      "sidebar": "docsSidebar"
+    },
+    "admin/rom_config/report_templates": {
+      "id": "admin/rom_config/report_templates",
+      "title": "Rapporttemplates",
+      "description": "Hier kun je de templates die gebruikt worden voor het genereren van rapporten aanpassen. Met rapporten is het mogelijk de resultaten van verschillende vragenlijsten te combineren in één document. Zo zou je bijvoorbeeld de outcome  van een vragenlijst die door verschillende respondenten ingevuld is ter vergelijking onder elkaar kunnen plaatsen. Wanneer een template eenmaal aangemaakt is, kunnen medewerker via de RoQua EPD-interface rapporten genereren voor een selectie aan ingevulde vragenlijsten.",
+      "sidebar": "docsSidebar"
+    },
+    "admin/settings": {
+      "id": "admin/settings",
+      "title": "Instellingen",
+      "description": "Hier kun je enkele instellingen maken voor de RoQua-applicatie zoals de weergave van een link naar de handleiding in de RoQua interface en of behandelaren gevraagd zullen worden om hun persoonlijke gegevens als zij voor het eerst van RoQua gebruik maken. Verder kun je opgeven na welke periode klaarstaande vragenlijsten een rood label krijgen en welk exportformaat gebruikt wordt voor het verzenden van ORU-berichten.",
+      "sidebar": "docsSidebar"
+    },
+    "admin/users": {
+      "id": "admin/users",
+      "title": "Gebruikers",
+      "description": "Met behulp van deze interface kun je de RoQua gebruikersaccounts beheren. We hebben twee soorten accounts: admin-gebruikers en EPD-gebruikers.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/client_portal_login": {
+      "id": "epd/client_portal_login",
+      "title": "Client respondent login",
+      "description": "Respondenten kunnen ook inloggen via een wachtwoord op het cliënten portaal. Dit brengt extra voordelen met zich mee, zoals het inzien van ingevulde vragenlijsten en rapporten. Echter staat deze optie niet standaard aangevinkt. Om dit aan te zetten moet dit ingesteld worden bij de organizatie settings van uw organizatie.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/dossier": {
+      "id": "epd/dossier",
+      "title": "Cliëntgegevens",
+      "description": "Demografische gegevens",
+      "sidebar": "docsSidebar"
+    },
+    "epd/first_use": {
+      "id": "epd/first_use",
+      "title": "Eerste gebruik",
+      "description": "Persoonlijke gegevens",
+      "sidebar": "docsSidebar"
+    },
+    "epd/index": {
+      "id": "epd/index",
+      "title": "EPD-module",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "epd/measure/automatic_protocols": {
+      "id": "epd/measure/automatic_protocols",
+      "title": "Auto-protocollen",
+      "description": "Naast handmatige metingen staan kan een protocol ook auto-protocollen bevatten.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/measure/index": {
+      "id": "epd/measure/index",
+      "title": "Vragenlijsten afnemen",
+      "description": "Bovenaan elk scherm in RoQua staat de knop \"Nieuwe Meting\".",
+      "sidebar": "docsSidebar"
+    },
+    "epd/measure/measurements/direct-invullen": {
+      "id": "epd/measure/measurements/direct-invullen",
+      "title": "Direct Invullen",
+      "description": "Soms is het wenselijk om een vragenlijst direct namens een respondent in te kunnen vullen. Dit kan door een vragenlijst te selecteren en op de knop Direct invullen te klikken. Er verschijnt nu een scherm waarin u de gewenste situatie kunt kiezen.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/measure/measurements/index": {
+      "id": "epd/measure/measurements/index",
+      "title": "Handmatige metingen",
+      "description": "Binnen een meting zitten vragenlijsten die voor verschillende types respondenten geschikt zijn. In de screenshot hierboven zie je bijvoorbeeld dat er vragenlijsten zijn voor de behandelaar of andere medewerker van je organisatie, en vragenlijsten zijn voor de mantelzorger van de cliënt.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/measure/measurements/klaarzetten": {
+      "id": "epd/measure/measurements/klaarzetten",
+      "title": "Klaarzetten",
+      "description": "Op het tweede scherm kun je extra opties opgeven, zoals het versturen van een uitnodiging/herinnering en het klaarzetten voor de toekomst.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/measure/measurements/non-respons": {
+      "id": "epd/measure/measurements/non-respons",
+      "title": "Non-respons",
+      "description": "Soms worden klaargezette vragenlijsten niet ingevuld door een patiënt of wordt hij of zij niet benaderd voor een ROM meting. De redenen voor deze non-respons kunnen geregistreerd worden in RoQua. Ze komen dan in de data-export terecht.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/measure/notifications": {
+      "id": "epd/measure/notifications",
+      "title": "Uitnodigingsbrieven",
+      "description": "Normaal gesproken kun je uitnodingsbrieven tegelijk met het klaarzetten van vragenlijsten maken en versturen. Het kan echter zijn dat dit niet gedaan is, en daarom heeft RoQua ook een losse pagina om dit achteraf alsnog te doen. Dit zit onder het Menu -> Uitnodigingsbrieven.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/outcome": {
+      "id": "epd/outcome",
+      "title": "Uitkomsten",
+      "description": "Aan de hand van de ingevulde vragenlijsten wordt \"outcome\" gegenereerd. Klik op het -icoontje om deze \"outcome\" in te kijken. Links in het scherm staan alle ingevulde vragenlijsten. Het tabje \"Schalen\" geeft de berekende schaalscores met de bijbehorende antwoorden per meetmoment weer voor de geselecteerde lijst.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/overview/index": {
+      "id": "epd/overview/index",
+      "title": "Overzicht",
+      "description": "Dit is normaal gesproken de pagina waarop je uit komt wanneer je RoQua opstart. Op deze pagina kun je zien wat er nog ingevuld moet worden, wat er klaargezet is, en wat er recent allemaal gebeurd is bij deze cliënt.",
+      "sidebar": "docsSidebar"
+    },
+    "epd/overview/pending-responses": {
+      "id": "epd/overview/pending-responses",
+      "title": "Klaargezette vragenlijsten beheren",
+      "description": "Volgorde aanpassen",
+      "sidebar": "docsSidebar"
+    },
+    "epd/reports": {
+      "id": "epd/reports",
+      "title": "Rapporten",
+      "description": "De knop \"Rapporten\" bovenaan de timeline geeft toegang tot de rapportage functionaliteit van RoQua. Hiermee is het mogelijk om de gegeven antwoorden of een tabel of grafiek van de berekende schaalscores voor verschillende vragenlijsten in één document te combineren. Dit document kan vervolgens afgedrukt of gedownload worden voor communicatie met collega's en patiënten of voor het bespreken van patiënten in teamverband. De Phamous brief aan de huisarts is een voorbeeld van een dergelijk document.",
+      "sidebar": "docsSidebar"
+    },
+    "features/index": {
+      "id": "features/index",
+      "title": "Functies van RoQua",
+      "description": "Sommige functies binnen RoQua zijn beter om los te omschrijven, zodat de normale handleiding niet te dik wordt.",
+      "sidebar": "docsSidebar"
+    },
+    "features/prefill-with-fhir": {
+      "id": "features/prefill-with-fhir",
+      "title": "prefill-with-fhir",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "features/prefill-with-prior-response": {
+      "id": "features/prefill-with-prior-response",
+      "title": "prefill-with-prior-response",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "features/recently-completed": {
+      "id": "features/recently-completed",
+      "title": "Recent ingevulde vragenlijsten",
+      "description": "Medewerkers met toegang tot de admin-interface kunnen bij vragenlijsten instellen hoe lang een oude, eerder ingevulde vragenlijst geldig blijft. Als dit van een vragenlijst is ingesteld, en de vragenlijst is binnen die periode ingevuld, dan staat de vragenlijst onderaan in een groepje \"recent ingevulde lijsten\". Waarschijnlijk is het dan niet nodig deze lijst nu te laten invullen. Hoe lang een lijst als \"recent\" wordt gezien verschilt per vragenlijst en soms ook per protocol.",
+      "sidebar": "docsSidebar"
+    },
+    "glossary": {
+      "id": "glossary",
+      "title": "Glossary",
+      "description": "* Non-respons: Wanneer een of meerdere vragenlijsten niet beantwoord worden registreert RoQua een non-respons. Daarnaast is het mogelijk om deze zelf aan te maken wanneer je als zorgverlener zelf al weet dat de lijsten niet ingevuld zullen worden.",
+      "sidebar": "docsSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Handleiding",
+      "description": "RoQua bestaat uit een aantal modules. Kies links de module waar u mee wilt werken.",
+      "sidebar": "docsSidebar"
+    },
+    "medo/index": {
+      "id": "medo/index",
+      "title": "Medoq",
+      "description": "..",
+      "sidebar": "docsSidebar"
+    },
+    "medo/inloggen_en_veiligheid": {
+      "id": "medo/inloggen_en_veiligheid",
+      "title": "Inloggen en veiligheid",
+      "description": "Eerste gebruik",
+      "sidebar": "docsSidebar"
+    },
+    "medo/werken_met_deelnemers": {
+      "id": "medo/werken_met_deelnemers",
+      "title": "Werken met deelnemers",
+      "description": "Deelnemerslijst",
+      "sidebar": "docsSidebar"
+    },
+    "medo/werken_met_medewerkers": {
+      "id": "medo/werken_met_medewerkers",
+      "title": "Werken met medewerkers",
+      "description": "Medewerkers",
+      "sidebar": "docsSidebar"
+    },
+    "medo/werken_met_projecten": {
+      "id": "medo/werken_met_projecten",
+      "title": "Werken met projecten",
+      "description": "Projecten",
+      "sidebar": "docsSidebar"
+    }
+  }
+}

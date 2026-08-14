@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/11/17/",
+  "source": "@site/changelog/roqua/production/2016-11-17.md",
+  "title": "2016-11-17",
+  "description": "* In de admin omgeving kan een email adres worden opgeven die bij verzonden emails wordt meegegeven als adres waar mensen op kunnen reageren met emails ('reply to' adres).",
+  "date": "2016-11-17T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.56,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-11-17T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-11-23",
+    "permalink": "/changelog/roqua/production/2016/11/23/"
+  },
+  "nextItem": {
+    "title": "2016-11-16",
+    "permalink": "/changelog/roqua/production/2016/11/16/"
+  }
+}

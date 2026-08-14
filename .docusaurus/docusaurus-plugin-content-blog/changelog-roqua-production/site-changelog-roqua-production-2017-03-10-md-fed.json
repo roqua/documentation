@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/03/10/",
+  "source": "@site/changelog/roqua/production/2017-03-10.md",
+  "title": "2017-03-10",
+  "description": "* vragenlijst toegevoegd: Schlichting taaltest - scorelijst",
+  "date": "2017-03-10T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.08,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-03-10T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-03-20",
+    "permalink": "/changelog/roqua/production/2017/03/20/"
+  },
+  "nextItem": {
+    "title": "2017-03-08",
+    "permalink": "/changelog/roqua/production/2017/03/08/"
+  }
+}

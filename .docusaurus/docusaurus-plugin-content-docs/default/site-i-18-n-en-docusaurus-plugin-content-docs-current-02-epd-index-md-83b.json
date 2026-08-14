@@ -1,0 +1,24 @@
+{
+  "id": "epd/index",
+  "title": "EPD module",
+  "description": "",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/index.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/",
+  "permalink": "/en/docs/epd/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Manual",
+    "permalink": "/en/docs/index"
+  },
+  "next": {
+    "title": "First use",
+    "permalink": "/en/docs/epd/first_use"
+  }
+}

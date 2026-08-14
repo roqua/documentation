@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/03/01/",
+  "source": "@site/changelog/roqua/production/2019-03-01.md",
+  "title": "2019-03-01",
+  "description": "* Indien de tijd van de pc van de gebruiker achterloopt konden er voor net klaargezette lijsten een aantal rijen aan 'Invulbaar vanaf' momenten komen te staan. Dit had geen invloed op de invulbaarheid. De rijen aan momenten zijn teruggebracht tot 1 moment.",
+  "date": "2019-03-01T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.52,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-03-01T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-03-07",
+    "permalink": "/changelog/roqua/production/2019/03/07/"
+  },
+  "nextItem": {
+    "title": "2019-02-26",
+    "permalink": "/changelog/roqua/production/2019/02/26/"
+  }
+}

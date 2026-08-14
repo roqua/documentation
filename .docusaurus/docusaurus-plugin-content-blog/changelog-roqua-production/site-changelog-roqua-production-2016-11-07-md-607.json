@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/11/07/",
+  "source": "@site/changelog/roqua/production/2016-11-07.md",
+  "title": "2016-11-07",
+  "description": "* Fixed merging 2 dossiers by changing respondent of moved answers.",
+  "date": "2016-11-07T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.44,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-11-07T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-11-08",
+    "permalink": "/changelog/roqua/production/2016/11/08/"
+  },
+  "nextItem": {
+    "title": "2016-11-03",
+    "permalink": "/changelog/roqua/production/2016/11/03/"
+  }
+}

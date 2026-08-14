@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/en/status",
+  "source": "@site/i18n/en/docusaurus-plugin-content-pages/status.md",
+  "title": "Status",
+  "description": "* Uptime RoQua production services (see 'Demo' for the uptime of RoQua connected to your EPD)",
+  "frontMatter": {
+    "title": "Status"
+  },
+  "unlisted": false
+}

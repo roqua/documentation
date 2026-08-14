@@ -1,0 +1,24 @@
+{
+  "id": "features/recently-completed",
+  "title": "Recently completed questionnaires",
+  "description": "Employees with access to the admin interface can set a time span for questionnaires that determines how long a previously completed questionnaire remains valid. If this is set for a questionnaire, and the questionnaire has been completed within that period, then the questionnaire will appear at the bottom when preparing in a group of \"recently completed lists\". It is then probably not necessary to have this list completed now. How long a list is considered \"recent\" differs per questionnaire and sometimes also per protocol.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/04-features/recently-completed.md",
+  "sourceDirName": "04-features",
+  "slug": "/features/recently-completed",
+  "permalink": "/en/docs/features/recently-completed",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/04-features/recently-completed.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Copy answers from a previous completion of the same questionnaire",
+    "permalink": "/en/docs/features/prefill-with-prior-response"
+  },
+  "next": {
+    "title": "Medoq",
+    "permalink": "/en/docs/medo/"
+  }
+}

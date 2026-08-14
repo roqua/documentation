@@ -1,0 +1,469 @@
+{
+  "pluginId": "technical",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "docsSidebar": [
+      {
+        "type": "link",
+        "label": "Technical Documentation",
+        "href": "/technical/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "API Authentication",
+        "href": "/technical/authentication",
+        "docId": "authentication"
+      },
+      {
+        "type": "category",
+        "label": "CSV Export",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Download via API",
+            "href": "/technical/csv_export/download_via_api",
+            "docId": "csv_export/download_via_api"
+          },
+          {
+            "type": "link",
+            "label": "Non-response",
+            "href": "/technical/csv_export/nonresponse",
+            "docId": "csv_export/nonresponse"
+          }
+        ],
+        "href": "/technical/csv_export/"
+      },
+      {
+        "type": "link",
+        "label": "FHIR",
+        "href": "/technical/fhir",
+        "docId": "fhir"
+      },
+      {
+        "type": "category",
+        "label": "HL7 v2.4",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "HL7 2.4 QRY^A19",
+            "href": "/technical/hl7/a19",
+            "docId": "hl7/a19"
+          },
+          {
+            "type": "link",
+            "label": "HL7 2.4 ORU^R01",
+            "href": "/technical/hl7/oru",
+            "docId": "hl7/oru"
+          }
+        ],
+        "href": "/technical/hl7/"
+      },
+      {
+        "type": "category",
+        "label": "REST API",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Dossier-specific data",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Dossiers",
+                "href": "/technical/rest_api/dossier/dossiers",
+                "docId": "rest_api/dossier/dossiers"
+              },
+              {
+                "type": "link",
+                "label": "Fill Out Requests",
+                "href": "/technical/rest_api/dossier/fill_out_requests",
+                "docId": "rest_api/dossier/fill_out_requests"
+              },
+              {
+                "type": "link",
+                "label": "Fill Out Sessions",
+                "href": "/technical/rest_api/dossier/fill_out_sessions",
+                "docId": "rest_api/dossier/fill_out_sessions"
+              },
+              {
+                "type": "link",
+                "label": "NonResponses",
+                "href": "/technical/rest_api/dossier/non_responses",
+                "docId": "rest_api/dossier/non_responses"
+              },
+              {
+                "type": "link",
+                "label": "Protocol Subscriptions",
+                "href": "/technical/rest_api/dossier/protocol_subscriptions",
+                "docId": "rest_api/dossier/protocol_subscriptions"
+              },
+              {
+                "type": "link",
+                "label": "Report Calculations",
+                "href": "/technical/rest_api/dossier/report_calculations",
+                "docId": "rest_api/dossier/report_calculations"
+              },
+              {
+                "type": "link",
+                "label": "Respondents",
+                "href": "/technical/rest_api/dossier/respondents",
+                "docId": "rest_api/dossier/respondents"
+              },
+              {
+                "type": "link",
+                "label": "Responses",
+                "href": "/technical/rest_api/dossier/responses",
+                "docId": "rest_api/dossier/responses"
+              },
+              {
+                "type": "link",
+                "label": "Stats",
+                "href": "/technical/rest_api/dossier/stats",
+                "docId": "rest_api/dossier/stats"
+              }
+            ],
+            "href": "/technical/rest_api/dossier/"
+          },
+          {
+            "type": "link",
+            "label": "REST API Error Handling",
+            "href": "/technical/rest_api/error_handling",
+            "docId": "rest_api/error_handling"
+          },
+          {
+            "type": "category",
+            "label": "Global",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Measurements",
+                "href": "/technical/rest_api/global/measurements",
+                "docId": "rest_api/global/measurements"
+              },
+              {
+                "type": "link",
+                "label": "Protocols",
+                "href": "/technical/rest_api/global/protocols",
+                "docId": "rest_api/global/protocols"
+              },
+              {
+                "type": "link",
+                "label": "Questionnaires",
+                "href": "/technical/rest_api/global/questionnaires",
+                "docId": "rest_api/global/questionnaires"
+              },
+              {
+                "type": "link",
+                "label": "Service Health",
+                "href": "/technical/rest_api/global/service_health",
+                "docId": "rest_api/global/service_health"
+              }
+            ],
+            "href": "/technical/rest_api/global/"
+          }
+        ],
+        "href": "/technical/rest_api/"
+      },
+      {
+        "type": "category",
+        "label": "SQLite Export",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Generating a csv export from the sql export",
+            "href": "/technical/sqlite_export/csv_from_sql",
+            "docId": "sqlite_export/csv_from_sql"
+          },
+          {
+            "type": "link",
+            "label": "Download via API",
+            "href": "/technical/sqlite_export/download_via_api",
+            "docId": "sqlite_export/download_via_api"
+          },
+          {
+            "type": "link",
+            "label": "Non-response",
+            "href": "/technical/sqlite_export/nonresponse",
+            "docId": "sqlite_export/nonresponse"
+          },
+          {
+            "type": "link",
+            "label": "Schema",
+            "href": "/technical/sqlite_export/schema",
+            "docId": "sqlite_export/schema"
+          }
+        ],
+        "href": "/technical/sqlite_export/"
+      },
+      {
+        "type": "category",
+        "label": "Single Sign On",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Management UI via Azure AD",
+            "href": "/technical/sso/admin_azure_ad",
+            "docId": "sso/admin_azure_ad"
+          },
+          {
+            "type": "link",
+            "label": "Respondents using token",
+            "href": "/technical/sso/client_token",
+            "docId": "sso/client_token"
+          },
+          {
+            "type": "link",
+            "label": "Respondents using HMAC",
+            "href": "/technical/sso/client_v3",
+            "docId": "sso/client_v3"
+          },
+          {
+            "type": "link",
+            "label": "EPD v3 (HMAC)",
+            "href": "/technical/sso/epd_v3",
+            "docId": "sso/epd_v3"
+          }
+        ],
+        "href": "/technical/sso/"
+      }
+    ]
+  },
+  "docs": {
+    "authentication": {
+      "id": "authentication",
+      "title": "API Authentication",
+      "description": "The REST API supports two authentication schemes. Access to the API is controlled by API tokens in RoQua-Admin. When opting for JWT tokens, please provide us with your public key so we can hook it to the API token.",
+      "sidebar": "docsSidebar"
+    },
+    "csv_export/download_via_api": {
+      "id": "csv_export/download_via_api",
+      "title": "Download via API",
+      "description": "All exports contain the data up until last night.",
+      "sidebar": "docsSidebar"
+    },
+    "csv_export/index": {
+      "id": "csv_export/index",
+      "title": "CSV Export",
+      "description": "Besides our real-time integration via ORU, we also provide:",
+      "sidebar": "docsSidebar"
+    },
+    "csv_export/nonresponse": {
+      "id": "csv_export/nonresponse",
+      "title": "Non-response",
+      "description": "For various reasons, patients will not always want to participate in ROM. This is recorded in the responses files as a number in the questkeynonresponse column:",
+      "sidebar": "docsSidebar"
+    },
+    "fhir": {
+      "id": "fhir",
+      "title": "FHIR",
+      "description": "Retrieving RoQua responses as Observations",
+      "sidebar": "docsSidebar"
+    },
+    "hl7/a19": {
+      "id": "hl7/a19",
+      "title": "HL7 2.4 QRY^A19",
+      "description": "We use QRY^A19 messages to proactively ask for personally identifying details on patients. By relying on this message type, instead of using the standard set of ADR messages, we can forego storing these details on our servers, and instead fetch them as needed.",
+      "sidebar": "docsSidebar"
+    },
+    "hl7/index": {
+      "id": "hl7/index",
+      "title": "HL7 v2.4",
+      "description": "Our HL7 traffic is handled by our Healthy gem.",
+      "sidebar": "docsSidebar"
+    },
+    "hl7/oru": {
+      "id": "hl7/oru",
+      "title": "HL7 2.4 ORU^R01",
+      "description": "This document describes the types of ORU messages RoQua sends out. The list of",
+      "sidebar": "docsSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Technical Documentation",
+      "description": "Expand 'overview' (on the right) for general information on the ROM (RoQua) API.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/dossiers": {
+      "id": "rest_api/dossier/dossiers",
+      "title": "Dossiers",
+      "description": "Get a single dossier",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/fill_out_requests": {
+      "id": "rest_api/dossier/fill_out_requests",
+      "title": "Fill Out Requests",
+      "description": "A filloutrequest specifies a list of questionnaires that need to be filled out within a certain timespan.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/fill_out_sessions": {
+      "id": "rest_api/dossier/fill_out_sessions",
+      "title": "Fill Out Sessions",
+      "description": "Start a fill out session.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/index": {
+      "id": "rest_api/dossier/index",
+      "title": "Dossier-specific data",
+      "description": "All API endpoints for dossier specific information and actions require a dossierid parameter. When this parameter is blank, an HTTP notfound response code is returned:",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/non_responses": {
+      "id": "rest_api/dossier/non_responses",
+      "title": "NonResponses",
+      "description": "NonResponses are wrappers around responses that haven't been filled out. They are needed for SBG and follow that format.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/protocol_subscriptions": {
+      "id": "rest_api/dossier/protocol_subscriptions",
+      "title": "Protocol Subscriptions",
+      "description": "Manage protocol subscriptions for individual patients.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/report_calculations": {
+      "id": "rest_api/dossier/report_calculations",
+      "title": "Report Calculations",
+      "description": "Calculations over multiple responses.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/respondents": {
+      "id": "rest_api/dossier/respondents",
+      "title": "Respondents",
+      "description": "Respondents are people that fill out questionnaires. The default respondent is the patient, but there's also profess, parent, second_parent, teacher and caregiver.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/responses": {
+      "id": "rest_api/dossier/responses",
+      "title": "Responses",
+      "description": "Responses are questionnaire completions, although they need not be filled out yet. Upon creating an invitation, responses for all selected questionnaires are created. At this point, the responses have status new. When the patient fills out the questionnaire for the answer, its status will change to completed.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/dossier/stats": {
+      "id": "rest_api/dossier/stats",
+      "title": "Stats",
+      "description": "Stats that are generated over different aspects of a dossier.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/error_handling": {
+      "id": "rest_api/error_handling",
+      "title": "REST API Error Handling",
+      "description": "When basic HTTP authentication fails",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/global/index": {
+      "id": "rest_api/global/index",
+      "title": "Global",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/global/measurements": {
+      "id": "rest_api/global/measurements",
+      "title": "Measurements",
+      "description": "See protocols for a general description.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/global/protocols": {
+      "id": "rest_api/global/protocols",
+      "title": "Protocols",
+      "description": "A protocol is a group of questionnaires that users can prepare. They are divided into measurements.",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/global/questionnaires": {
+      "id": "rest_api/global/questionnaires",
+      "title": "Questionnaires",
+      "description": "Get a single questionnaire",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/global/service_health": {
+      "id": "rest_api/global/service_health",
+      "title": "Service Health",
+      "description": "Get current service health",
+      "sidebar": "docsSidebar"
+    },
+    "rest_api/index": {
+      "id": "rest_api/index",
+      "title": "REST API",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "sqlite_export/csv_from_sql": {
+      "id": "sqlite_export/csv_from_sql",
+      "title": "Generating a csv export from the sql export",
+      "description": "Creating a csv export from the sql export can give you more freedom or stability in it's output.",
+      "sidebar": "docsSidebar"
+    },
+    "sqlite_export/download_via_api": {
+      "id": "sqlite_export/download_via_api",
+      "title": "Download via API",
+      "description": "<snapshot json={{",
+      "sidebar": "docsSidebar"
+    },
+    "sqlite_export/index": {
+      "id": "sqlite_export/index",
+      "title": "SQLite Export",
+      "description": "Besides our real-time integration via ORU, we also provide:",
+      "sidebar": "docsSidebar"
+    },
+    "sqlite_export/nonresponse": {
+      "id": "sqlite_export/nonresponse",
+      "title": "Non-response",
+      "description": "For various reasons, patients will not always want to participate in ROM. This is recorded in the responses files as a number in the questkeynonresponse column:",
+      "sidebar": "docsSidebar"
+    },
+    "sqlite_export/schema": {
+      "id": "sqlite_export/schema",
+      "title": "Schema",
+      "description": "Note: For a thorough analysis of the schema check out the interactive schema representation generated with SchemaSpy of our demo sqlite export db.",
+      "sidebar": "docsSidebar"
+    },
+    "sso/admin_azure_ad": {
+      "id": "sso/admin_azure_ad",
+      "title": "Management UI via Azure AD",
+      "description": "For logging in to the admin area of RoQua, we can use Azure ActiveDirectory to let users log in with their regular organization account.",
+      "sidebar": "docsSidebar"
+    },
+    "sso/client_token": {
+      "id": "sso/client_token",
+      "title": "Respondents using token",
+      "description": "The login for a patient (or other respondents for a dossier) is done by entering a token which the person has received by e-mail or snailmail. It's also possible to open the login URL with this token prefilled as a query parameter, in which case the login will happen automatically and the person will be presented the first pending questionnaire immediately.",
+      "sidebar": "docsSidebar"
+    },
+    "sso/client_v3": {
+      "id": "sso/client_v3",
+      "title": "Respondents using HMAC",
+      "description": "When used in conjunction with an client portal, RoQua has an authentication scheme that relies on the portal to open a URL that will authenticate a user and start completing all pending questionnaires for the given dossier number.",
+      "sidebar": "docsSidebar"
+    },
+    "sso/epd_v3": {
+      "id": "sso/epd_v3",
+      "title": "EPD v3 (HMAC)",
+      "description": "When used in conjunction with an EPD, RoQua has an authentication scheme that relies on the EPD to open a URL that will authenticate a user and open a given dossier number. This enables EPD vendors to build a single sign-on solution that integrates RoQua without the need for the management of users within RoQua. When the SSO-authentication is enabled, the only way for a user to open a dossier, is when the EPD generates a URL with a valid signature.",
+      "sidebar": "docsSidebar"
+    },
+    "sso/index": {
+      "id": "sso/index",
+      "title": "Single Sign On",
+      "description": "",
+      "sidebar": "docsSidebar"
+    }
+  }
+}

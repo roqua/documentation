@@ -1,0 +1,21 @@
+{
+  "id": "index",
+  "title": "Manual",
+  "description": "RoQua consists of several modules. Choose the module you want to work with on the left.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/01-index.md",
+  "sourceDirName": ".",
+  "slug": "/index",
+  "permalink": "/en/docs/index",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/01-index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "next": {
+    "title": "EPD module",
+    "permalink": "/en/docs/epd/"
+  }
+}

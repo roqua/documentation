@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/questionnaires",
+  "title": "Vragenlijstenoverzicht",
+  "description": "Op deze pagina is een overzicht te vinden van alle vragenlijsten die binnen RoQua geïmplementeerd zijn. Ook is hier te vinden of een vragenlijst een licentie vereist of dat het vrij te gebruiken is. Dit overzicht houdt geen rekening met speciale regelingen die u mogelijk heeft getroffen met de rechtenhouders van gelicenceerde vragenlijsten.",
+  "source": "@site/docs/03-admin/02-rom_config/questionnaires.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/questionnaires",
+  "permalink": "/docs/admin/rom_config/questionnaires",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/questionnaires.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Vragenlijstenoverzicht",
+    "sort": 300
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Protocollen",
+    "permalink": "/docs/admin/rom_config/protocols"
+  },
+  "next": {
+    "title": "Rapporttemplates",
+    "permalink": "/docs/admin/rom_config/report_templates"
+  }
+}

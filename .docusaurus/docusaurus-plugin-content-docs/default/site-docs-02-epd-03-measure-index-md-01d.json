@@ -1,0 +1,24 @@
+{
+  "id": "epd/measure/index",
+  "title": "Vragenlijsten afnemen",
+  "description": "Bovenaan elk scherm in RoQua staat de knop \"Nieuwe Meting\".",
+  "source": "@site/docs/02-epd/03-measure/index.md",
+  "sourceDirName": "02-epd/03-measure",
+  "slug": "/epd/measure/",
+  "permalink": "/docs/epd/measure/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Klaargezette vragenlijsten beheren",
+    "permalink": "/docs/epd/overview/pending-responses"
+  },
+  "next": {
+    "title": "Handmatige metingen",
+    "permalink": "/docs/epd/measure/measurements/"
+  }
+}

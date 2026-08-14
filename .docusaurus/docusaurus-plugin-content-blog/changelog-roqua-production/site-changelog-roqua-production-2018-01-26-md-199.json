@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/01/26/",
+  "source": "@site/changelog/roqua/production/2018-01-26.md",
+  "title": "2018-01-26",
+  "description": "* vragenlijst toegevoegd: Nederlandse Klinische Persoonlijkheidsvragenlijst (NKPV)",
+  "date": "2018-01-26T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 1.56,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-01-26T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-01-30",
+    "permalink": "/changelog/roqua/production/2018/01/30/"
+  },
+  "nextItem": {
+    "title": "2018-01-18",
+    "permalink": "/changelog/roqua/production/2018/01/18/"
+  }
+}

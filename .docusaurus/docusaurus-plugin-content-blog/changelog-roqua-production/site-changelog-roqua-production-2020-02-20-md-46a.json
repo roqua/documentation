@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/02/20/",
+  "source": "@site/changelog/roqua/production/2020-02-20.md",
+  "title": "2020-02-20",
+  "description": "* vragenlijst toegevoegd (bpi_evb): Behavior Problems Inventory (BPI) - Lijst voor gedragsproblemen bij mensen met een ernstige verstandelijke en meervoudige beperking",
+  "date": "2020-02-20T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.37,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-02-20T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-02-27",
+    "permalink": "/changelog/roqua/production/2020/02/27/"
+  },
+  "nextItem": {
+    "title": "2020-02-12",
+    "permalink": "/changelog/roqua/production/2020/02/12/"
+  }
+}

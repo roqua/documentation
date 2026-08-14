@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/06/15/",
+  "source": "@site/changelog/roqua/production/2016-06-15.md",
+  "title": "2016-06-15",
+  "description": "* api: Added parent_key to response json questions, to make it easier to reproduce nesting.",
+  "date": "2016-06-15T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.07,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-06-15T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-06-27",
+    "permalink": "/changelog/roqua/production/2016/06/27/"
+  },
+  "nextItem": {
+    "title": "2016-06-06",
+    "permalink": "/changelog/roqua/production/2016/06/06/"
+  }
+}

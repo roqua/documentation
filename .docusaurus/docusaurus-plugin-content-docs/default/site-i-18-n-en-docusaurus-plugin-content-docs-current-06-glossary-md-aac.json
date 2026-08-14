@@ -1,0 +1,21 @@
+{
+  "id": "glossary",
+  "title": "Glossary",
+  "description": "In this manual we will regularly use terms that may not exactly match what is called at your workplace.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/06-glossary.md",
+  "sourceDirName": ".",
+  "slug": "/glossary",
+  "permalink": "/en/docs/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/06-glossary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Migratie van Medo naar RoQua",
+    "permalink": "/en/docs/medo/migratie"
+  }
+}

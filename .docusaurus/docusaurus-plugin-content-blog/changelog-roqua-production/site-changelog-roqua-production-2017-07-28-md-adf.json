@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/07/28/",
+  "source": "@site/changelog/roqua/production/2017-07-28.md",
+  "title": "2017-07-28",
+  "description": "* Probleem verholpen waarbij pagina's leeg printen na een internet explorer update. (window.print mag geen iframes meer printen. execCommand werkt nog wel)",
+  "date": "2017-07-28T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.24,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-07-28T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-08-03",
+    "permalink": "/changelog/roqua/production/2017/08/03/"
+  },
+  "nextItem": {
+    "title": "2017-07-17",
+    "permalink": "/changelog/roqua/production/2017/07/17/"
+  }
+}

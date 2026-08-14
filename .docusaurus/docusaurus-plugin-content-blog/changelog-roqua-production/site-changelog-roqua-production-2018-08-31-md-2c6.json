@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/08/31/",
+  "source": "@site/changelog/roqua/production/2018-08-31.md",
+  "title": "2018-08-31",
+  "description": "* Optimalisaties doorgevoerd ter verbetering van de snelheid van onder andere de timeline pagina",
+  "date": "2018-08-31T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 1.15,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-08-31T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-09-10",
+    "permalink": "/changelog/roqua/production/2018/09/10/"
+  },
+  "nextItem": {
+    "title": "2018-08-23",
+    "permalink": "/changelog/roqua/production/2018/08/23/"
+  }
+}

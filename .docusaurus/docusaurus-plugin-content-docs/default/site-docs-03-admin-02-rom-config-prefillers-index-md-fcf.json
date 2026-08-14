@@ -1,0 +1,24 @@
+{
+  "id": "admin/rom_config/prefillers/index",
+  "title": "Voorinvullers",
+  "description": "Binnen een protocol is het mogelijk om, wanneer een medewerker een lijst zelf gaat invullen, hierin sommige vragen alvast te laten invullen. Momenteel ondersteunen we hierin twee soorten:",
+  "source": "@site/docs/03-admin/02-rom_config/prefillers/index.md",
+  "sourceDirName": "03-admin/02-rom_config/prefillers",
+  "slug": "/admin/rom_config/prefillers/",
+  "permalink": "/docs/admin/rom_config/prefillers/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/prefillers/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Uitnodigingstemplates",
+    "permalink": "/docs/admin/rom_config/invitation_templates"
+  },
+  "next": {
+    "title": "Protocollen",
+    "permalink": "/docs/admin/rom_config/protocols"
+  }
+}

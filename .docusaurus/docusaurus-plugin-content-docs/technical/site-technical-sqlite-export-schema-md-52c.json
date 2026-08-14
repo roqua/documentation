@@ -1,0 +1,23 @@
+{
+  "id": "sqlite_export/schema",
+  "title": "Schema",
+  "description": "This file includes anonymous data!",
+  "source": "@site/technical/sqlite_export/schema.md",
+  "sourceDirName": "sqlite_export",
+  "slug": "/sqlite_export/schema",
+  "permalink": "/technical/sqlite_export/schema",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Non-response",
+    "permalink": "/technical/sqlite_export/nonresponse"
+  },
+  "next": {
+    "title": "Single Sign On",
+    "permalink": "/technical/sso/"
+  }
+}

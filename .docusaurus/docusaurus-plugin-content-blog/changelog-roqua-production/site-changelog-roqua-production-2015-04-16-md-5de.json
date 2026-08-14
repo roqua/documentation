@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/04/16/",
+  "source": "@site/changelog/roqua/production/2015-04-16.md",
+  "title": "2015-04-16",
+  "description": "* API voor het verwijderen van een fillout request toegevoegd. Dit haalt alle klaargezette lijsten van die request weg.",
+  "date": "2015-04-16T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.37,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-04-16T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-04-22",
+    "permalink": "/changelog/roqua/production/2015/04/22/"
+  },
+  "nextItem": {
+    "title": "2015-04-07",
+    "permalink": "/changelog/roqua/production/2015/04/07/"
+  }
+}

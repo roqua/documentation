@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/07/12/",
+  "source": "@site/changelog/roqua/production/2017-07-12.md",
+  "title": "2017-07-12",
+  "description": "* Aangevinkte opties in vragenlijsten zijn nu standaard ook weer uit te vinken door er nogmaals op te klikken.",
+  "date": "2017-07-12T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.09,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-07-12T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-07-17",
+    "permalink": "/changelog/roqua/production/2017/07/17/"
+  },
+  "nextItem": {
+    "title": "2017-06-30",
+    "permalink": "/changelog/roqua/production/2017/06/30/"
+  }
+}

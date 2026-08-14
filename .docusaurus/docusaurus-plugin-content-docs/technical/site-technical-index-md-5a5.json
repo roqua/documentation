@@ -1,0 +1,22 @@
+{
+  "id": "index",
+  "title": "Technical Documentation",
+  "description": "Expand 'overview' (on the right) for general information on the ROM (RoQua) API.",
+  "source": "@site/technical/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/technical/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "docsSidebar",
+  "next": {
+    "title": "API Authentication",
+    "permalink": "/technical/authentication"
+  }
+}

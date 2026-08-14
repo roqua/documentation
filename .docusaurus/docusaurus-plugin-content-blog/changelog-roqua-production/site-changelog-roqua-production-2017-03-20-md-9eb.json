@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/03/20/",
+  "source": "@site/changelog/roqua/production/2017-03-20.md",
+  "title": "2017-03-20",
+  "description": "* Vragenlijsten met texvariabelen en vlaggen (extra instellingen en informatie die kan worden toegevoegd bij automatische protocollen) exporteren nu deze informatie in de data export.",
+  "date": "2017-03-20T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.36,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-03-20T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-03-23",
+    "permalink": "/changelog/roqua/production/2017/03/23/"
+  },
+  "nextItem": {
+    "title": "2017-03-10",
+    "permalink": "/changelog/roqua/production/2017/03/10/"
+  }
+}

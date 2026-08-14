@@ -1,0 +1,25 @@
+{
+  "id": "epd/measure/measurements/direct-invullen",
+  "title": "Direct Invullen",
+  "description": "Soms is het wenselijk om een vragenlijst direct namens een respondent in te kunnen vullen. Dit kan door een vragenlijst te selecteren en op de knop Direct invullen te klikken. Er verschijnt nu een scherm waarin u de gewenste situatie kunt kiezen.",
+  "source": "@site/docs/02-epd/03-measure/01-measurements/02-direct-invullen.md",
+  "sourceDirName": "02-epd/03-measure/01-measurements",
+  "slug": "/epd/measure/measurements/direct-invullen",
+  "permalink": "/docs/epd/measure/measurements/direct-invullen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/01-measurements/02-direct-invullen.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Klaarzetten",
+    "permalink": "/docs/epd/measure/measurements/klaarzetten"
+  },
+  "next": {
+    "title": "Non-respons",
+    "permalink": "/docs/epd/measure/measurements/non-respons"
+  }
+}

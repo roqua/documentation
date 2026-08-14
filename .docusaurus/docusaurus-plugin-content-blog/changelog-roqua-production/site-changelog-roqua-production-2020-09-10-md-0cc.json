@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/09/10/",
+  "source": "@site/changelog/roqua/production/2020-09-10.md",
+  "title": "2020-09-10",
+  "description": "Release notes:",
+  "date": "2020-09-10T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.51,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-09-10T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-09-11",
+    "permalink": "/changelog/roqua/production/2020/09/11/"
+  },
+  "nextItem": {
+    "title": "2020-09-01",
+    "permalink": "/changelog/roqua/production/2020/09/01/"
+  }
+}

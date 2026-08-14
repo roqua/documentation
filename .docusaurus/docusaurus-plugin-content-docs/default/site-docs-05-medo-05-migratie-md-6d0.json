@@ -1,0 +1,25 @@
+{
+  "id": "medo/migratie",
+  "title": "Migratie van Medo naar RoQua",
+  "description": "Voor het gebruik van RoQua zonder koppeling met een elektronisch patiëntendossier, zoals voor onderzoeksprojecten met gezonde vrijwilligers of patiënten die bij een externe instelling in zorg zijn, maakten we altijd gebruik van Medo. Medo werd dan gebruikt om deelnemers te beheren, bulk-acties te starten of data te exporteren. De afgelopen twee jaar hebben we dit soort functionaliteit toegevoegd aan de beheeromgeving van RoQua. In de loop van de tijd zijn steeds meer nieuwe onderzoeksprojecten hiervan gebruik gaan maken. We zijn nu op een punt beland waarop het onderhouden van Medo niet langer zinvol is. Daarom brengen we alle projectbeheer samen in één systeem en sluiten we Medo.",
+  "source": "@site/docs/05-medo/05-migratie.md",
+  "sourceDirName": "05-medo",
+  "slug": "/medo/migratie",
+  "permalink": "/en/docs/medo/migratie",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/05-medo/05-migratie.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Administering users",
+    "permalink": "/en/docs/medo/werken_met_medewerkers"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/en/docs/glossary"
+  }
+}

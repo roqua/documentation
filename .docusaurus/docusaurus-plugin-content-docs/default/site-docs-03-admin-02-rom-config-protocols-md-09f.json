@@ -1,0 +1,24 @@
+{
+  "id": "admin/rom_config/protocols",
+  "title": "Protocollen",
+  "description": "In het overzicht van protocollen is te zien welke protocollen er zijn, en welke metingen dat protocol heeft. Ook is het hier mogelijk een nieuw protocol te maken. Doorklikken op de naam van het protocol biedt toegang tot het beheren van metingen van dat protocol, terwijl doorklikken op de naam van een meting rechtstreeks naar het beheren van die meting gaat, alwaar vragenlijsten kunnen worden toegewezen aan die meting.",
+  "source": "@site/docs/03-admin/02-rom_config/protocols.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/protocols",
+  "permalink": "/docs/admin/rom_config/protocols",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/protocols.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Voorinvullers",
+    "permalink": "/docs/admin/rom_config/prefillers/"
+  },
+  "next": {
+    "title": "Vragenlijstenoverzicht",
+    "permalink": "/docs/admin/rom_config/questionnaires"
+  }
+}

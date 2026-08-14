@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/08/03/",
+  "source": "@site/changelog/roqua/production/2017-08-03.md",
+  "title": "2017-08-03",
+  "description": "* vragenlijst bijgewerkt (abusievelijke SBG info verwijderd): Gezondheidsvragenlijst - exclusief VAS schaal - pre injury versie chirurgie",
+  "date": "2017-08-03T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 1.3,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-08-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-08-10",
+    "permalink": "/changelog/roqua/production/2017/08/10/"
+  },
+  "nextItem": {
+    "title": "2017-07-28",
+    "permalink": "/changelog/roqua/production/2017/07/28/"
+  }
+}

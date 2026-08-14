@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/08/14/",
+  "source": "@site/changelog/roqua/production/2019-08-14.md",
+  "title": "2019-08-14",
+  "description": "* Bij het toevoegen van vragenlijsten aan een meting in de beheeromgeving is het nu mogelijk om meerdere vragenlijsten tegelijkertijd te selecteren, en de opties daarvoor tijdens het toevoegen al in te stellen.",
+  "date": "2019-08-14T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.2,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-08-14T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-08-20",
+    "permalink": "/changelog/roqua/production/2019/08/20/"
+  },
+  "nextItem": {
+    "title": "2019-08-08",
+    "permalink": "/changelog/roqua/production/2019/08/08/"
+  }
+}

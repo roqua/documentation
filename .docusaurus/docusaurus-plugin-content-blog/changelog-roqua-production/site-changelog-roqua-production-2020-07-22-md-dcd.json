@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/07/22/",
+  "source": "@site/changelog/roqua/production/2020-07-22.md",
+  "title": "2020-07-22",
+  "description": "Release notes:",
+  "date": "2020-07-22T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.87,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-07-22T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-07-30",
+    "permalink": "/changelog/roqua/production/2020/07/30/"
+  },
+  "nextItem": {
+    "title": "2020-07-15",
+    "permalink": "/changelog/roqua/production/2020/07/15/"
+  }
+}

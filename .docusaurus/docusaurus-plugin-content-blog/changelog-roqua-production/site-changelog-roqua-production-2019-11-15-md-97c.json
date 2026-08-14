@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/11/15/",
+  "source": "@site/changelog/roqua/production/2019-11-15.md",
+  "title": "2019-11-15",
+  "description": "* vragenlijst toegevoegd: Anamnese algemene gegevens TransplantLines",
+  "date": "2019-11-15T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.59,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-11-15T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-11-25",
+    "permalink": "/changelog/roqua/production/2019/11/25/"
+  },
+  "nextItem": {
+    "title": "2019-11-13",
+    "permalink": "/changelog/roqua/production/2019/11/13/"
+  }
+}

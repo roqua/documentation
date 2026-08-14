@@ -1,0 +1,25 @@
+{
+  "id": "epd/timeline",
+  "title": "Overzicht",
+  "description": "Klik op het -icoontje in de linker balk om de timeline te openen. Deze interface bevat een chronologisch overzicht van ingevulde vragenlijsten, aangemaakte uitnodigingen en rapporten. Bij elke ingevulde vragenlijst staat aangegeven wanneer en door wie deze ingevuld is, onder welke meting en protocol de lijst valt en of er risico's of aandachtspunten zijn. Bij een uitnodiging staat aangegeven wanneer deze is aangemaakt en op welk tijdstip deze (voor het laatst) per email verzonden is. Klik op een willekeurig item in de timeline voor meer informatie en opties.",
+  "source": "@site/docs/02-epd/02-timeline.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/timeline",
+  "permalink": "/docs/epd/timeline",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/02-timeline.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Eerste gebruik",
+    "permalink": "/docs/epd/first_use"
+  },
+  "next": {
+    "title": "Klaarzetten of invullen vragenlijsten",
+    "permalink": "/docs/epd/questionnaires"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "epd/measure/notifications",
+  "title": "Invitation letters",
+  "description": "Normally you can create and send invitation letters at the same time as preparing questionnaires. However, it may be that this has not been done, and therefore RoQua also has a separate page to do this afterwards. This is under Menu -> Invitation letters.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/03-measure/03-notifications.md",
+  "sourceDirName": "02-epd/03-measure",
+  "slug": "/epd/measure/notifications",
+  "permalink": "/en/docs/epd/measure/notifications",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/03-notifications.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sort": 400
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Auto-protocols",
+    "permalink": "/en/docs/epd/measure/automatic_protocols"
+  },
+  "next": {
+    "title": "Outcome",
+    "permalink": "/en/docs/epd/outcome"
+  }
+}

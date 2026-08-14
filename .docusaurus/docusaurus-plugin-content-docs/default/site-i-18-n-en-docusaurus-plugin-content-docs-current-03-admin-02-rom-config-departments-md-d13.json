@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/departments",
+  "title": "Departments",
+  "description": "Creating departments",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/02-rom_config/departments.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/departments",
+  "permalink": "/en/docs/admin/rom_config/departments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/departments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Departments",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ROM-config",
+    "permalink": "/en/docs/admin/rom_config/"
+  },
+  "next": {
+    "title": "Invitation templates",
+    "permalink": "/en/docs/admin/rom_config/invitation_templates"
+  }
+}

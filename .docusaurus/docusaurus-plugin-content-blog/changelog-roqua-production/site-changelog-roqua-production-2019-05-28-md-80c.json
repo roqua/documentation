@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/05/28/",
+  "source": "@site/changelog/roqua/production/2019-05-28.md",
+  "title": "2019-05-28",
+  "description": "* We slaan nu oude versies van responses op als ze aangepast worden.",
+  "date": "2019-05-28T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.94,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-05-28T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-05-29",
+    "permalink": "/changelog/roqua/production/2019/05/29/"
+  },
+  "nextItem": {
+    "title": "2019-05-22",
+    "permalink": "/changelog/roqua/production/2019/05/22/"
+  }
+}

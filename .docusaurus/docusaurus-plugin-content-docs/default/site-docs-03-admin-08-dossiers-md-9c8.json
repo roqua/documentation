@@ -1,0 +1,25 @@
+{
+  "id": "admin/dossiers",
+  "title": "Dossiers",
+  "description": "Ongekoppelde dossiers",
+  "source": "@site/docs/03-admin/08-dossiers.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/dossiers",
+  "permalink": "/docs/admin/dossiers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/08-dossiers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Dossiers omnummeren",
+    "permalink": "/docs/admin/other/dossier_epd_id_changes"
+  },
+  "next": {
+    "title": "Functies van RoQua",
+    "permalink": "/docs/features/"
+  }
+}

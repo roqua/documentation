@@ -1,0 +1,24 @@
+{
+  "id": "epd/overview/pending-responses",
+  "title": "Managing prepared questionnaires",
+  "description": "Adjusting order",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/02-overview/pending-responses.md",
+  "sourceDirName": "02-epd/02-overview",
+  "slug": "/epd/overview/pending-responses",
+  "permalink": "/en/docs/epd/overview/pending-responses",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/02-overview/pending-responses.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/en/docs/epd/overview/"
+  },
+  "next": {
+    "title": "Preparing questionnaires",
+    "permalink": "/en/docs/epd/measure/"
+  }
+}

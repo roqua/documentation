@@ -1,0 +1,26 @@
+{
+  "unversionedId": "epd/overview/recent-nonresponse",
+  "id": "epd/overview/recent-nonresponse",
+  "title": "Non-Responses",
+  "description": "Soms worden klaargezette vragenlijsten niet ingevuld door een patiënt of wordt hij of zij niet benaderd voor een ROM meting. De redenen voor deze non-respons kunnen geregistreerd worden in RoQua. Ze komen dan in de data-export terecht en kunnen aan het SBG gerapporteerd worden.",
+  "source": "@site/docs/02-epd/02-overview/recent-nonresponse.md",
+  "sourceDirName": "02-epd/02-overview",
+  "slug": "/epd/overview/recent-nonresponse",
+  "permalink": "/docs/epd/overview/recent-nonresponse",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/02-overview/recent-nonresponse.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sort": 500
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Klaargezette vragenlijsten beheren",
+    "permalink": "/docs/epd/overview/pending-responses"
+  },
+  "next": {
+    "title": "Vragenlijsten afnemen",
+    "permalink": "/docs/epd/measure/"
+  }
+}

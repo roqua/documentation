@@ -1,0 +1,23 @@
+{
+  "id": "rest_api/global/protocols",
+  "title": "Protocols",
+  "description": "A protocol is a group of questionnaires that users can prepare. They are divided into measurements.",
+  "source": "@site/technical/rest_api/global/protocols.md",
+  "sourceDirName": "rest_api/global",
+  "slug": "/rest_api/global/protocols",
+  "permalink": "/technical/rest_api/global/protocols",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Measurements",
+    "permalink": "/technical/rest_api/global/measurements"
+  },
+  "next": {
+    "title": "Questionnaires",
+    "permalink": "/technical/rest_api/global/questionnaires"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/11/13/",
+  "source": "@site/changelog/roqua/production/2019-11-13.md",
+  "title": "2019-11-13",
+  "description": "* Een verandering van het standaard interval voor automatische protocollen kon door een fout niet worden opgeslagen. Dit is verbeterd",
+  "date": "2019-11-13T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.1,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-11-13T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-11-15",
+    "permalink": "/changelog/roqua/production/2019/11/15/"
+  },
+  "nextItem": {
+    "title": "2019-11-07",
+    "permalink": "/changelog/roqua/production/2019/11/07/"
+  }
+}

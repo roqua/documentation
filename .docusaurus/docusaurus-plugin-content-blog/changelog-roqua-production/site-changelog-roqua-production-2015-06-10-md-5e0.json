@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/06/10/",
+  "source": "@site/changelog/roqua/production/2015-06-10.md",
+  "title": "2015-06-10",
+  "description": "* Performanceverbetering RoQua Admin dashboard (N+1 query omgeschreven)",
+  "date": "2015-06-10T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.04,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-06-10T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-06-12",
+    "permalink": "/changelog/roqua/production/2015/06/12/"
+  },
+  "nextItem": {
+    "title": "2015-06-05",
+    "permalink": "/changelog/roqua/production/2015/06/05/"
+  }
+}

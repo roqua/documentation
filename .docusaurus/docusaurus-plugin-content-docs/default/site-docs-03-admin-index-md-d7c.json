@@ -1,0 +1,24 @@
+{
+  "id": "admin/index",
+  "title": "Beheermodule",
+  "description": "Eerste gebruik",
+  "source": "@site/docs/03-admin/index.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/",
+  "permalink": "/docs/admin/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Client respondent login",
+    "permalink": "/docs/epd/client-portal-login"
+  },
+  "next": {
+    "title": "Overzicht",
+    "permalink": "/docs/admin/overview"
+  }
+}

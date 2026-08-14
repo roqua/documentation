@@ -1,0 +1,25 @@
+{
+  "unversionedId": "epd/overview.md/timeline",
+  "id": "epd/overview.md/timeline",
+  "title": "Overzicht",
+  "description": "Dit is normaal gesproken de pagina waarop je uit komt wanneer je RoQua opstart. Op deze pagina kun je zien wat er nog ingevuld moet worden, wat er klaargezet is, en wat er recent allemaal gebeurd is bij deze cliënt.",
+  "source": "@site/docs/02-epd/02-overview.md/02-timeline.md",
+  "sourceDirName": "02-epd/02-overview.md",
+  "slug": "/epd/overview.md/timeline",
+  "permalink": "/docs/epd/overview.md/timeline",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/02-overview.md/02-timeline.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Eerste gebruik",
+    "permalink": "/docs/epd/first_use"
+  },
+  "next": {
+    "title": "Klaarzetten of invullen vragenlijsten",
+    "permalink": "/docs/epd/questionnaires"
+  }
+}

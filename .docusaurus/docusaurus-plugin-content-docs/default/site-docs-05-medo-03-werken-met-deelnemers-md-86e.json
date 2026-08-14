@@ -1,0 +1,25 @@
+{
+  "id": "medo/werken_met_deelnemers",
+  "title": "Werken met deelnemers",
+  "description": "Deelnemerslijst",
+  "source": "@site/docs/05-medo/03-werken_met_deelnemers.md",
+  "sourceDirName": "05-medo",
+  "slug": "/medo/werken_met_deelnemers",
+  "permalink": "/docs/medo/werken_met_deelnemers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/05-medo/03-werken_met_deelnemers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Werken met projecten",
+    "permalink": "/docs/medo/werken_met_projecten"
+  },
+  "next": {
+    "title": "Werken met medewerkers",
+    "permalink": "/docs/medo/werken_met_medewerkers"
+  }
+}

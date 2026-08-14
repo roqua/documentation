@@ -1,0 +1,27 @@
+{
+  "id": "admin/integration/index",
+  "title": "Integratie",
+  "description": "RoQua kent twee integratie-methoden: de HTTP API waarmee onze applicatie",
+  "source": "@site/docs/03-admin/05-integration/index.md",
+  "sourceDirName": "03-admin/05-integration",
+  "slug": "/admin/integration/",
+  "permalink": "/docs/admin/integration/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/05-integration/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Integratie",
+    "sort": 450
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Instellingen",
+    "permalink": "/docs/admin/settings"
+  },
+  "next": {
+    "title": "API tokens",
+    "permalink": "/docs/admin/integration/api_tokens"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "epd/measure/measurements/non-respons",
+  "title": "Non-respons",
+  "description": "Soms worden klaargezette vragenlijsten niet ingevuld door een patiënt of wordt hij of zij niet benaderd voor een ROM meting. De redenen voor deze non-respons kunnen geregistreerd worden in RoQua. Ze komen dan in de data-export terecht.",
+  "source": "@site/docs/02-epd/03-measure/01-measurements/03-non-respons.md",
+  "sourceDirName": "02-epd/03-measure/01-measurements",
+  "slug": "/epd/measure/measurements/non-respons",
+  "permalink": "/docs/epd/measure/measurements/non-respons",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/01-measurements/03-non-respons.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Direct Invullen",
+    "permalink": "/docs/epd/measure/measurements/direct-invullen"
+  },
+  "next": {
+    "title": "Auto-protocollen",
+    "permalink": "/docs/epd/measure/automatic_protocols"
+  }
+}

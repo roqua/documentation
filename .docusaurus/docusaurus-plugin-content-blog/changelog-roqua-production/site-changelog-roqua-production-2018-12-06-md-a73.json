@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/12/06/",
+  "source": "@site/changelog/roqua/production/2018-12-06.md",
+  "title": "2018-12-06",
+  "description": "* De vereiste om een geboortejaar op te geven op de verwijderingsverzoeken pagina is weggehaald. Het blijft sterk aangeraden om het geboortejaar op te geven bij een verwijderingsverzoek zodat wij kunnen controleren of het verwijderingsverzoek voor het juiste dossier wordt ingediend.",
+  "date": "2018-12-06T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.74,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-12-06T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-12-14",
+    "permalink": "/changelog/roqua/production/2018/12/14/"
+  },
+  "nextItem": {
+    "title": "2018-11-29",
+    "permalink": "/changelog/roqua/production/2018/11/29/"
+  }
+}

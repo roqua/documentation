@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/11/01/",
+  "source": "@site/changelog/roqua/production/2016-11-01.md",
+  "title": "2016-11-01",
+  "description": "* Overgestapt naar Sparkpost voor het verzenden van e-mails in verband met problemen bij hotmail, live en outlook accounts.",
+  "date": "2016-11-01T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.1,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-11-01T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-11-03",
+    "permalink": "/changelog/roqua/production/2016/11/03/"
+  },
+  "nextItem": {
+    "title": "2016-10-28",
+    "permalink": "/changelog/roqua/production/2016/10/28/"
+  }
+}

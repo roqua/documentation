@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/04/10/",
+  "source": "@site/changelog/roqua/production/2020-04-10.md",
+  "title": "2020-04-10",
+  "description": "* Logica toegevoegd om een automatisch protocol te kunnen starten op basis van een invulling van een handmatig klaargezette lijst. Alleen door roqua support in te stellen op aanvraag.",
+  "date": "2020-04-10T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.25,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-04-10T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-04-16",
+    "permalink": "/changelog/roqua/production/2020/04/16/"
+  },
+  "nextItem": {
+    "title": "2020-04-07",
+    "permalink": "/changelog/roqua/production/2020/04/07/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "epd/measure/notifications",
+  "title": "Uitnodigingsbrieven",
+  "description": "Normaal gesproken kun je uitnodingsbrieven tegelijk met het klaarzetten van vragenlijsten maken en versturen. Het kan echter zijn dat dit niet gedaan is, en daarom heeft RoQua ook een losse pagina om dit achteraf alsnog te doen. Dit zit onder het Menu -> Uitnodigingsbrieven.",
+  "source": "@site/docs/02-epd/03-measure/03-notifications.md",
+  "sourceDirName": "02-epd/03-measure",
+  "slug": "/epd/measure/notifications",
+  "permalink": "/docs/epd/measure/notifications",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/03-notifications.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sort": 400
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Auto-protocollen",
+    "permalink": "/docs/epd/measure/automatic_protocols"
+  },
+  "next": {
+    "title": "Uitkomsten",
+    "permalink": "/docs/epd/outcome"
+  }
+}

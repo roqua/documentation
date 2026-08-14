@@ -1,0 +1,23 @@
+{
+  "id": "rest_api/error_handling",
+  "title": "REST API Error Handling",
+  "description": "When basic HTTP authentication fails",
+  "source": "@site/technical/rest_api/error_handling.md",
+  "sourceDirName": "rest_api",
+  "slug": "/rest_api/error_handling",
+  "permalink": "/technical/rest_api/error_handling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Stats",
+    "permalink": "/technical/rest_api/dossier/stats"
+  },
+  "next": {
+    "title": "Global",
+    "permalink": "/technical/rest_api/global/"
+  }
+}

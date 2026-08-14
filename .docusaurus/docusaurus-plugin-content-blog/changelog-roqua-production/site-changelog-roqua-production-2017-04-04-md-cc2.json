@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/04/04/",
+  "source": "@site/changelog/roqua/production/2017-04-04.md",
+  "title": "2017-04-04",
+  "description": "* SIPP vragenlijst heeft een grafiek gekregen die de score interpretaties weergeeft",
+  "date": "2017-04-04T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.06,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-04-04T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-04-12",
+    "permalink": "/changelog/roqua/production/2017/04/12/"
+  },
+  "nextItem": {
+    "title": "2017-04-03",
+    "permalink": "/changelog/roqua/production/2017/04/03/"
+  }
+}

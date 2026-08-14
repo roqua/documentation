@@ -1,0 +1,26 @@
+{
+  "id": "rest_api/dossier/respondents",
+  "title": "Respondents",
+  "description": "Respondents are people that fill out questionnaires. The default respondent is the patient, but there's also profess, parent, second_parent, teacher and caregiver.",
+  "source": "@site/technical/rest_api/dossier/respondents.md",
+  "sourceDirName": "rest_api/dossier",
+  "slug": "/rest_api/dossier/respondents",
+  "permalink": "/technical/rest_api/dossier/respondents",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Respondents",
+    "status": "draft"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Report Calculations",
+    "permalink": "/technical/rest_api/dossier/report_calculations"
+  },
+  "next": {
+    "title": "Responses",
+    "permalink": "/technical/rest_api/dossier/responses"
+  }
+}

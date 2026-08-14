@@ -1,0 +1,27 @@
+{
+  "id": "admin/other/dossier_epd_id_changes",
+  "title": "Dossier number change",
+  "description": "Occasionally, an existing client dossier receives a new client number within the EPR, or a client accidentally was assigned two client numbers, and the data from both have to be merged.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/07-other/dossier_epd_id_changes.md",
+  "sourceDirName": "03-admin/07-other",
+  "slug": "/admin/other/dossier_epd_id_changes",
+  "permalink": "/en/docs/admin/other/dossier_epd_id_changes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/07-other/dossier_epd_id_changes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Dossier number change",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Overig",
+    "permalink": "/en/docs/admin/other/"
+  },
+  "next": {
+    "title": "Dossiers",
+    "permalink": "/en/docs/admin/dossiers"
+  }
+}

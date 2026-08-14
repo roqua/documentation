@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/06/12/",
+  "source": "@site/changelog/roqua/production/2015-06-12.md",
+  "title": "2015-06-12",
+  "description": "* Verandering webhooks, alleen nog jobs in queue zetten indien nodig",
+  "date": "2015-06-12T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.06,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-06-12T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-06-28",
+    "permalink": "/changelog/roqua/production/2015/06/28/"
+  },
+  "nextItem": {
+    "title": "2015-06-10",
+    "permalink": "/changelog/roqua/production/2015/06/10/"
+  }
+}

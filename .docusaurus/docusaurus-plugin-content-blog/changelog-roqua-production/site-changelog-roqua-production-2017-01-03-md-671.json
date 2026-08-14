@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/01/03/",
+  "source": "@site/changelog/roqua/production/2017-01-03.md",
+  "title": "2017-01-03",
+  "description": "* Toon sleutel (key) van vragenlijst bij bewerken protocolmeting.",
+  "date": "2017-01-03T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.28,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-01-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-01-11",
+    "permalink": "/changelog/roqua/production/2017/01/11/"
+  },
+  "nextItem": {
+    "title": "2016-12-21",
+    "permalink": "/changelog/roqua/production/2016/12/21/"
+  }
+}

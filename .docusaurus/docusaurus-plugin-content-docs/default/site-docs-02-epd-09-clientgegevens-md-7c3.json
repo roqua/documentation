@@ -1,0 +1,25 @@
+{
+  "unversionedId": "epd/clientgegevens",
+  "id": "epd/clientgegevens",
+  "title": "Patiëntinstellingen",
+  "description": "In de patiëntinstellingen kunt u:",
+  "source": "@site/docs/02-epd/09-clientgegevens.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/clientgegevens",
+  "permalink": "/docs/epd/clientgegevens",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/09-clientgegevens.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Rapporten",
+    "permalink": "/docs/epd/reports"
+  },
+  "next": {
+    "title": "Client respondent login",
+    "permalink": "/docs/epd/client_portal_login"
+  }
+}

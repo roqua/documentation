@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/11/16/",
+  "source": "@site/changelog/roqua/production/2018-11-16.md",
+  "title": "2018-11-16",
+  "description": "* Probleem waarbij ingevulde phamous labwaarden in het TREAT rapport als niet ingevuld werden gezien is opgelost.",
+  "date": "2018-11-16T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 1.01,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-11-16T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-11-22",
+    "permalink": "/changelog/roqua/production/2018/11/22/"
+  },
+  "nextItem": {
+    "title": "2018-11-08",
+    "permalink": "/changelog/roqua/production/2018/11/08/"
+  }
+}

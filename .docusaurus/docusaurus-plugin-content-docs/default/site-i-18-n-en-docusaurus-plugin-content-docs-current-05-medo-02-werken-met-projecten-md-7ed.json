@@ -1,0 +1,25 @@
+{
+  "id": "medo/werken_met_projecten",
+  "title": "Administering projects",
+  "description": "Projects",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/05-medo/02-werken_met_projecten.md",
+  "sourceDirName": "05-medo",
+  "slug": "/medo/werken_met_projecten",
+  "permalink": "/en/docs/medo/werken_met_projecten",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/05-medo/02-werken_met_projecten.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Logging in and security",
+    "permalink": "/en/docs/medo/inloggen_en_veiligheid"
+  },
+  "next": {
+    "title": "Working with participants",
+    "permalink": "/en/docs/medo/werken_met_deelnemers"
+  }
+}

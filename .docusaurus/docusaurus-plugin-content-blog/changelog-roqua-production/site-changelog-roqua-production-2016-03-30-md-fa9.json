@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/03/30/",
+  "source": "@site/changelog/roqua/production/2016-03-30.md",
+  "title": "2016-03-30",
+  "description": "* Admin: vragenlijsten binnen protocollen kunnen herordenen door te slepen.",
+  "date": "2016-03-30T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.08,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-03-30T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-04-01",
+    "permalink": "/changelog/roqua/production/2016/04/01/"
+  },
+  "nextItem": {
+    "title": "2016-03-17",
+    "permalink": "/changelog/roqua/production/2016/03/17/"
+  }
+}

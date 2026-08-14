@@ -1,0 +1,98 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "RoQua Documentation Blog",
+    "home_page_url": "https://docs.roqua.net/changelog/roqua/production",
+    "description": "RoQua Documentation Blog",
+    "items": [
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260506-090638",
+            "content_html": "<p>Release notes:</p>\n<ul>\n<li class=\"\">Admin: bewerken van notificatietemplates heeft beetje ander uiterlijk. Je krijgt nu ook voorbeeld van je SMS template, en je kunt de geschiedenis van de template inzien.</li>\n<li class=\"\">Admin: Beheerders met het recht om admingebruikers te beheren kunnen voortaan alleen nog rechten toewijzen die ze zelf ook hebben. In de praktijk hebben beheerders momenteel doorgaans het \"Alle rechten\" recht, maar dit maakt nu ook andere werkwijzen mogelijk.</li>\n</ul>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260506-090638",
+            "title": "2026-05-06",
+            "summary": "Release notes:",
+            "date_modified": "2026-05-06T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260415-185210",
+            "content_html": "<p>Release notes:</p>\n<ul>\n<li class=\"\">Refresh knop weggehaald voor dossiers die hun data niet van een epd krijgen.</li>\n<li class=\"\">Nieuwe vragenlijstengine:<!-- -->\n<ul>\n<li class=\"\">Fix waarbij vragenlijsten niet meer werkten als ze lege html-blokken hadden.</li>\n<li class=\"\">Fix waarbij info-blokken html lioeten zien.</li>\n</ul>\n</li>\n</ul>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260415-185210",
+            "title": "2026-04-15",
+            "summary": "Release notes:",
+            "date_modified": "2026-04-15T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260414-100443",
+            "content_html": "<p>Release notes:</p>\n<ul>\n<li class=\"\">Probleem opgelost waarbij een herinnering wordt uitgestuurd voor zelf te starten vragenlijsten, terwijl er invullingen gemaakt zijn.</li>\n<li class=\"\">Probleem opgelost waardoor bulk acties weer werken.</li>\n<li class=\"\">Starten van een automatisch protocol luistert nu ook naar de setting of een vlag aangepast mag worden.</li>\n<li class=\"\">Bij starten van een automatisch protocol komt er nu een waarschuwing als er problemen zijn met settings van het protocol.</li>\n<li class=\"\">Nieuwe vagenlijstengine:<!-- -->\n<ul>\n<li class=\"\">Laatste voorbereidingen om vertalingen in lijsten mogelijk te maken.</li>\n<li class=\"\">Lijsten met veel vragen op 1 scherm veel sneller gemaakt.</li>\n</ul>\n</li>\n<li class=\"\">Medoq projecten kunnen nu dossiers openenen vanaf de RoQua admin interface.</li>\n<li class=\"\">Technisch: url's aangepast voor nedap integratie.</li>\n</ul>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260414-100443",
+            "title": "2026-04-14",
+            "summary": "Release notes:",
+            "date_modified": "2026-04-14T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260410-101330",
+            "content_html": "<p>Release notes:</p>\n<p>Geen release notes</p>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260410-101330",
+            "title": "2026-04-10",
+            "summary": "Release notes:",
+            "date_modified": "2026-04-10T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260402-141449",
+            "content_html": "<p>Release notes:</p>\n<p>Geen release notes</p>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260402-141449",
+            "title": "2026-04-02",
+            "summary": "Release notes:",
+            "date_modified": "2026-04-02T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260331-084833",
+            "content_html": "<p>Release notes:</p>\n<ul>\n<li class=\"\">Admin: alle pagina's over inclusief de intro pagina na login</li>\n<li class=\"\">Admin: bugfix instellen van textvars gaf twee invulvelden ipv 1 per var</li>\n<li class=\"\">Admin: snellere werkwijze voor koppelen vragenlijsten aan rapport templates</li>\n<li class=\"\">Vragenlijst: Optie toegevoegd om lijn voor de vraag door te trekken naar een stuk context erboven.</li>\n</ul>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260331-084833",
+            "title": "2026-03-31",
+            "summary": "Release notes:",
+            "date_modified": "2026-03-31T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260326-084518",
+            "content_html": "<p>Release notes:</p>\n<ul>\n<li class=\"\">Admin: Issues met opslaan protocol-volgorde gefixt als protocollen zelf foutjes bevatten.</li>\n<li class=\"\">Admin: Opschonen code/css nu alles over is op nieuwe layout.</li>\n<li class=\"\">Technisch: Upgrade naar rails 7.2 voor security.</li>\n</ul>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260326-084518",
+            "title": "2026-03-26",
+            "summary": "Release notes:",
+            "date_modified": "2026-03-26T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260316-143309",
+            "content_html": "<p>Release notes:</p>\n<ul>\n<li class=\"\">Fix: Behandelaren konden in sommige gevallen geen oude antwoorden meer aanpassen, nu wel weer.</li>\n<li class=\"\">Stappen gemaakt in vragenlijsten vertaalbaar maken.</li>\n<li class=\"\">Betere afhandelijk fouten bij importeren dossiers.</li>\n<li class=\"\">Admin: Meer layout updates, pagina wissels flink sneller gemaakt.</li>\n<li class=\"\">technisch:<!-- -->\n<ul>\n<li class=\"\">Onveilige code-bibliotheken geupdatet.</li>\n<li class=\"\">Stappen gemaakt in framework kunnen updaten.</li>\n</ul>\n</li>\n</ul>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260316-143309",
+            "title": "2026-03-16",
+            "summary": "Release notes:",
+            "date_modified": "2026-03-16T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260309-112417",
+            "content_html": "<p>Release notes:</p>\n<ul>\n<li class=\"\">RoQua Admin: Redesign van de eerste set pagina's. Gebruikers hebben hier een email over gehad.</li>\n</ul>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260309-112417",
+            "title": "2026-03-09",
+            "summary": "Release notes:",
+            "date_modified": "2026-03-09T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://docs.roqua.net/changelog/roqua/production/20260305-131542",
+            "content_html": "<p>Release notes:</p>\n<p>Geen release notes</p>",
+            "url": "https://docs.roqua.net/changelog/roqua/production/20260305-131542",
+            "title": "2026-03-05",
+            "summary": "Release notes:",
+            "date_modified": "2026-03-05T00:00:00.000Z",
+            "tags": []
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/report_templates",
+  "title": "Report templates",
+  "description": "Here you can adjust the templates used for generating reports. With reports it is possible to combine the results of different questionnaires in one document. For example, you could place the outcomes of a questionnaire completed by different respondents underneath each other for comparison. Once a template has been created, employees can generate reports via the RoQua EPR interface for a selection of completed questionnaires..",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/02-rom_config/report_templates.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/report_templates",
+  "permalink": "/en/docs/admin/rom_config/report_templates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/report_templates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Report templates",
+    "sort": 200
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Questionnaires",
+    "permalink": "/en/docs/admin/rom_config/questionnaires"
+  },
+  "next": {
+    "title": "Data Exports",
+    "permalink": "/en/docs/admin/data_exports"
+  }
+}

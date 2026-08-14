@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/02/07/",
+  "source": "@site/changelog/roqua/production/2017-02-07.md",
+  "title": "2017-02-07",
+  "description": "* Respondenten toegevoegd aan de api",
+  "date": "2017-02-07T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.48,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-02-07T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-02-10",
+    "permalink": "/changelog/roqua/production/2017/02/10/"
+  },
+  "nextItem": {
+    "title": "2017-02-01",
+    "permalink": "/changelog/roqua/production/2017/02/01/"
+  }
+}

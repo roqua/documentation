@@ -1,0 +1,25 @@
+{
+  "id": "hl7/a19",
+  "title": "HL7 2.4 QRY^A19",
+  "description": "We use QRY^A19 messages to proactively ask for personally identifying details on patients. By relying on this message type, instead of using the standard set of ADR messages, we can forego storing these details on our servers, and instead fetch them as needed.",
+  "source": "@site/technical/hl7/a19.md",
+  "sourceDirName": "hl7",
+  "slug": "/hl7/a19",
+  "permalink": "/technical/hl7/a19",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "HL7 2.4 QRY^A19"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "HL7 v2.4",
+    "permalink": "/technical/hl7/"
+  },
+  "next": {
+    "title": "HL7 2.4 ORU^R01",
+    "permalink": "/technical/hl7/oru"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/10/30/",
+  "source": "@site/changelog/roqua/production/2019-10-30.md",
+  "title": "2019-10-30",
+  "description": "* vragenlijst toegevoegd: Resilience Scale - Nederlandse versie (RS-nl)",
+  "date": "2019-10-30T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.64,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-10-30T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-11-07",
+    "permalink": "/changelog/roqua/production/2019/11/07/"
+  },
+  "nextItem": {
+    "title": "2019-10-23",
+    "permalink": "/changelog/roqua/production/2019/10/23/"
+  }
+}

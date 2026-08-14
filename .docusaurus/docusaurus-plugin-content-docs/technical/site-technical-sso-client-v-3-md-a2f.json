@@ -1,0 +1,26 @@
+{
+  "id": "sso/client_v3",
+  "title": "Respondents using HMAC",
+  "description": "When used in conjunction with an client portal, RoQua has an authentication scheme that relies on the portal to open a URL that will authenticate a user and start completing all pending questionnaires for the given dossier number.",
+  "source": "@site/technical/sso/client_v3.md",
+  "sourceDirName": "sso",
+  "slug": "/sso/client_v3",
+  "permalink": "/technical/sso/client_v3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Respondents using HMAC",
+    "status": "stable"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Respondents using token",
+    "permalink": "/technical/sso/client_token"
+  },
+  "next": {
+    "title": "EPD v3 (HMAC)",
+    "permalink": "/technical/sso/epd_v3"
+  }
+}

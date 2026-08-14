@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/05/01/",
+  "source": "@site/changelog/roqua/production/2015-05-01.md",
+  "title": "2015-05-01",
+  "description": "* Overstap van Sendgrid naar Mandrill",
+  "date": "2015-05-01T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.42,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-05-01T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-05-04",
+    "permalink": "/changelog/roqua/production/2015/05/04/"
+  },
+  "nextItem": {
+    "title": "2015-04-25",
+    "permalink": "/changelog/roqua/production/2015/04/25/"
+  }
+}

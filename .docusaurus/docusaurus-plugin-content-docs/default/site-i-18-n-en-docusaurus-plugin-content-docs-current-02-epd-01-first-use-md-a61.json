@@ -1,0 +1,25 @@
+{
+  "id": "epd/first_use",
+  "title": "First use",
+  "description": "When you first open RoQua from the EPR, you will be asked to enter your personal details. Your name data can be used within the application to generate letters and invitations to the patient.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/01-first_use.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/first_use",
+  "permalink": "/en/docs/epd/first_use",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/01-first_use.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "EPD module",
+    "permalink": "/en/docs/epd/"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/en/docs/epd/overview/"
+  }
+}

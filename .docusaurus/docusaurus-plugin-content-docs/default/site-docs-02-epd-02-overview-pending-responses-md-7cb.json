@@ -1,0 +1,24 @@
+{
+  "id": "epd/overview/pending-responses",
+  "title": "Klaargezette vragenlijsten beheren",
+  "description": "Volgorde aanpassen",
+  "source": "@site/docs/02-epd/02-overview/pending-responses.md",
+  "sourceDirName": "02-epd/02-overview",
+  "slug": "/epd/overview/pending-responses",
+  "permalink": "/docs/epd/overview/pending-responses",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/02-overview/pending-responses.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Overzicht",
+    "permalink": "/docs/epd/overview/"
+  },
+  "next": {
+    "title": "Vragenlijsten afnemen",
+    "permalink": "/docs/epd/measure/"
+  }
+}

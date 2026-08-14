@@ -1,0 +1,24 @@
+{
+  "id": "admin/rom_config/prefillers/index",
+  "title": "Prefillers",
+  "description": "Within a protocol it is possible to prefill some answers, when a professional completes the questionnaire. We currently support two ways of calculating the prefilled answers:",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/02-rom_config/prefillers/index.md",
+  "sourceDirName": "03-admin/02-rom_config/prefillers",
+  "slug": "/admin/rom_config/prefillers/",
+  "permalink": "/en/docs/admin/rom_config/prefillers/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/prefillers/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Invitation templates",
+    "permalink": "/en/docs/admin/rom_config/invitation_templates"
+  },
+  "next": {
+    "title": "Protocols",
+    "permalink": "/en/docs/admin/rom_config/protocols"
+  }
+}

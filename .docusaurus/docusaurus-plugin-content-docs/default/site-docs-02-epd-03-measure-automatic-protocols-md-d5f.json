@@ -1,0 +1,26 @@
+{
+  "unversionedId": "epd/measure/automatic_protocols",
+  "id": "epd/measure/automatic_protocols",
+  "title": "Automatische Protocollen",
+  "description": "De automatische protocollen zijn terug te vinden onder het -icoontje in de linker balk. Door een patiënt te abonneren op een dergelijk protocol worden vragenlijsten automatisch met een vast interval klaargezet en worden uitnodigingen automatisch verzonden.",
+  "source": "@site/docs/02-epd/03-measure/automatic_protocols.md",
+  "sourceDirName": "02-epd/03-measure",
+  "slug": "/epd/measure/automatic_protocols",
+  "permalink": "/docs/epd/measure/automatic_protocols",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/03-measure/automatic_protocols.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sort": 200
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Vragenlijsten afnemen",
+    "permalink": "/docs/epd/measure/index"
+  },
+  "next": {
+    "title": "Uitnodigingsbrieven",
+    "permalink": "/docs/epd/measure/invitations"
+  }
+}

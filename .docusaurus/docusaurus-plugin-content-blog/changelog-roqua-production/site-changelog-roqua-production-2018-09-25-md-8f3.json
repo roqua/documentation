@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/09/25/",
+  "source": "@site/changelog/roqua/production/2018-09-25.md",
+  "title": "2018-09-25",
+  "description": "* Admin: Lijst vragenlijsten toont nu ook alle lijsten waarvoor betaald moet worden.",
+  "date": "2018-09-25T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.37,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-09-25T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-09-27",
+    "permalink": "/changelog/roqua/production/2018/09/27/"
+  },
+  "nextItem": {
+    "title": "2018-09-19",
+    "permalink": "/changelog/roqua/production/2018/09/19/"
+  }
+}

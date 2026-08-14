@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/03/05/",
+  "source": "@site/changelog/roqua/production/2020-03-05.md",
+  "title": "2020-03-05",
+  "description": "* vragenlijst toegevoegd (pas_add): PAS-ADD Checklist (Revised – Nederlandse versie)",
+  "date": "2020-03-05T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.54,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-03-05T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-03-06",
+    "permalink": "/changelog/roqua/production/2020/03/06/"
+  },
+  "nextItem": {
+    "title": "2020-02-27",
+    "permalink": "/changelog/roqua/production/2020/02/27/"
+  }
+}

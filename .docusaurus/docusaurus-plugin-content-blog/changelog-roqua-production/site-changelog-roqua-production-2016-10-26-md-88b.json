@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/10/26/",
+  "source": "@site/changelog/roqua/production/2016-10-26.md",
+  "title": "2016-10-26",
+  "description": "* vragenlijst toegevoegd: EORTC QLQ-H&N35",
+  "date": "2016-10-26T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.31,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-10-26T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-10-28",
+    "permalink": "/changelog/roqua/production/2016/10/28/"
+  },
+  "nextItem": {
+    "title": "2016-10-25",
+    "permalink": "/changelog/roqua/production/2016/10/25/"
+  }
+}

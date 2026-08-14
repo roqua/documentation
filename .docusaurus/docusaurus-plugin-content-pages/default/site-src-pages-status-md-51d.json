@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/status",
+  "source": "@site/src/pages/status.md",
+  "title": "Status",
+  "description": "* Uptime RoQua productie diensten (zie 'Demo' voor de uptime van RoQua aangesloten op uw lokale EPD)",
+  "frontMatter": {
+    "title": "Status"
+  },
+  "unlisted": false
+}

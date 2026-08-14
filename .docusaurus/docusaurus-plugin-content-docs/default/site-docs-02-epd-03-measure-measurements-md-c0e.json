@@ -1,0 +1,27 @@
+{
+  "unversionedId": "epd/measure/measurements",
+  "id": "epd/measure/measurements",
+  "title": "Handmatig",
+  "description": "",
+  "source": "@site/docs/02-epd/03-measure/measurements.md",
+  "sourceDirName": "02-epd/03-measure",
+  "slug": "/epd/measure/measurements",
+  "permalink": "/docs/epd/measure/measurements",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/03-measure/measurements.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Handmatig",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Uitnodigingsbrieven",
+    "permalink": "/docs/epd/measure/invitations"
+  },
+  "next": {
+    "title": "Non-Responses",
+    "permalink": "/docs/epd/measure/non_response"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "epd/patient-settings",
+  "title": "Patiëntinstellingen",
+  "description": "In de patiëntinstellingen kunt u:",
+  "source": "@site/docs/02-epd/09-patient-settings.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/patient-settings",
+  "permalink": "/docs/epd/patient-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/09-patient-settings.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Rapporten",
+    "permalink": "/docs/epd/reports"
+  },
+  "next": {
+    "title": "Client respondent login",
+    "permalink": "/docs/epd/client_portal_login"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/06/28/",
+  "source": "@site/changelog/roqua/production/2016-06-28.md",
+  "title": "2016-06-28",
+  "description": "* Duidelijke indicator voor autoprotocollen in protocoloverzicht.",
+  "date": "2016-06-28T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.13,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-06-28T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-06-30",
+    "permalink": "/changelog/roqua/production/2016/06/30/"
+  },
+  "nextItem": {
+    "title": "2016-06-27",
+    "permalink": "/changelog/roqua/production/2016/06/27/"
+  }
+}

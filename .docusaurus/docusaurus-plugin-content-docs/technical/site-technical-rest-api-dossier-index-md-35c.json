@@ -1,0 +1,25 @@
+{
+  "id": "rest_api/dossier/index",
+  "title": "Dossier-specific data",
+  "description": "All API endpoints for dossier specific information and actions require a dossierid parameter. When this parameter is blank, an HTTP notfound response code is returned:",
+  "source": "@site/technical/rest_api/dossier/index.md",
+  "sourceDirName": "rest_api/dossier",
+  "slug": "/rest_api/dossier/",
+  "permalink": "/technical/rest_api/dossier/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Dossier-specific data"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "REST API",
+    "permalink": "/technical/rest_api/"
+  },
+  "next": {
+    "title": "Dossiers",
+    "permalink": "/technical/rest_api/dossier/dossiers"
+  }
+}

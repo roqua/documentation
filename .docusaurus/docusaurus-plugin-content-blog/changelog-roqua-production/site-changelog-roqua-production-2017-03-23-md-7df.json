@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/03/23/",
+  "source": "@site/changelog/roqua/production/2017-03-23.md",
+  "title": "2017-03-23",
+  "description": "* PDI vragenlijst heeft een grafiek van de gemiddelde antwoordwaarde gekregen",
+  "date": "2017-03-23T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.05,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-03-23T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-03-31",
+    "permalink": "/changelog/roqua/production/2017/03/31/"
+  },
+  "nextItem": {
+    "title": "2017-03-20",
+    "permalink": "/changelog/roqua/production/2017/03/20/"
+  }
+}

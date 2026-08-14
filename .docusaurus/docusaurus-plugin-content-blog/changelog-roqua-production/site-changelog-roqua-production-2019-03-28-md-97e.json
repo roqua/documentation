@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/03/28/",
+  "source": "@site/changelog/roqua/production/2019-03-28.md",
+  "title": "2019-03-28",
+  "description": "* performance verbeterd in de uitkomstenpagina voor dossiers met veel invullingen",
+  "date": "2019-03-28T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.51,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-03-28T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-04-04",
+    "permalink": "/changelog/roqua/production/2019/04/04/"
+  },
+  "nextItem": {
+    "title": "2019-03-20",
+    "permalink": "/changelog/roqua/production/2019/03/20/"
+  }
+}

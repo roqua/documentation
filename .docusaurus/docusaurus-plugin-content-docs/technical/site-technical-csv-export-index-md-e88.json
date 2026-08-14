@@ -1,0 +1,23 @@
+{
+  "id": "csv_export/index",
+  "title": "CSV Export",
+  "description": "Besides our real-time integration via ORU, we also provide:",
+  "source": "@site/technical/csv_export/index.md",
+  "sourceDirName": "csv_export",
+  "slug": "/csv_export/",
+  "permalink": "/technical/csv_export/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "API Authentication",
+    "permalink": "/technical/authentication"
+  },
+  "next": {
+    "title": "Download via API",
+    "permalink": "/technical/csv_export/download_via_api"
+  }
+}

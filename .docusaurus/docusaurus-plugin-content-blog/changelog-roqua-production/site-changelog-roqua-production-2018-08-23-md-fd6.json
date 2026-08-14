@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/08/23/",
+  "source": "@site/changelog/roqua/production/2018-08-23.md",
+  "title": "2018-08-23",
+  "description": "* Overzichtspagina in het EPD met alle vragenlijsten. Te vinden via het menu rechtsboven op de pagina.",
+  "date": "2018-08-23T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.12,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-08-23T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-08-31",
+    "permalink": "/changelog/roqua/production/2018/08/31/"
+  },
+  "nextItem": {
+    "title": "2018-08-20",
+    "permalink": "/changelog/roqua/production/2018/08/20/"
+  }
+}

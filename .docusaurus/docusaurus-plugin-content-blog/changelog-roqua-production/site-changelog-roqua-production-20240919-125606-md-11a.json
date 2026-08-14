@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/20240919-125606",
+  "source": "@site/changelog/roqua/production/20240919-125606.md",
+  "title": "2024-09-19",
+  "description": "Door een fout in ons uitrolsysteem zijn de afgelopen maanden geen release notes geplaatst voor de updates die we hebben uitgevoerd. Hieronder alles alsnog.",
+  "date": "2024-09-19T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.59,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2024-09-19T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2024-10-31",
+    "permalink": "/changelog/roqua/production/20241031-124300"
+  },
+  "nextItem": {
+    "title": "2024-05-06",
+    "permalink": "/changelog/roqua/production/20240506-125606"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/20220324-094145",
+  "source": "@site/changelog/roqua/production/20220324-094145.md",
+  "title": "2022-03-24",
+  "description": "Tech notes:",
+  "date": "2022-03-24T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.06,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2022-03-24T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2022-03-30",
+    "permalink": "/changelog/roqua/production/20220330-173828"
+  },
+  "nextItem": {
+    "title": "2022-03-24",
+    "permalink": "/changelog/roqua/production/20220324-132809"
+  }
+}

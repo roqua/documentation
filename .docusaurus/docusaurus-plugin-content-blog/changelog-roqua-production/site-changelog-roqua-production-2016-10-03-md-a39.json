@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/10/03/",
+  "source": "@site/changelog/roqua/production/2016-10-03.md",
+  "title": "2016-10-03",
+  "description": "* Kolommen toegevoegd aan cvs alle exports: respondentid, respondenttype, respondent_label.",
+  "date": "2016-10-03T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.05,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-10-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-10-19",
+    "permalink": "/changelog/roqua/production/2016/10/19/"
+  },
+  "nextItem": {
+    "title": "2016-09-22",
+    "permalink": "/changelog/roqua/production/2016/09/22/"
+  }
+}

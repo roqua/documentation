@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/11/30/",
+  "source": "@site/changelog/roqua/production/2016-11-30.md",
+  "title": "2016-11-30",
+  "description": "* Bij het aanpassen van antwoorden van een reeds ingevulde vragenlijst worden alle vragen op één scherm getoond en is het mogelijk om validaties over te slaan.",
+  "date": "2016-11-30T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.28,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-11-30T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-12-01",
+    "permalink": "/changelog/roqua/production/2016/12/01/"
+  },
+  "nextItem": {
+    "title": "2016-11-23",
+    "permalink": "/changelog/roqua/production/2016/11/23/"
+  }
+}

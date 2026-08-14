@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmanual=globalThis.webpackChunkmanual||[]).push([[52707],{62428:a=>{a.exports=JSON.parse('{"blogBasePath":"/en/changelog/roqua/production","blogTitle":"Blog","authorsListPath":"/en/changelog/roqua/production/authors"}')}}]);

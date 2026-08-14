@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/05/09/",
+  "source": "@site/changelog/roqua/production/2019-05-09.md",
+  "title": "2019-05-09",
+  "description": "* vragenlijst toegevoegd: Accare inleidende tekst",
+  "date": "2019-05-09T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.66,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-05-09T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-05-15",
+    "permalink": "/changelog/roqua/production/2019/05/15/"
+  },
+  "nextItem": {
+    "title": "2019-05-02",
+    "permalink": "/changelog/roqua/production/2019/05/02/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/02/01/",
+  "source": "@site/changelog/roqua/production/2017-02-01.md",
+  "title": "2017-02-01",
+  "description": "* Bij het gebruik van de direct-invullen knop worden nu alle aangevinkte lijsten aangeboden in plaats van maar één van die lijsten",
+  "date": "2017-02-01T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.33,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-02-01T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-02-07",
+    "permalink": "/changelog/roqua/production/2017/02/07/"
+  },
+  "nextItem": {
+    "title": "2017-01-27",
+    "permalink": "/changelog/roqua/production/2017/01/27/"
+  }
+}

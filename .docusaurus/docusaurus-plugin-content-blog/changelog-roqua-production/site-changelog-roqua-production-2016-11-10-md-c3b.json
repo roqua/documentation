@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/11/10/",
+  "source": "@site/changelog/roqua/production/2016-11-10.md",
+  "title": "2016-11-10",
+  "description": "* Betere vragenlijst kiezer bij het maken van een rapport template.",
+  "date": "2016-11-10T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.18,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-11-10T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-11-14",
+    "permalink": "/changelog/roqua/production/2016/11/14/"
+  },
+  "nextItem": {
+    "title": "2016-11-08",
+    "permalink": "/changelog/roqua/production/2016/11/08/"
+  }
+}

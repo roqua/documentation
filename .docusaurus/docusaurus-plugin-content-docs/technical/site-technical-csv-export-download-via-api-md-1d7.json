@@ -1,0 +1,25 @@
+{
+  "id": "csv_export/download_via_api",
+  "title": "Download via API",
+  "description": "All exports contain the data up until last night.",
+  "source": "@site/technical/csv_export/download_via_api.md",
+  "sourceDirName": "csv_export",
+  "slug": "/csv_export/download_via_api",
+  "permalink": "/technical/csv_export/download_via_api",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Download via API"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "CSV Export",
+    "permalink": "/technical/csv_export/"
+  },
+  "next": {
+    "title": "Non-response",
+    "permalink": "/technical/csv_export/nonresponse"
+  }
+}

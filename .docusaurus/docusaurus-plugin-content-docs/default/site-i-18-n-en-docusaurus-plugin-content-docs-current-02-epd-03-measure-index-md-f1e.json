@@ -1,0 +1,24 @@
+{
+  "id": "epd/measure/index",
+  "title": "Preparing questionnaires",
+  "description": "At the top of every screen in RoQua is the \"New Measurement\" button.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/03-measure/index.md",
+  "sourceDirName": "02-epd/03-measure",
+  "slug": "/epd/measure/",
+  "permalink": "/en/docs/epd/measure/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Managing prepared questionnaires",
+    "permalink": "/en/docs/epd/overview/pending-responses"
+  },
+  "next": {
+    "title": "Manual measurements",
+    "permalink": "/en/docs/epd/measure/measurements/"
+  }
+}

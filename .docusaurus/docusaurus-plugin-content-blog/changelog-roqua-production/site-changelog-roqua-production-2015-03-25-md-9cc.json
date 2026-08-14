@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/03/25/",
+  "source": "@site/changelog/roqua/production/2015-03-25.md",
+  "title": "2015-03-25",
+  "description": "* Aanpassingen in databasestructuur in voorbereiding op bewerkbaar maken via de Admin.",
+  "date": "2015-03-25T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.22,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-03-25T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-03-31",
+    "permalink": "/changelog/roqua/production/2015/03/31/"
+  },
+  "nextItem": {
+    "title": "2015-03-19",
+    "permalink": "/changelog/roqua/production/2015/03/19/"
+  }
+}

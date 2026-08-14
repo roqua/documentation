@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/05/24/",
+  "source": "@site/changelog/roqua/production/2016-05-24.md",
+  "title": "2016-05-24",
+  "description": "* Drag and drop measurements onder protocollen (admin)",
+  "date": "2016-05-24T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.04,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-05-24T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-06-06",
+    "permalink": "/changelog/roqua/production/2016/06/06/"
+  },
+  "nextItem": {
+    "title": "2016-05-12",
+    "permalink": "/changelog/roqua/production/2016/05/12/"
+  }
+}

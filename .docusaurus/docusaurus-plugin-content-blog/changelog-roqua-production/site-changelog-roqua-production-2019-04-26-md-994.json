@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/04/26/",
+  "source": "@site/changelog/roqua/production/2019-04-26.md",
+  "title": "2019-04-26",
+  "description": "* Vragenlijsten zonder complete invullingen werden getoond in het selectiemenu in het uitkomstenscherm. Dit is verbeterd.",
+  "date": "2019-04-26T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.08,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-04-26T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-05-02",
+    "permalink": "/changelog/roqua/production/2019/05/02/"
+  },
+  "nextItem": {
+    "title": "2019-04-25",
+    "permalink": "/changelog/roqua/production/2019/04/25/"
+  }
+}

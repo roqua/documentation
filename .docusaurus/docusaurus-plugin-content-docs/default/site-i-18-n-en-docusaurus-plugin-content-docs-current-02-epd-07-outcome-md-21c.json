@@ -1,0 +1,28 @@
+{
+  "id": "epd/outcome",
+  "title": "Outcome",
+  "description": "\"Outcome\" is generated on the basis of the completed questionnaires. Click on the -icon to view this \"outcome\". All completed questionnaires are listed on the left side of the screen. The \"Scales\" tab displays the calculated scale scores with the corresponding answers per measurement moment for the selected questionnaire.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/07-outcome.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/outcome",
+  "permalink": "/en/docs/epd/outcome",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/07-outcome.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Outcome",
+    "sort": 800
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Invitation letters",
+    "permalink": "/en/docs/epd/measure/notifications"
+  },
+  "next": {
+    "title": "Reports",
+    "permalink": "/en/docs/epd/reports"
+  }
+}

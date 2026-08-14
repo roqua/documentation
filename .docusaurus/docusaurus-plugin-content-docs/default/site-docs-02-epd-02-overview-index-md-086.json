@@ -1,0 +1,24 @@
+{
+  "id": "epd/overview/index",
+  "title": "Overzicht",
+  "description": "Dit is normaal gesproken de pagina waarop je uit komt wanneer je RoQua opstart. Op deze pagina kun je zien wat er nog ingevuld moet worden, wat er klaargezet is, en wat er recent allemaal gebeurd is bij deze cliënt.",
+  "source": "@site/docs/02-epd/02-overview/index.md",
+  "sourceDirName": "02-epd/02-overview",
+  "slug": "/epd/overview/",
+  "permalink": "/docs/epd/overview/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/02-overview/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Eerste gebruik",
+    "permalink": "/docs/epd/first_use"
+  },
+  "next": {
+    "title": "Klaargezette vragenlijsten beheren",
+    "permalink": "/docs/epd/overview/pending-responses"
+  }
+}

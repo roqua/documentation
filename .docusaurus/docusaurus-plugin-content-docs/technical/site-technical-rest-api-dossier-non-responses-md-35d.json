@@ -1,0 +1,26 @@
+{
+  "id": "rest_api/dossier/non_responses",
+  "title": "NonResponses",
+  "description": "NonResponses are wrappers around responses that haven't been filled out. They are needed for SBG and follow that format.",
+  "source": "@site/technical/rest_api/dossier/non_responses.md",
+  "sourceDirName": "rest_api/dossier",
+  "slug": "/rest_api/dossier/non_responses",
+  "permalink": "/technical/rest_api/dossier/non_responses",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "NonResponses",
+    "status": "draft"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Fill Out Sessions",
+    "permalink": "/technical/rest_api/dossier/fill_out_sessions"
+  },
+  "next": {
+    "title": "Protocol Subscriptions",
+    "permalink": "/technical/rest_api/dossier/protocol_subscriptions"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/08/21/",
+  "source": "@site/changelog/roqua/production/2020-08-21.md",
+  "title": "2020-08-21",
+  "description": "* Probleem met het klaarzetten van vragenlijsten opgelost waarbij gebruikers niet altijd correct werden doorgestuurd naar de aangemaakte uitnodiging.",
+  "date": "2020-08-21T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.09,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-08-21T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-08-28",
+    "permalink": "/changelog/roqua/production/2020/08/28/"
+  },
+  "nextItem": {
+    "title": "2020-08-20",
+    "permalink": "/changelog/roqua/production/2020/08/20/"
+  }
+}

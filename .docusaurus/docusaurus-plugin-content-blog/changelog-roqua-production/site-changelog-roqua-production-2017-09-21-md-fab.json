@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/09/21/",
+  "source": "@site/changelog/roqua/production/2017-09-21.md",
+  "title": "2017-09-21",
+  "description": "* Bij de uitkomsten van vragenlijsten kan nu met een knop de onderliggende waardes van alle gekozen vraagopties getoond worden. Voor sommige lijsten verduidelijkt dit de zwaarte van de gekozen optie. Ook worden de niet gekozen opties van de vraag getoond om zo de context van de gekozen optie duidelijk te maken.",
+  "date": "2017-09-21T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 2.1,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-09-21T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-09-27",
+    "permalink": "/changelog/roqua/production/2017/09/27/"
+  },
+  "nextItem": {
+    "title": "2017-09-06",
+    "permalink": "/changelog/roqua/production/2017/09/06/"
+  }
+}

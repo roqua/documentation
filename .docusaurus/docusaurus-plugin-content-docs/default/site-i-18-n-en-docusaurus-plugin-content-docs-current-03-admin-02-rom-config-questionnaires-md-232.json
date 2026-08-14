@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/questionnaires",
+  "title": "Questionnaires",
+  "description": "You can find an overview of all questionnaires implemented within RoQua on this page. Here, you can also find whether a questionnaire requires a license or whether it is free to use. This overview does not take into account special arrangements that you may have made with the rights holders of licensed questionnaires.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/02-rom_config/questionnaires.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/questionnaires",
+  "permalink": "/en/docs/admin/rom_config/questionnaires",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/questionnaires.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Questionnaires",
+    "sort": 300
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Protocols",
+    "permalink": "/en/docs/admin/rom_config/protocols"
+  },
+  "next": {
+    "title": "Report templates",
+    "permalink": "/en/docs/admin/rom_config/report_templates"
+  }
+}

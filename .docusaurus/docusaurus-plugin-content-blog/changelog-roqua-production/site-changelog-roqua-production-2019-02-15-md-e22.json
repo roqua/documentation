@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/02/15/",
+  "source": "@site/changelog/roqua/production/2019-02-15.md",
+  "title": "2019-02-15",
+  "description": "* vragenlijst toegevoegd: Patient Benefit Index - Standard (PBI-S)",
+  "date": "2019-02-15T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.38,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-02-15T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-02-26",
+    "permalink": "/changelog/roqua/production/2019/02/26/"
+  },
+  "nextItem": {
+    "title": "2019-02-12",
+    "permalink": "/changelog/roqua/production/2019/02/12/"
+  }
+}

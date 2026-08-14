@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/04/03/",
+  "source": "@site/changelog/roqua/production/2017-04-03.md",
+  "title": "2017-04-03",
+  "description": "* vragenlijst toegevoegd: CANSAS Vraag naar Hulpbehoefte - Versie behandelaar",
+  "date": "2017-04-03T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.08,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-04-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-04-04",
+    "permalink": "/changelog/roqua/production/2017/04/04/"
+  },
+  "nextItem": {
+    "title": "2017-03-31",
+    "permalink": "/changelog/roqua/production/2017/03/31/"
+  }
+}

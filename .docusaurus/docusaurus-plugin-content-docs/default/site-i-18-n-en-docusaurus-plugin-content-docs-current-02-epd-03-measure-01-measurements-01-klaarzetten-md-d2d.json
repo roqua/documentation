@@ -1,0 +1,25 @@
+{
+  "id": "epd/measure/measurements/klaarzetten",
+  "title": "Prepare",
+  "description": "On the second screen you can specify additional options, such as sending an invitation/reminder and preparing for the future.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/03-measure/01-measurements/01-klaarzetten.md",
+  "sourceDirName": "02-epd/03-measure/01-measurements",
+  "slug": "/epd/measure/measurements/klaarzetten",
+  "permalink": "/en/docs/epd/measure/measurements/klaarzetten",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/01-measurements/01-klaarzetten.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Manual measurements",
+    "permalink": "/en/docs/epd/measure/measurements/"
+  },
+  "next": {
+    "title": "Fill out directly",
+    "permalink": "/en/docs/epd/measure/measurements/direct-invullen"
+  }
+}

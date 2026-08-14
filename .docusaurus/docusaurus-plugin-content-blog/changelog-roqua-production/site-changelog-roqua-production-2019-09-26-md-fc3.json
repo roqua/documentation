@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/09/26/",
+  "source": "@site/changelog/roqua/production/2019-09-26.md",
+  "title": "2019-09-26",
+  "description": "* vragenlijst bijgewerkt (score berekening aangepast): Asthma Control Questionnaire (ACQ)",
+  "date": "2019-09-26T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.46,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-09-26T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-09-30",
+    "permalink": "/changelog/roqua/production/2019/09/30/"
+  },
+  "nextItem": {
+    "title": "2019-09-19",
+    "permalink": "/changelog/roqua/production/2019/09/19/"
+  }
+}

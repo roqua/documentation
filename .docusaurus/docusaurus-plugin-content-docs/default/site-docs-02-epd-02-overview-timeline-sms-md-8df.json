@@ -1,0 +1,24 @@
+{
+  "unversionedId": "epd/overview/timeline/sms",
+  "id": "epd/overview/timeline/sms",
+  "title": "sms",
+  "description": "",
+  "source": "@site/docs/02-epd/02-overview/timeline/sms.md",
+  "sourceDirName": "02-epd/02-overview/timeline",
+  "slug": "/epd/overview/timeline/sms",
+  "permalink": "/docs/epd/overview/timeline/sms",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/02-overview/timeline/sms.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "protocol-subscriptions",
+    "permalink": "/docs/epd/overview/timeline/protocol-subscriptions"
+  },
+  "next": {
+    "title": "Vragenlijsten afnemen",
+    "permalink": "/docs/epd/measure/"
+  }
+}

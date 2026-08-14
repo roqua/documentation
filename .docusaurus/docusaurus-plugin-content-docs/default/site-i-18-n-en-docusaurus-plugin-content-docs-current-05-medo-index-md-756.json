@@ -1,0 +1,24 @@
+{
+  "id": "medo/index",
+  "title": "Medoq",
+  "description": "..",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/05-medo/index.md",
+  "sourceDirName": "05-medo",
+  "slug": "/medo/",
+  "permalink": "/en/docs/medo/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/05-medo/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Recently completed questionnaires",
+    "permalink": "/en/docs/features/recently-completed"
+  },
+  "next": {
+    "title": "Logging in and security",
+    "permalink": "/en/docs/medo/inloggen_en_veiligheid"
+  }
+}

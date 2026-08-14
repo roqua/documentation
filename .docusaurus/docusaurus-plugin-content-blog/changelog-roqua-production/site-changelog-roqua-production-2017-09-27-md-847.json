@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/09/27/",
+  "source": "@site/changelog/roqua/production/2017-09-27.md",
+  "title": "2017-09-27",
+  "description": "* vragenlijst bijgewerkt (score berekening aangepast, T-score toegevoegd): Kwaliteit van Leven (MANSA)",
+  "date": "2017-09-27T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.4,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-09-27T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-09-28",
+    "permalink": "/changelog/roqua/production/2017/09/28/"
+  },
+  "nextItem": {
+    "title": "2017-09-21",
+    "permalink": "/changelog/roqua/production/2017/09/21/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "epd/client-portal-login",
+  "title": "Client respondent login",
+  "description": "Respondents can also log in via a password on the client portal. This brings additional benefits, such as viewing completed questionnaires and reports. However, this option is not checked by default. To enable this, it must be set in the organization settings of your organization.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/10-client-portal-login.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/client-portal-login",
+  "permalink": "/en/docs/epd/client-portal-login",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/10-client-portal-login.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Client data",
+    "permalink": "/en/docs/epd/client-data"
+  },
+  "next": {
+    "title": "Beheermodule",
+    "permalink": "/en/docs/admin/"
+  }
+}

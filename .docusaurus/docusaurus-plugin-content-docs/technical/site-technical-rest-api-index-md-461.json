@@ -1,0 +1,25 @@
+{
+  "id": "rest_api/index",
+  "title": "REST API",
+  "description": "",
+  "source": "@site/technical/rest_api/index.md",
+  "sourceDirName": "rest_api",
+  "slug": "/rest_api/",
+  "permalink": "/technical/rest_api/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "REST API"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "HL7 2.4 ORU^R01",
+    "permalink": "/technical/hl7/oru"
+  },
+  "next": {
+    "title": "Dossier-specific data",
+    "permalink": "/technical/rest_api/dossier/"
+  }
+}

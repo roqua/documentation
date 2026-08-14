@@ -1,0 +1,23 @@
+{
+  "id": "rest_api/dossier/fill_out_sessions",
+  "title": "Fill Out Sessions",
+  "description": "Start a fill out session.",
+  "source": "@site/technical/rest_api/dossier/fill_out_sessions.md",
+  "sourceDirName": "rest_api/dossier",
+  "slug": "/rest_api/dossier/fill_out_sessions",
+  "permalink": "/technical/rest_api/dossier/fill_out_sessions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Fill Out Requests",
+    "permalink": "/technical/rest_api/dossier/fill_out_requests"
+  },
+  "next": {
+    "title": "NonResponses",
+    "permalink": "/technical/rest_api/dossier/non_responses"
+  }
+}

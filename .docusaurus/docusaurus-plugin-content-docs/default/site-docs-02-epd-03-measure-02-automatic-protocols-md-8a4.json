@@ -1,0 +1,27 @@
+{
+  "id": "epd/measure/automatic_protocols",
+  "title": "Auto-protocollen",
+  "description": "Naast handmatige metingen staan kan een protocol ook auto-protocollen bevatten.",
+  "source": "@site/docs/02-epd/03-measure/02-automatic_protocols.md",
+  "sourceDirName": "02-epd/03-measure",
+  "slug": "/epd/measure/automatic_protocols",
+  "permalink": "/docs/epd/measure/automatic_protocols",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/02-automatic_protocols.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sort": 200
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Non-respons",
+    "permalink": "/docs/epd/measure/measurements/non-respons"
+  },
+  "next": {
+    "title": "Uitnodigingsbrieven",
+    "permalink": "/docs/epd/measure/notifications"
+  }
+}

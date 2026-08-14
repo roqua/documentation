@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/departments",
+  "title": "Afdelingen",
+  "description": "Afdelingen aanmaken",
+  "source": "@site/docs/03-admin/02-rom_config/departments.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/departments",
+  "permalink": "/docs/admin/rom_config/departments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/departments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Afdelingen",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ROM-config",
+    "permalink": "/docs/admin/rom_config/"
+  },
+  "next": {
+    "title": "Uitnodigingstemplates",
+    "permalink": "/docs/admin/rom_config/invitation_templates"
+  }
+}

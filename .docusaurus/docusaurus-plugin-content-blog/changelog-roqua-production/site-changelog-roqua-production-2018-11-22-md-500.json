@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/11/22/",
+  "source": "@site/changelog/roqua/production/2018-11-22.md",
+  "title": "2018-11-22",
+  "description": "* Het is nu mogelijk om in de admin omgeving bij uitnodigingstemplates meerdere gekoppelde protocollen te kiezen. Als \"Toon template alleen voor gekoppelde protocollen\" wordt aangevinkt zal het uitnodigingstemplate niet bij automatische protocollen anders dan de gekozen protocollen te zien zijn. Wat betreft handmatig aanmaken van uitnodigingen zal deze optie het template weghalen onder het kopje 'Generieke templates'.",
+  "date": "2018-11-22T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 1.01,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-11-22T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-11-29",
+    "permalink": "/changelog/roqua/production/2018/11/29/"
+  },
+  "nextItem": {
+    "title": "2018-11-16",
+    "permalink": "/changelog/roqua/production/2018/11/16/"
+  }
+}

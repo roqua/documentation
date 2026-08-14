@@ -1,0 +1,24 @@
+{
+  "id": "epd/overview/index",
+  "title": "Overview",
+  "description": "This is normally the page you arrive at when you open RoQua. On this page you can see what still needs to be completed, what has been prepared, and what has recently happened for this client.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/02-overview/index.md",
+  "sourceDirName": "02-epd/02-overview",
+  "slug": "/epd/overview/",
+  "permalink": "/en/docs/epd/overview/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/02-overview/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "First use",
+    "permalink": "/en/docs/epd/first_use"
+  },
+  "next": {
+    "title": "Managing prepared questionnaires",
+    "permalink": "/en/docs/epd/overview/pending-responses"
+  }
+}

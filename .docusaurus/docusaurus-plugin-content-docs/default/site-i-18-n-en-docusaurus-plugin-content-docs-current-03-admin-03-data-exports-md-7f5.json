@@ -1,0 +1,28 @@
+{
+  "id": "admin/data_exports",
+  "title": "Data Exports",
+  "description": "The links under the header \"File\" provide access to the most recently generated data export. This export is created at night and therefore contains all the questionnaires that were completed before last midnight. You can find the codebooks in the downloaded file under the subfolder \"codebooks\".",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/03-data_exports.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/data_exports",
+  "permalink": "/en/docs/admin/data_exports",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/03-data_exports.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Data Exports",
+    "sort": 300
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Report templates",
+    "permalink": "/en/docs/admin/rom_config/report_templates"
+  },
+  "next": {
+    "title": "Settings",
+    "permalink": "/en/docs/admin/settings"
+  }
+}

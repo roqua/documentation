@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/11/03/",
+  "source": "@site/changelog/roqua/production/2016-11-03.md",
+  "title": "2016-11-03",
+  "description": "* Er is een versie van de Mate 1 beschikbaar gesteld waar er voor de gebruiksvragen bij het openen van de vragenlijst nullen zijn vooringevuld. Deze Mate 1 is te vinden onder de naam 'MATE 1: Gebruik (nullen vooringevuld)'.",
+  "date": "2016-11-03T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.19,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-11-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-11-07",
+    "permalink": "/changelog/roqua/production/2016/11/07/"
+  },
+  "nextItem": {
+    "title": "2016-11-01",
+    "permalink": "/changelog/roqua/production/2016/11/01/"
+  }
+}

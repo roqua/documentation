@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/07/17/",
+  "source": "@site/changelog/roqua/production/2019-07-17.md",
+  "title": "2019-07-17",
+  "description": "* Nieuwe instelling bij metingen: 'Exporteer PII voor anonieme antwoorden'. Hiermee kan per vragenlijst in een meting worden aangegeven of van een anonieme lijst in dit specifieke geval wel het clientnummer moet doorvallen in de exports. Deze optie kan alleen door RoQua medewerkers worden aangezet, op aanvraag van een coordinator. Hierbij hebben we garantie nodig dat de GGZ zorg zal uitdragen voor het vertrouwelijk houden en anoniem behandelen van deze gegevens.",
+  "date": "2019-07-17T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.52,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-07-17T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-07-24",
+    "permalink": "/changelog/roqua/production/2019/07/24/"
+  },
+  "nextItem": {
+    "title": "2019-07-10",
+    "permalink": "/changelog/roqua/production/2019/07/10/"
+  }
+}

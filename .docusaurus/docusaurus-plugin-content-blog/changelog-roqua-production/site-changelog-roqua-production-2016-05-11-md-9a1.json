@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/05/11/",
+  "source": "@site/changelog/roqua/production/2016-05-11.md",
+  "title": "2016-05-11",
+  "description": "* Opmaak van het Nesda rapport is verbeterd zodat deze weer meer grafieken en tekst op 1 pagina zet.",
+  "date": "2016-05-11T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.24,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-05-11T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-05-12",
+    "permalink": "/changelog/roqua/production/2016/05/12/"
+  },
+  "nextItem": {
+    "title": "2016-05-06",
+    "permalink": "/changelog/roqua/production/2016/05/06/"
+  }
+}

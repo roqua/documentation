@@ -1,0 +1,27 @@
+{
+  "id": "admin/integration/sso_tokens",
+  "title": "Single sign-on tokens",
+  "description": "Aanmaken",
+  "source": "@site/docs/03-admin/05-integration/sso_tokens.md",
+  "sourceDirName": "03-admin/05-integration",
+  "slug": "/admin/integration/sso_tokens",
+  "permalink": "/docs/admin/integration/sso_tokens",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/05-integration/sso_tokens.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Single sign-on tokens",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "API tokens",
+    "permalink": "/docs/admin/integration/api_tokens"
+  },
+  "next": {
+    "title": "Gebruikers",
+    "permalink": "/docs/admin/users"
+  }
+}

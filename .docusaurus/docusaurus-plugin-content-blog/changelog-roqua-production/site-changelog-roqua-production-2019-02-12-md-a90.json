@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/02/12/",
+  "source": "@site/changelog/roqua/production/2019-02-12.md",
+  "title": "2019-02-12",
+  "description": "* Fixed issue met ordening van lijsten bij direct invullen.",
+  "date": "2019-02-12T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.09,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-02-12T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-02-15",
+    "permalink": "/changelog/roqua/production/2019/02/15/"
+  },
+  "nextItem": {
+    "title": "2019-02-07",
+    "permalink": "/changelog/roqua/production/2019/02/07/"
+  }
+}

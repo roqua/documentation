@@ -1,0 +1,26 @@
+{
+  "permalink": "/changelog/roqua/production/20250701-154907",
+  "source": "@site/changelog/roqua/production/20250701-154907.md",
+  "title": "2025-07-01",
+  "description": "Release notes:",
+  "date": "2025-07-01T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.03,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2025-07-01T00:00:00.000Z",
+    "previous_sha": "61afe619e7c0e7281367edfa78e43d8e717d3b5b",
+    "deployed_sha": "99714f34b4745270851c06e1b1662da0dbd3f92f"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2025-07-05",
+    "permalink": "/changelog/roqua/production/20250705-113553"
+  },
+  "nextItem": {
+    "title": "2025-06-30",
+    "permalink": "/changelog/roqua/production/20250630-124856"
+  }
+}

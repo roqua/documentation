@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/04/25/",
+  "source": "@site/changelog/roqua/production/2015-04-25.md",
+  "title": "2015-04-25",
+  "description": "* Bij de NESDA-vragenlijsten tonen we nu een overzicht van ingevulde en gemiste metingen.",
+  "date": "2015-04-25T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.07,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-04-25T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-05-01",
+    "permalink": "/changelog/roqua/production/2015/05/01/"
+  },
+  "nextItem": {
+    "title": "2015-04-22",
+    "permalink": "/changelog/roqua/production/2015/04/22/"
+  }
+}

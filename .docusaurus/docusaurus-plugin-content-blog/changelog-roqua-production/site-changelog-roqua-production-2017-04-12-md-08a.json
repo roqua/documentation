@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/04/12/",
+  "source": "@site/changelog/roqua/production/2017-04-12.md",
+  "title": "2017-04-12",
+  "description": "* vragenlijst toegevoegd: 6-minute walking-test (6MWT) Reumarevalidatie",
+  "date": "2017-04-12T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.19,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-04-12T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-04-24",
+    "permalink": "/changelog/roqua/production/2017/04/24/"
+  },
+  "nextItem": {
+    "title": "2017-04-04",
+    "permalink": "/changelog/roqua/production/2017/04/04/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "epd/client_portal_login",
+  "title": "Client respondent login",
+  "description": "Respondenten kunnen ook inloggen via een wachtwoord op het cliënten portaal. Dit brengt extra voordelen met zich mee, zoals het inzien van ingevulde vragenlijsten en rapporten. Echter staat deze optie niet standaard aangevinkt. Om dit aan te zetten moet dit ingesteld worden bij de organizatie settings van uw organizatie.",
+  "source": "@site/docs/02-epd/10-client_portal_login.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/client_portal_login",
+  "permalink": "/docs/epd/client_portal_login",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/10-client_portal_login.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Patiëntinstellingen",
+    "permalink": "/docs/epd/patient-settings"
+  },
+  "next": {
+    "title": "Beheermodule",
+    "permalink": "/docs/admin/"
+  }
+}

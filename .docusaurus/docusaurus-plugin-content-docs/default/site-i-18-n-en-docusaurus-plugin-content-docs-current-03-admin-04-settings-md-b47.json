@@ -1,0 +1,28 @@
+{
+  "id": "admin/settings",
+  "title": "Settings",
+  "description": "Here you can make some settings for the RoQua application such as the display of a link to the manual in the RoQua interface and whether practitioners will be asked for their personal information when they first use RoQua. You can also specify after which period prepared questionnaires receive a red label and which export format is used for sending ORU messages.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/04-settings.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/settings",
+  "permalink": "/en/docs/admin/settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/04-settings.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Settings",
+    "sort": 400
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Data Exports",
+    "permalink": "/en/docs/admin/data_exports"
+  },
+  "next": {
+    "title": "Integration",
+    "permalink": "/en/docs/admin/integration/"
+  }
+}

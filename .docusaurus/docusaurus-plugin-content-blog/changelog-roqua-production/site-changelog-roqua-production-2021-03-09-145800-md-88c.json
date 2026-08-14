@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2021/03/09/145800",
+  "source": "@site/changelog/roqua/production/2021-03-09-145800.md",
+  "title": "2021-03-09",
+  "description": "Notitie:",
+  "date": "2021-03-09T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.44,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2021-03-09T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2021-03-24",
+    "permalink": "/changelog/roqua/production/20210324-114958"
+  },
+  "nextItem": {
+    "title": "2021-02-24",
+    "permalink": "/changelog/roqua/production/20210224-130130"
+  }
+}

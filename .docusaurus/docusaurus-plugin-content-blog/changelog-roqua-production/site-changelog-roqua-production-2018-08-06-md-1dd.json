@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/08/06/",
+  "source": "@site/changelog/roqua/production/2018-08-06.md",
+  "title": "2018-08-06",
+  "description": "* Bij het printen van rapporten met een antwoordentabel werden onterecht alle antwoordopties getoond in plaats van alleen de gekozen antwoordoptie. Dit is verbeterd.",
+  "date": "2018-08-06T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.12,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-08-06T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-08-17",
+    "permalink": "/changelog/roqua/production/2018/08/17/"
+  },
+  "nextItem": {
+    "title": "2018-07-19",
+    "permalink": "/changelog/roqua/production/2018/07/19/"
+  }
+}

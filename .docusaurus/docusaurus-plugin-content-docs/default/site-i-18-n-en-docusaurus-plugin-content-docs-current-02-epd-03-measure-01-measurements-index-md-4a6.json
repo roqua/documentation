@@ -1,0 +1,27 @@
+{
+  "id": "epd/measure/measurements/index",
+  "title": "Manual measurements",
+  "description": "Within a measurement there are questionnaires suitable for different types of respondents. In the screenshot above you can see, for example, that there are questionnaires for the therapist or other employee of your organization, and questionnaires for the client's caregiver.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/02-epd/03-measure/01-measurements/index.md",
+  "sourceDirName": "02-epd/03-measure/01-measurements",
+  "slug": "/epd/measure/measurements/",
+  "permalink": "/en/docs/epd/measure/measurements/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/01-measurements/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Manual measurements",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Preparing questionnaires",
+    "permalink": "/en/docs/epd/measure/"
+  },
+  "next": {
+    "title": "Prepare",
+    "permalink": "/en/docs/epd/measure/measurements/klaarzetten"
+  }
+}

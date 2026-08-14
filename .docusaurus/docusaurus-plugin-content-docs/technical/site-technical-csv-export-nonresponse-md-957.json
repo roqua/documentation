@@ -1,0 +1,25 @@
+{
+  "id": "csv_export/nonresponse",
+  "title": "Non-response",
+  "description": "For various reasons, patients will not always want to participate in ROM. This is recorded in the responses files as a number in the questkeynonresponse column:",
+  "source": "@site/technical/csv_export/nonresponse.md",
+  "sourceDirName": "csv_export",
+  "slug": "/csv_export/nonresponse",
+  "permalink": "/technical/csv_export/nonresponse",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Non-response"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Download via API",
+    "permalink": "/technical/csv_export/download_via_api"
+  },
+  "next": {
+    "title": "FHIR",
+    "permalink": "/technical/fhir"
+  }
+}

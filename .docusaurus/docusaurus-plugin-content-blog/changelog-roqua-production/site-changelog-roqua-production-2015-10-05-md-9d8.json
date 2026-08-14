@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/10/05/",
+  "source": "@site/changelog/roqua/production/2015-10-05.md",
+  "title": "2015-10-05",
+  "description": "* Added Paleo Project seeds",
+  "date": "2015-10-05T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.02,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-10-05T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-10-07",
+    "permalink": "/changelog/roqua/production/2015/10/07/"
+  },
+  "nextItem": {
+    "title": "2015-09-30",
+    "permalink": "/changelog/roqua/production/2015/09/30/"
+  }
+}

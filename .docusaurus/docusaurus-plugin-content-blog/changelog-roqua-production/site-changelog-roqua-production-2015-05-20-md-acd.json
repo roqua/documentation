@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/05/20/",
+  "source": "@site/changelog/roqua/production/2015-05-20.md",
+  "title": "2015-05-20",
+  "description": "* Uitnodigingstemplates en SMS-templates zijn dynamischer en flexibeler in termen van hoe om te gaan met herinneringen. In een template is nu de variabele event beschikbaar, deze is opened danwel reminder.",
+  "date": "2015-05-20T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.23,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-05-20T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-05-27",
+    "permalink": "/changelog/roqua/production/2015/05/27/"
+  },
+  "nextItem": {
+    "title": "2015-05-04",
+    "permalink": "/changelog/roqua/production/2015/05/04/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2018/06/22/",
+  "source": "@site/changelog/roqua/production/2018-06-22.md",
+  "title": "2018-06-22",
+  "description": "* Probleem verholpen waardoor RoQua een lopende invulsessie zou kunnen opruimen. Clienten zouden nu minder vaak de melding moeten krijgen dat er iets mis ging bij het opslaan van de vragenlijst.",
+  "date": "2018-06-22T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.64,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2018-06-22T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2018-06-27",
+    "permalink": "/changelog/roqua/production/2018/06/27/"
+  },
+  "nextItem": {
+    "title": "2018-06-14",
+    "permalink": "/changelog/roqua/production/2018/06/14/"
+  }
+}

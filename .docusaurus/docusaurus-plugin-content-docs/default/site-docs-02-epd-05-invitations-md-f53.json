@@ -1,0 +1,25 @@
+{
+  "id": "epd/invitations",
+  "title": "Uitnodigingsbrieven",
+  "description": "Klik op de knop \"Uitnodigingsbrieven\" bovenaan de timeline voor een overzicht van de beschikbare uitnodigingstemplates.",
+  "source": "@site/docs/02-epd/05-invitations.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/invitations",
+  "permalink": "/docs/epd/invitations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/05-invitations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Automatische Protocollen",
+    "permalink": "/docs/epd/automatic_protocols"
+  },
+  "next": {
+    "title": "Non-Responses",
+    "permalink": "/docs/epd/non_response"
+  }
+}

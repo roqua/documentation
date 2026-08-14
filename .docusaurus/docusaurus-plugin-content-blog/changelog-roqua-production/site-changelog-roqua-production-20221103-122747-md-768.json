@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/20221103-122747",
+  "source": "@site/changelog/roqua/production/20221103-122747.md",
+  "title": "2022-11-03",
+  "description": "Release notes:",
+  "date": "2022-11-03T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.03,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2022-11-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2022-11-15",
+    "permalink": "/changelog/roqua/production/20221115-121501"
+  },
+  "nextItem": {
+    "title": "2022-10-27",
+    "permalink": "/changelog/roqua/production/20221027-082643"
+  }
+}

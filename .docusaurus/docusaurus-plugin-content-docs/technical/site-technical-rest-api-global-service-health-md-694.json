@@ -1,0 +1,23 @@
+{
+  "id": "rest_api/global/service_health",
+  "title": "Service Health",
+  "description": "Get current service health",
+  "source": "@site/technical/rest_api/global/service_health.md",
+  "sourceDirName": "rest_api/global",
+  "slug": "/rest_api/global/service_health",
+  "permalink": "/technical/rest_api/global/service_health",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Questionnaires",
+    "permalink": "/technical/rest_api/global/questionnaires"
+  },
+  "next": {
+    "title": "SQLite Export",
+    "permalink": "/technical/sqlite_export/"
+  }
+}

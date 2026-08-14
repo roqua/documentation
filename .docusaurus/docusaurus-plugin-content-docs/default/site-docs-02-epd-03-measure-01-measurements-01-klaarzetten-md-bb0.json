@@ -1,0 +1,25 @@
+{
+  "id": "epd/measure/measurements/klaarzetten",
+  "title": "Klaarzetten",
+  "description": "Op het tweede scherm kun je extra opties opgeven, zoals het versturen van een uitnodiging/herinnering en het klaarzetten voor de toekomst.",
+  "source": "@site/docs/02-epd/03-measure/01-measurements/01-klaarzetten.md",
+  "sourceDirName": "02-epd/03-measure/01-measurements",
+  "slug": "/epd/measure/measurements/klaarzetten",
+  "permalink": "/docs/epd/measure/measurements/klaarzetten",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/02-epd/03-measure/01-measurements/01-klaarzetten.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Handmatige metingen",
+    "permalink": "/docs/epd/measure/measurements/"
+  },
+  "next": {
+    "title": "Direct Invullen",
+    "permalink": "/docs/epd/measure/measurements/direct-invullen"
+  }
+}

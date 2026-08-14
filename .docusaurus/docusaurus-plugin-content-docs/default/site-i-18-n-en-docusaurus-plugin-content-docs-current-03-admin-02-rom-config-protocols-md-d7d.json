@@ -1,0 +1,27 @@
+{
+  "id": "admin/rom_config/protocols",
+  "title": "Protocols",
+  "description": "Protocols",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/02-rom_config/protocols.md",
+  "sourceDirName": "03-admin/02-rom_config",
+  "slug": "/admin/rom_config/protocols",
+  "permalink": "/en/docs/admin/rom_config/protocols",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/02-rom_config/protocols.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Protocols",
+    "sort": 250
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Prefillers",
+    "permalink": "/en/docs/admin/rom_config/prefillers/"
+  },
+  "next": {
+    "title": "Questionnaires",
+    "permalink": "/en/docs/admin/rom_config/questionnaires"
+  }
+}

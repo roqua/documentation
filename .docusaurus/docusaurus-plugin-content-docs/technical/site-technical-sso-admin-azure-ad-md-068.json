@@ -1,0 +1,23 @@
+{
+  "id": "sso/admin_azure_ad",
+  "title": "Management UI via Azure AD",
+  "description": "For logging in to the admin area of RoQua, we can use Azure ActiveDirectory to let users log in with their regular organization account.",
+  "source": "@site/technical/sso/admin_azure_ad.md",
+  "sourceDirName": "sso",
+  "slug": "/sso/admin_azure_ad",
+  "permalink": "/technical/sso/admin_azure_ad",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Single Sign On",
+    "permalink": "/technical/sso/"
+  },
+  "next": {
+    "title": "Respondents using token",
+    "permalink": "/technical/sso/client_token"
+  }
+}

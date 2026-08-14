@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/05/04/",
+  "source": "@site/changelog/roqua/production/2017-05-04.md",
+  "title": "2017-05-04",
+  "description": "* De naam van een vragenlijst wordt niet meer aan respondenten getoond als tabbladtitel. In plaats daarvan wordt \"vragenlijst\" getoond.",
+  "date": "2017-05-04T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.56,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-05-04T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-05-12",
+    "permalink": "/changelog/roqua/production/2017/05/12/"
+  },
+  "nextItem": {
+    "title": "2017-04-25",
+    "permalink": "/changelog/roqua/production/2017/04/25/"
+  }
+}

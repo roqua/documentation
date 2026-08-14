@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/02/04/",
+  "source": "@site/changelog/roqua/production/2019-02-04.md",
+  "title": "2019-02-04",
+  "description": "* Bugfix: Toon alle medicatie in het rapport Phamous Huisarts 2019",
+  "date": "2019-02-04T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.05,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-02-04T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-02-05",
+    "permalink": "/changelog/roqua/production/2019/02/05/"
+  },
+  "nextItem": {
+    "title": "2019-01-31",
+    "permalink": "/changelog/roqua/production/2019/01/31/"
+  }
+}

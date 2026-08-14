@@ -1,0 +1,25 @@
+{
+  "id": "epd/non_response",
+  "title": "Non-Responses",
+  "description": "Soms worden klaargezette vragenlijsten niet ingevuld door een patiënt of wordt hij of zij niet benaderd voor een ROM meting. De redenen voor deze non-respons kunnen geregistreerd worden in RoQua. Ze komen dan in de data-export terecht en kunnen aan het SBG gerapporteerd worden.",
+  "source": "@site/docs/02-epd/06-non_response.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/non_response",
+  "permalink": "/docs/epd/non_response",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/06-non_response.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Uitnodigingsbrieven",
+    "permalink": "/docs/epd/invitations"
+  },
+  "next": {
+    "title": "Uitkomsten",
+    "permalink": "/docs/epd/outcome"
+  }
+}

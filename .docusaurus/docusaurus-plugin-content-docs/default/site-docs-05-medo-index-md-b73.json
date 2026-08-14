@@ -1,0 +1,24 @@
+{
+  "id": "medo/index",
+  "title": "Medoq",
+  "description": "..",
+  "source": "@site/docs/05-medo/index.md",
+  "sourceDirName": "05-medo",
+  "slug": "/medo/",
+  "permalink": "/docs/medo/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/05-medo/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Recent ingevulde vragenlijsten",
+    "permalink": "/docs/features/recently-completed"
+  },
+  "next": {
+    "title": "Inloggen en veiligheid",
+    "permalink": "/docs/medo/inloggen_en_veiligheid"
+  }
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.roqua.net/en/changelog/roqua/production</id>
+    <title>RoQua Documentation Blog</title>
+    <updated>2026-05-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.roqua.net/en/changelog/roqua/production"/>
+    <subtitle>RoQua Documentation Blog</subtitle>
+    <icon>https://docs.roqua.net/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2026-05-06]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260506-090638</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260506-090638"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<ul>
+<li class="">Admin: bewerken van notificatietemplates heeft beetje ander uiterlijk. Je krijgt nu ook voorbeeld van je SMS template, en je kunt de geschiedenis van de template inzien.</li>
+<li class="">Admin: Beheerders met het recht om admingebruikers te beheren kunnen voortaan alleen nog rechten toewijzen die ze zelf ook hebben. In de praktijk hebben beheerders momenteel doorgaans het "Alle rechten" recht, maar dit maakt nu ook andere werkwijzen mogelijk.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-04-15]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260415-185210</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260415-185210"/>
+        <updated>2026-04-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<ul>
+<li class="">Refresh knop weggehaald voor dossiers die hun data niet van een epd krijgen.</li>
+<li class="">Nieuwe vragenlijstengine:<!-- -->
+<ul>
+<li class="">Fix waarbij vragenlijsten niet meer werkten als ze lege html-blokken hadden.</li>
+<li class="">Fix waarbij info-blokken html lioeten zien.</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-04-14]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260414-100443</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260414-100443"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<ul>
+<li class="">Probleem opgelost waarbij een herinnering wordt uitgestuurd voor zelf te starten vragenlijsten, terwijl er invullingen gemaakt zijn.</li>
+<li class="">Probleem opgelost waardoor bulk acties weer werken.</li>
+<li class="">Starten van een automatisch protocol luistert nu ook naar de setting of een vlag aangepast mag worden.</li>
+<li class="">Bij starten van een automatisch protocol komt er nu een waarschuwing als er problemen zijn met settings van het protocol.</li>
+<li class="">Nieuwe vagenlijstengine:<!-- -->
+<ul>
+<li class="">Laatste voorbereidingen om vertalingen in lijsten mogelijk te maken.</li>
+<li class="">Lijsten met veel vragen op 1 scherm veel sneller gemaakt.</li>
+</ul>
+</li>
+<li class="">Medoq projecten kunnen nu dossiers openenen vanaf de RoQua admin interface.</li>
+<li class="">Technisch: url's aangepast voor nedap integratie.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-04-10]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260410-101330</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260410-101330"/>
+        <updated>2026-04-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<p>Geen release notes</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-04-02]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260402-141449</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260402-141449"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<p>Geen release notes</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-03-31]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260331-084833</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260331-084833"/>
+        <updated>2026-03-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<ul>
+<li class="">Admin: alle pagina's over inclusief de intro pagina na login</li>
+<li class="">Admin: bugfix instellen van textvars gaf twee invulvelden ipv 1 per var</li>
+<li class="">Admin: snellere werkwijze voor koppelen vragenlijsten aan rapport templates</li>
+<li class="">Vragenlijst: Optie toegevoegd om lijn voor de vraag door te trekken naar een stuk context erboven.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-03-26]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260326-084518</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260326-084518"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<ul>
+<li class="">Admin: Issues met opslaan protocol-volgorde gefixt als protocollen zelf foutjes bevatten.</li>
+<li class="">Admin: Opschonen code/css nu alles over is op nieuwe layout.</li>
+<li class="">Technisch: Upgrade naar rails 7.2 voor security.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-03-16]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260316-143309</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260316-143309"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<ul>
+<li class="">Fix: Behandelaren konden in sommige gevallen geen oude antwoorden meer aanpassen, nu wel weer.</li>
+<li class="">Stappen gemaakt in vragenlijsten vertaalbaar maken.</li>
+<li class="">Betere afhandelijk fouten bij importeren dossiers.</li>
+<li class="">Admin: Meer layout updates, pagina wissels flink sneller gemaakt.</li>
+<li class="">technisch:<!-- -->
+<ul>
+<li class="">Onveilige code-bibliotheken geupdatet.</li>
+<li class="">Stappen gemaakt in framework kunnen updaten.</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-03-09]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260309-112417</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260309-112417"/>
+        <updated>2026-03-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<ul>
+<li class="">RoQua Admin: Redesign van de eerste set pagina's. Gebruikers hebben hier een email over gehad.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026-03-05]]></title>
+        <id>https://docs.roqua.net/en/changelog/roqua/production/20260305-131542</id>
+        <link href="https://docs.roqua.net/en/changelog/roqua/production/20260305-131542"/>
+        <updated>2026-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release notes:]]></summary>
+        <content type="html"><![CDATA[<p>Release notes:</p>
+<p>Geen release notes</p>]]></content>
+    </entry>
+</feed>

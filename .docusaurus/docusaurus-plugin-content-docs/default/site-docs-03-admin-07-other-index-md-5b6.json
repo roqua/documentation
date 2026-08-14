@@ -1,0 +1,24 @@
+{
+  "id": "admin/other/index",
+  "title": "Overig",
+  "description": "",
+  "source": "@site/docs/03-admin/07-other/index.md",
+  "sourceDirName": "03-admin/07-other",
+  "slug": "/admin/other/",
+  "permalink": "/docs/admin/other/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/07-other/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Gebruikers",
+    "permalink": "/docs/admin/users"
+  },
+  "next": {
+    "title": "Dossiers omnummeren",
+    "permalink": "/docs/admin/other/dossier_epd_id_changes"
+  }
+}

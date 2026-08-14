@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/04/25/",
+  "source": "@site/changelog/roqua/production/2017-04-25.md",
+  "title": "2017-04-25",
+  "description": "* vragenlijst toegevoegd: TRANS-ID Afbouw dagboek",
+  "date": "2017-04-25T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.18,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-04-25T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-05-04",
+    "permalink": "/changelog/roqua/production/2017/05/04/"
+  },
+  "nextItem": {
+    "title": "2017-04-24",
+    "permalink": "/changelog/roqua/production/2017/04/24/"
+  }
+}

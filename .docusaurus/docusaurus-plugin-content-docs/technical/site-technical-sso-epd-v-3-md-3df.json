@@ -1,0 +1,23 @@
+{
+  "id": "sso/epd_v3",
+  "title": "EPD v3 (HMAC)",
+  "description": "When used in conjunction with an EPD, RoQua has an authentication scheme that relies on the EPD to open a URL that will authenticate a user and open a given dossier number. This enables EPD vendors to build a single sign-on solution that integrates RoQua without the need for the management of users within RoQua. When the SSO-authentication is enabled, the only way for a user to open a dossier, is when the EPD generates a URL with a valid signature.",
+  "source": "@site/technical/sso/epd_v3.md",
+  "sourceDirName": "sso",
+  "slug": "/sso/epd_v3",
+  "permalink": "/technical/sso/epd_v3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "EPD v3 (HMAC)",
+    "position": 1,
+    "status": "stable"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Respondents using HMAC",
+    "permalink": "/technical/sso/client_v3"
+  }
+}

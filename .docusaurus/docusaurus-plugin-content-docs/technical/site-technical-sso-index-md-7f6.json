@@ -1,0 +1,25 @@
+{
+  "id": "sso/index",
+  "title": "Single Sign On",
+  "description": "",
+  "source": "@site/technical/sso/index.md",
+  "sourceDirName": "sso",
+  "slug": "/sso/",
+  "permalink": "/technical/sso/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Single Sign On"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Schema",
+    "permalink": "/technical/sqlite_export/schema"
+  },
+  "next": {
+    "title": "Management UI via Azure AD",
+    "permalink": "/technical/sso/admin_azure_ad"
+  }
+}

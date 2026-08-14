@@ -1,0 +1,26 @@
+{
+  "unversionedId": "epd/overview/timeline/nonresponse copy",
+  "id": "epd/overview/timeline/nonresponse copy",
+  "title": "Non-Responses",
+  "description": "Soms worden klaargezette vragenlijsten niet ingevuld door een patiënt of wordt hij of zij niet benaderd voor een ROM meting. De redenen voor deze non-respons kunnen geregistreerd worden in RoQua. Ze komen dan in de data-export terecht en kunnen aan het SBG gerapporteerd worden.",
+  "source": "@site/docs/02-epd/02-overview/timeline/nonresponse copy.md",
+  "sourceDirName": "02-epd/02-overview/timeline",
+  "slug": "/epd/overview/timeline/nonresponse copy",
+  "permalink": "/docs/epd/overview/timeline/nonresponse copy",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/02-overview/timeline/nonresponse copy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sort": 500
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Recente gebeurtenissen",
+    "permalink": "/docs/epd/overview/timeline/"
+  },
+  "next": {
+    "title": "Non-Responses",
+    "permalink": "/docs/epd/overview/timeline/nonresponse"
+  }
+}

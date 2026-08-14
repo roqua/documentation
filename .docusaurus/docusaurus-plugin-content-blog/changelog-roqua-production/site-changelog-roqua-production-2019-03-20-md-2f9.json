@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2019/03/20/",
+  "source": "@site/changelog/roqua/production/2019-03-20.md",
+  "title": "2019-03-20",
+  "description": "* Alle bulk lijsten zijn uit de protocollen gehaald. Dit ter voorbereiding op het samenvoegen van deze lijsten met hun normale lijsten.",
+  "date": "2019-03-20T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.84,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2019-03-20T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2019-03-28",
+    "permalink": "/changelog/roqua/production/2019/03/28/"
+  },
+  "nextItem": {
+    "title": "2019-03-14",
+    "permalink": "/changelog/roqua/production/2019/03/14/"
+  }
+}

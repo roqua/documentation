@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2016/10/24/",
+  "source": "@site/changelog/roqua/production/2016-10-24.md",
+  "title": "2016-10-24",
+  "description": "* Voegt een notifier class toe waarmee via core SMSjes kunnen worden verstuurd voor protocols (invitations en reminders).",
+  "date": "2016-10-24T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.32,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2016-10-24T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2016-10-25",
+    "permalink": "/changelog/roqua/production/2016/10/25/"
+  },
+  "nextItem": {
+    "title": "2016-10-19",
+    "permalink": "/changelog/roqua/production/2016/10/19/"
+  }
+}

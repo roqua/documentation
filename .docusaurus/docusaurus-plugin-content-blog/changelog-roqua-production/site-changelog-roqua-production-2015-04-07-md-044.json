@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2015/04/07/",
+  "source": "@site/changelog/roqua/production/2015-04-07.md",
+  "title": "2015-04-07",
+  "description": "* In de admin-interface hebben we de editor voor protocollen vrijgegeven.",
+  "date": "2015-04-07T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.16,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2015-04-07T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2015-04-16",
+    "permalink": "/changelog/roqua/production/2015/04/16/"
+  },
+  "nextItem": {
+    "title": "2015-03-31",
+    "permalink": "/changelog/roqua/production/2015/03/31/"
+  }
+}

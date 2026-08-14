@@ -1,0 +1,25 @@
+{
+  "id": "admin/overview",
+  "title": "Overzicht",
+  "description": "Op deze pagina zie je een aantal statistieken over je RoQua dataset.",
+  "source": "@site/docs/03-admin/01-overview.md",
+  "sourceDirName": "03-admin",
+  "slug": "/admin/overview",
+  "permalink": "/docs/admin/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/01-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Beheermodule",
+    "permalink": "/docs/admin/"
+  },
+  "next": {
+    "title": "ROM-config",
+    "permalink": "/docs/admin/rom_config/"
+  }
+}

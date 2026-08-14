@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/08/11/",
+  "source": "@site/changelog/roqua/production/2017-08-11.md",
+  "title": "2017-08-11",
+  "description": "* Probleem verholpen bij Oru berichten die twee dubbele quotes achter elkaar bevatten",
+  "date": "2017-08-11T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.06,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-08-11T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-08-23",
+    "permalink": "/changelog/roqua/production/2017/08/23/"
+  },
+  "nextItem": {
+    "title": "2017-08-10",
+    "permalink": "/changelog/roqua/production/2017/08/10/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sso/client_token",
+  "title": "Respondents using token",
+  "description": "The login for a patient (or other respondents for a dossier) is done by entering a token which the person has received by e-mail or snailmail. It's also possible to open the login URL with this token prefilled as a query parameter, in which case the login will happen automatically and the person will be presented the first pending questionnaire immediately.",
+  "source": "@site/technical/sso/client_token.md",
+  "sourceDirName": "sso",
+  "slug": "/sso/client_token",
+  "permalink": "/technical/sso/client_token",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Respondents using token",
+    "status": "stable"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Management UI via Azure AD",
+    "permalink": "/technical/sso/admin_azure_ad"
+  },
+  "next": {
+    "title": "Respondents using HMAC",
+    "permalink": "/technical/sso/client_v3"
+  }
+}

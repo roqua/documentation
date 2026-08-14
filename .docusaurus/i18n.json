@@ -1,0 +1,31 @@
+{
+  "defaultLocale": "nl",
+  "locales": [
+    "nl",
+    "en"
+  ],
+  "path": "i18n",
+  "currentLocale": "nl",
+  "localeConfigs": {
+    "nl": {
+      "label": "Nederlands",
+      "direction": "ltr",
+      "htmlLang": "nl",
+      "calendar": "gregory",
+      "path": "nl",
+      "translate": false,
+      "url": "https://docs.roqua.net",
+      "baseUrl": "/"
+    },
+    "en": {
+      "label": "English",
+      "direction": "ltr",
+      "htmlLang": "en",
+      "calendar": "gregory",
+      "path": "en",
+      "translate": true,
+      "url": "https://docs.roqua.net",
+      "baseUrl": "/en/"
+    }
+  }
+}

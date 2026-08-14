@@ -1,0 +1,24 @@
+{
+  "id": "medo/index",
+  "title": "Medoq",
+  "description": "",
+  "source": "@site/docs/04-medo/index.md",
+  "sourceDirName": "04-medo",
+  "slug": "/medo/",
+  "permalink": "/docs/medo/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/04-medo/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Dossiers",
+    "permalink": "/docs/admin/dossiers"
+  },
+  "next": {
+    "title": "Inloggen en veiligheid",
+    "permalink": "/docs/medo/inloggen_en_veiligheid"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2017/09/06/",
+  "source": "@site/changelog/roqua/production/2017-09-06.md",
+  "title": "2017-09-06",
+  "description": "* Treat rapport behandelt missende vragenlijsten of antwoorden uit vragenlijsten nu beter. Er wordt aangegeven welke gegevens missen om een advies te geven voor een probleemgebied.",
+  "date": "2017-09-06T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 1.77,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2017-09-06T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2017-09-21",
+    "permalink": "/changelog/roqua/production/2017/09/21/"
+  },
+  "nextItem": {
+    "title": "2017-08-23",
+    "permalink": "/changelog/roqua/production/2017/08/23/"
+  }
+}

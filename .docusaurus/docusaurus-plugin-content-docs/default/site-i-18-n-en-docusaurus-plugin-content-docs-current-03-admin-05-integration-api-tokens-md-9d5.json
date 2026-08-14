@@ -1,0 +1,27 @@
+{
+  "id": "admin/integration/api_tokens",
+  "title": "API tokens",
+  "description": "Creation",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-admin/05-integration/api_tokens.md",
+  "sourceDirName": "03-admin/05-integration",
+  "slug": "/admin/integration/api_tokens",
+  "permalink": "/en/docs/admin/integration/api_tokens",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/roqua/documentation/edit/master/docs/03-admin/05-integration/api_tokens.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "API tokens",
+    "sort": 100
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Integration",
+    "permalink": "/en/docs/admin/integration/"
+  },
+  "next": {
+    "title": "Single sign-on tokens",
+    "permalink": "/en/docs/admin/integration/sso_tokens"
+  }
+}

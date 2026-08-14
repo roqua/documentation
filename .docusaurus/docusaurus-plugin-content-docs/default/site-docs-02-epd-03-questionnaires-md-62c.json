@@ -1,0 +1,25 @@
+{
+  "id": "epd/questionnaires",
+  "title": "Klaarzetten of invullen vragenlijsten",
+  "description": "Algemene werkwijze",
+  "source": "@site/docs/02-epd/03-questionnaires.md",
+  "sourceDirName": "02-epd",
+  "slug": "/epd/questionnaires",
+  "permalink": "/docs/epd/questionnaires",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/03-questionnaires.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Overzicht",
+    "permalink": "/docs/epd/timeline"
+  },
+  "next": {
+    "title": "Automatische Protocollen",
+    "permalink": "/docs/epd/automatic_protocols"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "medo/werken_met_projecten",
+  "title": "Werken met projecten",
+  "description": "Projecten",
+  "source": "@site/docs/04-medo/02-werken_met_projecten.md",
+  "sourceDirName": "04-medo",
+  "slug": "/medo/werken_met_projecten",
+  "permalink": "/docs/medo/werken_met_projecten",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/04-medo/02-werken_met_projecten.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Inloggen en veiligheid",
+    "permalink": "/docs/medo/inloggen_en_veiligheid"
+  },
+  "next": {
+    "title": "Werken met deelnemers",
+    "permalink": "/docs/medo/werken_met_deelnemers"
+  }
+}

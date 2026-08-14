@@ -1,0 +1,24 @@
+{
+  "unversionedId": "epd/overview.md/pending-responses",
+  "id": "epd/overview.md/pending-responses",
+  "title": "Klaargezette vragenlijsten beheren",
+  "description": "",
+  "source": "@site/docs/02-epd/02-overview.md/pending-responses.md",
+  "sourceDirName": "02-epd/02-overview.md",
+  "slug": "/epd/overview.md/pending-responses",
+  "permalink": "/docs/epd/overview.md/pending-responses",
+  "draft": false,
+  "editUrl": "https://gitlab.roqua.nl/roqua/pages/documentation/-/tree/master/docs/02-epd/02-overview.md/pending-responses.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Overzicht",
+    "permalink": "/docs/epd/overview.md/"
+  },
+  "next": {
+    "title": "Klaarzetten of invullen vragenlijsten",
+    "permalink": "/docs/epd/questionnaires"
+  }
+}

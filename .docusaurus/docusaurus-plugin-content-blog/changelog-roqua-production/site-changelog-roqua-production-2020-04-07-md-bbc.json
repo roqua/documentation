@@ -1,0 +1,24 @@
+{
+  "permalink": "/changelog/roqua/production/2020/04/07/",
+  "source": "@site/changelog/roqua/production/2020-04-07.md",
+  "title": "2020-04-07",
+  "description": "* vragenlijst toegevoegd (vbba_frsl): VBBA 2.0 Onderzoek vermindering regeldruk GGZ Friesland",
+  "date": "2020-04-07T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.43,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "kind": "article",
+    "date": "2020-04-07T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2020-04-10",
+    "permalink": "/changelog/roqua/production/2020/04/10/"
+  },
+  "nextItem": {
+    "title": "2020-04-03",
+    "permalink": "/changelog/roqua/production/2020/04/03/"
+  }
+}
