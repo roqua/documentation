@@ -33,7 +33,7 @@ We onderscheiden een aantal verschillende soorten wijzigingen in de applicatie, 
 
 | Soort | Wat | Communicatie |
 |---|---|---|
-| **Ingrijpende wijzigingen** | Nieuwe of vernieuwde schermen/functionaliteit waar gebruikers over moeten nadenken of aan moeten wennen, en waar instructie of training bij hoort | Melding direct na uitrol met informatie over het migratietraject |
+| **Ingrijpende wijzigingen** | Nieuwe of vernieuwde schermen/functionaliteit waar gebruikers over moeten nadenken of aan moeten wennen, of waar instructie of training bij kan horen | Melding direct na uitrol met informatie over het migratietraject |
 | **Doorlopende verbeteringen** | Zichtbare aanpassingen waar gebruikers zonder instructie of gewenning mee verder kunnen | Maandoverzicht per e-mail |
 | **Bugfixes, LCM** | Herstel van fouten, technisch onderhoud (bibliotheek- en platformupdates) | In het maandoverzicht als gebruikers er iets van merken; anders stil |
 | **Koppelvlakwijzigingen** | Wijzigingen aan HL7, FHIR of API's — altijd backwards-compatible: bestaande koppelingen blijven werken | Rechtstreeks overleg met de koppelende partijen; nieuwe route komt naast de oude, de oude vervalt pas als alle partijen over zijn |
@@ -41,7 +41,7 @@ We onderscheiden een aantal verschillende soorten wijzigingen in de applicatie, 
 
 ### Ingrijpende wijzigingen
 
-Onder ingrijpende wijzigingen verstaan we nieuwe of vernieuwde schermen of functionaliteit waar gebruikers over moeten nadenken of aan moeten wennen, en waar instructie of training bij hoort. Wanneer een uitrol van RoQua een ingrijpende wijziging bevat, dan gaat hierover een mail naar de contactpersonen van de organisatie op het moment van uitrol.
+Onder ingrijpende wijzigingen verstaan we nieuwe of vernieuwde schermen of functionaliteit waar gebruikers over moeten nadenken of aan moeten wennen, of waar instructie of training bij kan horen. Wanneer een uitrol van RoQua een ingrijpende wijziging bevat, dan gaat hierover een mail naar de contactpersonen van de organisatie op het moment van uitrol.
 
 Zo'n ingrijpende wijziging rollen we gefaseerd uit:
 
