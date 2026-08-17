@@ -4,7 +4,7 @@ status: draft
 ---
 
 :::caution[Status]
-Dit beleid is nog een concept. Ook de ondersteunende techniek is nog in aanbouw: de release notes zijn inmiddels zichtbaar in de RoQua Admin, maar het versturen van e-mails (aankondigingen en het maandoverzicht) en het bijbehorende contactbeheer zijn nog niet gereed.
+Dit beleid is nog een concept. Ook de ondersteunende techniek is nog in aanbouw: de release notes zijn inmiddels zichtbaar in de RoQua Admin, maar het versturen van e-mails (meldingen en het maandoverzicht) en het bijbehorende contactbeheer zijn nog niet gereed.
 :::
 
 Dit document beschrijft hoe RoQua wijzigingen uitrolt en daarover communiceert met klantorganisaties. Het gaat over de applicaties die eindgebruikers en functioneel beheerders zien; interne infrastructuurwijzigingen zonder gebruikerseffect vallen erbuiten.
@@ -13,13 +13,13 @@ Dit document beschrijft hoe RoQua wijzigingen uitrolt en daarover communiceert m
 graph TD
   W[Uitrol] --> T{Moeten gebruikers<br>nadenken of wennen,<br>of is instructie nodig?}
 
-  T -- "Ja: ingrijpend" --> M[Melding per mail]
+  T -- "Ja: ingrijpend" --> M[Melding per e-mail]
   M --> B[2 weken #quot;oud#quot; is standaard<br/><i>wijziging is uit te proberen</i>]
   B --> C[1 week #quot;nieuw#quot; is standaard]
   C --> D[Oude versie vervalt]
 
   T -- "Nee: doorlopende verbetering" --> Z{Merken gebruikers<br>er iets van?}
-  Z -- Ja --> G[Maandoverzicht per mail]
+  Z -- Ja --> G[Maandoverzicht per e-mail]
   Z -- Nee --> S[Geen aparte communicatie]
 ```
 
@@ -41,7 +41,7 @@ We onderscheiden een aantal verschillende soorten wijzigingen in de applicatie, 
 
 ### Ingrijpende wijzigingen
 
-Onder ingrijpende wijzigingen verstaan we nieuwe of vernieuwde schermen of functionaliteit waar gebruikers over moeten nadenken of aan moeten wennen, of waar instructie of training bij kan horen. Wanneer een uitrol van RoQua een ingrijpende wijziging bevat, dan gaat hierover een mail naar de contactpersonen van de organisatie op het moment van uitrol.
+Onder ingrijpende wijzigingen verstaan we nieuwe of vernieuwde schermen of functionaliteit waar gebruikers over moeten nadenken of aan moeten wennen, of waar instructie of training bij kan horen. Wanneer een uitrol van RoQua een ingrijpende wijziging bevat, dan gaat hierover een e-mail naar de contactpersonen van de organisatie op het moment van uitrol.
 
 Zo'n ingrijpende wijziging rollen we gefaseerd uit:
 
@@ -49,13 +49,13 @@ Zo'n ingrijpende wijziging rollen we gefaseerd uit:
 2. **Daarna: nieuw is standaard (opt-out), 1 week.** Iedereen krijgt standaard de nieuwe versie te zien; wie tegen een probleem aanloopt, kan tijdelijk terug naar de oude versie en meldt het probleem via de helpdesk.
 3. **Daarna: oude versie vervalt.**
 
-Deze termijnen (2 + 1 weken) zijn de standaard; waar nodig plannen we ruimer. De precieze datums staan in de aankondiging aangegeven. En als er problemen zijn, schuiven de datums op; dat melden we via hetzelfde kanaal als de aankondiging.
+Deze termijnen (2 + 1 weken) zijn de standaard; waar nodig plannen we ruimer. De precieze datums staan in de melding aangegeven. En als er problemen zijn, schuiven de datums op; dat laten we weten via hetzelfde kanaal als de melding.
 
-Normaal gesproken laten we gebruikers zelf de opt-in/out doen, dan kan iedereen een handig moment kiezen. Er zijn wijzigingen denkbaar waarbij het niet handig is dat verschillende gebruikers verschillende interfaces zien, dan kan het een vinkje zijn dat functioneel beheer in de admin instelt. Wijzigingen zichtbaar voor cliënten zullen in elk geval op die manier gaan, we laten niet de cliënt zelf tussen versies springen. 
+Normaal gesproken laten we gebruikers zelf de opt-in/out doen, dan kan iedereen een handig moment kiezen. Er zijn wijzigingen denkbaar waarbij het niet handig is dat verschillende gebruikers verschillende interfaces zien, dan kan het een vinkje zijn dat functioneel beheer in de RoQua Admin instelt. Wijzigingen zichtbaar voor cliënten zullen in elk geval op die manier gaan, we laten niet de cliënt zelf tussen versies springen. 
 
-Incidenteel kan het voorkomen dat het technisch niet mogelijk is om beide versies naast elkaar te hebben. In dat geval komt de aankondiging, met schermafbeeldingen, 2 weken voordat de wijziging uitgerold gaat worden op productie en zorgen we dat het op dat moment al beschikbaar is op de acceptatieomgeving. De uitrol op productie gebeurt dan op de aangekondigde datum, en de overgangsperiode vervalt.
+Incidenteel kan het voorkomen dat het technisch niet mogelijk is om beide versies naast elkaar te hebben. In dat geval komt de melding, met schermafbeeldingen, 2 weken voordat de wijziging uitgerold gaat worden op productie en zorgen we dat het op dat moment al beschikbaar is op de acceptatieomgeving. De uitrol op productie gebeurt dan op de aangekondigde datum, en de overgangsperiode vervalt.
 
-Volledig nieuwe functionaliteit zonder bestaande voorganger kent geen overgangsperiode; die kondigen we aan en activeren we op de genoemde datum. We beperken het aantal wijzigingen dat tegelijk in een overgangsperiode zit, zodat helpdesk en documentatie bij te houden zijn.
+Volledig nieuwe functionaliteit zonder bestaande voorganger kent geen overgangsperiode; daarover sturen we een melding en we activeren de functionaliteit op de genoemde datum. We beperken het aantal wijzigingen dat tegelijk in een overgangsperiode zit, zodat helpdesk en documentatie bij te houden zijn.
 
 :::note[Wanneer is een wijziging ingrijpend?]
 In de basis is een wijziging ingrijpend wanneer hij de werkwijze van gebruikers zó verandert dat ze moeten nadenken of wennen om de nieuwe versie te kunnen gebruiken. Een aanpassing die strikt genomen de werkwijze raakt maar waar iedereen zonder uitleg mee verder kan, valt onder de doorlopende verbeteringen. Nieuwe functies zijn meestal niet ingrijpend (als je gewoon niet naar die pagina gaat merk je er verder niets van), een extra formulierveld in een bestaande pagina ook meestal niet, maar een herontwerp van een scherm kan dat wel zijn.
@@ -69,11 +69,11 @@ Zo'n indeling blijft uiteindelijk een inschatting: wat voor de ene organisatie e
 
 Doorlopende verbeteringen zijn zichtbare aanpassingen waar gebruikers zonder instructie of gewenning mee verder kunnen. Dat kan een kleine wijziging in de interface zijn die van zichzelf duidelijk genoeg is, of een verbetering van de werking van een scherm. Doorlopende verbeteringen worden direct uitgerold; er is geen overgangsperiode. Als gebruikers er iets van merken, nemen we het op in het maandoverzicht per e-mail.
 
-### Bugfixes &amp; life-cycle management
+### Bugfixes & life-cycle management
 
 Bugfixes zijn herstel van fouten, en life-cycle management (LCM) is technisch onderhoud zoals bibliotheek- en platformupdates. Bugfixes en LCM worden direct uitgerold; er is geen overgangsperiode. Als gebruikers er iets van merken, nemen we het op in het maandoverzicht per e-mail. 
 
-Security fixes worden indien nodig gecommuniceerd via de CISO van uw organisatie.
+Security fixes worden indien nodig gecommuniceerd via de CISO van je organisatie.
 
 ### Koppelvlakwijzigingen
 
@@ -89,8 +89,6 @@ Vragenlijstwijzigingen staan los van software-uitrol: ze hebben hun eigen releas
 
 ## Communicatie en contactbeheer
 
-- **Alle release notes zijn direct na uitrol te lezen** in de applicatie. Wie wil, kan dus altijd meteen zien wat er veranderd is.
-- **Ingrijpende wijzigingen mailen we direct bij de start van de uitrol.**
-- Doorlopende verbeteringen, bugfixes en vragenlijst-updates bundelen we in het maandoverzicht per e-mail (dat alleen verschijnt als er iets te melden is).
-- **Verzonden release notes passen we achteraf niet stilletjes inhoudelijk aan.** Typefouten verbeteren we direct; inhoudelijke wijzigingen — zoals een verschoven datum — voegen we toe als gedateerde updateregel aan de release note ("Update [datum]: …") en versturen we opnieuw.
-- In de RoQua Admin bouwen we een nieuw scherm waarin functioneel beheer zelf de lijst van e-mailadressen beheert die onze releasecommunicatie ontvangen — wie in de lijst staat, krijgt zowel de aankondigingen van ingrijpende wijzigingen als het maandoverzicht. Dit doen we los van gebruikers-accounts, zodat je ook een gedeelde mailbox of helpdesk-adres kunt opgeven. De beheerpagina toont wie binnen jullie organisatie de mails ontvangt — de organisatie is er zelf verantwoordelijk voor dat de lijst niet leeg raakt.
+In de RoQua Admin bouwen we een nieuw scherm waarin functioneel beheer zelf de lijst van e-mailadressen beheert die onze releasecommunicatie ontvangen — wie in de lijst staat, krijgt zowel de meldingen van ingrijpende wijzigingen als het maandoverzicht. Dit doen we los van gebruikers-accounts, zodat je ook een gedeelde mailbox of helpdesk-adres kunt opgeven. 
+
+De beheerpagina toont wie binnen jullie organisatie de mails ontvangt — de organisatie is er zelf verantwoordelijk voor dat de lijst niet leeg raakt.
