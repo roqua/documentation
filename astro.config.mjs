@@ -2,6 +2,7 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightLinksValidator from "starlight-links-validator";
+import mermaid from "astro-mermaid";
 
 export default defineConfig({
   site: "https://docs.roqua.net",
@@ -14,6 +15,9 @@ export default defineConfig({
   },
 
   integrations: [
+    // Must come before starlight, so it claims mermaid code blocks before
+    // starlight's syntax highlighting does.
+    mermaid({ autoTheme: true }),
     starlight({
       plugins: [
         starlightLinksValidator({
@@ -92,6 +96,11 @@ export default defineConfig({
           label: "Technische handleiding",
           translations: { en: "Technical documentation" },
           items: [{ autogenerate: { directory: "technical", collapsed: true } }],
+        },
+        {
+          label: "Beleidsinformatie",
+          translations: { en: "Policies" },
+          items: [{ autogenerate: { directory: "beleid", collapsed: true } }],
         },
         { slug: "status" },
       ],
