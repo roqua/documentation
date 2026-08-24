@@ -1,0 +1,13 @@
+{
+	"pid": 92397,
+	"port": 3032,
+	"url": "http://localhost:3032",
+	"urls": {
+		"local": [
+			"http://localhost:3032/"
+		],
+		"network": []
+	},
+	"background": false,
+	"startedAt": "2026-08-14T19:03:42.688Z"
+}

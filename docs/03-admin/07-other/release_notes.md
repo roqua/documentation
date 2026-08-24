@@ -1,0 +1,23 @@
+# Release notes
+
+RoQua wordt doorlopend verder ontwikkeld. Onder **Overig → Release notes** vind je een overzicht van wat er in RoQua is veranderd, en wanneer.
+
+<screenshot src="/screenshots/admin_release_notes_index.png" />
+
+Per maand zie je welke wijzigingen zijn doorgevoerd, met een korte samenvatting. Door op een titel te klikken lees je de volledige toelichting. Het overzicht is zichtbaar voor iedereen die toegang heeft tot het beheergedeelte van je organisatie.
+
+Wijzigingen die alleen technisch van aard zijn (onderhoud, verbeteringen onder de motorkap) staan er niet tussen. Het overzicht gaat alleen over wat er voor jou en je collega's verandert.
+
+## Ontvangers releasecommunicatie
+
+Naast het overzicht in de Admin versturen we releasecommunicatie ook per e-mail: een maandelijkse samenvatting van de wijzigingen, en aankondigingen vooraf bij grote veranderingen.
+
+Met de knop "Ontvangers beheren" stel je in wie deze e-mails ontvangt.
+
+:::note
+Ontvangers toevoegen werkt al, zodat je dit vast kunt instellen. Het versturen van de e-mails zelf wordt nog gebouwd.
+:::
+
+<screenshot src="/screenshots/admin_release_notes_recipients.png" />
+
+Via "Ontvanger toevoegen" voeg je een e-mailadres toe. De naam is optioneel, en mag ook een functie- of afdelingsnaam zijn. Een gedeelde mailbox (bijvoorbeeld van functioneel beheer) werkt hier prima voor. Met de prullenbakknop verwijder je een ontvanger weer.
