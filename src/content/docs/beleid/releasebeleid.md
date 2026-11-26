@@ -4,7 +4,7 @@ status: draft
 ---
 
 :::caution[Status]
-Dit beleid is nog een concept. Ook de ondersteunende techniek is nog in aanbouw: de release notes zijn inmiddels zichtbaar in de RoQua Admin, maar het versturen van e-mails (meldingen en het maandoverzicht) en het bijbehorende contactbeheer zijn nog niet gereed.
+Dit beleid is nog een concept. De release notes staan in de RoQua Admin, functioneel beheer stelt daar zelf de ontvangers van de releasecommunicatie in, en het maandoverzicht gaat per e-mail naar die ontvangers. Alleen de directe e-mailmelding bij een ingrijpende wijziging wordt nog gebouwd.
 :::
 
 Dit document beschrijft hoe RoQua wijzigingen uitrolt en daarover communiceert met klantorganisaties. Het gaat over de applicaties die eindgebruikers en functioneel beheerders zien; interne infrastructuurwijzigingen zonder gebruikerseffect vallen erbuiten.
@@ -33,7 +33,7 @@ We onderscheiden een aantal verschillende soorten wijzigingen in de applicatie, 
 
 | Soort | Wat | Communicatie |
 |---|---|---|
-| **Ingrijpende wijzigingen** | Nieuwe of vernieuwde schermen/functionaliteit waar gebruikers over moeten nadenken of aan moeten wennen, of waar instructie of training bij kan horen | Melding direct na uitrol met informatie over het migratietraject |
+| **Ingrijpende wijzigingen** | Nieuwe of vernieuwde schermen/functionaliteit waar gebruikers over moeten nadenken of aan moeten wennen, of waar instructie of training bij kan horen | Melding direct na uitrol met informatie over het migratietraject; ook opgenomen in het maandoverzicht |
 | **Doorlopende verbeteringen** | Zichtbare aanpassingen waar gebruikers zonder instructie of gewenning mee verder kunnen | Maandoverzicht per e-mail |
 | **Bugfixes, LCM** | Herstel van fouten, technisch onderhoud (bibliotheek- en platformupdates) | In het maandoverzicht als gebruikers er iets van merken; anders stil |
 | **Koppelvlakwijzigingen** | Wijzigingen aan HL7, FHIR of API's — altijd backwards-compatible: bestaande koppelingen blijven werken | Rechtstreeks overleg met de koppelende partijen; nieuwe route komt naast de oude, de oude vervalt pas als alle partijen over zijn |
@@ -89,6 +89,8 @@ Vragenlijstwijzigingen staan los van software-uitrol: ze hebben hun eigen releas
 
 ## Communicatie en contactbeheer
 
-In de RoQua Admin bouwen we een nieuw scherm waarin functioneel beheer zelf de lijst van e-mailadressen beheert die onze releasecommunicatie ontvangen — wie in de lijst staat, krijgt zowel de meldingen van ingrijpende wijzigingen als het maandoverzicht. Dit doen we los van gebruikers-accounts, zodat je ook een gedeelde mailbox of helpdesk-adres kunt opgeven. 
+Functioneel beheer beheert in de RoQua Admin zelf de lijst van e-mailadressen die onze releasecommunicatie ontvangen (zie [Release notes](/docs/admin/other/release_notes/)). Wie in de lijst staat, krijgt zowel de meldingen van ingrijpende wijzigingen als het maandoverzicht. De lijst staat los van gebruikersaccounts, zodat je ook een gedeelde mailbox of helpdesk-adres kunt opgeven.
 
-De beheerpagina toont wie binnen jullie organisatie de mails ontvangt — de organisatie is er zelf verantwoordelijk voor dat de lijst niet leeg raakt.
+Het maandoverzicht gaat op de eerste van de maand uit en bevat alle wijzigingen sinds het vorige overzicht. Ingrijpende wijzigingen staan er volledig in, de overige wijzigingen met een korte samenvatting. De volledige beschrijving van elke wijziging staat bij de release notes in de RoQua Admin.
+
+De beheerpagina toont wie binnen jullie organisatie de mails ontvangt. De organisatie is er zelf verantwoordelijk voor dat de lijst niet leeg raakt. Een ontvanger kan zich niet zelf afmelden: functioneel beheer haalt het adres van de lijst.
